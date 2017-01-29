@@ -1,0 +1,45 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Bourdieu e Darbel 2003]{bourdieu2003amor}
+\abntrefinfo{Bourdieu e Darbel}{BOURDIEU; DARBEL}{2003}
+{BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
+  europa e seu p{\'u}blico. São Paulo: Edusp, 2003.}
+
+\bibitem[Hirsch, Michaels e Friedman 1987]{hirsch1987dirty}
+\abntrefinfo{Hirsch, Michaels e Friedman}{HIRSCH; MICHAELS; FRIEDMAN}{1987}
+{HIRSCH, Paul; MICHAELS, Stuart; FRIEDMAN, Ray. Dirty hands versus clean
+  models.
+\emph{Theory and society}, Springer, v.~16, n.~3, p. 317--336, 1987.}
+
+\bibitem[Karpik 2009]{karpik2009elements}
+\abntrefinfo{Karpik}{KARPIK}{2009}
+{KARPIK, Lucien. Élements de l'économie des singularités. In:  STEINER,
+  Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
+  {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
+
+\bibitem[Lazega e Higgins 2014]{lazega2014redes}
+\abntrefinfo{Lazega e Higgins}{LAZEGA; HIGGINS}{2014}
+{LAZEGA, Emmanuel; HIGGINS, Silvio~Salej. \emph{Redes sociais e estruturas
+  relacionais}. Belo Horizonte: Fino Traço, 2014.}
+
+\bibitem[Lazega e Snijders 2016]{lazega2016multilevel}
+\abntrefinfo{Lazega e Snijders}{LAZEGA; SNIJDERS}{2016}
+{LAZEGA, Emmanuel; SNIJDERS, TA. \emph{Multilevel Network Analysis for the
+  Social Sciences}. Cham: Springer, 2016.}
+
+\bibitem[Tolila 2007]{tolila2007cultura}
+\abntrefinfo{Tolila}{TOLILA}{2007}
+{TOLILA, Paul. \emph{Cultura e economia}: problemas, hip{\'o}teses, pistas.
+  São Paulo: Iluminuras: Itaú Cultural, 2007.}
+
+\bibitem[White 2008]{white2008}
+\abntrefinfo{White}{WHITE}{2008}
+{WHITE, Harrison~C. \emph{Identity and control}: how social formations emerge.
+  Princeton, NJ: Princeton University Press, 2008.}
+
+\end{thebibliography}

@@ -1,0 +1,84 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.6 }
+
+\bibitem[Baumol e Baumol 1984]{baumol1984inflation}
+\abntrefinfo{Baumol e Baumol}{BAUMOL; BAUMOL}{1984}
+{BAUMOL, Hilda; BAUMOL, William~J. \emph{Inflation and the Performing Arts}.
+  New York: NYU Press, 1984.}
+
+\bibitem[Baumol e Bowen 1966]{baumol1966performing}
+\abntrefinfo{Baumol e Bowen}{BAUMOL; BOWEN}{1966}
+{BAUMOL, William~Jack; BOWEN, William~G. \emph{Performing Arts -- the Economic
+  Dilemma}: A study of problems common to theatre, opera, music and dance.
+  Cambridge, MA: MIT Press, 1966.}
+
+\bibitem[Benhamou 2007]{benhamou2007economia}
+\abntrefinfo{Benhamou}{BENHAMOU}{2007}
+{BENHAMOU, Fran{\c{c}}oise. \emph{A economia da cultura}. Cotia, SP: Atelie
+  Editorial, 2007.}
+
+\bibitem[Bourdieu e Darbel 2003]{bourdieu2003amor}
+\abntrefinfo{Bourdieu e Darbel}{BOURDIEU; DARBEL}{2003}
+{BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
+  europa e seu p{\'u}blico. São Paulo: Edusp, 2003.}
+
+\bibitem[De Nooy, Mrvar e Batagelj 2011]{denooy2011exploratory}
+\abntrefinfo{De Nooy, Mrvar e Batagelj}{DE NOOY; MRVAR; BATAGELJ}{2011}
+{DE NOOY, Wouter; MRVAR, Andrej; BATAGELJ, Vladimir. \emph{Exploratory social
+  network analysis with Pajek}. Cambridge: Cambridge University Press, 2011.}
+
+\bibitem[Dias 2011]{dias2011artes}
+\abntrefinfo{Dias}{DIAS}{2011}
+{DIAS, Pedro Ricardo~Sim{\~o}es.
+\emph{Artes Performativas: Despesa P{\'u}blica e Procura em Portugal}.
+Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
+  Lisboa, 2011.}
+
+\bibitem[Hirsch, Michaels e Friedman 1987]{hirsch1987dirty}
+\abntrefinfo{Hirsch, Michaels e Friedman}{HIRSCH; MICHAELS; FRIEDMAN}{1987}
+{HIRSCH, Paul; MICHAELS, Stuart; FRIEDMAN, Ray. Dirty hands” versus “clean
+  models.
+\emph{Theory and society}, Springer, v.~16, n.~3, p. 317--336, 1987.}
+
+\bibitem[Karpik 2009]{karpik2009elements}
+\abntrefinfo{Karpik}{KARPIK}{2009}
+{KARPIK, Lucien. Élements de l'économie des singularités. In:  STEINER,
+  Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
+  {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
+
+\bibitem[Leroy 1980]{leroy1980economie}
+\abntrefinfo{Leroy}{LEROY}{1980}
+{LEROY, Dominique. \emph{Economie des arts du spectacle vivant}. Paris:
+  Editions L'Harmattan, 1980.}
+
+\bibitem[Luksetich 2011]{luksetich2011orchestras}
+\abntrefinfo{Luksetich}{LUKSETICH}{2011}
+{LUKSETICH, William~A. Orchestras. In:  TOWSE, RUTH. \emph{A handbook of
+  cultural economics}. Cheltenham, UK: Edward Elgar Publishing, 2011.}
+
+\bibitem[Peacock, Shoesmith e Millner 1983]{peacock1983inflation}
+\abntrefinfo{Peacock, Shoesmith e Millner}{PEACOCK; SHOESMITH; MILLNER}{1983}
+{PEACOCK, Alan~T; SHOESMITH, Eddie; MILLNER, Geoffrey. \emph{Inflation and the
+  Performing Arts}. London: Arts Council of Great Britain, 1983.}
+
+\bibitem[Throsby e Withers 1979]{throsby1979economics}
+\abntrefinfo{Throsby e Withers}{THROSBY; WITHERS}{1979}
+{THROSBY, Charles~David; WITHERS, Glenn~Alexander. \emph{The economics of
+  performing arts}. London: Edward Arnold publish., 1979.}
+
+\bibitem[Throsby 1994]{throsby1994production}
+\abntrefinfo{Throsby}{THROSBY}{1994}
+{THROSBY, David. The production and consumption of the arts: a view of cultural
+  economics.
+\emph{Journal of economic literature}, JSTOR, v.~32, p. 1--29, mar. 1994.}
+
+\bibitem[Tolila 2007]{tolila2007cultura}
+\abntrefinfo{Tolila}{TOLILA}{2007}
+{TOLILA, Paul. \emph{Cultura e economia}: problemas, hip{\'o}teses, pistas.
+  São Paulo: Iluminuras: Itaú Cultural, 2007.}
+
+\end{thebibliography}

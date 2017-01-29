@@ -1,0 +1,84 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Tese_Neylson.aux
+White space in argument---line 392 of file Tese_Neylson.aux
+ : \bibdata{abntex2-options,BIBDOUTORADO,
+ :                                        abnt-options}
+I'm skipping whatever remains of this command
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 11072 items from 5000.
+Database file #1: abntex2-options.bib
+Database file #2: BIBDOUTORADO.bib
+"{" immediately follows a field name---line 601 of file BIBDOUTORADO.bib
+ :  publisher
+ :           {Berg},
+I'm skipping whatever remains of this entry
+Repeated entry---line 921 of file BIBDOUTORADO.bib
+ : @incollection{granovetter1990old
+ :                                 ,
+I'm skipping whatever remains of this entry
+I was expecting a `,' or a `}'---line 1095 of file BIBDOUTORADO.bib
+ :  
+ :  urlaccessdate={28/12/2015}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=20001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 88 entries,
+            6714 wiz_defined-function locations,
+            1692 strings with 21396 characters,
+and the built_in function-call counts, 75664 in all, are:
+= -- 6967
+> -- 1720
+< -- 855
++ -- 1436
+- -- 539
+* -- 4898
+:= -- 9777
+add.period$ -- 319
+call.type$ -- 88
+change.case$ -- 695
+chr.to.int$ -- 158
+cite$ -- 86
+duplicate$ -- 5658
+empty$ -- 5419
+format.name$ -- 2540
+if$ -- 16948
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 1568
+newline$ -- 396
+num.names$ -- 397
+pop$ -- 1971
+preamble$ -- 1
+purify$ -- 291
+quote$ -- 0
+skip$ -- 5616
+stack$ -- 1
+substring$ -- 3004
+swap$ -- 2280
+text.length$ -- 76
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 23
+warning$ -- 0
+while$ -- 568
+width$ -- 0
+write$ -- 1367
+(There were 4 error messages)
