@@ -1,14 +1,13 @@
 \changetocdepth {4}
 \select@language {brazil}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{2}{section*.2}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{2}{section*.3}
+\contentsline {chapter}{Lista de tabelas}{2}{section*.3}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de tabelas}{2}{section*.4}
+\contentsline {chapter}{Sum\'ario}{3}{section*.4}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Sum\'ario}{3}{section*.5}
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{4}{chapter*.6}
+\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{4}{chapter*.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {A Constru\IeC {\c c}\IeC {\~a}o Social dos Mercados}}{10}{chapter.1}
 \contentsline {section}{\numberline {1.1}Estabilizando a ``incerteza knightiana''}{11}{section.1.1}
@@ -17,24 +16,21 @@
 \contentsline {subsection}{\numberline {1.2.2}\IeC {\'I}ndice de qualidade -- estrutura de custos}{15}{subsection.1.2.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {A Socioeconomia da Arte}}{16}{chapter.2}
-\contentsline {section}{\numberline {2.1}A Economia da Cultura}{16}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}A tipologia dos ramos de produ\IeC {\c c}\IeC {\~a}o}{16}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}A performance musical como produto cultural}{19}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}O modelo de Baumol e Bowen -- a ``doen\IeC {\c c}a dos custos''}{20}{subsection.2.1.3}
-\contentsline {subsection}{\numberline {2.1.4}A Arte e as Pol\IeC {\'\i }ticas P\IeC {\'u}blicas}{24}{subsection.2.1.4}
+\contentsline {section}{\numberline {2.1}A performance musical como produto cultural}{16}{section.2.1}
+\contentsline {section}{\numberline {2.2}O modelo de Baumol e Bowen -- a ``doen\IeC {\c c}a dos custos''}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}A Arte e as Pol\IeC {\'\i }ticas P\IeC {\'u}blicas}{21}{section.2.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {A Produ\IeC {\c c}\IeC {\~a}o da M\IeC {\'u}sica Erudita}}{28}{chapter.3}
-\contentsline {section}{\numberline {3.1}A Orquestra Sinf\IeC {\^o}nica do Estado de S\IeC {\~a}o Paulo}{28}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Estrutura}{32}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Financiamento}{34}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}A Orquestra Filarm\IeC {\^o}nica de MG}{36}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Recursos Financeiros}{38}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}A Orquestra Sinf\IeC {\^o}nica de Minas Gerais}{39}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {A Produ\IeC {\c c}\IeC {\~a}o da M\IeC {\'u}sica Erudita}}{25}{chapter.3}
+\contentsline {section}{\numberline {3.1}A Orquestra Sinf\IeC {\^o}nica do Estado de S\IeC {\~a}o Paulo}{25}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Estrutura}{29}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Financiamento}{31}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}A Orquestra Filarm\IeC {\^o}nica de MG}{33}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Recursos Financeiros}{35}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}A Orquestra Sinf\IeC {\^o}nica de Minas Gerais}{36}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {A articula\IeC {\c c}\IeC {\~a}o do mercado de produ\IeC {\c c}\IeC {\~a}o de m\IeC {\'u}sica de concerto}}{44}{chapter.4}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {A articula\IeC {\c c}\IeC {\~a}o do mercado de produ\IeC {\c c}\IeC {\~a}o de m\IeC {\'u}sica de concerto}}{41}{chapter.4}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {A Constru\IeC {\c c}\IeC {\~a}o Social da Qualidade}}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Dados e m\IeC {\'e}todos}{46}{section.5.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {A Constru\IeC {\c c}\IeC {\~a}o Social da Qualidade}}{42}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{49}{section*.14}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{44}{section*.12}
