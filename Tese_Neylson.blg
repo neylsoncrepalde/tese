@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tese_Neylson.aux
-White space in argument---line 284 of file Tese_Neylson.aux
+White space in argument---line 290 of file Tese_Neylson.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 41 entries,
+You've used 42 entries,
             6714 wiz_defined-function locations,
-            1429 strings with 15038 characters,
-and the built_in function-call counts, 38783 in all, are:
-= -- 4014
-> -- 704
+            1435 strings with 15126 characters,
+and the built_in function-call counts, 39404 in all, are:
+= -- 4059
+> -- 719
 < -- 615
-+ -- 898
-- -- 221
-* -- 2392
-:= -- 4839
-add.period$ -- 150
-call.type$ -- 41
-change.case$ -- 311
-chr.to.int$ -- 55
-cite$ -- 39
-duplicate$ -- 3266
-empty$ -- 2557
-format.name$ -- 1043
-if$ -- 8518
++ -- 903
+- -- 226
+* -- 2428
+:= -- 4927
+add.period$ -- 153
+call.type$ -- 42
+change.case$ -- 317
+chr.to.int$ -- 56
+cite$ -- 40
+duplicate$ -- 3304
+empty$ -- 2619
+format.name$ -- 1066
+if$ -- 8667
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 727
-newline$ -- 179
-num.names$ -- 158
-pop$ -- 957
+missing$ -- 746
+newline$ -- 183
+num.names$ -- 163
+pop$ -- 982
 preamble$ -- 1
-purify$ -- 135
+purify$ -- 138
 quote$ -- 0
-skip$ -- 3321
+skip$ -- 3357
 stack$ -- 1
-substring$ -- 1539
-swap$ -- 1228
+substring$ -- 1556
+swap$ -- 1242
 text.length$ -- 24
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 10
 warning$ -- 0
-while$ -- 229
+while$ -- 235
 width$ -- 0
-write$ -- 610
+write$ -- 624
 (There were 3 error messages)
