@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.19)  15 JUN 2017 15:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.2.19)  15 JUN 2017 20:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1237,25 +1237,26 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
  [7] [8] [9] [10
 
 ]
-[11] [12] <white_1_2.png, id=267, 376.40625pt x 242.40562pt>
-File: white_1_2.png Graphic file (type png)
+[11] [12] [13] [14] [15] [16] [17] [18] [19
 
-<use white_1_2.png>
-Package pdftex.def Info: white_1_2.png used on input line 408.
+] [20] [21]
+<white_1_2.png, id=458, 376.40625pt x 242.40562pt>
+File: white_1_2.png Graphic file (type png)
+ <use white_1_2.png>
+Package pdftex.def Info: white_1_2.png used on input line 528.
 (pdftex.def)             Requested size: 376.40532pt x 242.40501pt.
- [13] [14pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.1.1}) has been already used, duplicate ignored
+ [22]
+[23pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.423 
-       <./white_1_2.png (PNG copy)>] [15] [16] [17] [18] [19] [20] [21]
-[22
-
-] [23] [24] [25] [26] [27] [28] [29] [30] [31
+l.543 
+       <./white_1_2.png (PNG copy)>] [24] [25] [26] [27] [28] [29] [30]
+[31
 
 ]
-Overfull \hbox (4.67632pt too wide) in paragraph at lines 960--982
+Overfull \hbox (4.67632pt too wide) in paragraph at lines 823--845
  []\OT1/cmr/m/n/10 a. man-ter a OR-QUES-TRA SINF[]ONICA DO ES-TADO DE S[]AO PAU
 LO,
  []
@@ -1264,14 +1265,14 @@ LO,
 
 pdfTeX warning: /usr/bin/pdflatex (file ./OSESP_conselhos_pajek.pdf): PDF inclu
 sion: found PDF version <1.7>, but at most version <1.5> allowed
-<OSESP_conselhos_pajek.pdf, id=662, 845.0471pt x 597.50804pt>
+<OSESP_conselhos_pajek.pdf, id=658, 845.0471pt x 597.50804pt>
 File: OSESP_conselhos_pajek.pdf Graphic file (type pdf)
 
 <use OSESP_conselhos_pajek.pdf>
-Package pdftex.def Info: OSESP_conselhos_pajek.pdf used on input line 1023.
+Package pdftex.def Info: OSESP_conselhos_pajek.pdf used on input line 886.
 (pdftex.def)             Requested size: 676.0386pt x 478.00708pt.
 
-Overfull \hbox (7.00398pt too wide) in paragraph at lines 1027--1028
+Overfull \hbox (7.00398pt too wide) in paragraph at lines 890--891
 []\OT1/cmr/m/n/12 Al^^Sem dos ^^Sorg~aos su-pra-ci-ta-dos, a Funda^^Xc~ao OSESP
  cont^^Sem em sua base se-to-res art^^S^^Psticos,
  []
@@ -1281,19 +1282,19 @@ e.3.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1028 
-        <./OSESP_conselhos_pajek.pdf>]
+l.891 
+       <./OSESP_conselhos_pajek.pdf>]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./OSESP_setores_pajek.pdf): PDF inclusi
 on: found PDF version <1.7>, but at most version <1.5> allowed
-<OSESP_setores_pajek.pdf, id=678, 845.0471pt x 597.50804pt>
+<OSESP_setores_pajek.pdf, id=674, 845.0471pt x 597.50804pt>
 File: OSESP_setores_pajek.pdf Graphic file (type pdf)
 
 <use OSESP_setores_pajek.pdf>
-Package pdftex.def Info: OSESP_setores_pajek.pdf used on input line 1032.
+Package pdftex.def Info: OSESP_setores_pajek.pdf used on input line 895.
 (pdftex.def)             Requested size: 676.0386pt x 478.00708pt.
 
-Overfull \hbox (5.89973pt too wide) in paragraph at lines 1038--1039
+Overfull \hbox (5.89973pt too wide) in paragraph at lines 901--902
 \OT1/cmr/m/n/12 R$251.676.666,67 dis-tribu^^S^^Pdos da se-guinte forma: R$7.166
 .666,67 em 2010, R$43.400.000,00
  []
@@ -1302,14 +1303,14 @@ Overfull \hbox (5.89973pt too wide) in paragraph at lines 1038--1039
 
 pdfTeX warning: /usr/bin/pdflatex (file ./OSESP_patrocinio.pdf): PDF inclusion:
  found PDF version <1.7>, but at most version <1.5> allowed
-<OSESP_patrocinio.pdf, id=688, 845.0471pt x 597.50804pt>
+<OSESP_patrocinio.pdf, id=684, 845.0471pt x 597.50804pt>
 File: OSESP_patrocinio.pdf Graphic file (type pdf)
 
 <use OSESP_patrocinio.pdf>
-Package pdftex.def Info: OSESP_patrocinio.pdf used on input line 1069.
+Package pdftex.def Info: OSESP_patrocinio.pdf used on input line 932.
 (pdftex.def)             Requested size: 464.77734pt x 328.63043pt.
 
-Overfull \hbox (9.53323pt too wide) in paragraph at lines 1069--1070
+Overfull \hbox (9.53323pt too wide) in paragraph at lines 932--933
  [][] 
  []
 
@@ -1318,21 +1319,21 @@ Overfull \hbox (9.53323pt too wide) in paragraph at lines 1069--1070
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1096 
-       ] [38pdfTeX warning (ext4): destination with the same identifier (name{f
-igure.3.3}) has been already used, duplicate ignored
+l.959 
+      ] [38pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1096 
-        <./OSESP_setores_pajek.pdf>] [39pdfTeX warning (ext4): destination with
- the same identifier (name{figure.3.4}) has been already used, duplicate ignore
-d
+l.959 
+       <./OSESP_setores_pajek.pdf>] [39pdfTeX warning (ext4): destination with 
+the same identifier (name{figure.3.4}) has been already used, duplicate ignored
+
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1102 
-        <./OSESP_patrocinio.pdf>]
+l.965 
+       <./OSESP_patrocinio.pdf>]
 Package epstopdf Info: Source file: <filarmonica_rede2mode.eps>
 (epstopdf)                    date: 2017-04-14 15:26:45
 (epstopdf)                    size: 4915034 bytes
@@ -1342,23 +1343,23 @@ Package epstopdf Info: Source file: <filarmonica_rede2mode.eps>
 (epstopdf)                    size: 187579 bytes
 (epstopdf)             Command: <repstopdf --outfile=filarmonica_rede2mode-eps-
 converted-to.pdf filarmonica_rede2mode.eps>
-(epstopdf)             \includegraphics on input line 1115.
+(epstopdf)             \includegraphics on input line 978.
 Package epstopdf Info: Output file is already uptodate.
 
-<filarmonica_rede2mode-eps-converted-to.pdf, id=712, 1228.59pt x 662.475pt>
+<filarmonica_rede2mode-eps-converted-to.pdf, id=708, 1228.59pt x 662.475pt>
 File: filarmonica_rede2mode-eps-converted-to.pdf Graphic file (type pdf)
 
 <use filarmonica_rede2mode-eps-converted-to.pdf>
 Package pdftex.def Info: filarmonica_rede2mode-eps-converted-to.pdf used on inp
-ut line 1115.
+ut line 978.
 (pdftex.def)             Requested size: 614.2935pt x 331.2367pt.
  [40pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
 5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1122 	O
-          Instituto também mantém uma relação comercial com uma empresa ...
+l.985 	O
+         Instituto também mantém uma relação comercial com uma empresa e...
 ]
 Package epstopdf Info: Source file: <filarmonica_patrocinadores.eps>
 (epstopdf)                    date: 2017-04-14 15:26:45
@@ -1369,18 +1370,18 @@ o.pdf>
 (epstopdf)                    size: 77325 bytes
 (epstopdf)             Command: <repstopdf --outfile=filarmonica_patrocinadores
 -eps-converted-to.pdf filarmonica_patrocinadores.eps>
-(epstopdf)             \includegraphics on input line 1133.
+(epstopdf)             \includegraphics on input line 996.
 Package epstopdf Info: Output file is already uptodate.
 
-<filarmonica_patrocinadores-eps-converted-to.pdf, id=721, 922.44624pt x 497.86p
+<filarmonica_patrocinadores-eps-converted-to.pdf, id=717, 922.44624pt x 497.86p
 t>
 File: filarmonica_patrocinadores-eps-converted-to.pdf Graphic file (type pdf)
  <use filarmonica_patrocinadores-eps-converted-to.pdf>
 Package pdftex.def Info: filarmonica_patrocinadores-eps-converted-to.pdf used o
-n input line 1133.
+n input line 996.
 (pdftex.def)             Requested size: 553.47202pt x 298.71829pt.
 
-Overfull \hbox (98.2279pt too wide) in paragraph at lines 1133--1134
+Overfull \hbox (98.2279pt too wide) in paragraph at lines 996--997
  [] 
  []
 
@@ -1389,19 +1390,19 @@ Overfull \hbox (98.2279pt too wide) in paragraph at lines 1133--1134
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1175 
+l.1038 
        ]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./organogramaFCSred.pdf): PDF inclusion
 : found PDF version <1.7>, but at most version <1.5> allowed
-<organogramaFCSred.pdf, id=744, 845.0471pt x 597.50804pt>
+<organogramaFCSred.pdf, id=740, 845.0471pt x 597.50804pt>
 File: organogramaFCSred.pdf Graphic file (type pdf)
 
 <use organogramaFCSred.pdf>
-Package pdftex.def Info: organogramaFCSred.pdf used on input line 1191.
+Package pdftex.def Info: organogramaFCSred.pdf used on input line 1054.
 (pdftex.def)             Requested size: 481.68185pt x 340.58311pt.
 
-Overfull \hbox (26.43774pt too wide) in paragraph at lines 1191--1192
+Overfull \hbox (26.43774pt too wide) in paragraph at lines 1054--1055
  [][] 
  []
 
@@ -1409,40 +1410,40 @@ Overfull \hbox (26.43774pt too wide) in paragraph at lines 1191--1192
 
 pdfTeX warning: /usr/bin/pdflatex (file ./dirplanejamento.pdf): PDF inclusion: 
 found PDF version <1.7>, but at most version <1.5> allowed
-<dirplanejamento.pdf, id=749, 845.0471pt x 597.50804pt>
+<dirplanejamento.pdf, id=745, 845.0471pt x 597.50804pt>
 File: dirplanejamento.pdf Graphic file (type pdf)
 
 <use dirplanejamento.pdf>
-Package pdftex.def Info: dirplanejamento.pdf used on input line 1199.
+Package pdftex.def Info: dirplanejamento.pdf used on input line 1062.
 (pdftex.def)             Requested size: 295.77092pt x 209.13094pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./dirprogramacao.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<dirprogramacao.pdf, id=750, 845.0471pt x 597.50804pt>
+<dirprogramacao.pdf, id=746, 845.0471pt x 597.50804pt>
 File: dirprogramacao.pdf Graphic file (type pdf)
 
 <use dirprogramacao.pdf>
-Package pdftex.def Info: dirprogramacao.pdf used on input line 1200.
+Package pdftex.def Info: dirprogramacao.pdf used on input line 1063.
 (pdftex.def)             Requested size: 295.77092pt x 209.13094pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./dirmarketingensino.pdf): PDF inclusio
 n: found PDF version <1.7>, but at most version <1.5> allowed
-<dirmarketingensino.pdf, id=751, 845.0471pt x 597.50804pt>
+<dirmarketingensino.pdf, id=747, 845.0471pt x 597.50804pt>
 File: dirmarketingensino.pdf Graphic file (type pdf)
 
 <use dirmarketingensino.pdf>
-Package pdftex.def Info: dirmarketingensino.pdf used on input line 1201.
+Package pdftex.def Info: dirmarketingensino.pdf used on input line 1064.
 (pdftex.def)             Requested size: 295.77092pt x 209.13094pt.
 
 
 pdfTeX warning: /usr/bin/pdflatex (file ./dirartistica.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<dirartistica.pdf, id=752, 845.0471pt x 597.50804pt>
+<dirartistica.pdf, id=748, 845.0471pt x 597.50804pt>
 File: dirartistica.pdf Graphic file (type pdf)
  <use dirartistica.pdf>
-Package pdftex.def Info: dirartistica.pdf used on input line 1202.
+Package pdftex.def Info: dirartistica.pdf used on input line 1065.
 (pdftex.def)             Requested size: 295.77092pt x 209.13094pt.
 
 [42] [43pdfTeX warning (ext4): destination with the same identifier (name{figur
@@ -1450,7 +1451,7 @@ e.3.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1209 	\chapter
+l.1072 	\chapter
                 {A articulação do mercado de produção de música de conc...
  <./filarmonica_rede2mode-eps-converted-to.pdf>] [44pdfTeX warning (ext4): dest
 ination with the same identifier (name{figure.3.7}) has been already used, dupl
@@ -1458,7 +1459,7 @@ icate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1209 	\chapter
+l.1072 	\chapter
                 {A articulação do mercado de produção de música de conc...
  <./filarmonica_patrocinadores-eps-converted-to.pdf>] [45pdfTeX warning (ext4):
  destination with the same identifier (name{figure.3.8}) has been already used,
@@ -1466,14 +1467,14 @@ l.1209 	\chapter
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1209 	\chapter
+l.1072 	\chapter
                 {A articulação do mercado de produção de música de conc...
  <./organogramaFCSred.pdf>] [46pdfTeX warning (ext4): destination with the same
  identifier (name{figure.3.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1209 	\chapter
+l.1072 	\chapter
                 {A articulação do mercado de produção de música de conc...
  <./dirplanejamento.pdf> <./dirprogramacao.pdf> <./dirmarketingensino.pdf> <./d
 irartistica.pdf>] [47
@@ -1498,22 +1499,22 @@ bibitemlist
 \tf@toc=\write6
 \openout6 = `Tese_Neylson.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1408.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1408.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1271.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1271.
  (./Tese_Neylson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1408.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1408.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1271.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1271.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1408.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1271.
  ) 
 Here is how much of TeX's memory you used:
- 14940 strings out of 493029
- 215494 string characters out of 6136234
+ 14938 strings out of 493029
+ 215477 string characters out of 6136234
  364176 words of memory out of 5000000
- 18068 multiletter control sequences out of 15000+600000
+ 18067 multiletter control sequences out of 15000+600000
  11576 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,13n,36p,2345b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1534,10 +1535,10 @@ e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texl
 ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Tese_Neylson.pdf (52 pages, 1726543 bytes).
+Output written on Tese_Neylson.pdf (52 pages, 1727074 bytes).
 PDF statistics:
- 1061 PDF objects out of 1200 (max. 8388607)
- 934 compressed objects within 10 object streams
- 206 named destinations out of 1000 (max. 500000)
- 280 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1054 PDF objects out of 1200 (max. 8388607)
+ 927 compressed objects within 10 object streams
+ 205 named destinations out of 1000 (max. 500000)
+ 272 words of extra memory for PDF output out of 10000 (max. 10000000)
 
