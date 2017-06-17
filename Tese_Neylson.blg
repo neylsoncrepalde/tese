@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tese_Neylson.aux
-White space in argument---line 300 of file Tese_Neylson.aux
+White space in argument---line 235 of file Tese_Neylson.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 43 entries,
+You've used 35 entries,
             6714 wiz_defined-function locations,
-            1440 strings with 15315 characters,
-and the built_in function-call counts, 40313 in all, are:
-= -- 4129
-> -- 752
-< -- 619
-+ -- 916
-- -- 236
-* -- 2498
-:= -- 5041
-add.period$ -- 156
-call.type$ -- 43
-change.case$ -- 328
-chr.to.int$ -- 60
-cite$ -- 41
-duplicate$ -- 3351
-empty$ -- 2680
-format.name$ -- 1113
-if$ -- 8878
+            1401 strings with 14014 characters,
+and the built_in function-call counts, 28599 in all, are:
+= -- 2518
+> -- 777
+< -- 200
++ -- 501
+- -- 241
+* -- 1902
+:= -- 3766
+add.period$ -- 115
+call.type$ -- 35
+change.case$ -- 295
+chr.to.int$ -- 58
+cite$ -- 33
+duplicate$ -- 1842
+empty$ -- 2162
+format.name$ -- 1138
+if$ -- 6564
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 764
-newline$ -- 188
-num.names$ -- 168
-pop$ -- 1005
+missing$ -- 629
+newline$ -- 152
+num.names$ -- 158
+pop$ -- 831
 preamble$ -- 1
-purify$ -- 142
+purify$ -- 121
 quote$ -- 0
-skip$ -- 3404
+skip$ -- 1915
 stack$ -- 1
-substring$ -- 1607
-swap$ -- 1269
-text.length$ -- 27
+substring$ -- 1096
+swap$ -- 773
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 10
+type$ -- 6
 warning$ -- 0
-while$ -- 244
+while$ -- 225
 width$ -- 0
-write$ -- 641
+write$ -- 517
 (There were 3 error messages)

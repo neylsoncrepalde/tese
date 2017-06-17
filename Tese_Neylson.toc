@@ -26,14 +26,14 @@
 \contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Metodologia}}{29}{chapter.3}
 \contentsline {section}{\numberline {3.1}Modelos anal\IeC {\'\i }ticos relacionais}{30}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Blockmodeling}{30}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}ERGM}{30}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.2}ERGM}{31}{subsection.3.1.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {As orquestras - an\IeC {\'a}lises preliminares}}{31}{chapter.4}
-\contentsline {section}{\numberline {4.1}A Orquestra Filarm\IeC {\^o}nica de MG}{31}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Recursos Financeiros}{32}{subsection.4.1.1}
-\contentsline {section}{\numberline {4.2}A Orquestra Sinf\IeC {\^o}nica de Minas Gerais}{33}{section.4.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {As orquestras - an\IeC {\'a}lises preliminares}}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}A Orquestra Filarm\IeC {\^o}nica de MG}{32}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Recursos Financeiros}{33}{subsection.4.1.1}
+\contentsline {section}{\numberline {4.2}A Orquestra Sinf\IeC {\^o}nica de Minas Gerais}{34}{section.4.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es preliminares}}{34}{chapter.5}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es preliminares}}{35}{chapter.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{35}{section*.9}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{36}{section*.9}

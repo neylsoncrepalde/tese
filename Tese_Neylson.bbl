@@ -5,13 +5,6 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
-\bibitem[Arruda 2010]{arruda2010parcerias}
-\abntrefinfo{Arruda}{ARRUDA}{2010}
-{ARRUDA, Fausto Augusto~Marcucci. Parcerias entre o estado e o terceiro setor:
-  A experi{\^e}ncia da funda{\c{c}}{\~a}o orquestra sinf{\^o}nica do estado de
-  s{\~a}o paulo. In:  CONGRESSO CONSAD DE GESTãO PúBLICA, 3. \emph{Anais}.
-  Brasília, 2010.}
-
 \bibitem[Baumol e Baumol 1984]{baumol1984inflation}
 \abntrefinfo{Baumol e Baumol}{BAUMOL; BAUMOL}{1984}
 {BAUMOL, Hilda; BAUMOL, William~J. \emph{Inflation and the Performing Arts}.
@@ -48,17 +41,11 @@
 {BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
   europa e seu p{\'u}blico. São Paulo: Edusp, 2003.}
 
-\bibitem[Crepalde 2015]{crepalde2015maestro}
-\abntrefinfo{Crepalde}{CREPALDE}{2015}
-{CREPALDE, Neylson J. B.~F.
-\emph{O maestro, a orquestra e a racionalização das práticas musicais}.
-Disserta\c{c}\~{a}o (mestrado) --- Faculdade de Filosofia e Ciências Humanas,
-  Universidade Federal de Minas Gerais, Belo Horizonte, 2015.}
-
-\bibitem[De Nooy, Mrvar e Batagelj 2011]{denooy2011exploratory}
-\abntrefinfo{De Nooy, Mrvar e Batagelj}{DE NOOY; MRVAR; BATAGELJ}{2011}
-{DE NOOY, Wouter; MRVAR, Andrej; BATAGELJ, Vladimir. \emph{Exploratory social
-  network analysis with Pajek}. Cambridge: Cambridge University Press, 2011.}
+\bibitem[Daudin, Picard e Robin 2008]{daudin2008mixture}
+\abntrefinfo{Daudin, Picard e Robin}{DAUDIN; PICARD; ROBIN}{2008}
+{DAUDIN, J-J; PICARD, Franck; ROBIN, St{\'e}phane. A mixture model for random
+  graphs.
+\emph{Statistics and computing}, Springer, v.~18, n.~2, p. 173--183, 2008.}
 
 \bibitem[Dias 2011]{dias2011artes}
 \abntrefinfo{Dias}{DIAS}{2011}
@@ -78,47 +65,6 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {FLIGSTEIN, Neil. \emph{The architecture of markets: An economic sociology of
   twenty-first-century capitalist societies}. Princeton: Princeton University
   Press, 2002.}
-
-\bibitem[Fundação Clóvis Salgado/Palácio das Artes 2016]{fcs2016site}
-\abntrefinfo{FCS}{FCS}{2016}
-{FUNDAçãO CLóVIS SALGADO/PALáCIO DAS ARTES. \emph{Site da Fundação
-  Clóvis Salgado}. Minas Gerais, 2016. Dispon{\'\i}vel em:
-  \url{www.fcs.mg.gov.br}. Acesso em: 13 jan. 2016.}
-
-\bibitem[Fundação Orquestra Sinfônica do Estado de São Paulo
-  2013]{osesp2013estatuto}
-\abntrefinfo{Fundação OSESP}{FUNDAçãO OSESP}{2013}
-{FUNDAçãO ORQUESTRA SINFôNICA DO ESTADO DE SãO PAULO. \emph{3ª Alteração
-  do Estatuto Social da Fundação Orquestra Sinfônica do Estado de São
-  Paulo}.
-São Paulo, 2013. Dispon{\'\i}vel em:
-  \url{http://www.fundacao-osesp.art.br/upload/documentos/EstatutoSocial-FundacaoOsesp-3alteracao-2013.pdf}.
-  Acesso em: 13 jan. 2016.}
-
-\bibitem[Fundação Orquestra Sinfônica do Estado de São Paulo
-  2014]{osesp2014compromisso}
-\abntrefinfo{Fundação OSESP}{FUNDAçãO OSESP}{2014}
-{FUNDAçãO ORQUESTRA SINFôNICA DO ESTADO DE SãO PAULO. \emph{Relatório de
-  Compromisso Social}. São Paulo, 2014. Dispon{\'\i}vel em:
-  \url{http://fundacao-osesp.art.br/upload/documentos/Transparencia/RelatorioCompromissoSocial2014-web.pdf}.
-  Acesso em: 19 jan. 2016.}
-
-\bibitem[Fundação Orquestra Sinfônica do Estado de São Paulo
-  2016]{osesp2016site}
-\abntrefinfo{Fundação OSESP}{FUNDAçãO OSESP}{2016}
-{FUNDAçãO ORQUESTRA SINFôNICA DO ESTADO DE SãO PAULO. \emph{Site da
-  Fundação OSESP}. São Paulo, 2016. Dispon{\'\i}vel em:
-  \url{http://www.fundacao-osesp.art.br/}. Acesso em: 19 jan. 2016.}
-
-\bibitem[Governo do Estado de São Paulo -- Secretaria da Cultura
-  2014]{osesp2014anexo1}
-\abntrefinfo{SEC São Paulo}{SEC SãO PAULO}{2014}
-{GOVERNO DO ESTADO DE SãO PAULO -- SECRETARIA DA CULTURA. Programa de trabalho
-  e metas 2014 -- anexo 1. In:  \emph{Contrato de Gestão 041/2010}. São
-  Paulo, 2014.
-Dispon{\'\i}vel em:
-  \url{http://www.fundacao-osesp.art.br/upload/documentos/Transparencia/fosesp\_anexo1\_2014.pdf}.
-  Acesso em: 15 jan. 2016.}
 
 \bibitem[Granovetter 2007]{granovetter2007acao}
 \abntrefinfo{Granovetter}{GRANOVETTER}{2007}
@@ -157,12 +103,24 @@ Dispon{\'\i}vel em:
 {KAY, Neil~M. \emph{Pattern in corporate evolution}. Oxford: Oxford University
   Press, 1997.}
 
+\bibitem[Latouche, Birmele e Ambroise 2012]{latouche2012variational}
+\abntrefinfo{Latouche, Birmele e Ambroise}{LATOUCHE; BIRMELE; AMBROISE}{2012}
+{LATOUCHE, Pierre; BIRMELE, Etienne; AMBROISE, Christophe. Variational bayesian
+  inference and complexity control for stochastic block models.
+\emph{Statistical Modelling}, Sage Publications Sage India: New Delhi, India,
+  v.~12, n.~1, p. 93--115, 2012.}
+
 \bibitem[Lazega 2009]{lazega2009theorie}
 \abntrefinfo{Lazega}{LAZEGA}{2009}
 {LAZEGA, Emmanuel. Th{\'e}orie de la coop{\'e}ration entre concurrents:
   Organisation, march{\'e} et analyse de r{\'e}seaux. In:  STEINER, Philippe;
   VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie {\'e}conomique}.
   Paris: PUF, 2009. p. 561--599.}
+
+\bibitem[Lazega e Higgins 2014]{lazega2014redes}
+\abntrefinfo{Lazega e Higgins}{LAZEGA; HIGGINS}{2014}
+{LAZEGA, Emmanuel; HIGGINS, Silvio~Salej. \emph{Redes sociais e estruturas
+  relacionais}. Belo Horizonte: Fino Traço, 2014.}
 
 \bibitem[Leroy 1980]{leroy1980economie}
 \abntrefinfo{Leroy}{LEROY}{1980}
@@ -174,14 +132,6 @@ Dispon{\'\i}vel em:
 {LUKSETICH, William~A. Orchestras. In:  TOWSE, RUTH. \emph{A handbook of
   cultural economics}. Cheltenham, UK: Edward Elgar Publishing, 2011.}
 
-\bibitem[Marques 2015]{marques2015osesp}
-\abntrefinfo{Marques}{MARQUES}{2015}
-{MARQUES, Luiz. Osesp -- 1954 / 2014.
-\emph{Site da OSESP}, 2015.
-Dispon{\'\i}vel em:
-  \url{http://www.osesp.art.br/paginadinamica.aspx?pagina=linhadotempo}. Acesso
-  em: 13 jan. 2016.}
-
 \bibitem[MINAS GERAIS 2015]{minas2015}
 \abntrefinfo{MINAS GERAIS}{MINAS GERAIS}{2015}
 {MINAS GERAIS. \emph{IX termo aditivo ao termo de parceria nº 19/2008}: Ix
@@ -189,11 +139,6 @@ Dispon{\'\i}vel em:
   o insituto cultural filarmônica. Minas Gerais, 2015. Dispon{\'\i}vel em:
   \url{http://www.filarmonica.art.br/wp-content/uploads/2014/10/ix-aditivo-baixa.pdf}.
   Acesso em: 15 out. 2015.}
-
-\bibitem[Orquestra Filarmônica de MG 2015]{filarmonica2015site}
-\abntrefinfo{Orquestra Filarmônica de MG}{ORQUESTRA FILARMôNICA DE MG}{2015}
-{ORQUESTRA FILARMôNICA DE MG. \emph{Site da Filarmônica}. Minas Gerais, 2015.
-  Dispon{\'\i}vel em: \url{www.filarmonica.art.br}. Acesso em: 15 out. 2015.}
 
 \bibitem[Peacock, Shoesmith e Millner 1983]{peacock1983inflation}
 \abntrefinfo{Peacock, Shoesmith e Millner}{PEACOCK; SHOESMITH; MILLNER}{1983}
@@ -249,10 +194,5 @@ Dispon{\'\i}vel em:
 \abntrefinfo{White}{WHITE}{2008}
 {WHITE, Harrison~C. \emph{Identity and control}: how social formations emerge.
   Princeton, NJ: Princeton University Press, 2008.}
-
-\bibitem[Williamson 1975]{williamson1975markets}
-\abntrefinfo{Williamson}{WILLIAMSON}{1975}
-{WILLIAMSON, Oliver~E. \emph{Markets and Hierarchies}: Analysis and antitrust
-  implications. New York: Free Press, 1975.}
 
 \end{thebibliography}
