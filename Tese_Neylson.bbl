@@ -41,6 +41,13 @@
 {BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
   europa e seu p{\'u}blico. São Paulo: Edusp, 2003.}
 
+\bibitem[Brailly et al. 2017]{brailly2017explorer}
+\abntrefinfo{Brailly et al.}{BRAILLY et al.}{2017}
+{BRAILLY, Julien et al. Explorer les r{\'e}seaux {\`a} l’{\'e}chelle de la
+  triade: l’apport des mod{\`e}les statistiques ergm.
+\emph{L'Ann{\'e}e sociologique}, Presses Universitaires de France, v.~67, n.~1,
+  p. 219--254, 2017.}
+
 \bibitem[Daudin, Picard e Robin 2008]{daudin2008mixture}
 \abntrefinfo{Daudin, Picard e Robin}{DAUDIN; PICARD; ROBIN}{2008}
 {DAUDIN, J-J; PICARD, Franck; ROBIN, St{\'e}phane. A mixture model for random
@@ -77,12 +84,6 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {HEILBRUN, James; GRAY, Charles~M. \emph{The economics of art and culture}.
   Cambridge, MA: Cambridge University Press, 2001.}
 
-\bibitem[Hirsch, Michaels e Friedman 1987]{hirsch1987dirty}
-\abntrefinfo{Hirsch, Michaels e Friedman}{HIRSCH; MICHAELS; FRIEDMAN}{1987}
-{HIRSCH, Paul; MICHAELS, Stuart; FRIEDMAN, Ray. Dirty hands versus clean
-  models.
-\emph{Theory and society}, Springer, v.~16, n.~3, p. 317--336, 1987.}
-
 \bibitem[Instituto Cultural Filarmônica 2015]{filarmonica2015gerencial}
 \abntrefinfo{Instituto Cultural Filarmônica}{INSTITUTO CULTURAL
   FILARMôNICA}{2015}
@@ -91,12 +92,6 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   Dispon{\'\i}vel em:
   \url{http://www.filarmonica.art.br/wp-content/uploads/2014/10/26o\_relatorio\_gerencial\_2015.pdf}.
   Acesso em: 15 out. 2015.}
-
-\bibitem[Karpik 2009]{karpik2009elements}
-\abntrefinfo{Karpik}{KARPIK}{2009}
-{KARPIK, Lucien. Élements de l'économie des singularités. In:  STEINER,
-  Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
-  {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
 
 \bibitem[Kay 1997]{kay1997pattern}
 \abntrefinfo{Kay}{KAY}{1997}
@@ -132,6 +127,12 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {LUKSETICH, William~A. Orchestras. In:  TOWSE, RUTH. \emph{A handbook of
   cultural economics}. Cheltenham, UK: Edward Elgar Publishing, 2011.}
 
+\bibitem[Lusher, Koskinen e Robins 2013]{lusher2013exponential}
+\abntrefinfo{Lusher, Koskinen e Robins}{LUSHER; KOSKINEN; ROBINS}{2013}
+{LUSHER, Dean; KOSKINEN, Johan; ROBINS, Garry (Ed.). \emph{Exponential random
+  graph models for social networks}: Theory, methods, and applications.
+  Cambridge: Cambridge University Press, 2013.}
+
 \bibitem[MINAS GERAIS 2015]{minas2015}
 \abntrefinfo{MINAS GERAIS}{MINAS GERAIS}{2015}
 {MINAS GERAIS. \emph{IX termo aditivo ao termo de parceria nº 19/2008}: Ix
@@ -151,6 +152,18 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   perspective.
 \emph{Handbook of the Economics of Art and Culture}, Elsevier, v.~1, p.
   1183--1221, 2006.}
+
+\bibitem[Robins, Elliott e Pattison 2001]{robins2001network}
+\abntrefinfo{Robins, Elliott e Pattison}{ROBINS; ELLIOTT; PATTISON}{2001}
+{ROBINS, Garry; ELLIOTT, Peter; PATTISON, Philippa. Network models for social
+  selection processes.
+\emph{Social networks}, Elsevier, v.~23, n.~1, p. 1--30, 2001.}
+
+\bibitem[Robins et al. 2007]{robins2007introduction}
+\abntrefinfo{Robins et al.}{ROBINS et al.}{2007}
+{ROBINS, Garry et al. An introduction to exponential random graph (p*) models
+  for social networks.
+\emph{Social networks}, Elsevier, v.~29, n.~2, p. 173--191, 2007.}
 
 \bibitem[Sarkovas 2005]{sarkovas2005incentivo}
 \abntrefinfo{Sarkovas}{SARKOVAS}{2005}
@@ -178,6 +191,11 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 \abntrefinfo{Tolila}{TOLILA}{2007}
 {TOLILA, Paul. \emph{Cultura e economia}: problemas, hip{\'o}teses, pistas.
   São Paulo: Iluminuras: Itaú Cultural, 2007.}
+
+\bibitem[Wang et al. 2016]{wang2016social}
+\abntrefinfo{Wang et al.}{WANG et al.}{2016}
+{WANG, Peng et al. Social selection models for multilevel networks.
+\emph{Social Networks}, Elsevier, v.~44, p. 346--362, 2016.}
 
 \bibitem[Weiss e Kaufmann 2009]{weiss2009estatais}
 \abntrefinfo{Weiss e Kaufmann}{WEISS; KAUFMANN}{2009}

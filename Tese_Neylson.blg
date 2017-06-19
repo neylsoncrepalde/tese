@@ -1,20 +1,20 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Tese_Neylson.aux
-White space in argument---line 235 of file Tese_Neylson.aux
+White space in argument---line 232 of file Tese_Neylson.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
 Database file #2: BIBDOUTORADO.bib
 "{" immediately follows a field name---line 601 of file BIBDOUTORADO.bib
@@ -26,54 +26,54 @@ I was expecting a `,' or a `}'---line 1095 of file BIBDOUTORADO.bib
  :  urlaccessdate={28/12/2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated singl_function (elt_size=8) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=4) to 20 items from 10.
+Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 35 entries,
+You've used 38 entries,
             6714 wiz_defined-function locations,
-            1401 strings with 14014 characters,
-and the built_in function-call counts, 28599 in all, are:
-= -- 2518
-> -- 777
-< -- 200
-+ -- 501
-- -- 241
-* -- 1902
-:= -- 3766
-add.period$ -- 115
-call.type$ -- 35
-change.case$ -- 295
-chr.to.int$ -- 58
-cite$ -- 33
-duplicate$ -- 1842
-empty$ -- 2162
-format.name$ -- 1138
-if$ -- 6564
+            1422 strings with 14720 characters,
+and the built_in function-call counts, 31561 in all, are:
+= -- 2720
+> -- 931
+< -- 210
++ -- 561
+- -- 285
+* -- 2159
+:= -- 4152
+add.period$ -- 121
+call.type$ -- 38
+change.case$ -- 343
+chr.to.int$ -- 70
+cite$ -- 36
+duplicate$ -- 1974
+empty$ -- 2329
+format.name$ -- 1353
+if$ -- 7253
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 629
-newline$ -- 152
-num.names$ -- 158
-pop$ -- 831
+missing$ -- 686
+newline$ -- 167
+num.names$ -- 172
+pop$ -- 905
 preamble$ -- 1
-purify$ -- 121
+purify$ -- 138
 quote$ -- 0
-skip$ -- 1915
+skip$ -- 2057
 stack$ -- 1
-substring$ -- 1096
-swap$ -- 773
-text.length$ -- 26
+substring$ -- 1202
+swap$ -- 843
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 5
 warning$ -- 0
-while$ -- 225
+while$ -- 248
 width$ -- 0
-write$ -- 517
+write$ -- 567
 (There were 3 error messages)
