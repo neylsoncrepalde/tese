@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Barbetta 2012]{barbetta2012estatistica}
+\abntrefinfo{Barbetta}{BARBETTA}{2012}
+{BARBETTA, Pedro~Alberto. \emph{Estat{\'\i}stica aplicada {\`a}s ci{\^e}ncias
+  sociais}. 8 ed. rev. Florianópolis: Ed. UFSC, 2012.}
+
 \bibitem[Baumol e Baumol 1984]{baumol1984inflation}
 \abntrefinfo{Baumol e Baumol}{BAUMOL; BAUMOL}{1984}
 {BAUMOL, Hilda; BAUMOL, William~J. \emph{Inflation and the Performing Arts}.
