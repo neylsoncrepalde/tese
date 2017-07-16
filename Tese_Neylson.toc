@@ -25,23 +25,24 @@
 \contentsline {subsection}{\numberline {3.2.1}Articula\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica}{28}{subsection.3.2.1}
 \contentsline {section}{\numberline {3.3}A busca pela estabilidade do mercado}{29}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Dados e M\IeC {\'e}todos}}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Desenho de pesquisa}{32}{section.4.1}
-\contentsline {section}{\numberline {4.2}Modelos anal\IeC {\'\i }ticos relacionais}{33}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Blockmodeling}{33}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}ERGM}{34}{subsection.4.2.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Modelo de An\IeC {\'a}lise}}{32}{chapter.4}
+\contentsline {section}{\numberline {4.1}Desenho de Pesquisa}{32}{section.4.1}
+\contentsline {section}{\numberline {4.2}Dados e M\IeC {\'e}todos}{33}{section.4.2}
+\contentsline {section}{\numberline {4.3}Modelos anal\IeC {\'\i }ticos relacionais}{35}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Blockmodeling}{35}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}ERGM}{35}{subsection.4.3.2}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {As orquestras - an\IeC {\'a}lises preliminares}}{35}{chapter.5}
-\contentsline {section}{\numberline {5.1}A Orquestra Filarm\IeC {\^o}nica de MG}{35}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Recursos Financeiros}{36}{subsection.5.1.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {As orquestras - an\IeC {\'a}lises preliminares}}{37}{chapter.5}
+\contentsline {section}{\numberline {5.1}A Orquestra Filarm\IeC {\^o}nica de MG}{37}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Recursos Financeiros}{38}{subsection.5.1.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es preliminares}}{38}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{40}{chapter.6}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{39}{section*.8}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{41}{section*.8}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 1 - Trabalhos consultados}{42}{chapter*.9}
+\contentsline {chapter}{Anexo 1 - Trabalhos consultados}{44}{chapter*.9}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 2 - Roteiro de Entrevistas Semiestruturadas}{44}{chapter*.10}
+\contentsline {chapter}{Anexo 2 - Roteiro de Entrevistas Semiestruturadas}{46}{chapter*.10}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 3 - Question\IeC {\'a}rio online}{45}{chapter*.11}
+\contentsline {chapter}{Anexo 3 - Question\IeC {\'a}rio online}{47}{chapter*.11}
