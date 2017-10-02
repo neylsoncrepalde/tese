@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Arch Linux) (preloaded format=pdflatex 2017.6.21)  16 JUL 2017 16:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 11:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Tese_Neylson.tex
 (./Tese_Neylson.tex
-LaTeX2e <2017/01/01> patch level 3
-Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
 (/usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
@@ -473,8 +473,11 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2016/04/23 3.9r The Babel package
+Package: babel 2017/06/29 3.12 The Babel package
 
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
 (/usr/share/texmf-dist/tex/generic/babel-german/german.ldf
 Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
 phy)
@@ -484,41 +487,46 @@ Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
 aphy)
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2016/04/23 3.9r Babel common definitions
+File: babel.def 2017/06/29 3.12 Babel common definitions
+
+(/usr/share/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2017/06/29 3.12 Babel switching mechanism
+)
 \babel@savecnt=\count150
 \U@D=\dimen151
 )
 Package babel Info: Making " an active character on input line 139.
 ))
 (/usr/share/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2017/01/30 v3.2g French support from the babel system
-\l@acadian = a dialect from \language\l@french 
-\l@canadien = a dialect from \language\l@french 
+Language: frenchb 2017/07/08 v3.3b French support from the babel system
+
+(/usr/share/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2017/07/08 v3.3b French support from the babel system
 \FB@nonchar=\count151
-\FBcolonskip=\skip186
-\FBthinskip=\skip187
-Package babel Info: Making : an active character on input line 365.
-Package babel Info: Making ; an active character on input line 366.
-Package babel Info: Making ! an active character on input line 367.
-Package babel Info: Making ? an active character on input line 368.
-\FBguillskip=\skip188
+\FBcolonsp=\toks23
+\FBthinsp=\toks24
+Package babel Info: Making : an active character on input line 321.
+Package babel Info: Making ; an active character on input line 322.
+Package babel Info: Making ! an active character on input line 323.
+Package babel Info: Making ? an active character on input line 324.
+\FBguillsp=\toks25
 \FBguill@level=\count152
-\FB@everypar=\toks23
+\FB@everypar=\toks26
 \FB@Mht=\dimen152
 \mc@charclass=\count153
 \mc@charfam=\count154
 \mc@charslot=\count155
 \std@mcc=\count156
 \dec@mcc=\count157
-\listindentFB=\skip189
-\descindentFB=\skip190
-\labelwidthFB=\skip191
-\leftmarginFB=\skip192
+\listindentFB=\skip186
+\descindentFB=\skip187
+\labelwidthFB=\skip188
+\leftmarginFB=\skip189
 \parindentFFN=\dimen153
-\FBfnindent=\skip193
-)
+\FBfnindent=\skip190
+))
 (/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/01/24 v3.3q English support from the babel system
+Language: english 2017/06/06 v3.3r English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
@@ -530,9 +538,9 @@ Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 (/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
-\labelindent=\skip194
+\labelindent=\skip191
 \enit@outerparindent=\dimen154
-\enit@toks=\toks24
+\enit@toks=\toks27
 \enit@inbox=\box29
 \enitdp@description=\count158
 )
@@ -542,12 +550,12 @@ Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Bcount=\count160
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
-\calc@Askip=\skip256
-\calc@Bskip=\skip257
+\calc@Askip=\skip192
+\calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count161
-\calc@Cskip=\skip258
+\calc@Cskip=\skip194
 )
 
 ******************************************************
@@ -570,9 +578,9 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
 \c@abntex@bookmarkcounter=\count162
-\cftlastnumwidth=\skip259
-\chapternamenumlength=\skip260
-\ABNTEXcitacaorecuo=\skip261
+\cftlastnumwidth=\skip256
+\chapternamenumlength=\skip257
+\ABNTEXcitacaorecuo=\skip258
 \c@alineasi=\count163
 \c@alineasii=\count164
 \enitdp@alineas=\count165
@@ -580,14 +588,14 @@ Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 \enitdp@subalineas=\count167
 \c@incisosi=\count168
 \enitdp@incisos=\count169
-\ABNTEXsignwidth=\skip262
-\ABNTEXsignthickness=\skip263
-\ABNTEXsignskip=\skip264
+\ABNTEXsignwidth=\skip259
+\ABNTEXsignthickness=\skip260
+\ABNTEXsignskip=\skip261
 ) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -598,16 +606,15 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
 (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-\Gread@gobject=\count170
+File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
 )
 (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks25
-\inpenc@posthook=\toks26
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
 
 (/usr/share/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
@@ -927,9 +934,9 @@ Now handling font encoding PD1 ...
 (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen159
 \WF@size=\dimen160
-\c@WF@wrappedlines=\count171
+\c@WF@wrappedlines=\count170
 \WF@box=\box30
-\WF@everypar=\toks27
+\WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
 )
 (/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
@@ -937,11 +944,11 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count172
-\rotFPtop=\skip265
-\rotFPbot=\skip266
+\c@r@tfl@t=\count171
+\rotFPtop=\skip262
+\rotFPbot=\skip263
 \rot@float@box=\box31
-\rot@mess@toks=\toks28
+\rot@mess@toks=\toks31
 )
 (/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
@@ -955,7 +962,7 @@ Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
@@ -967,24 +974,24 @@ e
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
 (/usr/share/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip267
-\ABCIauxlen=\skip268
-\c@ABCIaux=\count173
-\c@ABCImax=\count174
+\minimumbiblabelwidth=\skip264
+\ABCIauxlen=\skip265
+\c@ABCIaux=\count172
+\c@ABCImax=\count173
 
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip269
+\biblabelsep=\skip266
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks29
+\ABCItoken=\toks32
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count175
-\Gm@cntv=\count176
-\c@Gm@tempcnt=\count177
+\Gm@cnth=\count174
+\Gm@cntv=\count175
+\c@Gm@tempcnt=\count176
 \Gm@bindingoffset=\dimen161
 \Gm@wd@mp=\dimen162
 \Gm@odd@mp=\dimen163
@@ -993,32 +1000,32 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen166
 \Gm@layouthoffset=\dimen167
 \Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks30
+\Gm@dimlist=\toks33
 )
 (/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
-\LTleft=\skip270
-\LTright=\skip271
-\LTpre=\skip272
-\LTpost=\skip273
-\LTchunksize=\count178
+\LTleft=\skip267
+\LTright=\skip268
+\LTpre=\skip269
+\LTpost=\skip270
+\LTchunksize=\count177
 \LTcapwidth=\dimen169
 \LT@head=\box32
 \LT@firsthead=\box33
 \LT@foot=\box34
 \LT@lastfoot=\box35
-\LT@cols=\count179
-\LT@rows=\count180
-\c@LT@tables=\count181
-\c@LT@chunks=\count182
-\LT@p@ftn=\toks31
+\LT@cols=\count178
+\LT@rows=\count179
+\c@LT@tables=\count180
+\c@LT@chunks=\count181
+\LT@p@ftn=\toks34
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2016/11/05 v2.16a AMS math features
-\@mathmargin=\skip274
+\@mathmargin=\skip271
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -1026,7 +1033,7 @@ Package: amstext 2000/06/29 v2.01 AMS text
 
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks32
+\@emptytoks=\toks35
 \ex@=\dimen170
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
@@ -1036,13 +1043,13 @@ Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count183
+\inf@bad=\count182
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count184
-\leftroot@=\count185
+\uproot@=\count183
+\leftroot@=\count184
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count186
-\DOTSCASE@=\count187
+\classnum@=\count185
+\DOTSCASE@=\count186
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1051,26 +1058,26 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count188
-\c@MaxMatrixCols=\count189
+\macc@depth=\count187
+\c@MaxMatrixCols=\count188
 \dotsspace@=\muskip11
-\c@parentequation=\count190
-\dspbrk@lvl=\count191
-\tag@help=\toks33
-\row@=\count192
-\column@=\count193
-\maxfields@=\count194
-\andhelp@=\toks34
+\c@parentequation=\count189
+\dspbrk@lvl=\count190
+\tag@help=\toks36
+\row@=\count191
+\column@=\count192
+\maxfields@=\count193
+\andhelp@=\toks37
 \eqnshift@=\dimen173
 \alignsep@=\dimen174
 \tagshift@=\dimen175
 \tagwidth@=\dimen176
 \totwidth@=\dimen177
 \lineht@=\dimen178
-\@envbody=\toks35
-\multlinegap=\skip275
-\multlinetaggap=\skip276
-\mathdisplay@stack=\toks36
+\@envbody=\toks38
+\multlinegap=\skip272
+\multlinetaggap=\skip273
+\mathdisplay@stack=\toks39
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
@@ -1080,14 +1087,14 @@ nment
 
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count266
-\float@exts=\toks37
+\c@float@type=\count194
+\float@exts=\toks40
 \float@box=\box38
-\@float@everytoks=\toks38
+\@float@everytoks=\toks41
 \@floatcapt=\box39
 )
-\@float@every@algorithm=\toks39
-\c@algorithm=\count267
+\@float@every@algorithm=\toks42
+\c@algorithm=\count266
 )
 (/usr/share/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
@@ -1096,36 +1103,36 @@ Package: algpseudocode
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count268
-\c@ALG@rem=\count269
-\c@ALG@nested=\count270
-\ALG@tlm=\skip277
-\ALG@thistlm=\skip278
-\c@ALG@Lnr=\count271
-\c@ALG@blocknr=\count272
-\c@ALG@storecount=\count273
-\c@ALG@tmpcounter=\count274
-\ALG@tmplength=\skip279
+\c@ALG@line=\count267
+\c@ALG@rem=\count268
+\c@ALG@nested=\count269
+\ALG@tlm=\skip274
+\ALG@thistlm=\skip275
+\c@ALG@Lnr=\count270
+\c@ALG@blocknr=\count271
+\c@ALG@storecount=\count272
+\c@ALG@tmpcounter=\count273
+\ALG@tmplength=\skip276
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
 ) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count275
+\lst@mode=\count274
 \lst@gtempboxa=\box40
-\lst@token=\toks40
-\lst@length=\count276
+\lst@token=\toks43
+\lst@length=\count275
 \lst@currlwidth=\dimen179
-\lst@column=\count277
-\lst@pos=\count278
+\lst@column=\count276
+\lst@pos=\count277
 \lst@lostspace=\dimen180
 \lst@width=\dimen181
-\lst@newlines=\count279
-\lst@lineno=\count280
+\lst@newlines=\count278
+\lst@lineno=\count279
 \lst@maxwidth=\dimen182
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count281
-\lst@skipnumbers=\count282
+\c@lstnumber=\count280
+\lst@skipnumbers=\count281
 \lst@framebox=\box41
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
@@ -1158,7 +1165,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count283
+\c@section@level=\count282
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1170,25 +1177,25 @@ LaTeX Info: Redefining \degres on input line 44.
 LaTeX Info: Redefining \dots on input line 44.
 LaTeX Info: Redefining \up on input line 44.
 
-Package frenchb.ldf Warning: OT1 encoding should not be used for French.
-(frenchb.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(frenchb.ldf)                of your document; reported on input line 44.
+Package french.ldf Warning: OT1 encoding should not be used for French.
+(french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
+(french.ldf)                of your document; reported on input line 44.
 
 \myptabbox=\box43
-\myptabboxwidth=\skip280
+\myptabboxwidth=\skip277
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count284
+\scratchcounter=\count283
 \scratchdimen=\dimen183
 \scratchbox=\box44
-\nofMPsegments=\count285
-\nofMParguments=\count286
-\everyMPshowfont=\toks41
-\MPscratchCnt=\count287
+\nofMPsegments=\count284
+\nofMParguments=\count285
+\everyMPshowfont=\toks44
+\MPscratchCnt=\count286
 \MPscratchDim=\dimen184
-\MPnumerator=\count288
-\makeMPintoPDFobject=\count289
-\everyMPtoPDFconversion=\toks42
+\MPnumerator=\count287
+\makeMPintoPDFobject=\count288
+\everyMPtoPDFconversion=\toks45
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1224,7 +1231,7 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count290
+\c@lstlisting=\count289
 [1
 
 
@@ -1232,7 +1239,7 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 (./Tese_Neylson.lot) [2
 
 ] (./Tese_Neylson.toc [3]) [4]
-Overfull \hbox (0.55116pt too wide) in paragraph at lines 116--117
+Overfull \hbox (0.55116pt too wide) in paragraph at lines 121--122
 []\OT1/cmr/m/n/12 Desse modo, ini-ci-a-re-mos o tra-ba-lho apre-sen-tado bre-ve
 -mente uma pes-quisa bi-bli-ogr^^Safica
  []
@@ -1241,21 +1248,23 @@ Overfull \hbox (0.55116pt too wide) in paragraph at lines 116--117
 
 ] [6]
 Package epstopdf Info: Source file: <chave.eps>
-(epstopdf)                    date: 2017-07-12 20:11:09
+(epstopdf)                    date: 2017-10-02 11:00:13
 (epstopdf)                    size: 11790 bytes
 (epstopdf)             Output file: <chave-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-12 20:11:09
+(epstopdf)                    date: 2017-10-02 11:00:13
 (epstopdf)                    size: 10671 bytes
 (epstopdf)             Command: <repstopdf --outfile=chave-eps-converted-to.pdf
  chave.eps>
-(epstopdf)             \includegraphics on input line 201.
+(epstopdf)             \includegraphics on input line 257.
 Package epstopdf Info: Output file is already uptodate.
- <chave-eps-converted-to.pdf, id=137, 458.71375pt x 268.00125pt>
+<chave-eps-converted-to.pdf, id=143, pagebox=cropbox, 458.71375pt x 268.00125pt
+>
 File: chave-eps-converted-to.pdf Graphic file (type pdf)
-
 <use chave-eps-converted-to.pdf>
-Package pdftex.def Info: chave-eps-converted-to.pdf used on input line 201.
-(pdftex.def)             Requested size: 366.9715pt x 214.40128pt.
+Package pdftex.def Info: chave-eps-converted-to.pdf  used on input line 257. on
+ input line 257.
+Package pdftex.def Info: Requested size: 366.9715pt x 214.40128pt on input line
+ 257.
  [7
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
@@ -1263,41 +1272,41 @@ has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.209 ...icas. O $V$ de Cramér é definido por $$
+l.265 ...icas. O $V$ de Cramér é definido por $$
                                                    V = \sqrt{\frac{\chi^2}{n...
  <./chave-eps-converted-to.pdf>] [8pdfTeX warning (ext4): destination with the 
 same identifier (name{table.1.1}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.329 
+l.447 
       pdfTeX warning (ext4): destination with the same identifier (name{table.1
 .2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.329 
+l.447 
       ] [9] [10
 
 ] [11]
 Package epstopdf Info: Source file: <doenca_dos_custos.eps>
-(epstopdf)                    date: 2017-07-12 20:11:09
+(epstopdf)                    date: 2017-10-02 11:00:13
 (epstopdf)                    size: 9016 bytes
 (epstopdf)             Output file: <doenca_dos_custos-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-12 21:30:31
+(epstopdf)                    date: 2017-10-02 11:14:08
 (epstopdf)                    size: 10559 bytes
 (epstopdf)             Command: <repstopdf --outfile=doenca_dos_custos-eps-conv
 erted-to.pdf doenca_dos_custos.eps>
-(epstopdf)             \includegraphics on input line 390.
+(epstopdf)             \includegraphics on input line 502.
 Package epstopdf Info: Output file is already uptodate.
-
-<doenca_dos_custos-eps-converted-to.pdf, id=224, 451.6875pt x 301.125pt>
+<doenca_dos_custos-eps-converted-to.pdf, id=230, pagebox=cropbox, 451.6875pt x 
+301.125pt>
 File: doenca_dos_custos-eps-converted-to.pdf Graphic file (type pdf)
-
 <use doenca_dos_custos-eps-converted-to.pdf>
-Package pdftex.def Info: doenca_dos_custos-eps-converted-to.pdf used on input l
-ine 390.
-(pdftex.def)             Requested size: 451.68639pt x 301.12425pt.
+Package pdftex.def Info: doenca_dos_custos-eps-converted-to.pdf  used on input 
+line 502. on input line 502.
+Package pdftex.def Info: Requested size: 451.68639pt x 301.12425pt on input lin
+e 502.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1307,73 +1316,104 @@ e.2.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.406 ...= y_i(L^{s}_{j}, K^{s}_{j}, m_j, q_j) $$ 
+l.518 ...= y_i(L^{s}_{j}, K^{s}_{j}, m_j, q_j) $$ 
                                                   onde <./doenca_dos_custos-eps
 -converted-to.pdf>] [14] [15] [16] [17] [18] [19
 
 ] [20] [21]
-<white_1_2.png, id=441, 376.40625pt x 242.40562pt>
+<white_1_2.png, id=447, 376.40625pt x 242.40562pt>
 File: white_1_2.png Graphic file (type png)
- <use white_1_2.png>
-Package pdftex.def Info: white_1_2.png used on input line 536.
-(pdftex.def)             Requested size: 376.40532pt x 242.40501pt.
- [22]
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3
-}) has been already used, duplicate ignored
+<use white_1_2.png>
+Package pdftex.def Info: white_1_2.png  used on input line 639. on input line 6
+39.
+Package pdftex.def Info: Requested size: 376.40532pt x 242.40501pt on input lin
+e 639.
+ [22] [23pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.3.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.551 
+l.654 
        <./white_1_2.png (PNG copy)>] [24] [25] [26] [27] [28] [29] [30]
 [31] [32
 
 ]
+\c@hip=\count290
+ [33]
+
+LaTeX Warning: Citation `brailly2016market' on page 34 undefined on input line 
+863.
+
+[34]
+
+LaTeX Warning: Citation `brailly2016market' on page 35 undefined on input line 
+865.
+
+
+LaTeX Warning: Citation `brailly2016market' on page 35 undefined on input line 
+865.
+
 Package epstopdf Info: Source file: <modelo_analise_tese.eps>
-(epstopdf)                    date: 2017-07-16 13:20:02
-(epstopdf)                    size: 37416 bytes
+(epstopdf)                    date: 2017-10-02 11:00:13
+(epstopdf)                    size: 35568 bytes
 (epstopdf)             Output file: <modelo_analise_tese-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-07-16 13:20:08
-(epstopdf)                    size: 17370 bytes
+(epstopdf)                    date: 2017-10-02 11:14:08
+(epstopdf)                    size: 14755 bytes
 (epstopdf)             Command: <repstopdf --outfile=modelo_analise_tese-eps-co
 nverted-to.pdf modelo_analise_tese.eps>
-(epstopdf)             \includegraphics on input line 708.
+(epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
-
-<modelo_analise_tese-eps-converted-to.pdf, id=613, 442.65375pt x 362.35374pt>
+<modelo_analise_tese-eps-converted-to.pdf, id=632, pagebox=cropbox, 550.055pt x
+ 363.3575pt>
 File: modelo_analise_tese-eps-converted-to.pdf Graphic file (type pdf)
-
 <use modelo_analise_tese-eps-converted-to.pdf>
-Package pdftex.def Info: modelo_analise_tese-eps-converted-to.pdf used on input
- line 708.
-(pdftex.def)             Requested size: 398.38467pt x 326.11536pt.
- [33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
-4}) has been already used, duplicate ignored
+Package pdftex.def Info: modelo_analise_tese-eps-converted-to.pdf  used on inpu
+t line 880. on input line 880.
+Package pdftex.def Info: Requested size: 440.04459pt x 290.68639pt on input lin
+e 880.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `mingoti2005analise' on page 35 undefined on input line
+ 887.
+
+[35] [36pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.716 
-       <./modelo_analise_tese-eps-converted-to.pdf>] [34] [35] [36]
-Underfull \hbox (badness 10000) in paragraph at lines 948--948
+l.890 	P
+        ara capturar as interações no nível individual, construiremos red...
+ <./modelo_analise_tese-eps-converted-to.pdf>] [37] [38pdfTeX warning (ext4): d
+estination with the same identifier (name{table.4.3}) has been already used, du
+plicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.966 
+      ] [39] [40]
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1423
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
 v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
  = page &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 948--948
+Underfull \hbox (badness 10000) in paragraph at lines 1423--1423
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
  . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
-[37
+[41
 
-] [38] [39pdfTeX warning (ext4): destination with the same identifier (name{tab
-le.5.3}) has been already used, duplicate ignored
+] [42] [43pdfTeX warning (ext4): destination with the same identifier (name{tab
+le.5.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1190 	\chapter
-                {Considerações Finais}] (./Tese_Neylson.bbl [40
+l.1880 	\chapter
+                {Considerações Finais}] (./Tese_Neylson.bbl [44
 
 ]
 
@@ -1381,155 +1421,155 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[41
+[45
 
-] [42]) [43]
-Underfull \hbox (badness 2564) in paragraph at lines 1352--1352
+] [46]) [47]
+Underfull \hbox (badness 2564) in paragraph at lines 2204--2204
 []|\OT1/cmr/m/n/10 Contributions to In-dian
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 1355--1356
+Underfull \hbox (badness 1242) in paragraph at lines 2210--2211
 []|\OT1/cmr/m/n/10 Factors af-fec-ting mar-ket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1358--1358
+Underfull \hbox (badness 10000) in paragraph at lines 2216--2216
 []|\OT1/cmr/m/n/10 Journal of Socio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
+Underfull \hbox (badness 10000) in paragraph at lines 2218--2219
 []|\OT1/cmr/m/n/10 Gendered-habitus, and
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 1359--1360
+Underfull \hbox (badness 7613) in paragraph at lines 2218--2219
 \OT1/cmr/m/n/10 the se-xual di-vi-sion of
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 1361--1361
+Underfull \hbox (badness 2269) in paragraph at lines 2222--2222
 []|\OT1/cmr/m/n/10 International Jour-nal of
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 1363--1363
+Underfull \hbox (badness 2142) in paragraph at lines 2226--2226
 []|\OT1/cmr/m/n/10 Segnini, Li-li-ana Rolf-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1368--1368
+Underfull \hbox (badness 10000) in paragraph at lines 2236--2236
 []|\OT1/cmr/m/n/10 Borowiecki, Ka-rol J;
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 1370--1370
+Underfull \hbox (badness 1163) in paragraph at lines 2240--2240
 []|\OT1/cmr/m/n/10 Dowd, Ti-mothy J; Lid-
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 1372--1373
+Underfull \hbox (badness 1577) in paragraph at lines 2244--2245
 []|\OT1/cmr/m/n/10 Collective Bar-gai-ning in
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 1373--1373
+Underfull \hbox (badness 3386) in paragraph at lines 2246--2246
 []|\OT1/cmr/m/n/10 Hughes, Pa-tri-cia; Luk-
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 1374--1375
+Underfull \hbox (badness 6047) in paragraph at lines 2248--2249
 []|\OT1/cmr/m/n/10 Organizational Cri-sis /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
 []|\OT1/cmr/m/n/10 Conductor le-a-dership
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 1375--1376
+Underfull \hbox (badness 3078) in paragraph at lines 2250--2251
 \OT1/cmr/m/n/10 style, mu-si-cian em-ploy-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 1375--1376
+Underfull \hbox (badness 8000) in paragraph at lines 2250--2251
 \OT1/cmr/m/n/10 ment sta-tus, or-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
 \OT1/cmr/m/n/10 ti-o-nal par-ti-ci-pa-tion to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
+Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
 \OT1/cmr/m/n/10 or-ches-tra mu-si-cian job
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1376--1376
+Underfull \hbox (badness 10000) in paragraph at lines 2252--2252
 []|\OT1/cmr/m/n/10 Bijsterveld, Ka-rin;
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 1377--1378
+Underfull \hbox (badness 1436) in paragraph at lines 2254--2255
 []|\OT1/cmr/m/n/10 Classical Mu-sic in Ger-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 1377--1378
+Underfull \hbox (badness 2951) in paragraph at lines 2254--2255
 \OT1/cmr/m/n/10 man Com-mer-cial Ra-dio
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 1379--1380
+Underfull \hbox (badness 5696) in paragraph at lines 2258--2259
 []|\OT1/cmr/m/n/10 Musical stra-ti-fi-ca-tion /
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 1386--1387
+Underfull \hbox (badness 6477) in paragraph at lines 2272--2273
 []|\OT1/cmr/m/n/10 Territorial dy-na-mics of
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 1387--1387
+Underfull \hbox (badness 6016) in paragraph at lines 2274--2274
 []|\OT1/cmr/m/n/10 Shin, Eui Hang; Oh,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1387--1388
+Underfull \hbox (badness 10000) in paragraph at lines 2274--2275
 []|\OT1/cmr/m/n/10 Relationships between
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 1387--1388
+Underfull \hbox (badness 1968) in paragraph at lines 2274--2275
 \OT1/cmr/m/n/10 - song-wri-ters & sin-gers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1388
+Underfull \hbox (badness 10000) in paragraph at lines 2276--2276
 []|\OT1/cmr/m/n/10 Salganik, Matthew J;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
+Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
 []|\OT1/cmr/m/n/10 Self-fulfilling Prophe-cies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
+Underfull \hbox (badness 10000) in paragraph at lines 2280--2281
 []|\OT1/cmr/m/n/10 Markets and socio-
  []
 
-[44
+[48
 
-] [45] [46
+] [49] [50
 
-] [47
+] [51
 
-] [48] [49]
+] [52] [53]
 \tf@lof=\write4
 \openout4 = `Tese_Neylson.lof'.
 
@@ -1539,25 +1579,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
 \tf@toc=\write6
 \openout6 = `Tese_Neylson.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1539.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1539.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2582.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2582.
  (./Tese_Neylson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1539.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1539.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2582.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2582.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1539.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2582.
  ) 
 Here is how much of TeX's memory you used:
- 14974 strings out of 493013
- 213904 string characters out of 6139317
- 380609 words of memory out of 5000000
- 18092 multiletter control sequences out of 15000+600000
+ 15025 strings out of 492990
+ 214726 string characters out of 6138688
+ 377993 words of memory out of 5000000
+ 18136 multiletter control sequences out of 15000+600000
  12197 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,13n,36p,2538b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,36p,2538b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1573,10 +1616,10 @@ pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Tese_Neylson.pdf (49 pages, 416596 bytes).
+Output written on Tese_Neylson.pdf (53 pages, 432283 bytes).
 PDF statistics:
- 1011 PDF objects out of 1200 (max. 8388607)
- 914 compressed objects within 10 object streams
- 231 named destinations out of 1000 (max. 500000)
- 277 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1058 PDF objects out of 1200 (max. 8388607)
+ 957 compressed objects within 10 object streams
+ 245 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

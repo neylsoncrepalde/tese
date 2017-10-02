@@ -1,215 +1,109 @@
 \documentclass[a4paper, 12pt, openright, oneside, german, french, english, brazil]{abntex2}
-
 \usepackage[brazil]{babel}
-
 \usepackage{graphicx}
-
 \usepackage[utf8]{inputenc}
-
 \usepackage{wrapfig}
-
 \usepackage{lscape}
-
 \usepackage{rotating}
-
 \usepackage{epstopdf}
-
 \usepackage[alf]{abntex2cite}
-
 \usepackage[a4paper, left=3cm, right=2cm, top=3cm, bottom=2cm]{geometry}
-
 \usepackage{indentfirst}
-
 \usepackage{longtable}
-
 \usepackage{amsmath}
-
 \usepackage{verbatim}
-
 \usepackage{algorithm}
-
 \floatname{algorithm}{Código}
-
 \renewcommand{\listalgorithmname}{Lista de Códigos}
-
 \usepackage{algpseudocode} %para escrever pseudo-algoritmos
-
 %\algrenewcommand\algorithmicwhile{\textbf{Enquanto}}
-
 %\algrenewcommand\algorithmicfor{\textbf{Para}}
-
 %\algrenewcommand\algorithmicif{\textbf{Se}}
-
 %\algrenewcommand\algorithmicthen{\textbf{então}}
-
 %\algrenewcommand\algorithmicelse{\textbf{Do contrário}}
-
 %\algrenewcommand\algorithmicdo{\textbf{faça}}
-
 %\algrenewcommand\algorithmicfunction{\textbf{Função}}
-
 %\algrenewcommand\algorithmicend{\textbf{termina}}
-
 \usepackage{listings} %para escrever códigos
-
 \pagestyle{plain}
 
-
-
 \titulo{\textbf{A Construção Social da Qualidade no Mercado da Música de Concerto}}
-
 \autor{Neylson J. B. F. Crepalde}
-
 \data{Agosto, 2017}
-
 \instituicao{UNIVERSIDADE FEDERAL DE MINAS GERAIS
-
 	\par
-
 	Faculdade de Filososia e Ciências Humanas}
-
 \local{Belo Horizonte}
-
 \orientador{Dr. Silvio Salej Higgins}
-
 \preambulo{Projeto de tese apresentado ao programa de pós-graduação em sociologia como requisito parcial à obtenção do título de Doutor em Sociologia.
-
 	
-
 	Linha de Pesquisa: Sociologia Econômica e das Organizações}
-
 \tipotrabalho{Tese (doutorado)}
 
 
-
-
-
 \begin{document}
-
 	\pretextual
-
 	%\imprimircapa
-
 	\imprimirfolhaderosto
-
 	
-
 	%	\begin{dedicatoria}
-
 	%		\vspace*{\fill}
-
 	%		Dedico este trabalho a \ldots
-
 	%		\vspace*{\fill}
-
 	%	\end{dedicatoria}
-
 	
-
 	%\begin{agradecimentos}
-
 	%	Gostaria de agradecer \ldots
-
 	%\end{agradecimentos}
-
 	
-
 	%\begin{epigrafe}
-
 	%	\vspace*{\fill}
-
 	%	\begin{flushright}
-
 	%		\textit{Não é da benevolência do violinista, do maestro e do diretor artístico que esperamos a nossa \textbf{música}, mas da consideração que ele tem pelos prórprios interesses.\\
-
 	%			(parafraseando Adam Smith)}
-
 	%	\end{flushright}
-
 	%\end{epigrafe}
-
 	
-
 	%% --- resumo em português ---
-
 	%\begin{resumo}
-
 	%	Resumo em português\\
-
 	%	\vspace{\onelineskip}
-
 	%	\noindent
-
 	%	\textbf{Palavras-chave}: latex. abntex. editoração de texto.
-
 	%\end{resumo}
-
 	%% --- resumo em inglês ---
-
 	%\begin{resumo}[Abstract]
-
 	%	\begin{otherlanguage*}{english}
-
 	%		The abstract in english.\\
-
 	%		\vspace{\onelineskip}
-
 	%		\noindent
-
 	%		\textbf{Keywords}: latex. abntex. publication of texts.
-
 	%	\end{otherlanguage*}
-
 	%\end{resumo}
-
 	%% --- resumo em francês ---
-
 	%\begin{resumo}[Résumé]
-
 	%	\begin{otherlanguage*}{french}
-
 	%		Il s’agit d’un résumé en français.\\
-
 	%		\vspace{\onelineskip}
-
 	%		\noindent
-
 	%		\textbf{Mots-clés}: latex. abntex. publication de textes.
-
 	%	\end{otherlanguage*}
-
 	%\end{resumo}
-
 	
-
 %	\listofalgorithms
-
 	\listoffigures
-
 	\listoftables	
-
 	\newpage
-
 	\tableofcontents
-
 	\textual
-
 	
-
 	\chapter*[Introdução]{Introdução}
-
 	\addcontentsline{toc}{chapter}{INTRODUÇÃO}
-
 	
-
 	Para que o produto final por excelência de uma orquestra, a saber o concerto, venha a existir e chegue ao seu destino, o público, uma série de atores se envolvem em diversos processos de cooperação e mobilizam uma série de recursos construindo um sistema de produção em rede, ou o que Howard Becker chamaria de um ``mundo da arte'' (\textit{Art World}). Para \citeonline[p. 1, tradução do autor]{becker2008art}, ``a existência de mundos da arte, bem como o modo como sua existência afeta tanto a produção quanto o consumo de obras de arte, sugere uma abordagem sociológica para as artes'' \footnote{The existence of art worlds, as well as the way their existence affects both the production and consumption of art works, suggests a sociological approach to the arts.}.
 
-	
-
 		
-
 	%\begin{citacao}
-
 	%	Os mundos da arte consistem de todas as pessoas cujas atividades são necessárias para a produção de obras características que aquele mundo, e talvez outros ainda, definem como arte. Membros dos mundos da arte coordenam as atividades pelas quais a obra é produzida referindo-se a um corpo de entendimentos convencionais incorporados na prática comum e nos artefatos comumente usados. As mesmas pessoas frequentemente cooperam repetidamente, até mesmo rotineiramente, de formas similares para produzir obras similares, portanto podemos pensar em um mundo da arte como uma rede de conexões de cooperação entre os participantes estabelecida.\footnote{Art worlds consist of all the people whose activities are necessary to the production of the characteristic works which that world, and perhaps others as well, define as art. Members of art worlds coordinate the activities by which work is produced by referring to a body of conventional understandings embodied in common practice and in frequently used artifacts. The same people often cooperate repeatedly, in similar ways to produce similar works, so that we can think of an art world as an established network of cooperative links among participants.} \cite[p. 34-5]{becker2008art}
 
 	%\end{citacao}
@@ -218,39 +112,13 @@
 
 	%Para que os concertos aconteçam, a orquestra (formada pelos instrumentistas, pelo maestro, pela administração e ainda pela instituição mantenedora) toca uma obra escrita por um compositor em uma notação convencionada. Os instrumentistas tocam em instrumentos construídos por um luthier de uma maneira também convencionada. Para que o concerto aconteça, é preciso que exista uma demanda por ele. Por isso, além da orquestra, participam do evento o público consumidor do espetáculo, os meios de divulgação pelos quais esse público toma conhecimento do concerto, o Estado como regulador e financiador, as empresas privadas que também financiam a orquestra, além de diversos outros atores com papeis menores, embora igualmente importantes (iluminadores, técnicos de som, funcionários da bilheteria, copistas, arquivistas, montadores, etc.).
 
-	
 
 	Por outro lado, se prestamos atenção à dinâmica comum aos mercados, o que percebemos com maior facilidade é um ambiente altamente concorrencial. O fenômeno supracitado é abordado por \citeonline{lazega2009theorie} de uma perspectiva distinta: no mundo concorrencial, os atores se veem constantemente em situações em que buscam a estabilidade do mercado tornando-o viável. Isso não acontece simplesmente de acordo com a lei da oferta e da demanda mas a partir do posicionamento dos produtores numa escala de qualidade que diferencia seus produtos. Para que isso seja possível, a concorrência total é inviável já que existe uma parcela de interdependência entre produtores. Essa visão está ancorada na perspectiva relacional a qual concebe mercados como estruturas sociais, empresas, Estados, etc., como estruturas em rede \cite{white2008,white2002markets,lazega2014redes}.
 
-	
 
 	O foco deste trabalho é descortinar o mercado da música de concerto. Esse mercado ainda permanece fora do interesse convencional de economistas, sociólogos e demais estudiosos dos mercados, talvez por uma mera obra do acaso, talvez por sua alta complexidade e especificidade. Antes de apresentar nossas perguntas de pesquisa e nossos objetivos, faz-se necessário uma imersão na literatura de base realizando uma revisão tão profunda quanto possível. Após essa revisão, tentaremos extrair da observação da própria literatura (considerando o que já está postulado e, sobretudo, as lacunas existentes) os rumos de nossa investigação.
 
-	
-
 	Desse modo, iniciaremos o trabalho apresentado brevemente uma pesquisa bibliográfica realizada em duas das principais bases de produção acadêmica disponíveis na área de sociologia e economia. Encontramos que a produção científica sobre o mercado da música de concerto nos últimos 30 anos é ínfima. Depois, investigaremos na teoria econômica o conhecimento já sedimentado sobre bens culturais buscando entender os desafios colocados por nosso objeto de pesquisa. No terceiro capítulo, apresentaremos o framework teórico adotado para as análises, qual seja, a Análise de Redes Sociais (\textit{Social Network Analysis})\footnote{Muito embora, antecipamos, as ferramentas conhecidas como \textit{social network analysis} não constituem uma teoria geral do mundo que dedutivamente se aplique a qualquer realidade complexa. Trata-se, aqui, de um conjunto de ferramentas metodológicas aliadas a uma concepção de relações sociais.}. No quarto capítulo apresentaremos o desenho de pesquisa explicitando que tipo de dados intencionamos coletar, os procedimentos adotados, as formas de análises e os resultados esperados. Por fim, apresentamos uma investigação preliminar iniciada com uma das orquestras da cidade de Belo Horizonte bem como as considerações finais deste projeto.
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 
 	
 
@@ -259,10 +127,6 @@
 	
 
 	%Desse modo, para que esse mercado viável seja possível, é necessário que que as empresas se engajem constantemente numa combinação estável de concorrência e de cooperação. A emergência de uma estrutura a partir das próprias relações assimétricas entre eles pode criar vantagens para alguns. Para \citeonline{lazega2009theorie}, ``as relações de poder e os controles que eles exercem sobre as negociações são, portanto, cruciais nesse modelo. Sobre esse tipo de mercado, por definição, a troca não é jamais bilaterial, sempre multilateral e estratégica\footnote{Les relations de pouvoir et les contraintes qu'elles font peser sur les négociations sont donc cruciales dans ce modèle. Sur ce type de marché, par définition, l'échange n'est jamais bilatéral, toujours multilatéral et stratégique.}'' \cite[p. 563, tradução do autor]{lazega2009theorie}. Esse fenômeno é conhecido na literatura como \textit{coopetition}. A partir das perspectivas apresentadas, entramos na problemática que conduz nossa investigação.
-
-	
-
-	
 
 	
 
@@ -383,49 +247,27 @@
 	
 
 	\chapter{Investigação Bibliográfica Preliminar}
-
 	
-
 	Com o objetivo de identificar o ``estado da arte"  no campo de pesquisas que envolvem o mercado da música e a economia da música, pesquisamos os \textit{abstracts} de trabalhos publicados na área entre 1983 e 2014 ($n=44$). Para isso, usamos as \textit{keywords} listadas na Figura \ref{chaves-busca} nos indexadores \textit{Sociological Abstracts} e \textit{Econlit}. A grande maioria dos trabalhos encontrados são artigos (86.36\%), quatro são teses de doutorado e dois são livros que foram publicados também a partir de trabalhos de doutorado. Os tipos de estudo mais encontrados na área foram estudos de caso (\textit{Case Studies}), estudos históricos e trabalhos de cunho quantitativo (cf. Tabela \ref{tipo-de-estudo}). Aqui é importante salientar que a codificação dos tipos de estudo foi feita a partir dos resumos consultados tendo como critério a sua citação expressa.
-
 	
-
 	\begin{figure}[!h]
-
 		\centering
-
 		\caption{Chaves de busca usadas}
-
 		\label{chaves-busca}
-
 		\includegraphics[scale=0.8]{chave.eps}
-
 		\legend{Fonte: Dados trabalhados pelo autor}
-
 	\end{figure}
 
 
-
-
-
 	
-
 	Dois estudos experimentais chamaram nossa atenção pela originalidade do desenho metodológico, a saber, \citeonline{salganik2008leading} pela aplicação do método experimental no estudo de um mercado cultural artificial e \citeonline{kasaras2012musical} que também utilizam do método experimental aliado à análise de redes sociais para investigar a influência no gosto musical na Web.  Eles são ainda bem recentes e não estão inseridos, como as outras metodologias, numa tradição de pesquisa em sociologia. 
-
 	
-
 	Os métodos (cf. Tabela \ref{metodos-usados}) mais citados nos resumos foram a \textit{Social Network Analysis}, o \textit{Web-based Experiment} e pesquisas utilizando grandes bancos de dados (\textit{Big Data}) e entrevistas. Após cruzar as frequências dos métodos utilizados com o ano de publicação, investigamos se, de fato há associação entre essas variáveis na amostra calculando o $V$ de Cramér, uma medida para associação de variáveis categóricas. O $V$ de Cramér é definido por $$ V = \sqrt{\frac{\chi^2}{n\cdot(k-1)}} $$ onde $k$ é o menor valor entre o número de linhas e o número de colunas da tabela gerada \cite{barbetta2012estatistica}.
-
 	
-
 	O valor calculado para estas variáveis foi $V=0.9280$ indicando uma associação muito forte. As variáveis ``Métodos" e "Tipo de estudo" apresentaram associação perfeita. Podemos perceber que os métodos utilizados tem uma mudança mais significativa no tempo do que as metodologias propriamente. É notável a grande variedade de métodos utilizados nessa área de pesquisa. Esse fato aliado ao pequeno número de artigos publicados no espaço de trinta e um anos denota pouca atenção destinada ao campo do mercado da música de concerto o que, \textit{per se}, já justifica nosso esforço.
-
 	
 
-
-
 	
-
 	% latex table generated in R 3.1.3 by xtable 1.7-4 package
 
 	% Wed Jul 08 11:53:02 2015
@@ -600,359 +442,175 @@
 	
 
 		\section{Perspectivas teóricas e abordagens}
-
 	
-
 		Os temas de investigação aparecem nos trabalhos de uma maneira bastante difusa. Encontramos algumas publicações abordando aspectos culturais que influenciam o mercado da música, o mercado de trabalho dos músicos, as relações de gênero e a divisão do trabalho, financiamento e ``patronagem", o consumo da música e as variáveis que o explicam, gosto musical, padrões estéticos, identidade cultural e música nacional/folclórica, história social dos músicos, o ``cânon" do repertório musical, liderança do maestro e participação e satisfação dos músicos, música antiga\footnote{No campo da música, convencionou-se chamar de música antiga aquela escrita até o séc. XVII.}, revolução digital e indústria fonográfica.
-
 	
-
 		Percebemos algumas leves polarizações entre os autores expressamente citados nos resumos. Um deles é Bourdieu que, conhecidamente, deixou um vasto trabalho na área de sociologia da arte e do consumo de arte. O nome de Viviana Zelizer aparece relacionado ao de Bourdieu em um resumo consultado. Stigler e Becker são citados num trabalho que argumenta contra a perspectiva econômica neoclássica. Matthew Salganik também aparece nessa bibliografia como autor de dois trabalhos e é citado por mais um indicando novamente atenção ao método experimental na área. No campo, alguns trabalhos tendem a seguir uma perspectiva teórica que privilegia a influência dos aspectos culturais na economia (sociologia econômica). No entanto, não há uma corrente teórica definida perceptível, o que indica que a área não é madura e nem tem uma tradição de pesquisas consolidada.
-
 		
-
 		No primeiro anexo deste trabalho apresentamos para o leitor um quadro contendo autor, ano, periódico de publicação e principais assuntos de todos os trabalhos aqui investigados. Pelo fato de que todas referências encontradas são apenas tangenciais ao nosso objeto de pesquisa, nenhuma delas foi revisada em profundidade. O mérito desta investigação bibliográfica preliminar reside justamente no reconhecimento de que nosso objeto de pesquisa permanece até hoje praticamente inexplorado em suas particularidades. 
 
-	
 
-	
 
-	
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 
 	\chapter{Os produtos culturais}
-
 	
-
 	O primeiro desafio deste trabalho reside no fato de que estamos lidando com um objeto que desafia a maioria dos pressupostos da teoria econômica vigente. Comecemos, portanto, estabelecendo algumas diferenças fundamentais entre os bens culturais e as mercadorias comuns conforme concebidos tradicionalmente pela teoria econômica. Segundo \citeonline{tolila2007cultura}, as mercadorias são entendidas por meio de quatro critérios objetivos, a saber, suas propriedades físicas (as quais, nesse caso, estão diretamente relacionadas com a qualidade do produto em questão), a data e o local em que ele está disponível e aquilo que condiciona sua entrega num universo certo, i.e., sem incertezas. A qualidade de um bem, nessa perspectiva, pode ser decomposta em uma série de elementos objetivos, i.e., claramente mensuráveis e hierarquizáveis. Além disso, na teoria econômica clássica todo bem é considerado um ``bem privado'' e, portanto, ``exclusivo e rival'' no consumo. Para citar um exemplo, ``um café, um sanduíche, uma camisa, um par de sapatos, uma cadeira, etc., são bens exclusivos porque é possível impedir-me de obtê-los (\ldots); por outro lado, cada um desses bens é de consumo exclusivo porque no momento em que o aproveito, nenhuma outra pessoa pode usufruí-lo'' \cite[p. 29]{tolila2007cultura}. Ora, os produtos culturais, de um modo geral, são não exclusivos; pode-se, por exemplo, admirar um belo edifício histórico na rua sem ter que pagar por isso. Tampouco são rivais no consumo; o prazer de assistir um concerto não é diminuído pela presença de outras pessoas no público.
-
 	
-
 	Esse setor da economia define-se, ainda, pela sua lógica de oferta voltada à produção, ao contrário dos mercados de bens comuns voltados ao consumo. Para \citeonline[p. 32]{tolila2007cultura}, ``essa lógica da oferta caracteriza bem, entre outras, a ação das políticas públicas em termos de investimento, de ajuda e de sustentação das atividades culturais, do patrimônio ao espetáculo ao vivo, e em termos de incentivos às práticas culturais''. De fato, os Estados e coletividades públicas tem demonstrado interesse crescente no setor cultural, o que pode ser verificado através das políticas públicas, das administrações especializadas, da alocação de recursos dirigidos especificamente ao setor e do surgimento de toda uma rede de instituições e profissionais atuantes no setor cultural, grande parte deles financiados por dinheiro público \cite{tolila2007cultura}. Para \citeauthoronline{tolila2007cultura}
-
 	
-
 	\begin{citacao}
-
 		Consequentemente, a atenção das autoridades, dos cidadãos e de seus representantes, foi desenvolvida em duas direções clássicas no contexto das democracias: por um lado, \textbf{o debate público interno} sobre a alocação dos recursos, o valor deles e seu significado, por outro, \textbf{a competição exterior} com os outros Estados pelas questões de mercados e de comércio. Essa segunda direção (\ldots) é inseparável dos dilemas e debates que movimentam atualmente todas as reflexões sobre \textbf{a globalização e a diversidade das expressões culturais}. \cite[p. 71-2]{tolila2007cultura}
-
 	\end{citacao}
-
-	
 
 	Para esse autor, esses dois elementos são constitutivos do valor simbólico atribuído às práticas e ao desenvolvimento cultural à medida que traz relevância ao debate relacionado à identidade e diversidade cultural. O valor simbólico dos bens culturais constitui, para nós, um elemento central na compreensão de nosso objeto de estudo, muito embora, contrariando novamente a teoria econômica clássica, não seja objetivo em sua natureza mas relacional e individual, i.e., só existe à medida que é reconhecido pelo indivíduo no momento de seu consumo. Para que o valor simbólico de um determinado bem seja reconhecido, é necessário que haja estruturas cognitivas apropriadas para a compreensão e fruição do bem, ou seja, esquemas mentais adquiridos por meio da educação artística prévia \cite{bourdieu2003amor}.
-
 	
-
 	As performances musicais possuem ainda uma particularidade quanto à natureza de sua existência na qual reside grande parte das dificuldades metodológicas que as cercam. \citeonline{tolila2007cultura} explica:
-
 	
-
 	\begin{citacao}
-
 		O que é a música? A partitura escrita? Não. Os músicos que formam a orquestra? Não. O regente? Também não. Na verdade, é quase impossível definir a música como uma ``coisa'' (uma mesa, uma cadeira, uma casa, etc.) pois ela só existe de fato no momento em que é ouvida, isto é, em uma relação com o ouvinte\footnote{Para o autor, ``na verdade, no mundo social, o modo real de existência da maioria dos fenômenos é o da relação entre seres humanos'' \cite[p. 110]{tolila2007cultura}. Curiosamente, nessa premissa se baseia todo o paradigma neoestrutural na sociologia conhecido também como ``perspectiva relacional'' ou ``teoria das redes sociais''.}. \cite[p. 109]{tolila2007cultura}
-
 	\end{citacao}
-
 	
-
 	Desse modo, a música (bem como a dança e o teatro, por exemplo) assume um modo especial de existência que envolve a participação de todos os elementos ou atores supracitados, a saber, partitura, músicos, regente, etc., na construção de sua materialidade que só existe (e portanto só é possível de ser consumida) no momento da escuta. Segundo \citeonline[p. 54]{benhamou2007economia} ``a concorrência assume a forma paradoxal de uma competição entre instituições que oferecem bens únicos e efêmeros'' onde o comportamento dos atores econômicos tende a monopólios discriminatórios. Para essa autora, o setor é caracterizado por uma fragilidade constante devido a elevações periódicas de custos e à quase-ausência de reservas de produtividade. De fato, como veremos, o paradigma vigente, no que tange a teoria econômica das performances ao vivo, aponta para um inevitável estado deficitário.
-
 	
-
 	\section{O modelo de Baumol e Bowen -- a ``doença dos custos''}
-
 	
-
 	William Baumol e William Bowen empreenderam, sob encomenda da Fundação Ford em 1965, uma pesquisa visando diagnosticar a situação econômica dos teatros da Broadway \cite{benhamou2007economia}. Seus achados são até hoje considerado válidos. Para \apudonline{baumol1966performing}{benhamou2007economia} a economia divide-se em dois setores, o setor 1 (arcaico) e o setor 2 (progressista). O setor arcaico não apresenta possibilidades de gerar ganhos de produtividade enquanto o setor progressista gera ganhos de produtividade a partir de inovações, de economias de escala e da acumulação de capital. A performance ao vivo faz parte do setor arcaico e isso se deve à posição que nele ocupa o trabalho. Para \citeonline{benhamou2007economia}
-
 	
-
 	\begin{citacao}
-
 		O trabalho é um elemento constitutivo do produto final: não se poderia substituí-lo sem desnaturar o produto. Não se poderia, por exemplo, substituir um dos instrumentistas de um quarteto de cordas por uma gravação\ldots Ora, os salários são iguais aos do setor progressista, devido à fluidez do mercado de trabalho; a consequência é um aumento permanente dos custos relativos do espetáculo ao vivo, que somente uma elevação dos preços das entradas pode compensar, com o risco de reduzir a demanda e as receitas. 
-
 	\end{citacao}
-
-	
 
 	O modelo de \apudonline{baumol1966performing}{benhamou2007economia} baseia-se nas três hipóteses que se seguem:
-
 	
-
 	\begin{enumerate}
-
 		\item A economia divide-se em dois setores, arcaico e progressista. No setor arcaico, onde reside a performance ao vivo, a produtividade do trabalho é constante ou aumenta pouco e a quantidade de trabalho não pode ser diminuída sem desnaturar o produto. Sendo $L_{1,t}$ o volume de trabalho empregado no setor 1 no momento \textit{t} e \textit{a} um valor constante, a quantidade de produto no setor 1 no momento \textit{t} ($Y_{1,t}$) é obtida por $$Y_{1,t} = aL_{1,t}$$
-
 		
-
 		Sejam $Y_{2,t}$ e $L_{2,t}$ respectivamente a quantidade de produto do setor progressista no momento \textit{t} e o volume de trabalho empregado no setor 2 no momento \textit{t}, seja r a taxa de aumento da produtividade do trabalho e \textit{b} uma constante, a quantidade de produto no setor é obtido por $$Y_{2,t} = bL_{2,t}[1+r]^t $$
-
 		
-
 		\item Os custos de produção, comparados somente com os custos salariais (\textit{W}), evoluem no mesmo ritmo e sentido que a produtividade no setor progressista, isto é, $W_{1,t} = W_{2,t} = W_t = W[1+r]^t$. Os custos relativos de cada setor são, portanto, dados por
-
 		$$C_1 = \frac{W_tL_{1,t}}{Y_{1,t}} = \frac{W(1+r)^tL_{1,t}}{aL_{1,t}} = \frac{W(1+r)^t}{a}$$
-
 		$$C_2 = \frac{W_tL_{2,t}}{Y_{2,t}} = \frac{W(1+r)^tL_{2,t}}{bL_{2,t}(1+r)^t} = \frac{W}{b}$$
-
 		
-
 		Tem-se, então, que o custo por unidade de produto obtido aumenta indefinidamente no setor 1 e mantém-se constante no setor 2. As funções de custos de produção em ambos os setores está representada na Figura \ref{custos-de-producao}.
-
 		
-
 		% Inserir a figura plotando as duas funções
-
 		\begin{figure}[!h]
-
 			\centering
-
 			\caption{Custos de Produção}
-
 			\label{custos-de-producao}
-
 			\includegraphics[scale=1]{doenca_dos_custos.eps}
-
 			\fonte{Elaboração do autor.}
-
 		\end{figure}
-
 		
-
 		
-
 		\item ``A demanda de espetáculos ao vivo é elástica; toda alta de preço redunda numa redução do público'' \cite[p. 56]{benhamou2007economia}. Sendo os preços proporcionais aos custos relativos nos dois setores, $P_1 = \alpha C_1$ e $P_2 = \beta C_2$, então
-
 		$$\frac{P_1Y_1}{P_2Y_2} = \frac{\alpha C_1Y_1}{\beta C_2Y_2} = Cte$$ ou
-
 		$$\frac{C_1Y_1}{C_2Y_2} = \frac{W(1+r)^t \cdot L_{1,t}}{W(1+r)^t \cdot L_{2,t}} = \frac{L_{1,t}}{L_{2,t}} = K_0$$ e
-
 		$$\frac{Y_1}{Y_2} = \frac{aL_{1,t}}{bL_{2,t}(1+r)^t} = \frac{aK_0}{b(1+r)^t}$$
-
 		
-
 		``Quando \textit{t} aumenta, $\frac{Y_1}{Y_2}$ diminui, e quando $t \rightarrow \infty$, $\frac{Y_1}{Y_2} \rightarrow 0$'' \cite[p. 57]{benhamou2007economia}. Desse modo, a produção do setor arcaico (1) diminui fatalmente.
-
 	\end{enumerate}
-
 	
-
 	De forma complementar à lei de Baumol, \citeonline{throsby1994production} desenvolve uma função da produção do espetáculo ao vivo a qual pode ser sintetizada da seguinte forma:
-
 	
-
 	O número de representações de uma determinada temporada deve ser fixado levando em conta a capacidade da sala \textit{v}. Sejam $L^s$ e $K^s$ o trabalho e o capital necessários para montar uma produção, sejam $L^r$ e $K^r$ o trabalho e o capital requeridos por cada representação da produção, o número de espectadores da iésima representação da jésima produção, $y_{ij}$, tal que $y_{ij} \leq v$, é dado por
-
 	$$y_j = \sum_iy_{ij} = y_i(L^{s}_{j}, K^{s}_{j}, m_j, q_j) $$ onde
-
 	o número de representações da jésima produção $$m_j = m_j(L^{r}_{j}, K^{r}_{j})$$ e $q_j$ resume as qualidades da jésima produção as quais, nesse contexto, podem ser medidas pela luxuosidade (\textit{lavishness}) da produção. Nesse caso, $q_j$ não é independente de $L^s$ e $K^s$. Espera-se que $$\frac{\partial y_j}{\partial m_j} > 0 \quad, \quad \frac{\partial^2y_j}{\partial m^{2}_{j}} < 0,$$ isto é, extender a temporada pode reduzir o número de espectadores na margem.
-
 	
-
 	Segundo \citeonline[p. 59]{benhamou2007economia} ``a conclusão do modelo [de Baumol] é a inelutabilidade do aumento dos déficits dos espetáculos ao vivo''. Esse modelo tem sido corroborado por várias pesquisas \cite[e.g.]{throsby1979economics,leroy1980economie,peacock1983inflation,baumol1984inflation,dias2011artes} e, para \citeonline[p. 54]{benhamou2007economia}, essa característica do setor é suficiente para justificar o aumento das subvenções públicas e da prática do mecenato mesmo tendo em vista que ``essa intervenção maciça, distribuída de forma muito desigual, não é suficiente para garantir ao setor um equilíbrio financeiro duradouro''. Para \apudonline[p. 320]{baumol1966performing}{luksetich2011orchestras}, ``se se concorda que a artes de performance conferem benefícios gerais à comunidade como um todo\ldots as artes são bens públicos cujos benefícios demonstravelmente excedem as receitas que se espera coletar na bilheteria\footnote{If one agrees that the performing arts confer general benefits on the community as a whole\ldots the arts are public goods whose benefits demonstrably exceed the receipts one can hope to collect at the box office.}''. O modelo, entretanto, possui inconsistências, algumas delas apontadas por \citeonline{benhamou2007economia}.
-
 	
-
 	A primeira consiste do pressuposto de que os salários do setor 1 são iguais aos do setor 2. Entretanto, desde a Segunda Guerra Mundial, os salários médios no setor do espetáculo ao vivo apresentaram uma tendência a crescerem menos do que no outro setor \apud{throsby1994production}{benhamou2007economia}. A segunda consiste do pressuposto altamente discutível de que a demanda é sensível ao preço. Maior parece ser o efeito da qualidade (percebida) do espetáculo sobre a demanda. De fato, \citeonline{throsby1994production} salienta que, por causa da dificuldade na medição da qualidade das performances, os efeitos dessa variável usualmente ficam restritos ao termo do erro nos modelos econométricos com a exceção de um estudo experimental conduzido pelo próprio \citeonline{throsby1983quality}. Nesse trabalho, o autor identificou algumas características da qualidade da performance no teatro como a qualidade da atuação, da produção, do roteiro e encontrou que a demanda é inelástica com relação ao preço dos ingressos mas \textit{altamente correlacionada com a qualidade esperada}. Este ponto parece central na investigação do mercado das orquestras e será desenvolvido oportunamente.
-
 	
-
 	Além disso, é possível reduzir os custos de uma produção de espetáculo ao vivo de várias formas, a saber, através da gravação e reprodução do espetáculo, através do uso, na música, de sons \textit{sampleados} ou eletrônicos ao invés da contratação de músicos, a utilização de um mesmo ator representando mais de um papel em uma montagem cênica ou a reutilização de cenários e figurinos (práticas comum em montagens modernas de ópera), dentre várias outras. Para \citeonline[p. 60]{benhamou2007economia} esses meios ``equivalem a substituir o déficit comercial por um `déficit artístico'. Mesmo assim, essas medidas não são suficientes para compensar a diferença de produtividade. 
-
 	
-
 	A terceira inconsistência reside no fato de que a alta da produtividade nos setores progressistas acompanhada por um aumento de salário proporcional à melhora das qualificações provoca um crescimento da procura por espetáculos, o que \textit{per se} contribui com a solução das dificuldades criadas pela diferença de produtividade nos setores \apud{throsby1979economics}{benhamou2007economia}. O crescimento, para \apudonline{baumol1966performing}{benhamou2007economia} reside na presença de consumidores cada vez mais sagazes e exigentes e acaba por gerar custos marginais superiores às receitas. ``As companhias musicais ajudaram a construir a reputação de artistas cuja contratação se tornou inevitável. A consequência é um aumento exagerado dos cachês e dos custos'' \cite[p. 61]{benhamou2007economia}. 
-
 	
-
 	Por mais que seja verdadeira esta última constatação sobre os custos gerados na contratação de artistas de renome, parece também uma grande ingenuidade acreditar que o aumento de salário acarreta um crescimento na procura por espetáculos ao vivo. Na verdade os estudos em sociologia econômica tem mostrado, como veremos, que o consumo artístico está ligado ao que Bourdieu (\citeyear{bourdieu2011forms,bourdieu2003amor,bourdieu2007distincao}) chama de ``capital cultural'' e à construção de uma identidade social. 
-
 	
-
 	A quarta inconsistência é esta: A gravação dos espetáculos pode gerar receita. Embora as rendas de espetáculos gravados sejam pequenas conforme investigações no contexto americano \apud{heilbrun2001economics}{benhamou2007economia} parecem ser um recurso bastante explorado no setor Algumas orquestras brasileiras costumam disponibilizar as gravações de seus concertos e óperas como produto secundário da sua carta de produtos. Gravações de estúdio e ainda outros produtos (camisetas, acessórios, \textit{souvenirs}) compõem o financiamento dessas instituições. Oportunamente abordaremos esse ponto.
-
 	
-
 	\citeonline{throsby1994production}, após revisar vários estudos que testam a lei de Baumol conclui que
-
 	
-
 	\begin{citacao}
-
 		Os impactos combinados dos ajustes de produção aumentaram a demanda e níveis crescentes de receita não esperada contrariaram qualquer tendência em direção a um aumento secular nos déficits entre companias de performance sugerindo que, embora a doença dos custos irá indubitavelmente continuar a presentear a artes performáticas com problemas difíceis, é improvável que chegue ao extremo\footnote{the combined impacts of production adjustments increased demand, and generally rising levels of unearned revenue have countered any tendency towards a secular rise in deficits among performance companies, suggesting that although the cost disease will doubtless continue to present the performing arts with difficult problems, it is unlikely to be terminal.}. \cite[p. 16]{throsby1994production}
-
 	\end{citacao}
 
-	
-
 	Por fim, a análise de \citeonline{baumol1966performing} apontando a especificidade do setor contribuiu tanto para o desenvolvimento do programa de pesquisa que hoje conhecemos como economia da cultura quanto para o reconhecimento da necessidade de vinculação dos espetáculos ao vivo à esfera não-comercial subvencionada. Sigamos agora examinando como o mercado cultural brasileiro obtém seus recursos e o principal mecanismo de financiamento para que isso aconteça: as leis de incentivo à cultura.
-
 	
-
 	\section{Políticas Culturais no Brasil}
-
 	
-
 	Para \citeonline[p. 62]{benhamou2007economia}, ``na França, o espetáculo ao vivo vive essencialmente das subvenções públicas''. A realidade brasileira não parece ser diferente. No Brasil, a música de concerto, bem como as artes em geral, parecem obter a maior parte de seu financiamento através do Estado seja por investimento direto, seja por investimento indireto via isenção fiscal. No contexto brasileiro, a mais substantiva política pública na área da cultura reside na implementação de mecanismos de fomento à produção cultural mediante isenção fiscal os quais conhecemos como ``leis de incentivo à cultura''. Para \citeonline{sarkovas2005incentivo} a receita dos empreendimentos culturais \textit{per se} não dão conta de suprir as demandas do setor. Por isso se fazem necessárias outras três fontes de financiamento, a saber, 
-
 	
-
 	\begin{citacao}
 		\_o Estado, que tem a responsabilidade de fomentar a criação artística e intelectual, e a distribuição do conhecimento, bases do progresso humano;\\
 		\_o investimento social privado, evolução histórica do mecenato, meio pelo qual cidadãos e instituições privadas tornam-se agentes do desenvolvimento da sociedade;\\
 		\_o patrocínio empresarial, estratégia de construção de marcas e de relacionamento com seus públicos, feita por associação com ações de interesse público. \cite[p. 22]{sarkovas2005incentivo}
 	\end{citacao}
-
 	
-
 	Para \citeonline{sarkovas2005incentivo}, essas três fontes foram interconectadas na criação de um sistema de financiamento por isenção fiscal que culminou em nossa conhecida Lei de Incentivo à Cultura. Em 2 de julho de 1986 era sancionada a ``Lei Sarney'', o primeiro mecanismo de isenção fiscal do país. Essa lei permitia que contribuintes abatessem dos impostos a pagar parte da quantia que decidiram investir em instituições culturais. A lei foi revogada sem motivo aparente em 1990 dando lugar a iniciativas semelhantes organizadas pelos governos municipais. No fim do mesmo ano foi promulgada em São Paulo a ``Lei Mendonça'' que permitia dedução do ISS\footnote{Imposto sobre serviços de qualquer natureza.} e do IPTU\footnote{Imposto sobre propriedade predial e territorial urbana.}. Outros municípios brasileiros acompanharam a medida e alguns estados criaram um modelo de isenção fiscal cujo abatimento se dava sobre o ICMS\footnote{Imposto sobre a circulação de mercadorias e serviços.}. Em dezembro de 1991 o sociólogo e então secretário da cultura Sérgio Paulo Rouanet instaura o ``Programa Nacional de Apoio à Cultura'' que ficou conhecido como Lei Rouanet. O programa instituía os mesmos mecanismos de isenção fiscal da antiga Lei Sarney e instituía ainda dois novos instrumentos, o FNC (Fundo Nacional de Cultura) e o FICART (Fundos de Investimento Cultural e Artístico). Segundo \citeonline{sarkovas2005incentivo}, nenhum dos dois mecanismos vingou. Para ele,
-
 	
-
 	\begin{citacao}
-
 		O FICART tornou-se letra morta porque seus benefícios foram largamente superados pelos níveis de dedução fiscal obscenos que seriam depois adotados em outros mecanismos. E o FNC jamais foi operado pelas regras primárias de um fundo público: transparência de critérios, acessibilidade paritária e primazia do mérito público. Desde que foi criado, seus recursos são arbitrariamente distribuídos segundo predileções e interesses do Ministério da Cultura. \cite[p. 22-3]{sarkovas2005incentivo}
-
 	\end{citacao}
-
 	
-
 	Em 1997 a medida provisória 1.589 introduziria a dedução de 100\% para as áreas de artes cênicas, livros de valor artístico, literário ou humanístico, música erudita ou instrumental, circulação de exposições de artes plásticas e doações de acervos para bibliotecas públicas e para museus. Em sua gestão, o ministro da cultura Gilberto Gil iniciou um processo de consulta pública em diversos estados denominado ``Cultura para Todos'' visando aprimorar a Lei Rouanet. Para \citeonline{sarkovas2005incentivo}, apesar das boas intenções, a medida foi realizada sem planejamento estratégico adequado e falhou em prover soluções para os problemas encontrados no modelo de financiamento. Esses problemas se relacionam sobretudo ao modo de seleção de projetos a serem financiados pela lei o qual reside na iniciativa privada. Nas palavras desse autor, 
-
 	
-
 	\begin{citacao}
 		O financiamento por dedução fiscal transfere e pulveriza, aleatoriamente, o dinheiro e a responsabilidade pública para as empresas e por	isso não é o instrumento adequado para produzir os efeitos que Gil alega desejar: ``desconcentração e democratização dos recursos; ampliação da responsabilidade do Estado e do público beneficiado; qualificação do processo de seleção dos projetos; facilitação e	apoio aos pequenos empreendedores; desburocratização e melhoria dos instrumentos de gestão”. Seria mais eficaz, e menos demagógico, estudar os modelos de financiamento público	direto que funcionam, no Brasil e no mundo,	dentro e fora da área cultural. \cite[p. 25]{sarkovas2005incentivo}
 	\end{citacao}
-
 	
-
 	Isso acontece porque, apesar de o financiamento acontecer através de isenção fiscal, ou seja, com dinheiro público, são as empresas privadas que selecionam os projetos nos quais pretendem ``investir''. Para \citeonline[p. 27]{sarkovas2005incentivo} ``empresas patrocinam para ampliar sua credibilidade, estimular a identificação e melhorar o relacionamento com seus públicos de interesse; agregar atributos e valorizar suas marcas; demonstrar sua participação social''. Desse modo, projetos com grande mérito artístico, cultural ou pedagógico seriam suplantados por projetos que tenham maior apelo de mercado ou que se identifiquem mais com o público alvo da empresa patrocinadora. Para \citeonline[pos. 524]{weiss2009estatais}, um dos pontos fracos da Lei Rouanet consiste justamente da ``desproporção de apoio entre projetos grandiosos e de entretenimento -- e, portanto, de grande apelo de marketing -- e projetos locais, ligados à formação'' além do baixo retorno de captações. Os autores argumentam que mesmo sendo o principal motor da atividade cultural no país tendo movimentado em 2008 cerca de R\$ 1,4 bilhão, o mecanismo gera desequilíbrios, visto que ``as empresas habituaram-se a patrocinar com dinheiro público e os produtores culturais a contar com essa captação como única alternativa''\cite[pos. 475]{weiss2009estatais}.
-
 		
-
 	
-
 	No Brasil, o Estado aparece como a grande instituição financiadora e mantenedora da arte, seja através de investimentos diretos, seja por investimentos indiretos. Em outros países, entretanto, encontramos cenários diversos. Alguns divergem completamente onde o financiamento da cultura é focado no mercado e as instituições culturais preferem não se submeter às regras impostas pelo Estado, outros assemelham-se ao caso brasileiro embora com uma porcentagem muitíssimo menor de financiamento público. \citeonline{van2006making} estudou as diversas formas de intervenção estatal nas artes no contexto europeu e avaliou as asserções comuns no discurso da área que sustentam a legitimidade/necessidade dessa intervenção conceituando as diversas linguagens artísticas como bens públicos ou não.
-
 	
-
 	
-
 	Após as considerações sobre as especificidades dos produtos culturais e uma investigação preliminar sobre o modelo de financiamento da cultura vigente no Brasil apresentados acima, revisaremos agora a base teórica escolhida para análise. Escolhemos trabalhar com a perspectiva neoestrutural por ser o \textit{framework} teórico mais atualizado e abrangente quanto a seu poder explicativo neste momento. Essa perspectiva permite operacionalizar conceitos sociológicos fundamentais (e.g., o conceito de coesão social) bem como a visualização de estruturas sociais.	
 
-		
 
-	
-
-	
-
-	
-
-	
-
-	
-
-	
 
 	\chapter{A Construção Social dos Mercados}
-
 	
-
 	Para entender o mercado da música de concerto, é necessário um arcabouço teórico que o dê sentido e, ao mesmo tempo, conduza o olhar do pesquisador. No processo de pesquisa, foi possível identificar elementos de diversos \textit{frameworks} teóricos que lançam luz sobre o nosso objeto de estudo. Neste capítulo, nosso esforço se dará numa tentativa de articulação desses elementos de modo a obtermos um arcabouço teórico para análise de nosso objeto. Apresentaremos quatro elementos teóricos que lidam com a emergência dos mercados, a saber, o modelo relacional de Harrison White, o modelo de Fligstein, o conceito de \textit{coopetition} e o conceito de isomorfismos organizacionais.
-
 	
-
 	\section{O modelo de White}
-
 	
-
 	Para Harrison \citeonline{white2002markets}, os mercados não são dados mas são estruturas sociais que emergem de interações complexas de seus componentes. Essas interações podem acontecer tanto de forma competitiva quanto, argumentamos, de forma cooperativa visando estabilização do mercado e redução do que o professor White chama de ``incerteza knightiana\footnote{Em referência ao economista americano Frank H. Knight.}''.
-
 	
-
 	Sua teoria visa explicar ``como as firmas minimizam incertezas formando um mercado como uma coleção de nichos baseada em sinais observados em seus engajamentos\footnote{(...) how firms minimize uncertanty by forming a market as a collection of niches based on signals observed in their commitments.}'' \cite[p. xiii]{white2002markets}. Em que consiste, portanto, um mercado de produção? A resposta para essa pergunta perpassa duas dimensões. A primeira, já comentada no parágrafo acima, remonta à natureza interdependente de sua estrutura, ou seja, uma emergência a partir das dependências de seus próprios fluxos. A segunda remonta ao seu mecanismo de operação o qual consiste dos engajamentos das diversas firmas em fluxos de produtos nos quais a procura do comprador agregado foi incorporada. Para esse autor ``Os fluxos resultantes de bens ou serviços diferenciados do mercado se dividem entre diversos compradores como opções igualmente boas: \textbf{a disciplina do mercado está centrada na qualidade do produto}\footnote{Resulting streams of differentiated goods or services from the market get split among diverse buyers as equally good options: The market discipline centers on product quality.}'' \cite[p. 1, grifo meu]{white2002markets}. Este ponto é central na caracterização de nosso objeto de estudo. O que seriam, entretanto, disciplinas de mercado?
-
 	
-
 	\citeonline[p. 63]{white2008} indica que ``disciplinas oferecem regras dos jogos que produzem coordenação em tarefas em um mundo que, do contrário, seria caótico\footnote{Disciplines offer rules of the games that yield coordination in tasks in an otherwise messy world.}''. As disciplinas permitem ações conjuntas dando ordem aos laços traçados entre identidades em rede. Cada disciplina possui um tipo de processo que agrega a ação conjunta. Elas possuem ainda um ordenamento de valor específico pelo qual a estrutura se organiza hierarquicamente (por isso, podemos entender as disciplinas também como um sistema local de status). Dentre os tipos ideais de disciplinas elencadas pelo autor, aquela que se aplica aos mercados é chamada de \textit{interface}. Seu processo típico é o \textit{engajamento} que gera fluxos produtivos. O valor distintivo típico desse tipo de disciplina é a \textit{qualidade}.
-
 	
-
 	No caso dos mercados de produção, as firmas engajam fluxos de produtos direcionados ao comprador agregado que são percebidos na interface do mercado como igualmente bons. O distintivo social, o ordenador de valor nessa estrutura, é a qualidade.
-
 	
-
 	Como se articulam os mercados? Para \citeonline{white2002markets}, algumas distinções básicas precisam ser feitas para entendermos sua estrutura. A primeira delas concerne a distinção entre \textit{downstream} e \textit{upstream}\footnote{Pela grande dificuldade em traduzir esses termos, optamos por mantê-los conforme o idioma original. Uma tentativa de tradução pouco elegante poderia ser feita como ``fluxos para baixo'' e ``fluxos para cima''.}, ou seja, os fluxos de produtos engajados pelo produtor em direção ao comprador agregado e a demanda desse comprador agregado o qual é incorporada nos produtos. Essa distinção gera uma segunda distinção concernente a três possíveis papeis para as firmas num mercado, a saber, fornecedor, produtor e comprador. Cada mercado possui uma orientação \textit{upstream} ou \textit{downstream}. Segundo o autor, ``os produtores não estão imbricados em um mercado, como o sociólogo Mark \citeonline{granovetter2007acao} argumentaria; eles de fato constituem a interface do mercado como um set de suas percepções e escolhas\footnote{Producers are not just embedded in a market, as the sociologist Mark Granovetter (1985) [na citação original] would argue; they actually constitute the market's interface in, and as the set of, their perceptions and choices.}'' \cite[p. 8]{white2002markets}. A constituição da interface do mercado se dá em direcionamento à origem percebida de risco. Nesse ponto, para White, reside a fraqueza da teoria econômica ortodoxa.
-
 	
-
 	Ora, a teoria econômica ortodoxa oferece várias tentativas de modelagem de mercados empíricos/realísticos e, para isso, ancora-se em várias asserções provenientes do senso comum. Muito embora esse corpo de conhecimento possua modelos econométricos sofisticados, ele reside muito próximo do senso comum. Entretanto, ao abordar fluxos de produtos em rede num ambiente realístico, a teoria econômica ortodoxa abandona seus modelos, sejam eles realísticos ou de senso comum, e se atém à ficção da competição perfeita. Para \citeonline[p. 9]{white2002markets} ``um enorme custo dessa ortodoxia tem sido a infiltração desapercebida de noções de competição pura na pesquisa de economistas práticos\footnote{One great cost of this orthodoxy has been the unacknowledged infiltration of notions of pure competition into practical economists' research.}''. Do mesmo modo, a sociologia também tem relutado em incorporar os achados da teoria econômica em tentativas de construir críticas mais gerais à influência econômica nos processos sociais a partir das pesquisas de mercados específicos.
 
-	
-
 	Como, então, podemos entender a estabilização de uma interface de mercado? Que propriedades dela podem sucumbir à ``incerteza knightiana'' que atua contra seus membros?
-
 	
-
 	\subsection{Estabilizando a ``incerteza knightiana''}
-
 	
-
 	Transações num mercado tem mais a ver com interações repetitivas do que com momentos únicos. Desse modo, o volume de fluxos de produtos em um mercado pode funcionar como um sinalizador para os produtores sobre os engajamentos. Nas palavras de White:
-
 	
-
 	\begin{citacao}
-
 		Cada um [produtor] pode se orientar em direção a um nicho pelo tamanho que é apropriado à avaliação do mercado de sua própria qualidade comparada à de seus companheiros que também se orientarão aos nichos: o mercado como uma construção social conjunta\footnote{Each can orient to a niche by the size that is appropriate to the market's assessment of its quality compared to that of its fellows, who also are orienting to niches: the market as a joint social construction.}. \cite[p. 10]{white2002markets}
-
 	\end{citacao}
-
 	
-
 	Atrelado à interface do mercado está a noção de qualidade que, embora seja comumente tomada por uma característica inerente aos produtos, emerge das interações entre julgamentos tanto de produtores quanto de compradores. Desse modo,
-
 	
-
 	\begin{citacao}
-
 		É uma noção dual de qualidade diferencial referente tanto a produto como a produtor que se torna estabelecida como o centro em volta do qual um conjunto de solos sólidos\footnote{\citeonline{white2008} caracteriza os \textit{footings} ou solos sólidos como definições compartilhadas da vida social sobre a qual os indivíduos orientam sua ação e sua interpretação da ação do outro.} [\textit{footings}] para produtores pode se reproduzir como solos sólidos em um perfil de mercado conjunto. Os dois lados, compradores e produtores, exercem pressões concorrentes no formato desse perfil, pressões que são correlacionadas com suas respectivas discriminações de qualidade\footnote{(\dots) it is dual notions of differential quality, referent both to product and to producer, that become established as the core around which a set of market footings for producers can reproduce itself as footings in a joint market profile. The two sides, buyers and producers, exert contending pressures on the shape of this profile, pressures that correlate with their respective discriminations of quality.}. \cite[p. 10]{white2002markets}
-
 	\end{citacao}
-
 	
-
 	Cada produtor busca diferenciar seu produto e ao mesmo tempo reconhece um sistema de diferenciação  -- o índice de qualidade -- para sua versão de um produto no mercado. Nesse contexto, as escolhas interagem com influência e calibram os engajamentos repetidos de fluxos de produção e de pagamentos. Essa interação entre escolhas pressupõe um mínimo de comparabilidade o que é obtido de uma forma mais simples numa ordem linear de precedência. ``A reputação num ordenamento individual é a moeda de disciplina para mercados de produção'' \cite[p. 10]{white2002markets}, o que se torna difícil de sustentar com muitos participantes devido às nossas limitações cognitivas e de percepção. 
-
 	
-
 	
-
 	\subsection{O mecanismo por trás da produção}
-
 	
-
 	Os engajamentos de fluxos de produtos estão alinhados, de acordo com \citeonline[p. 12]{white2002markets}, a nove fenômenos. São eles:
-
 	
-
 	\begin{enumerate}
 		\item um \textit{pequeno número} reconhecido de firmas que constituem uma linha negócios;
 		\item uma \textit{identidade} relacionada àquele mercado específico;
@@ -964,27 +622,16 @@
 		\item há um \textit{ciclo de vida} reconhecido dos produtos num mercado;
 		\item o \textit{desengajamento} (\textit{decoupling}) ocorre de acordo com variabilidades e caminhos do mercado, não necessariamente por oferta e demanda.
 	\end{enumerate}
-
 	
-
 	Esses fenômenos são explicáveis entre si e atravessados por um modelo operacionalizado segundo parâmetros específicos. Nos deteremos agora nesse modelo desenvolvido por \citeonline{white2002markets}.
-
 	
-
 	O modelo parte do pressuposto fundamental de que qualidade e identidade não emanam um do outro mas produzem um ao outro nas interações entre as firmas num mercado. A qualidade é aqui entendida como uma construção social e não como um atributo evidente.
-
 	
-
 	
-
 	\subsection{A racionalidade do modelo}
-
 	
-
 	Chamemos o retorno total recebido por um volume de produtos de \textit{valor} (\textit{worth}). Seja  $W(y)$ o valor do volume $y$. Basicamente, o perfil do mercado pode ser inferido a partir da observação do comportamento dos pares volume-valor (Figura \ref{white_1.2}). 
-
 	
-
 	\begin{figure}[ht]
 		\centering
 		\caption{Um perfil Retorno X Volume}
@@ -992,45 +639,24 @@
 		\includegraphics[scale=1]{white_1_2.png}
 		\fonte{Elaboração do autor adaptado de \citeonline[p. 15]{white2002markets}}
 	\end{figure}
-
 	
-
 	A curva da figura \ref{white_1.2} é facilmente estimada por um analista de negócios como um guia para um perfil adequado dentro desse mercado. Esse perfil disciplina os engajamentos de cada firma quanto ao volume visando um resultado ótimo de Retornos X Custos. A qualidade se vê refletida nesse perfil e isso se dá sem a necessidade de um índice explícito. As definições da vida são incorporadas em um ordenamento de qualidade o qual perpassa o discurso vigente num domínio em rede. Esse ordenamento que condiciona a formação de laços na rede é percebido em termos de prestígio e combina qualidade de consumo e relações de concorrência \cite{white2002markets}.
-
 	
-
 	Os esforços de uma firma refletidos em sua estrutura de custos tendem a ser refletidas em avaliações do comprador agregado. Essa correlação provê uma base para o ordenamento da qualidade percebida, a saber, um ordenamento linear suficiente para embasar o perfil do mercado. Mas qual é a relação entre os volumes engajados e a qualidade percebida? Isso depende da linha de negócio.
-
 	
-
 	\citeonline{white2002markets} explica, tirando o foco da empresa que atua como compradora e depositando no comprador final -- indivíduo -- e sua percepção de qualidade, que:
 
-	
-
 	\begin{citacao}
-
 		Às vezes, um $y$ grande traz a conotação de maior qualidade como no setor de refrigerantes, mas por outro lado, pode implicar baixa qualidade, como no setor de vinhos. Portanto, a frequência com a qual compradores encontram um \textit{output} de um produtor pode sinalizar coisas diferentes entre formas diferentes de perfil. Como alguns bens monopolizam o espaço nas estantes [de supermercado], mães mais ricas do subúrbio bem como as mães ricas da região Leste em Manhattan, fogem deles já que é isso o que as pessoas comuns estão comprando. Para outros bens que recebem alta exposição nos comerciais, é precisamente isso que esses compradores compram. Afinal de contas, o fato de que todos estão comprando isso confirma que este é o melhor\footnote{Sometimes, a large $y$ connotes higher quality, as in the soda pop industry, but at other times, lower quality, as in the wine industry. So the frequency with which buyers encounter a producer's output (\dots) can signal different things across different shapes of profile. As some goods monopolize shelf space, wealthier suburban mothers, like wealthy East Siders in Manhattan, shy away from them, since they are what the average person is buying. For other goods that receive high exposure in advertising, that's precisely what these shoppers buy. After all, the fact that everyone else is buying it confirms that it's the best.}. \cite[p. 15]{white2002markets}
-
 	\end{citacao}
-
-	
 
 	O ordenamento da qualidade, portanto, envolve um contexto social onde as empresas possuem uma distribuição prévia de prestígio que mescla sua reputação com a de seus produtos. Fluxos de informação são centrais no mecanismo de reprodução de um mercado de produção. Informação útil ao produtor, entretanto, não precisa coincidir com a informação formulada por outros. ``Quando possível para os atores usarem informações lidas das ações de outras, chamamos essa informação de \textit{sinal}. Engajamentos anteriormente feitos são em si mesmos sinais lidos como perfil pelos produtores\footnote{When it is possible for actors to make use of information read from the doings of others, let's call this information a \textit{signal}. Fulfilled prior commitments are themselves the signals read off as profile by the producers.}'' \cite[p. 16]{white2002markets}.
-
 	
-
 	White resume o mecanismo dos mercados de produção da seguinte maneira:
-
 	
-
 	\begin{citacao}
-
 		Um mercado de produção se forma entre produtores e portanto consiste de uma interface conjunta entre eles ao confrontarem incertezas do outro lado da interface. Essa interface é energizada pela rivalidade entre seus pares produtores, todos buscando compradores para seus fluxos contínuos de produção em quantidades ótimas para suas estruturas de custo individuais. Os produtores sinalizam uns para os outros através de um perfil ao longo de seus engajamentos de produção\footnote{A production market forms around and thus consists in a joint interface between producers confronting uncertainty from the other side of the interface. This interface is energized by rivalry among its peer producers, all seeking buyers for their continuing streams of production in amounts optimal for their individual cost structures. The producers have come to signal each other through a profile across their production commitments.}. \cite[p. 27]{white2002markets}
-
 	\end{citacao}
-
-	
-
 
 
 	%Concentremos nossa atenção aos aspectos formais do modelo de White com relação ao ordenamento de produtores em termos de estrutura de custos e de satisfação com transações.
@@ -1070,257 +696,133 @@
 	%S(y, n) = r \cdot y^a \cdot n^b
 
 	%\end{equation}
-
 	
-
 	Vejamos agora um outro \textit{framework} teórico com uma abordagem diferente da apresentada supra.
-
 	
-
 	\section{O modelo de Fligstein}
-
 	
-
 	Neil \citeonline{fligstein2002architecture} traça uma teorização sobre a emergência e funcionamento dos mercados ligeiramente diferente da que vimos em White. Fligstein também leva em conta uma estrutura relacional onde firmas interagem entre si e com o comprador generalizado visando a estabilização do mercado (e consequente subsistência de todos). A grande diferença fica por conta da participação do Estado. Enquanto White não tece grandes considerações acerca do papel estatal na emergência e funcionamento dos mercados de produção, Fligstein elabora seu esquema teórico identificando a estrutura do Estado como central para o desenvolvimento dos mercados. Por que Estados? - pergunta Fligstein. O próprio autor responde que ``À medida que a possibilidade de padrões de interação complexos na esfera da troca econômica se expandem, os atores se mostraram incapazes de prover regras para si mesmos\footnote{As the possibility for complex patterns of interaction in the sphere of economic exchange has expanded, actors have proven incapable of providing rules for themselves.}'' \cite[p. 27-8]{fligstein2002architecture} e, portanto, recorrem ao Estado como provedor de regras para que o jogo econômico funcione de maneira justa.
-
 	
-
 	\citeonline{fligstein2002architecture} concebe os mercados como ``campos'', arenas sociais onde vendedores e compradores se encontram. Essas arenas obedecem a quatro tipos puros de regras para a produção e reprodução de sua estrutura, quais sejam:
-
 	
-
 	\begin{enumerate}
-
 		\item direitos de propriedade;
-
 		\item estruturas de governança;
-
 		\item regras de troca e
-
 		\item concepções de controle.
-
 	\end{enumerate}
-
 	
-
 	Estas diferentes formas de regulação são inclusivas; o nível posterior necessariamente pressupõe o anterior. Do primeiro ao último há um maior grau de generalidade. 
-
 	
-
 	Direitos de propriedade são, segundo o autor, regras que definem quem possui diretos sobre os retornos financeiros das firmas. Formas comuns de direito de propriedade são patentes e credenciais. Sua constituição não é, necessariamente, o desfecho de um processo eficiente mas um contínuo e contestável processo político \cite{fligstein2002architecture}.
-
 	
-
 	Essa regras configuram condição \textit{sine qua non} de existência de mercados uma vez que definem as relações entre aqueles que detém posse de algum bem e os demais estabilizando o mercado. ``Os direitos de propriedade funcionam, portanto, para produzir duas formas de estabilidade: a definição de relações de poder entre constituintes dentro e fora das firmas e sinalizar a outros quem essas firmas são\footnote{Property rights thus function to produce two forms of stability: defining the power relationships between constituencies in and around firms, and signaling to other firms who firms are.}'' \cite[p. 34]{fligstein2002architecture}.
-
 	
-
 	Estruturas de governança são estruturas de regras gerais ao nível da sociedade que definem relações competitivas e cooperativas entre firmas além de sua organização interna. Essas regras definem formas legais e ilegais de controle da competição no espaço mercantil. Elas podem aparecer na forma de leis (e.g., leis antitrustes) ou normas sociais muito embora assumam grande variação entre diferentes sociedades. Cabe ressaltar que a organização interna de uma firma também se dá como resposta a formas legais ou ilegais de competição no mercado. Firmas podem se integrar tanto verticalmente, como forma de assegurar seus insumos necessários, quanto horizontalmente, comprando ações visando produzir um ordenamento estável no mercado ou diversificando sua carta de produtos visando proteção contra os ``caprichos de produtos específicos'' \cite[p. 34]{fligstein2002architecture}. A formação de parcerias estáveis e de longo prazo também configuram respostas à competição.
-
 	
-
 	As regras de troca definem quem pode se engajar em transações comerciais com quem bem como suas condições. As regras abrangem pesos, padrões comuns, fretagem, cobrança, seguro, trocas financeiras e a firma de contratos. ``As regras de troca ajudam a estabilizar os mercados assegurando que as trocas ocorram sob condições que se aplicam a todos\footnote{Rules of exchange help stabilize markets by ensuring that exchanges occur under conditions that apply to everyone.}'' \cite[p. 35]{fligstein2002architecture}. Alguns dos tratados comerciais internacionais mais recentes como o GATT (\textit{General Agreement of Tariffs and Trade}) focam na harmonização das regras de troca.
-
 	
-
 	``Concepções de controle refletem acordos específicos de mercado entre atores em firmas sobre princípios de organização interna (\dots), táticas de competição ou cooperação (\dots), e a hierarquia ou o ordenamento de status das firmas num dado mercado\footnote{Conceptions of control reflect market-specific agreements between actors in firms on principles of internal organization (\dots), tactics for competition or cooperation (\dots), and the hierarchy or status ordering of firms in a given market.}'' \cite[p. 35]{fligstein2002architecture}. São, em sua essência, produtos histórico-culturais. São históricos à medida que se restringem ao contexto histórico de um determinado setor em uma determinada sociedade e são culturais pois formam um arcabouço de entendimentos e práticas vigentes num dado mercado. Para \citeonline{fligstein2002architecture}
-
 	
-
 	\begin{citacao}
-
 		Um mercado estável é um campo social no qual a concepção de controle define as relações sociais entre firmas vendedoras incumbentes e desafiantes de modo que as incumbentes reprodruzem essas relações de tempos em tempos. O propósito da ação em um dado mercado é criar e manter mundos estáveis dentro das firmas e entre elas que permita a sobrevivência de firmas dominantes\footnote{A stable market is a social field in which a conception of control defines the social relations between incumbent and challenger seller firms such that the incumbent firms reproduce those relations on a period-to-period basis. The purpose of action in a given market is to create and maintain stable worlds within and across firms that allow dominant seller firms to survive.}. \cite[p. 35]{fligstein2002architecture}
-
 	\end{citacao}
-
 	
-
 	As concepções de controle evidenciam também, como podemos notar, um elemento político dos mercados no que toca à manutenção do ordenamento hierárquico vigente, sua reprodução e sua manifestação no processo de definição de padrões de qualidade e certificação. Dito de outra forma, as concepções de controle colocam perguntas como ``quem controla a entrada e saída de um sistema concorrencial?'' ``Como os desafiadores e os dominantes entram em relação?'' ``Quem consegue impor a pauta de qualidade num setor industrial, por exemplo, um \textit{standard} ISO ou um sistema de certificação do que é um produto orgânico no mercado de alimentos?''
-
 	
-
 	Para Fligstein, a entrada de países em sistemas capitalistas ``empurra'' os Estados a uma posição regulatória com relação aos quatro tipos acima mencionados. No exercício regulatório, os Estados produzem normativas culturais que determinam o processo de estruturação da ação econômica. Esse exercício é contínuo. Constantemente os Estados lidam com situações de crise e com o \textit{lobby} das empresas clamando por intervenção estatal. Os rumos que os mercados tomam estão diretamente relacionados a dois fatores: (1) a capacidade de intervenção, regulação e mediação do Estado e (2) o poder de organizações privadas para influenciar os termos de intervenção.
-
 	
-
 	O Estado tem ainda um papel fundamental no financiamento da inovação. Segundo \citeonline{fligstein2002architecture}
-
 	
-
 	\begin{citacao}
-
 		Os governos nas sociedades industriais tem um papel importante quanto ao investimento e mediação da luta de classe. As ações dos empresários e empreendedores são enquadradas em torno dessas formas de estabilidade. Eles podem criar novos setores usando a ajuda do governo para investir em tecnologias arriscadas. Eles podem diversificar os riscos em suas firmas para produzir identidades estáveis para as firmas\footnote{Governments in industrial societies play a role in investment and mediating the class struggle as well. The actions of managers and entrepreneurs are framed around these forms of stability. They can create new industries using government support to invest in uncertain technologies. They can diversify their risks in their firms to produce stable identities for firms.}. \cite[p. 62]{fligstein2002architecture}
-
 	\end{citacao}
-
 	
-
 	Para esse autor, seria muito difícil imaginar a existência de um mercado sem o aparato estatal cuidando de seu regulamento e estabilização. Isso, entretanto, não implica que a atuação estatal seja neutra mas ela reproduz o controle de grupos sociais dominantes os quais mantém uma relação próxima do Estado e tem primazia nos pedidos de intervenção em épocas de crise. Sem as regras e acordos geridos pelo Estado, não haveria uma organização-social mínima para que produtores possam arriscar com novos produtos fazendo emergir novos mercados.
-
 	
-
 	Para Fligstein, num mercado o preço é um indicador confiável de qualidade. As empresas se veem impelidas pela competição de preços a diferenciar seus produtos formando nichos como forma de proteção contra a instabilidade. A diversificação da carta de produtos é também uma estratégia dominante para a diminuição de riscos. ``Uma firma pode produzir produtos múltiplos que reduzem sua dependência em um produto específico e, portanto, aumenta suas chances de sobrevivência\footnote{A firm can produce multiple products that reduce their dependence on any one product and, hence, increase the likelihood that the firm will survive.}'' \apud[p. 74]{kay1997pattern}{fligstein2002architecture}. 
-
 	
-
 	\citeonline[p. 81]{fligstein2002architecture} postula ainda que ``em mercados com concepções de controle estáveis, os participantes amplamente concordam com a concepção de controle, com a hierarquia de status e as estratégias que ela implica\footnote{In markets with stable conceptions of control, market participants widely agree on the conception of control and the status hierarchies and strategies it implies.}''. Uma vez estabilizado, o mercado é compreendido tanto por firmas estabelecidas como ``desafiantes'' em sua estrutura de poder. Essa estrutura permite a avaliação da ação e das estratégias das firmas por qualquer observador e, consequentemente, sua ação orientada sobre essas estratégias. Aqui, estamos muito próximos ao que White chama de ``disciplina'' do mercado.
-
 	
-
 	As crises nos mercados são percebidas quando firmas estabelecidas começam a falir. Isso pode ser causado por três eventos: (1) queda na demanda pelo produto o que pode ser proveniente de más condições econômicas ou mudanças nas preferências dos compradores, (2) a entrada de uma nova firma no mercado distorcendo a concepção de controle vigente e forçando a reorganização do mercado ou (3) o Estado pode, intencionalmente ou não, mudar as regras vigentes e desestabilizar o mercado. 
-
 	
-
 	% Micro conclusão 
-
 	\subsection{Articulação teórica inicial}
-
 	
-
 	É curioso notar que enquanto para Fligstein o Estado tem um papel preponderante na estrutura de mercado, para White o Estado não conta com a mesma importância. Sua teoria é construída nas relações entre firmas, em sua capacidade de percepção do tecido relacional que compõe a estrutura do mercado e na diferenciação de hierarquias por qualidade. Ambos os autores também divergem quanto à postura de cada firma em relação a seu posicionamento no mercado. Para White, a busca pelo posicionamento ótimo advém da observação dos pares engajamentos/retornos. A hierarquização das firmas (e consequente estabilização do mercado numa interface inteligível por todos) se dá por meio da qualidade percebida. Já para Fligstein, a busca pelo posicionamento se dá através de estratégias de proteção contra a concorrência dos preços (construção de nichos de mercado), da diversificação da carta de produtos oferecidos num ambiente que visa a estabilidade onde a figura central de controle é o Estado.
-
 	
-
 	A abordagem de Fligstein, como vimos, dá um papel central ao Estado como articulador, regulador e estabilizador do mercado. Sem ele, a estrutura não teria condições para fazer emergir uma normativa compartilhada que servisse como regime de controle, solo sólido para orientação da ação econômica e elaboração de estratégias de atuação. Estamos falando do clássico problema da ação coletiva; ela se preocupa em barrar a atuação de ``caronas'' e alocar de forma equânime custos de produção de bens públicos. Como podemos pensar num mercado, uma estrutura concorrencial por excelência, como uma ação coletiva? Ocorre cooperação? De fato, para que o mercado se estabilize e haja distribuição igualitária de oportunidades e acesso ao mercado tanto por firmas dominantes quanto desafiantes, em alguma medida  elas acabam cooperando mesmo que essa cooperação ocorra em um nível supraintencional. Isso se assemelha ao famoso conceito da ``mão invisível'' de Adam Smith. O trabalho do sociólogo seria, portanto, torná-la visível.
-
 	
-
 	Resta ainda uma investigação mais profunda sobre o processo de atuação das firmas no dia a dia engajando-se em movimentos ao mesmo tempo de competição e cooperação. O conceito de isomorfismos organizacionais parecem lançar uma boa luz sobre esses processos. Vejamo-los mais detidamente.
 
-	
 
 	
-
-	
-
-	
-
 	\section{A busca pela estabilidade do mercado}
-
 		
-
 	Para \citeonline{lazega2009theorie}, a busca das firmas pela estabilização de um mercado passa por uma noção de qualidade construída coletivamente a partir das relações tecidas pelas firmas. Em sua atuação, as firmas se engajam em processos ao mesmo tempo de competição e cooperação -- o que ficou conhecido na sociologia das organizações como \textit{coopetition}. As organizações não conduzem seus negócios de maneira isolada mas são necessariamente dependentes de alguns recursos que as forçam a tecer laços de cooperação com outras organizações. Essas relações podem se manifestar na forma de um quadro jurídico e social mais ou menos definido. Segundo o autor, ``esses recursos interorganizacionais trocados através de laços multiplexos, podendo consistir de aprendizado, bens ou serviços, não são forçosamente de natureza monetária ou puramente funcional\footnote{Ces resources interorganisationnelles, échangés à travers des liens multiplexes, et pouvant consister en de l'apprentissage, des biens, des services, ne sont pas forcément de nature monétaire ou purement fonctionnelle.}'' \cite[p. 568]{lazega2009theorie}.
-
 	
-
 	Em sua atuação, o empreendedor busca a estruturação de seu contexto de interações e de negócios visando a sua própria segurança no mercado e a de seus investimentos relacionais. Esse processo, que possui uma forte capacidade de politização, leva o empreendedor a uma autorestrição contextual quanto à seleção de seus parceiros comerciais. Segundo o autor
-
 	
-
 	\begin{citacao}
-
 	A troca social conduz o empreendedor a uma forma de autodisciplina social que se apoia de fato sobre uma endogeneização (\dots) das estruturas relacionais. Essa endogeneização toma a forma de manutenção ou construção de nichos sociais bem como de entrada na concorrência por status social\footnote{L'échange social conduit ainsi l'entrepreneur à une forme d'autodiscipline sociale qui s'appuie en fait sur une endogénéisation (\dots) des structures relationnelles. Cette endogénéisation prend la forme de l'entretien ou de la construction de niches sociales ainsi que celle d'une entrée dans la concurrence de statut social.}. \cite[p. 572]{lazega2009theorie}
-
 	\end{citacao}
 
-	
-
 	A busca por nichos sociais, desse modo, é um primeiro meio de mobilização de uma estrutura de oportunidades. O nicho social, portanto, pode ser definido como o ``subconjunto de colegas-concorrentes com os quais se tem relações especialmente densas, multifuncionais, duráveis e ligadas, direta ou indiretamente, a suas atividades de produção\footnote{(\dots) le sous-ensemble de collègues-concurrents avec lesquels il/elle a des relations spécialement denses, multifonctionnelles, durables et liées, directement ou indirectement, à ses activités de production.}'' \cite[p. 575]{lazega2009theorie}.
-
 	
-
 	Na estruturação do tecido social que compõe o mercado processos sociais se articulam com disciplinas sociais emergentes proporcionando uma estrutura cognitiva pela qual pode-se orientar a ação econômica. Nessa articulação, quatro processos sociais se engajam com disciplinas:
-
 	
-
 	\begin{enumerate}
-
 		\item Apredizado coletivo;
-
 		\item Fenômenos de solidariedade;
-
 		\item Controle social e
-
 		\item Regulação e institucionalização.
-
 	\end{enumerate}
-
 	
-
 	O aprendizado coletivo ou aprendizado organizacional ocorre a partir de fluxos de informações, recursos (humanos ou materiais) e através de trocas de conhecimento tácito. Fenômenos de solidariedade podem ocorrer na presença de ameaças ou instabilidade no mercado. Acordos comerciais, coletivos, associações entre empresas que, embora concorrentes, cooperam, emergem como estratégia de conquista de espaço no campo social. O controle social é facilitado pelos nichos sociais e pelo reconhecimento de uma estrutura de status entre organizações. Por fim, processos de regulação e institucionalização consistem da redefinição das regras do jogo. Nesse processo, organizações competem e cooperam para estabelecer uma linguagem de referência, um corpo normativo comum.
-
 	
-
 	Ao se debruçar sobre o mesmo fenômeno, a estruturação do campo de um mercado, \citeonline{dimaggio1983iron} mobilizam o conceito de isomorfismo para dar conta dos processos de competição-cooperação nos quais as organizações se engajam. Esses autores partem da seguinte pergunta: Por que as organizações são tão parecidas? Embora a pergunta pareça trivial, ela não é de nenhum modo intuitiva. A questão está em diálogo com um diagnóstico amplo da sociologia weberiana em relação à crescente racionalização do mundo industrial. Ora, se nos mercados a ação racional é concorrencial, esperaríamos que houvesse maior diversificação das formas organizacionais, cada uma buscando meios diferentes de subsistência. Não é o que os autores percebem ao postular a questão supracitada. %verificar isso com o Silvio
-
 	
-
 	Uma vez que organizações diversas se engajam numa mesma linha de mercado formando um estrutura (um campo), os processos que levam à similaridade começam a emergir com robustez. 
-
 	
-
 	De que falamos, entretanto, quando falamos em isomorfismos? \citeonline[p. 149]{dimaggio1983iron} definem o termo como ``um processo de controle que força uma unidade na população a assemelhar-se a outras unidades que encaram o mesmo conjunto de condições ambientais\footnote{(\dots) a constraining process that forces one unit in a population to resemble other units that face the same set of environmental conditions.}''.
-
 	
-
 	\citeonline{dimaggio1983iron} citam três mecanismos de isomorfismos: (1) Isomorfismos coercitivos, (2) isomorfismos miméticos e (3) isomorfismos normativos. Os isomorfismos coercitivos resultam de pressões formais e informais sobre as empresas. Expectativas relacionadas a normas sociais ou a padrões culturais também são gatilhos para esse mecanismo. Por vezes, o Estado também pode impulsionar esse tipo de isomorfismo estabelecendo novas políticas de controle sobre o funcionamento dos mercados (como padrões para controle de resíduos ou emissão de gases, por exemplo). 
-
 	
-
 	Os isomorfismos miméticos surgem em resposta à incerteza do mercado. Em face a um cenário de incertezas, uma firma pode imitar o modelo de uma outra que seja bem sucedida no mercado. Os isomorfismos normativos advém de normativas e tradições bem como, principalmente, da crescente profissionalização. Um coletivo profissional pode, por exemplo, empreender esforços para definir condições e métodos de seu estrato profissional, estabelecer critérios de controle ou estabelecer uma base cognitiva e legitimação para a autonomia ocupacional.
-
 	
-
 	Os processos de isomorfismo lançam luz sobre o comportamento observado nas orquestras em geral (embora seja difícil explicar como os três tipo puros operam simultaneamente). Já argumentamos que todos os grupos orquestrais estão comprometidos com um padrão de qualidade comum pelo qual são posicionados numa hierarquia percebida na estrutura do mercado tanto por eles mesmos quanto pelo público. Tentativas de uma orquestra de recolocação dentro da escala hierárquica, por exemplo, podem ser empreendidas através de sua reformulação interna objetivando aproximar-se das características da organização dominante naquele cenário. Para isso, a orquestra lançará mão ainda de mecanismos de cooperação (com as diversas identidades que integram o mercado) onde aprenderá processos, lançará mão de recursos, etc.
-
 	
-
 	Até aqui, os diversos \textit{frameworks} teóricos parecem convergir de maneira complementar no que toca a análise do mercado da música orquestral. Um de nossos esforços neste trabalho será tecer uma síntese teórica que seja abrangente o suficiente para dar conta de um objeto tão específico e que desafia a teoria econômica e sociológica clássicas. Apresentaremos, a seguir, o modelo de análise que norteará esta investigação.
-
 	
-
 	
-
 	\chapter{Modelo de Análise}
-
 	
-
 	\section{Síntese teórica}
-
 	
-
 	% White - qualidade
-
 	Neste trabalho, procuramos entender o funcionamento dos mercados de produção da música de concerto, bem como suas bases operacionais. Aqui, os mercados serão analisados como estruturas em rede \cite{white2002markets}. A disciplina em torno da qual funciona o mercado da música orquestral é uma \textit{interface} e sua ordem de valor é dada pela \textbf{qualidade} \cite{white2002markets}. A qualidade é reguladora da ação conjunta pois todos os participantes do mercado seja qual for sua natureza (indivíduos ou organizações) tiram dela suas bases normativas básicas da vida social imbuídas na estrutura. Dito de outra forma, é a partir da qualidade percebida e do \textit{Ranking} de orquestras advindo da escala de qualidade como marco regulatório (a interface do mercado) que os agentes (identidades) agem sobre a estrutura em que estão. A qualidade, entretanto, não é algo inerente às organizações mas um atributo que emerge de múltiplas interações tanto no nível das organizações quanto no nível dos indivíduos. Explicar como emerge a qualidade no mercado das orquestras configura o centro desta investigação.
-
 	
-
 	% Estado
-
 	Para além da disciplina, o mercado da música orquestral encontra no Estado o seu segundo articulador mais importante.	De acordo com \citeonline{fligstein2002architecture}, o Estado possui um papel fundamental na regulação e, consequentemente, na estabilização dos mercados. No contexto brasileiro, a máquina estatal figura como principal financiador das orquestras mesmo que atuando de forma indireta (através das leis de incentivo à cultura). As leis de incentivo à cultura funcionam como catalisadores da produção cultural no país (quer seja a nível federal, estadual ou municipal) e fora do seu escopo há poucas produções acontecendo e mais voltadas ao entretenimento. As únicas produções que são capazes de subsistir prescindindo desse mecanismo de financiamento são, normalmente, grandes shows ou grandes espetáculos promovidos por grandes empresas.
-
 	
-
 	% Nível da organização - incentivos financeiros e não financeiros, capacidade de gestão
-
 	Mais ao nível da organização, é possível apontar algumas atributos que exercem influência sobre a construção de sua identidade e, consequentemente, seu posicionamento na estrutura mercantil. São eles os \textit{incentivos financeiros}, os \textit{incentivos não financeiros} e a capacidade de gestão da organização ou de sua instituição mantenedora. Suspeitamos que haja uma forte correlação entre o salário pago pelas orquestra e a percepção de seu posicionamento no \textit{Ranking} de qualidade. Do mesmo modo, as orquestras podem criar sistemas de incentivos aos músicos onde o retorno pode passar tanto pelo prestígio quanto pela realização pessoal. Uma audição interna para a escolha de um solista para um dos concertos na temporada ou uma foto de um músico estampada no encarte mensal são exemplos de incentivos não financeiros. Finalmente, quando nos referimos à capacidade de gestão da instituição, estamos visando sua estrutura formal. É razoável pensar que uma organização que possua uma estrutura formal mais complexa será melhor avaliada no \textit{Ranking} da qualidade do que organizações com estruturas formais mais simples. O discurso comum no campo é de que ``orquestras mais organizadas são melhores''. 
-
 	
-
 	% isomorfismos
-
 	Segundo \citeonline{dimaggio1983iron}, as organizações se engajam em processos que as levam a se tornarem cada vez mais parecidas. Esses isomorfismos acontecem como estratégia de estabilização e segurança contra as incertezas do mercado. No caso das orquestras, isso parece ser uma estratégia de diferenciação em nichos de mercado claramente perceptíveis, sobretudo no que toca ao estilo de especialidade da orquestra. Hoje, há orquestras especializadas em música antiga, em música contemporânea, em música \textit{pop}, etc.
-
 	
-
 	
-
 	% coopetição
-
 	Vimos que no exercício cotidiano de suas atividades, embora estejam em situação de competição, as organizações entram em processos supraintencionais de cooperação como estratégia que visa a estabilização do mercado, o que ficou conhecido como \textit{coopetição} \cite{lazega2009theorie}. No mercado das orquestras esse processo pode acontecer tanto por trocas de recursos (partituras, equipamentos, ajudas financeiras propriamente dito) quanto por trocas de informação e conhecimento. Músicos que tocam em mais de uma orquestra, regentes e solistas convidados podem ser alavancas para trocas de informação e conhecimento.
 	
 	Mais ao nível do indivíduo, podemos indentificar alguns atributos que possam ter influência na qualidade atribuída a uma determinada orquestra. Esses atributos passam pelas habilidades adquiridas pelos músicos onde entram tanto o seu ambiente de formação quanto o seu professor (a construção das habilidades artísticas do músico, argumentamos, possuem tanto uma dimensão técnica relacionada à sua habilidade de tocar propriamente dita, quanto uma dimensão simbólica associada ao prestígio de seu professor e da instituição de ensino que frequentou). Além disso, no nível da interação é que podemos verificar um sistema de status entre músicos e um sistema de colaboração e aprendizado.
-	
-	
-	
+		
 	Dadas essas breves definições iniciais, podemos explicitar algumas proposições centrais que nortearão a condução de nosso pensamento: (1) Os mercados de produção da música orquestral operam e encontram sua estabilização ancorados num padrão de qualidade comum com o qual todos assumem compromisso. Esse padrão de qualidade também dá origem a um ordenamento interorganizacional que reflete a interface do mercado e que é amplamente reconhecido. (2) A qualidade, o principal mecanismo articulador da estrutura, emerge do próprio mercado no fluxo das interações entre organizações e agentes. Os agentes com maior peso na emergência da qualidade são os professores e os \textit{hubs}, músicos com grande centralidade na estrutura.
-	
-	
-	Podemos prosseguir apresentando nossas principais hipóteses de trabalho.
 
+	Podemos prosseguir apresentando nossas principais hipóteses de trabalho.
 	
 	\newtheorem{hip}{Hipótese}
-	
+
 	\begin{hip}
 		O padrão de qualidade que é o ``centro de gravidade'' do mercado das orquestras emerge da própria estrutura.
 	\end{hip}
@@ -1381,8 +883,6 @@
 	
 	
 	\subsection{Proposta de indicadores}
-		
-		
 
 	Com o intuito de operacionalizar o desenho de pesquisa descrito supra, buscaremos os seguintes indicadores: para verificar o padrão de qualidade vigente, verificaremos a representação dos músicos dos atributos da qualidade. Para verificar o Ranking das orquestras, utilizaremos um conjunto de indicadores: a representação dos músicos sobre o Ranking, o preço médio do ingresso, a quantidade de concertos por temporada e o volume total de investimentos. O preço médio do ingresso é adotado aqui como uma \textit{proxy} da qualidade embasado no achado de \citeonline{throsby1983quality} (a demanda é inelástica em relação ao preço mas altamente correlacionada com relação á qualidade percebida). Argumentamos que esta é uma boa proxy pois as pessoas estariam dispostas a pagar mais por um concerto que percebem como sendo de alta qualidade. A quantidade de concertos e o volume total de investimentos parecem, à primeira vista, \textit{proxys} menos seguras do que a anterior pois percebe-se um risco de cair numa tautologia. As orquestras são boas porque tem mais financiamento ou tem mais financiamento porque são boas? Tocam mais porque são boas ou são consideradas boas porque tocam mais? Contudo, argumentamos que, se adotados com parcimônia e sempre conjugados a outras variáveis, esses indicadores podem dar \textit{insights} valiosos sobre o campo. Pretendemos testar um índice de qualidade criado a partir da aglutinação dessas variáveis através de uma análise fatorial\footnote{Em linhas muito gerais, a análise fatorial é uma técnica de análise multivariada que visa reduzir a complexidade dimnuindo as dimensões a serem analisadas em índices ou escores \cite{mingoti2005analise}.}.
 	
