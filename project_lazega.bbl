@@ -5,6 +5,11 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[Becker 2008]{becker2008art}
+\abntrefinfo{Becker}{BECKER}{2008}
+{BECKER, Howard~Saul. \emph{Art worlds}. 25th Anniversary Edition, updated and
+  expanded. California: Univ of California Press, 2008.}
+
 \bibitem[Bourdieu e Darbel 2003]{bourdieu2003amor}
 \abntrefinfo{Bourdieu e Darbel}{BOURDIEU; DARBEL}{2003}
 {BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
@@ -22,6 +27,13 @@
   Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
   {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
 
+\bibitem[Lazega 2009]{lazega2009theorie}
+\abntrefinfo{Lazega}{LAZEGA}{2009}
+{LAZEGA, Emmanuel. Th{\'e}orie de la coop{\'e}ration entre concurrents:
+  Organisation, march{\'e} et analyse de r{\'e}seaux. In:  STEINER, Philippe;
+  VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie {\'e}conomique}.
+  Paris: PUF, 2009. p. 561--599.}
+
 \bibitem[Lazega e Higgins 2014]{lazega2014redes}
 \abntrefinfo{Lazega e Higgins}{LAZEGA; HIGGINS}{2014}
 {LAZEGA, Emmanuel; HIGGINS, Silvio~Salej. \emph{Redes sociais e estruturas
@@ -36,6 +48,11 @@
 \abntrefinfo{Tolila}{TOLILA}{2007}
 {TOLILA, Paul. \emph{Cultura e economia}: problemas, hip{\'o}teses, pistas.
   São Paulo: Iluminuras: Itaú Cultural, 2007.}
+
+\bibitem[White 2002]{white2002markets}
+\abntrefinfo{White}{WHITE}{2002}
+{WHITE, Harrison~C. \emph{Markets from Networks}: Socioeconomic models of
+  production. Princeton: Princeton University Press, 2002.}
 
 \bibitem[White 2008]{white2008}
 \abntrefinfo{White}{WHITE}{2008}
