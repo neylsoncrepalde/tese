@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.9.21)  2 OCT 2017 11:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  10 OCT 2017 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1248,10 +1248,10 @@ Overfull \hbox (0.55116pt too wide) in paragraph at lines 121--122
 
 ] [6]
 Package epstopdf Info: Source file: <chave.eps>
-(epstopdf)                    date: 2017-10-02 11:00:13
+(epstopdf)                    date: 2017-10-04 02:52:45
 (epstopdf)                    size: 11790 bytes
 (epstopdf)             Output file: <chave-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 11:00:13
+(epstopdf)                    date: 2017-10-04 02:52:45
 (epstopdf)                    size: 10671 bytes
 (epstopdf)             Command: <repstopdf --outfile=chave-eps-converted-to.pdf
  chave.eps>
@@ -1290,10 +1290,10 @@ l.447
 
 ] [11]
 Package epstopdf Info: Source file: <doenca_dos_custos.eps>
-(epstopdf)                    date: 2017-10-02 11:00:13
+(epstopdf)                    date: 2017-10-04 02:52:45
 (epstopdf)                    size: 9016 bytes
 (epstopdf)             Output file: <doenca_dos_custos-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 11:14:08
+(epstopdf)                    date: 2017-10-05 02:57:43
 (epstopdf)                    size: 10559 bytes
 (epstopdf)             Command: <repstopdf --outfile=doenca_dos_custos-eps-conv
 erted-to.pdf doenca_dos_custos.eps>
@@ -1339,31 +1339,18 @@ l.654
 
 ]
 \c@hip=\count290
- [33]
-
-LaTeX Warning: Citation `brailly2016market' on page 34 undefined on input line 
-863.
-
-[34]
-
-LaTeX Warning: Citation `brailly2016market' on page 35 undefined on input line 
-865.
-
-
-LaTeX Warning: Citation `brailly2016market' on page 35 undefined on input line 
-865.
-
+ [33] [34]
 Package epstopdf Info: Source file: <modelo_analise_tese.eps>
-(epstopdf)                    date: 2017-10-02 11:00:13
+(epstopdf)                    date: 2017-10-04 02:52:45
 (epstopdf)                    size: 35568 bytes
 (epstopdf)             Output file: <modelo_analise_tese-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-02 11:14:08
-(epstopdf)                    size: 14755 bytes
+(epstopdf)                    date: 2017-10-10 12:47:14
+(epstopdf)                    size: 14683 bytes
 (epstopdf)             Command: <repstopdf --outfile=modelo_analise_tese-eps-co
 nverted-to.pdf modelo_analise_tese.eps>
 (epstopdf)             \includegraphics on input line 880.
 Package epstopdf Info: Output file is already uptodate.
-<modelo_analise_tese-eps-converted-to.pdf, id=632, pagebox=cropbox, 550.055pt x
+<modelo_analise_tese-eps-converted-to.pdf, id=638, pagebox=cropbox, 550.055pt x
  363.3575pt>
 File: modelo_analise_tese-eps-converted-to.pdf Graphic file (type pdf)
 <use modelo_analise_tese-eps-converted-to.pdf>
@@ -1372,11 +1359,8 @@ t line 880. on input line 880.
 Package pdftex.def Info: Requested size: 440.04459pt x 290.68639pt on input lin
 e 880.
 
+
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Citation `mingoti2005analise' on page 35 undefined on input line
- 887.
 
 [35] [36pdfTeX warning (ext4): destination with the same identifier (name{figur
 e.4.4}) has been already used, duplicate ignored
@@ -1586,21 +1570,18 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2582.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2582.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2582.
  ) 
 Here is how much of TeX's memory you used:
- 15025 strings out of 492990
- 214726 string characters out of 6138688
- 377993 words of memory out of 5000000
- 18136 multiletter control sequences out of 15000+600000
+ 15032 strings out of 492990
+ 214893 string characters out of 6138688
+ 378374 words of memory out of 5000000
+ 18141 multiletter control sequences out of 15000+600000
  12197 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,36p,2538b,647s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,13n,36p,2538b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1616,10 +1597,10 @@ pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 i10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
 share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Tese_Neylson.pdf (53 pages, 432283 bytes).
+Output written on Tese_Neylson.pdf (53 pages, 432496 bytes).
 PDF statistics:
- 1058 PDF objects out of 1200 (max. 8388607)
- 957 compressed objects within 10 object streams
- 245 named destinations out of 1000 (max. 500000)
+ 1069 PDF objects out of 1200 (max. 8388607)
+ 968 compressed objects within 10 object streams
+ 247 named destinations out of 1000 (max. 500000)
  293 words of extra memory for PDF output out of 10000 (max. 10000000)
 

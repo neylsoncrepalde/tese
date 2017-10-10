@@ -1,7 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2016/Arch Linux)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tese_Neylson.aux
-White space in argument---line 256 of file Tese_Neylson.aux
+White space in argument---line 268 of file Tese_Neylson.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 41 entries,
+You've used 43 entries,
             6714 wiz_defined-function locations,
-            1441 strings with 15290 characters,
-and the built_in function-call counts, 34172 in all, are:
-= -- 2917
-> -- 1031
-< -- 218
-+ -- 597
-- -- 315
-* -- 2358
-:= -- 4489
-add.period$ -- 131
-call.type$ -- 41
-change.case$ -- 375
-chr.to.int$ -- 79
-cite$ -- 39
-duplicate$ -- 2111
-empty$ -- 2517
-format.name$ -- 1493
-if$ -- 7865
+            1450 strings with 15633 characters,
+and the built_in function-call counts, 35850 in all, are:
+= -- 3047
+> -- 1087
+< -- 219
++ -- 618
+- -- 332
+* -- 2475
+:= -- 4712
+add.period$ -- 139
+call.type$ -- 43
+change.case$ -- 395
+chr.to.int$ -- 81
+cite$ -- 41
+duplicate$ -- 2195
+empty$ -- 2664
+format.name$ -- 1577
+if$ -- 8276
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 742
-newline$ -- 181
-num.names$ -- 187
-pop$ -- 976
+missing$ -- 778
+newline$ -- 189
+num.names$ -- 197
+pop$ -- 1022
 preamble$ -- 1
-purify$ -- 150
+purify$ -- 158
 quote$ -- 0
-skip$ -- 2189
+skip$ -- 2282
 stack$ -- 1
-substring$ -- 1319
-swap$ -- 915
-text.length$ -- 39
+substring$ -- 1385
+swap$ -- 954
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5
+type$ -- 6
 warning$ -- 0
-while$ -- 272
+while$ -- 287
 width$ -- 0
-write$ -- 618
+write$ -- 648
 (There were 3 error messages)
