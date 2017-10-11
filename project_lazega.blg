@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 133 of file project_lazega.aux
+White space in argument---line 151 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 24 entries,
+You've used 27 entries,
             6714 wiz_defined-function locations,
-            1332 strings with 12233 characters,
-and the built_in function-call counts, 17345 in all, are:
-= -- 1422
-> -- 540
-< -- 13
-+ -- 245
-- -- 169
-* -- 1158
-:= -- 2394
-add.period$ -- 75
-call.type$ -- 24
-change.case$ -- 198
-chr.to.int$ -- 32
-cite$ -- 22
-duplicate$ -- 887
-empty$ -- 1480
-format.name$ -- 798
-if$ -- 4128
+            1348 strings with 12696 characters,
+and the built_in function-call counts, 19927 in all, are:
+= -- 1625
+> -- 619
+< -- 15
++ -- 274
+- -- 193
+* -- 1337
+:= -- 2736
+add.period$ -- 89
+call.type$ -- 27
+change.case$ -- 227
+chr.to.int$ -- 35
+cite$ -- 25
+duplicate$ -- 1021
+empty$ -- 1712
+format.name$ -- 920
+if$ -- 4758
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 432
-newline$ -- 101
-num.names$ -- 112
-pop$ -- 584
+missing$ -- 486
+newline$ -- 113
+num.names$ -- 128
+pop$ -- 652
 preamble$ -- 1
-purify$ -- 83
+purify$ -- 94
 quote$ -- 0
-skip$ -- 988
+skip$ -- 1127
 stack$ -- 1
-substring$ -- 571
-swap$ -- 384
-text.length$ -- 10
+substring$ -- 683
+swap$ -- 450
+text.length$ -- 12
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 5
+type$ -- 7
 warning$ -- 0
-while$ -- 150
+while$ -- 175
 width$ -- 0
-write$ -- 337
+write$ -- 384
 (There were 3 error messages)
