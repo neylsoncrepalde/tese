@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 151 of file project_lazega.aux
+White space in argument---line 152 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 27 entries,
+You've used 30 entries,
             6714 wiz_defined-function locations,
-            1348 strings with 12696 characters,
-and the built_in function-call counts, 19927 in all, are:
-= -- 1625
-> -- 619
-< -- 15
-+ -- 274
-- -- 193
-* -- 1337
-:= -- 2736
-add.period$ -- 89
-call.type$ -- 27
-change.case$ -- 227
-chr.to.int$ -- 35
-cite$ -- 25
-duplicate$ -- 1021
-empty$ -- 1712
-format.name$ -- 920
-if$ -- 4758
+            1376 strings with 13643 characters,
+and the built_in function-call counts, 23403 in all, are:
+= -- 1853
+> -- 813
+< -- 33
++ -- 349
+- -- 247
+* -- 1663
+:= -- 3174
+add.period$ -- 95
+call.type$ -- 30
+change.case$ -- 284
+chr.to.int$ -- 53
+cite$ -- 28
+duplicate$ -- 1169
+empty$ -- 1877
+format.name$ -- 1181
+if$ -- 5553
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 486
-newline$ -- 113
-num.names$ -- 128
-pop$ -- 652
+missing$ -- 541
+newline$ -- 130
+num.names$ -- 142
+pop$ -- 716
 preamble$ -- 1
-purify$ -- 94
+purify$ -- 113
 quote$ -- 0
-skip$ -- 1127
+skip$ -- 1283
 stack$ -- 1
-substring$ -- 683
-swap$ -- 450
-text.length$ -- 12
+substring$ -- 851
+swap$ -- 545
+text.length$ -- 25
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 7
+type$ -- 6
 warning$ -- 0
-while$ -- 175
+while$ -- 204
 width$ -- 0
-write$ -- 384
+write$ -- 442
 (There were 3 error messages)

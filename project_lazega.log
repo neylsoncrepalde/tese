@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  11 OCT 2017 14:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  12 OCT 2017 06:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1126,13 +1126,13 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 34.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 52.
+(Font)              <12> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 52.
+(Font)              <8> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 52.
+(Font)              <6> on input line 53.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 52.
+(Font)              <5> on input line 53.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
@@ -1144,54 +1144,73 @@ Package epstopdf Info: Source file: <doenca_dos_custos.eps>
 (epstopdf)                    size: 10559 bytes
 (epstopdf)             Command: <repstopdf --outfile=doenca_dos_custos-eps-conv
 erted-to.pdf doenca_dos_custos.eps>
-(epstopdf)             \includegraphics on input line 196.
+(epstopdf)             \includegraphics on input line 197.
 Package epstopdf Info: Output file is already uptodate.
 <doenca_dos_custos-eps-converted-to.pdf, id=71, pagebox=cropbox, 451.6875pt x 3
 01.125pt>
 File: doenca_dos_custos-eps-converted-to.pdf Graphic file (type pdf)
 <use doenca_dos_custos-eps-converted-to.pdf>
 Package pdftex.def Info: doenca_dos_custos-eps-converted-to.pdf  used on input 
-line 196. on input line 196.
+line 197. on input line 197.
 Package pdftex.def Info: Requested size: 451.68639pt x 301.12425pt on input lin
-e 196.
+e 197.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [4] [5 <./doenca_dos_custos-eps-converted-to.pdf>] [6] [7] [8] [9]
-Overfull \hbox (2.48697pt too wide) in paragraph at lines 437--438
+Overfull \hbox (2.48697pt too wide) in paragraph at lines 438--439
 \OT1/cmr/m/n/12 concurrents avec lesquels il/elle a des re-la-tions sp^^Seciale
 ment denses, mul-ti-fonc-tion-nelles, durables
  []
 
 [10] [11] [12]
 \c@hip=\count189
- [13] [14] [15] [16] [17] [18] (./project_lazega.bbl [19]
+ [13] [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
+ [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
+v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
+ = page & Itemid =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 668--668
+ [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
+ . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
+ []
+
+[16] [17]
+Overfull \hbox (10.9048pt too wide) in paragraph at lines 706--707
+[]\OT1/cmr/m/n/12 ERGM or P* mod-els ([]ROBINS et al.[], []2007[]; []LUSHER; KO
+SK-I-NEN; ROBINS[], []2013[]; []LAZEGA;
+ []
+
+[18] (./project_lazega.bbl
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[20]) [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 778.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 778.
+[19]) [20]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 732.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 732.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 778.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 778.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 732.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 732.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 778.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 732.
  ) 
 Here is how much of TeX's memory you used:
- 12231 strings out of 492990
- 176244 string characters out of 6138688
- 315139 words of memory out of 5000000
- 15542 multiletter control sequences out of 15000+600000
- 10415 words of font info for 36 fonts, out of 8000000 for 9000
+ 12257 strings out of 492990
+ 176848 string characters out of 6138688
+ 316881 words of memory out of 5000000
+ 15560 multiletter control sequences out of 15000+600000
+ 10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,1754b,624s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,36p,2525b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1206,10 +1225,10 @@ dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on project_lazega.pdf (21 pages, 270400 bytes).
+Output written on project_lazega.pdf (20 pages, 270339 bytes).
 PDF statistics:
- 493 PDF objects out of 1000 (max. 8388607)
- 446 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 126 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 518 PDF objects out of 1000 (max. 8388607)
+ 472 compressed objects within 5 object streams
+ 113 named destinations out of 1000 (max. 500000)
+ 150 words of extra memory for PDF output out of 10000 (max. 10000000)
 

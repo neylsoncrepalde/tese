@@ -26,16 +26,24 @@
 {BENHAMOU, Fran{\c{c}}oise. \emph{A economia da cultura}. Cotia, SP: Atelie
   Editorial, 2007.}
 
-\bibitem[Bourdieu e Darbel 2003]{bourdieu2003amor}
-\abntrefinfo{Bourdieu e Darbel}{BOURDIEU; DARBEL}{2003}
-{BOURDIEU, Pierre; DARBEL, Alain. \emph{O amor pela arte}: os museus de arte na
-  europa e seu p{\'u}blico. São Paulo: Edusp, 2003.}
+\bibitem[Brailly et al. 2017]{brailly2017explorer}
+\abntrefinfo{Brailly et al.}{BRAILLY et al.}{2017}
+{BRAILLY, Julien et al. Explorer les r{\'e}seaux {\`a} l’{\'e}chelle de la
+  triade: l’apport des mod{\`e}les statistiques ergm.
+\emph{L'Ann{\'e}e sociologique}, Presses Universitaires de France, v.~67, n.~1,
+  p. 219--254, 2017.}
 
 \bibitem[Brailly et al. 2016]{brailly2016market}
 \abntrefinfo{Brailly et al.}{BRAILLY et al.}{2016}
 {BRAILLY, Julien et al. Market as a multilevel system. In:  \emph{Multilevel
   Network Analysis for the Social Sciences}. [S.l.]: Springer, 2016. p.
   245--271.}
+
+\bibitem[Daudin, Picard e Robin 2008]{daudin2008mixture}
+\abntrefinfo{Daudin, Picard e Robin}{DAUDIN; PICARD; ROBIN}{2008}
+{DAUDIN, J-J; PICARD, Franck; ROBIN, St{\'e}phane. A mixture model for random
+  graphs.
+\emph{Statistics and computing}, Springer, v.~18, n.~2, p. 173--183, 2008.}
 
 \bibitem[Dias 2011]{dias2011artes}
 \abntrefinfo{Dias}{DIAS}{2011}
@@ -56,22 +64,17 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   twenty-first-century capitalist societies}. Princeton: Princeton University
   Press, 2002.}
 
-\bibitem[Hirsch, Michaels e Friedman 1987]{hirsch1987dirty}
-\abntrefinfo{Hirsch, Michaels e Friedman}{HIRSCH; MICHAELS; FRIEDMAN}{1987}
-{HIRSCH, Paul; MICHAELS, Stuart; FRIEDMAN, Ray. Dirty hands versus clean
-  models.
-\emph{Theory and society}, Springer, v.~16, n.~3, p. 317--336, 1987.}
-
-\bibitem[Karpik 2009]{karpik2009elements}
-\abntrefinfo{Karpik}{KARPIK}{2009}
-{KARPIK, Lucien. Élements de l'économie des singularités. In:  STEINER,
-  Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
-  {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
-
 \bibitem[Kay 1997]{kay1997pattern}
 \abntrefinfo{Kay}{KAY}{1997}
 {KAY, Neil~M. \emph{Pattern in corporate evolution}. Oxford: Oxford University
   Press, 1997.}
+
+\bibitem[Latouche, Birmele e Ambroise 2012]{latouche2012variational}
+\abntrefinfo{Latouche, Birmele e Ambroise}{LATOUCHE; BIRMELE; AMBROISE}{2012}
+{LATOUCHE, Pierre; BIRMELE, Etienne; AMBROISE, Christophe. Variational bayesian
+  inference and complexity control for stochastic block models.
+\emph{Statistical Modelling}, Sage Publications Sage India: New Delhi, India,
+  v.~12, n.~1, p. 93--115, 2012.}
 
 \bibitem[Lazega 2009]{lazega2009theorie}
 \abntrefinfo{Lazega}{LAZEGA}{2009}
@@ -85,11 +88,6 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {LAZEGA, Emmanuel; HIGGINS, Silvio~Salej. \emph{Redes sociais e estruturas
   relacionais}. Belo Horizonte: Fino Traço, 2014.}
 
-\bibitem[Lazega e Snijders 2016]{lazega2016multilevel}
-\abntrefinfo{Lazega e Snijders}{LAZEGA; SNIJDERS}{2016}
-{LAZEGA, Emmanuel; SNIJDERS, TA. \emph{Multilevel Network Analysis for the
-  Social Sciences}. Cham: Springer, 2016.}
-
 \bibitem[Leroy 1980]{leroy1980economie}
 \abntrefinfo{Leroy}{LEROY}{1980}
 {LEROY, Dominique. \emph{Economie des arts du spectacle vivant}. Paris:
@@ -99,6 +97,12 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 \abntrefinfo{Luksetich}{LUKSETICH}{2011}
 {LUKSETICH, William~A. Orchestras. In:  TOWSE, RUTH. \emph{A handbook of
   cultural economics}. Cheltenham, UK: Edward Elgar Publishing, 2011.}
+
+\bibitem[Lusher, Koskinen e Robins 2013]{lusher2013exponential}
+\abntrefinfo{Lusher, Koskinen e Robins}{LUSHER; KOSKINEN; ROBINS}{2013}
+{LUSHER, Dean; KOSKINEN, Johan; ROBINS, Garry (Ed.). \emph{Exponential random
+  graph models for social networks}: Theory, methods, and applications.
+  Cambridge: Cambridge University Press, 2013.}
 
 \bibitem[Mingoti 2005]{mingoti2005analise}
 \abntrefinfo{Mingoti}{MINGOTI}{2005}
@@ -110,6 +114,18 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 \abntrefinfo{Peacock, Shoesmith e Millner}{PEACOCK; SHOESMITH; MILLNER}{1983}
 {PEACOCK, Alan~T; SHOESMITH, Eddie; MILLNER, Geoffrey. \emph{Inflation and the
   Performing Arts}. London: Arts Council of Great Britain, 1983.}
+
+\bibitem[Robins, Elliott e Pattison 2001]{robins2001network}
+\abntrefinfo{Robins, Elliott e Pattison}{ROBINS; ELLIOTT; PATTISON}{2001}
+{ROBINS, Garry; ELLIOTT, Peter; PATTISON, Philippa. Network models for social
+  selection processes.
+\emph{Social networks}, Elsevier, v.~23, n.~1, p. 1--30, 2001.}
+
+\bibitem[Robins et al. 2007]{robins2007introduction}
+\abntrefinfo{Robins et al.}{ROBINS et al.}{2007}
+{ROBINS, Garry et al. An introduction to exponential random graph (p*) models
+  for social networks.
+\emph{Social networks}, Elsevier, v.~29, n.~2, p. 173--191, 2007.}
 
 \bibitem[Throsby e Withers 1979]{throsby1979economics}
 \abntrefinfo{Throsby e Withers}{THROSBY; WITHERS}{1979}
@@ -132,6 +148,11 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 \abntrefinfo{Tolila}{TOLILA}{2007}
 {TOLILA, Paul. \emph{Cultura e economia}: problemas, hip{\'o}teses, pistas.
   São Paulo: Iluminuras: Itaú Cultural, 2007.}
+
+\bibitem[Wang et al. 2016]{wang2016social}
+\abntrefinfo{Wang et al.}{WANG et al.}{2016}
+{WANG, Peng et al. Social selection models for multilevel networks.
+\emph{Social Networks}, Elsevier, v.~44, p. 346--362, 2016.}
 
 \bibitem[White 2002]{white2002markets}
 \abntrefinfo{White}{WHITE}{2002}
