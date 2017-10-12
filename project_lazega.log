@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  12 OCT 2017 06:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  12 OCT 2017 06:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1204,13 +1204,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 732.
  ) 
 Here is how much of TeX's memory you used:
- 12257 strings out of 492990
- 176848 string characters out of 6138688
- 316881 words of memory out of 5000000
- 15560 multiletter control sequences out of 15000+600000
+ 12258 strings out of 492990
+ 176866 string characters out of 6138688
+ 316983 words of memory out of 5000000
+ 15561 multiletter control sequences out of 15000+600000
  10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,2525b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,36p,2525b,626s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1225,10 +1225,10 @@ dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12
 .pfb>
-Output written on project_lazega.pdf (20 pages, 270339 bytes).
+Output written on project_lazega.pdf (20 pages, 270759 bytes).
 PDF statistics:
- 518 PDF objects out of 1000 (max. 8388607)
- 472 compressed objects within 5 object streams
+ 520 PDF objects out of 1000 (max. 8388607)
+ 474 compressed objects within 5 object streams
  113 named destinations out of 1000 (max. 500000)
  150 words of extra memory for PDF output out of 10000 (max. 10000000)
 
