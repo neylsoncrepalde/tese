@@ -50,7 +50,7 @@
 
 	%Desse modo, iniciaremos o trabalho apresentado brevemente uma pesquisa bibliográfica realizada em duas das principais bases de produção acadêmica disponíveis na área de sociologia e economia. Encontramos que a produção científica sobre o mercado da música de concerto nos últimos 30 anos é ínfima. Depois, investigaremos na teoria econômica o conhecimento já sedimentado sobre bens culturais buscando entender os desafios colocados por nosso objeto de pesquisa. No terceiro capítulo, apresentaremos o framework teórico adotado para as análises, qual seja, a Análise de Redes Sociais (\textit{Social Network Analysis})\footnote{Muito embora, antecipamos, as ferramentas conhecidas como \textit{social network analysis} não constituem uma teoria geral do mundo que dedutivamente se aplique a qualquer realidade complexa. Trata-se, aqui, de um conjunto de ferramentas metodológicas aliadas a uma concepção de relações sociais.}. No quarto capítulo apresentaremos o desenho de pesquisa explicitando que tipo de dados intencionamos coletar, os procedimentos adotados, as formas de análises e os resultados esperados. Por fim, apresentamos uma investigação preliminar iniciada com uma das orquestras da cidade de Belo Horizonte bem como as considerações finais deste projeto.
 
-	Therefore, we will begin our work presenting the results of our biliographic research. It was made in two of the main abstract bases in sociology and economics\footnote{Sociological Abstracts and Econlit.}. We found that the scientific research on orchestral music market in the last 30 years is almost nonexistent. 
+	Therefore, we will begin our work presenting the results of our biliographic research. It was made in two of the main abstract bases in sociology and economics\footnote{Sociological Abstracts and Econlit.}.
 
 	%Para o autor, ``a construção coletiva da qualidade implica que a viabilidade do mercado vem do coletivo, e que é a estrutura do conjunto do mercado viável que cria a divisão de lucros\footnote{La construction collective de la qualité implique ainsi que la viabilité du marché vient du collectif, et que c'est la structure d'ensemble du marché viable qui crée le partage des rentes.}'' \cite[p. 563, tradução do autor]{lazega2009theorie}. 
 
@@ -313,7 +313,7 @@
 	
 	%Os engajamentos de fluxos de produtos estão alinhados, de acordo com \citeonline[p. 12]{white2002markets}, a nove fenômenos. São eles:
 	
-	According to \citeonline[p. 12]{white2002markets}, flow commits are related to various phenomena, some of them are:
+	According to \citeonline[p. 12]{white2002markets}, flow commits are related to various phenomena, some of them specially interesting to our modelling rationale:
 	
 	\begin{enumerate}
 		%\item um \textit{pequeno número} reconhecido de firmas que constituem uma linha negócios;
@@ -359,9 +359,11 @@
 	$ W(y) - C(y(k), k) $.
 	
 	On the consumer's side, their \textit{satisfaction} relies both on the number of units bought $y(k)$ and on a \textit{qualitative component}, $n_k$, the very identity of the product of firm $k$. The aggregate buyer's satisfaction can be given by
-	$ S(y(n_k)) $. According to \citeonline{favereau2002markets}, since ``buyers in aggregate make a `yes or no' decision when offered a volume/price pair by a producer'', the only producers who stand out are those whose offer satisfie this contraint:
+	$ S(y(n_k)) $. According to \citeonline{favereau2002markets}, since ``buyers in aggregate make a `yes or no' decision when offered a volume/price pair by a producer'', the only producers who stand out are those whose offer satisfies the following constraint:
 	
 	$$ S(y(n_k)) = \theta \cdot W(y(n_k)) $$
+	
+	``The parameter $\theta$ is a sort of mark-up of satisfaction (\dots) over the overall buying cost of a given production'' \cite[p. 217]{favereau2002markets}. According to the authors, the cost $C$ and the market schedule $W(y)$ are known by the producer but not the satisfaction function $S$ which are constructs of the observer.
 	
 		
 	
@@ -397,11 +399,22 @@
 	
 	
 	
+	The central part of White's model is the market schedule, of the $W(y)$ function. ``The existence of one viable market seems to depend on only one simple question (\dots): does that approximation of a continuous function exist'' \cite[p. 219]{favereau2002markets}? 
 	
+	Although White's model represents a big step in the construction of knowledge about the markets, it has a problem related to its very core, the quality ranking. To him, quality is given in a predetermined social space. In fact, \citeonline{favereau2002markets} states that to agree on price is not a big deal but to agree on quality is intrinsically a problem. We shall argue, however, that quality is not predefined but actors struggle and negotiate on a daily basis for its definition. 
 	
-	% Aqui seria a conclusão da apresentação do modelo de White. O modelo precisa ser interiramente apresentado antes.
+	\subsection{The definition of quality problem}
 	
-	Although White's model represents a big step in the construction of knowledge about the markets, it has a problem related to the very central part of his modelling, the quality ranking. To him, quality is given in a predetermined social space. We shall argue, however, that quality is not predefined but actors struggle and negotiate on a daily basis for its definition.
+	\citeauthoronline{favereau2002markets} and \citeauthoronline{biencourt2002market}
+	present both interesting (although incomplete, we argue) solutions to the definition of quality problem. The first paper assumes that $n_k = k = n$, that is, ``firms lie in the same qualitative rank order when judged by product label'' \cite[p. 219]{favereau2002markets}. This statement is in perfect agreement with the already presented White's conception of a predetermined, given, quality rank. \citeonline{biencourt2002market}, on the other hand, face a theatrical market which poses the inescapable issue of the complexity of the phenomenon. The authors elaborate a sophisticated model to explain how various actors have a different influence on quality. To them,
+	
+	\begin{equation}
+		N_{l}^{b_l} = N_{1l}^{b_{1l}} N_{2l}^{b_{2l}} N_{3l}^{b_{3l}} N_{4l}^{b_{4l}} 
+	\end{equation}
+	
+	that is, the \textit{overall quality} $N$ in the year $l$ is constructed aggregating the judgements of \textit{drama critics} $N_1$, the judegements of \textit{programme planners} $N_2$, the judgement of the \textit{public authorities} $N_3$ and the influence of \textit{previous consumption} $N_4$.
+	
+	% EXPLICAR COMO FUNCIONA E COMO É MEDIDA CADA UMA DESSAS VARIÁVEIS E COMO ELAS SE RELACIONAM COM A NOSSA PROPOSTA (O QUE VAMOS E O QUE NÃO VAMOS APROVEITAR)
 	
 	
 	%Concentremos nossa atenção aos aspectos formais do modelo de White com relação ao ordenamento de produtores em termos de estrutura de custos e de satisfação com transações.
