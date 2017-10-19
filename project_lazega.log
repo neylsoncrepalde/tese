@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  18 OCT 2017 00:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  19 OCT 2017 12:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1153,29 +1153,29 @@ mm/m/it/12 k\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 =y\OT1/cmr/m/n/12 (\OML/cmm/m/it
 /12 k\OT1/cmr/m/n/12 ) =
  []
 
-[7] [8 <./white_1_2.png (PNG copy)>] [9] [10]
-Overfull \hbox (2.48697pt too wide) in paragraph at lines 545--546
+[7] [8 <./white_1_2.png (PNG copy)>] [9] [10] [11]
+Overfull \hbox (2.48697pt too wide) in paragraph at lines 549--550
 \OT1/cmr/m/n/12 concurrents avec lesquels il/elle a des re-la-tions sp^^Seciale
 ment denses, mul-ti-fonc-tion-nelles, durables
  []
 
-[11] [12] [13]
+[12] [13] [14]
 \c@hip=\count189
- [14] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
+ [15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 766--766
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
 v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
  = page & Itemid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 762--762
+Underfull \hbox (badness 10000) in paragraph at lines 766--766
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
  . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
 [17] [18]
-Overfull \hbox (10.9048pt too wide) in paragraph at lines 800--801
+Overfull \hbox (10.9048pt too wide) in paragraph at lines 804--805
 []\OT1/cmr/m/n/12 ERGM or P* mod-els ([]ROBINS et al.[], []2007[]; []LUSHER; KO
 SK-I-NEN; ROBINS[], []2013[]; []LAZEGA;
  []
@@ -1187,21 +1187,21 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 bibitemlist
 [20]) [21]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 826.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 826.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 830.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 830.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 826.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 826.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 830.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 830.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 830.
  ) 
 Here is how much of TeX's memory you used:
  12267 strings out of 492990
  177025 string characters out of 6138688
- 317477 words of memory out of 5000000
+ 318477 words of memory out of 5000000
  15571 multiletter control sequences out of 15000+600000
  9770 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1220,10 +1220,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (21 pages, 287774 bytes).
+Output written on project_lazega.pdf (21 pages, 288987 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 501 compressed objects within 6 object streams
+ 552 PDF objects out of 1000 (max. 8388607)
+ 503 compressed objects within 6 object streams
  113 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
