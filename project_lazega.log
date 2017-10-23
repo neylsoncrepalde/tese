@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  20 OCT 2017 09:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  23 OCT 2017 21:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1201,7 +1201,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 842.
 Here is how much of TeX's memory you used:
  12274 strings out of 492990
  177102 string characters out of 6138688
- 319635 words of memory out of 5000000
+ 320635 words of memory out of 5000000
  15574 multiletter control sequences out of 15000+600000
  9770 words of font info for 34 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1220,10 +1220,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (22 pages, 290177 bytes).
+Output written on project_lazega.pdf (22 pages, 290430 bytes).
 PDF statistics:
- 565 PDF objects out of 1000 (max. 8388607)
- 515 compressed objects within 6 object streams
+ 568 PDF objects out of 1000 (max. 8388607)
+ 518 compressed objects within 6 object streams
  117 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 
