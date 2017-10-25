@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  25 OCT 2017 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  25 OCT 2017 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1161,13 +1161,8 @@ Package pdftex.def Info: market_plane_favereau.png  used on input line 434. on
 input line 434.
 Package pdftex.def Info: Requested size: 277.03432pt x 345.54008pt on input lin
 e 434.
-
-
-LaTeX Warning: Citation `eloire2009reseaux' on page 9 undefined on input line 4
-38.
-
-[9] [10 <./market_plane_favereau.png (PNG copy)>] [11] [12]
-Overfull \hbox (2.48697pt too wide) in paragraph at lines 592--593
+ [9] [10 <./market_plane_favereau.png (PNG copy)>] [11] [12]
+Overfull \hbox (2.48697pt too wide) in paragraph at lines 596--597
 \OT1/cmr/m/n/12 concurrents avec lesquels il/elle a des re-la-tions sp^^Seciale
 ment denses, mul-ti-fonc-tion-nelles, durables
  []
@@ -1175,20 +1170,20 @@ ment denses, mul-ti-fonc-tion-nelles, durables
 [13] [14] [15]
 \c@hip=\count189
  [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 809--809
+Underfull \hbox (badness 10000) in paragraph at lines 813--813
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
 v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
  = page & Itemid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--809
+Underfull \hbox (badness 10000) in paragraph at lines 813--813
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
  . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
 [18] [19]
-Overfull \hbox (10.9048pt too wide) in paragraph at lines 847--848
+Overfull \hbox (10.9048pt too wide) in paragraph at lines 851--852
 []\OT1/cmr/m/n/12 ERGM or P* mod-els ([]ROBINS et al.[], []2007[]; []LUSHER; KO
 SK-I-NEN; ROBINS[], []2013[]; []LAZEGA;
  []
@@ -1200,28 +1195,25 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 bibitemlist
 [21] [22]) [23] [24]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 881.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 881.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 885.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 885.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 881.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 881.
-
-
-LaTeX Warning: There were undefined references.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 885.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 885.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 881.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 885.
  ) 
 Here is how much of TeX's memory you used:
- 12291 strings out of 492990
- 177403 string characters out of 6138688
- 320851 words of memory out of 5000000
- 15583 multiletter control sequences out of 15000+600000
+ 12298 strings out of 492990
+ 177527 string characters out of 6138688
+ 321035 words of memory out of 5000000
+ 15588 multiletter control sequences out of 15000+600000
  10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,11n,36p,2525b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,36p,2525b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1237,10 +1229,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (24 pages, 320490 bytes).
+Output written on project_lazega.pdf (24 pages, 322729 bytes).
 PDF statistics:
- 601 PDF objects out of 1000 (max. 8388607)
- 543 compressed objects within 6 object streams
- 123 named destinations out of 1000 (max. 500000)
- 187 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 610 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
+ 125 named destinations out of 1000 (max. 500000)
+ 195 words of extra memory for PDF output out of 10000 (max. 10000000)
 
