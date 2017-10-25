@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  24 OCT 2017 12:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  25 OCT 2017 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1154,15 +1154,19 @@ mm/m/it/12 k\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 =y\OT1/cmr/m/n/12 (\OML/cmm/m/it
  []
 
 [7] [8 <./white_1_2.png (PNG copy)>]
-<market_plane.png, id=202, 214.401pt x 202.1151pt>
-File: market_plane.png Graphic file (type png)
-<use market_plane.png>
-Package pdftex.def Info: market_plane.png  used on input line 434. on input lin
+<market_plane_favereau.png, id=202, 277.035pt x 345.54094pt>
+File: market_plane_favereau.png Graphic file (type png)
+<use market_plane_favereau.png>
+Package pdftex.def Info: market_plane_favereau.png  used on input line 434. on 
+input line 434.
+Package pdftex.def Info: Requested size: 277.03432pt x 345.54008pt on input lin
 e 434.
-Package pdftex.def Info: Requested size: 214.40047pt x 202.1146pt on input line
- 434.
- [9] [10 <./market_plane.png>] [11]
-[12]
+
+
+LaTeX Warning: Citation `eloire2009reseaux' on page 9 undefined on input line 4
+38.
+
+[9] [10 <./market_plane_favereau.png (PNG copy)>] [11] [12]
 Overfull \hbox (2.48697pt too wide) in paragraph at lines 592--593
 \OT1/cmr/m/n/12 concurrents avec lesquels il/elle a des re-la-tions sp^^Seciale
 ment denses, mul-ti-fonc-tion-nelles, durables
@@ -1195,26 +1199,29 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[21]) [22]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 873.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 873.
+[21] [22]) [23] [24]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 881.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 881.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 873.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 873.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 881.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 881.
+
+
+LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 873.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 881.
  ) 
 Here is how much of TeX's memory you used:
- 12285 strings out of 492990
- 177271 string characters out of 6138688
- 318851 words of memory out of 5000000
- 15581 multiletter control sequences out of 15000+600000
+ 12291 strings out of 492990
+ 177403 string characters out of 6138688
+ 320851 words of memory out of 5000000
+ 15583 multiletter control sequences out of 15000+600000
  10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,2525b,622s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,11n,36p,2525b,633s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1230,10 +1237,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (22 pages, 422186 bytes).
+Output written on project_lazega.pdf (24 pages, 320490 bytes).
 PDF statistics:
- 591 PDF objects out of 1000 (max. 8388607)
- 534 compressed objects within 6 object streams
- 119 named destinations out of 1000 (max. 500000)
+ 601 PDF objects out of 1000 (max. 8388607)
+ 543 compressed objects within 6 object streams
+ 123 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 
