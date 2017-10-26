@@ -463,7 +463,7 @@
 	The authors show that for \apudonline{throsby1993economics}{biencourt2002market} the number of tickets sold is a better suited indicator for $Y$. However, ``the determination of $S$ would then require one to know the degree of audience satisfaction after each performance, something that is impossible'' \cite[p. 264]{biencourt2002market}. The number of seats available for each performance would also have been a good indicator if the authors had access to this data.
 	
 	\begin{itemize}
-		\item \textbf{The satisfaction of consumers $S$} -- The number of paid visitors to the institution market.
+		\item \textbf{The satisfaction of consumers $S$} -- measured by the number of paid visitors to the institution market.
 	\end{itemize}
 	
 	The authors justify this choice showing data from previous research on theatre audiences' habits and representations. Also, they divided the performances on four repertoire categories, namely, ``classical'', ``20th century'', ``contemporary French'' and ``contemporary foreign'' plays. They also make a correction for the repertory effect by ``multiplying the number of paying visitors observed  in each of the four categories by the average ratio $\bar{x}_i$ between the share of performances and that of the number of visitors in a given genre $i$ for all the institution markets'' \cite[p. 265]{biencourt2002market}. Let $\tilde{P}_i$ be the number of performances and $\tilde{V}_i$ be the number of paying visitors to all theatres in category $i$. The average can be defined by
@@ -485,9 +485,44 @@
 	\begin{itemize}
 		\item \textbf{The aggregated cost $C$} -- this variable was obtained by adding up theatrical artistic expenses (differentiated from fixed costs).
 		
-		\item \textbf{scale $r$} --  
+		\item \textbf{scale $r$} -- equal the inverse of the average price of seats $\bar{p}$ in all theatres.
+		
+		\item \textbf{scale $q$} -- considered equal to 1.
+	\end{itemize}
+
+	To deal with quality index $N$, the authors elaborate a sophisticated model to explain how various actors have a different influence on quality. To them,
+	
+	\begin{equation}
+	\label{biencourt-quality}
+		N_{l}^{b_l} = N_{1l}^{b_{1l}} N_{2l}^{b_{2l}} N_{3l}^{b_{3l}} N_{4l}^{b_{4l}} 
+	\end{equation}
+	
+	that is, the \textit{overall quality} $N$ in the year $l$ is constructed aggregating the judgements of \textit{drama critics} $N_1$, the judegements of \textit{programme planners} $N_2$, the judgement of the \textit{public authorities} $N_3$ and the influence of \textit{previous consumption} $N_4$. Now, each of these parts of the overall quality were measured in this manner:
+	
+	
+	\begin{itemize}
+		\item \textbf{Judgements of drama critics $N_1$} -- measured recording all reviews of shows scheduled in the theatres in \textit{Le Monde} and \textit{Libération} newspapers and \textit{Télérama} magazine, opinion leaders among drama critics.
+		
+		\item \textbf{Judgements of programme planners $N_2$} -- the normed ``indegree'' centrality of the theatre; in that case, this means the number of performances of shows produced by other theatrical institutions, scheduled by the theatre divided by the maximum centrality of the network.
+		
+		\item \textbf{Judgement of public authorities $N_3$} -- measured by the amount of state subsidies. To \citeonline[p. 267]{biencourt2002market}, ``this choice is justified by the weight of the state, which is greater that that of local authorities in the political recognition of an institution's artistic reputation''.
+		
+		\item \textbf{Influence of previous consumption $N_4$} -- measured by the number of paying visitors in the preceding period.
 	\end{itemize}
 	
+	The overall quality perceived by the public is constructed by aggregating these four variables in the form of a Cobb-Douglas function (cf. equation \ref{biencourt-quality}). To measure the weight of each one of these variables on the overall quality, they estimated a linear model that had the number of paying visitors per performance as the dependent variable. Knowing that $r = 1/\bar{p}$ and taking into account equations (\ref{satisfaction}) and (\ref{biencourt-quality}), we can derive
+	
+	\begin{equation}
+	\label{biencourt-derivation}
+		[S\bar{p}/Y]_l = Y_{l}^{\hat{a}_l} N_{l}^{\hat{b}_l} \varepsilon_l = Y_{l}^{\hat{a}_l} N_{1l}^{\hat{b}_{1l}} N_{2l}^{\hat{b}_{2l}} N_{3l}^{\hat{b}_{3l}} N_{4l}^{\hat{b}_{4l}} \varepsilon_l
+	\end{equation}
+	
+	This leads to the linear model
+	
+	\begin{equation}
+	\label{regression}
+		log([S\bar{p}/Y]_l) = \hat{a}_l log Y_l + \hat{b}_{1l} log N_{1l} ...
+	\end{equation}
 	
 	
 	
@@ -500,13 +535,7 @@
 	\subsection{The definition of quality problem}
 	
 	\citeauthoronline{favereau2002markets} and \citeauthoronline{biencourt2002market}
-	present both interesting (although incomplete, we argue) solutions to the definition of quality problem. The first paper assumes that $n_k = k = n$, that is, ``firms lie in the same qualitative rank order when judged by product label'' \cite[p. 219]{favereau2002markets}. This statement is in perfect agreement with the already presented White's conception of a predetermined, given, quality rank. \citeonline{biencourt2002market}, on the other hand, face a theatrical market which poses the inescapable issue of the complexity of the phenomenon. The authors elaborate a sophisticated model to explain how various actors have a different influence on quality. To them,
-	
-	\begin{equation}
-		N_{l}^{b_l} = N_{1l}^{b_{1l}} N_{2l}^{b_{2l}} N_{3l}^{b_{3l}} N_{4l}^{b_{4l}} 
-	\end{equation}
-	
-	that is, the \textit{overall quality} $N$ in the year $l$ is constructed aggregating the judgements of \textit{drama critics} $N_1$, the judegements of \textit{programme planners} $N_2$, the judgement of the \textit{public authorities} $N_3$ and the influence of \textit{previous consumption} $N_4$.
+	present both interesting (although incomplete, we argue) solutions to the definition of quality problem. The first paper assumes that $n_k = k = n$, that is, ``firms lie in the same qualitative rank order when judged by product label'' \cite[p. 219]{favereau2002markets}. This statement is in perfect agreement with the already presented White's conception of a predetermined, given, quality rank. \citeonline{biencourt2002market}, on the other hand, face a theatrical market which poses the inescapable issue of the complexity of the phenomenon.
 	
 	% EXPLICAR COMO FUNCIONA E COMO É MEDIDA CADA UMA DESSAS VARIÁVEIS E COMO ELAS SE RELACIONAM COM A NOSSA PROPOSTA (O QUE VAMOS E O QUE NÃO VAMOS APROVEITAR)
 	
