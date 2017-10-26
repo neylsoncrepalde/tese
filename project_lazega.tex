@@ -517,12 +517,40 @@
 		[S\bar{p}/Y]_l = Y_{l}^{\hat{a}_l} N_{l}^{\hat{b}_l} \varepsilon_l = Y_{l}^{\hat{a}_l} N_{1l}^{\hat{b}_{1l}} N_{2l}^{\hat{b}_{2l}} N_{3l}^{\hat{b}_{3l}} N_{4l}^{\hat{b}_{4l}} \varepsilon_l
 	\end{equation}
 	
-	This leads to the linear model
+	where $l$ is the year under investigation. This leads to the linear model
 	
 	\begin{equation}
 	\label{regression}
-		log([S\bar{p}/Y]_l) = \hat{a}_l log Y_l + \hat{b}_{1l} log N_{1l} ...
+		\log([S\bar{p}/Y]_l) = \hat{a}_l \log Y_l + \hat{b}_{1l} \log N_{1l} + \hat{b}_{2l} \log N_{2l} + \hat{b}_{3l} \log N_{3l} + \hat{b}_{4l} \log N_{4l} + \hat{\varepsilon}_l
 	\end{equation}
+	
+	From this, it is possible to deduce, without a constant,
+	
+	\begin{equation}
+	\label{N-com-pesos}
+		\log N_l = \hat{b}_{1l} \log N_{1l} + \hat{b}_{2l} \log N_{2l} + \hat{b}_{3l} \log N_{3l} + \hat{b}_{4l} \log N_{4l} + e_l \hat{\varepsilon}_l
+	\end{equation}
+	
+	with $0 \le e_l \le 1$ assuming $\hat{b}_l = 1$.
+	
+	Then, the four elasticities exponents were deduced as solutions of a system of two equations to two unknowns. As the authors were studying two years seasons, by posing $\Delta = \log Y_l \cdot \log N_{l+1} - \log Y_{l+1} \cdot \log N_l$, they obtain:
+	
+	$$ a = \frac{ \log([S\bar{p}]_l) \cdot \log N_{l+1} - \log([S\bar{p}]_{l+1}) \cdot \log N_{l} }{\Delta} $$
+	
+	$$ b = \frac{ \log([S\bar{p}]_{l+1}) \cdot \log Y_{l} - \log([S\bar{p}]_{l}) \cdot \log Y_{l+1} }{\Delta} $$
+	
+	$$ c = \frac{ \log C_l \cdot \log N_{l+1} - \log C_{l+1} \cdot \log N_{l} }{\Delta} $$
+	
+	\begin{equation}
+	\label{parameters}
+		d = \frac{ \log C_l \cdot \log Y_{l+1} - \log C_{l+1} \cdot \log Y_{l} }{\Delta}
+	\end{equation}
+	
+
+
+
+
+	On the other hand, \citeonline{eloire2009reseaux} chose a different set of variables to measure the inputs of the $W(y)$ model. 
 	
 	
 	
