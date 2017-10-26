@@ -457,12 +457,36 @@
 	If we retake the functions of satisfaction (\ref{satisfaction}) and cost (\ref{cost}), the variables were chosen in this manner:
 	
 	\begin{itemize}
-		\item \textbf{Volume of production Y} -- estimated by number of performances listed in the theaters' annual report.
+		\item \textbf{Volume of production $Y$} -- estimated by number of performances listed in the theaters' annual report.
 	\end{itemize}
 
-	The authors show that for \apudonline{throsby1993economics}{biencourt2002market} the number of tickets sold is a better suited indicator for $Y$. However, ``the determination of $S$ would then require one to know the degree of audience satisfaction after each performance, something that is impossible'' \cite[p. 264]{biencourt2002market}. 
+	The authors show that for \apudonline{throsby1993economics}{biencourt2002market} the number of tickets sold is a better suited indicator for $Y$. However, ``the determination of $S$ would then require one to know the degree of audience satisfaction after each performance, something that is impossible'' \cite[p. 264]{biencourt2002market}. The number of seats available for each performance would also have been a good indicator if the authors had access to this data.
 	
-	......................................
+	\begin{itemize}
+		\item \textbf{The satisfaction of consumers $S$} -- The number of paid visitors to the institution market.
+	\end{itemize}
+	
+	The authors justify this choice showing data from previous research on theatre audiences' habits and representations. Also, they divided the performances on four repertoire categories, namely, ``classical'', ``20th century'', ``contemporary French'' and ``contemporary foreign'' plays. They also make a correction for the repertory effect by ``multiplying the number of paying visitors observed  in each of the four categories by the average ratio $\bar{x}_i$ between the share of performances and that of the number of visitors in a given genre $i$ for all the institution markets'' \cite[p. 265]{biencourt2002market}. Let $\tilde{P}_i$ be the number of performances and $\tilde{V}_i$ be the number of paying visitors to all theatres in category $i$. The average can be defined by
+	
+	\begin{equation}
+	\label{repertory-effect-correction}
+		\bar{x}_i = \frac{\tilde{P}_i / \sum_{i=1}^{4}\tilde{P}_i}{\tilde{V}_i / \sum_{i=1}^{4}\tilde{V}_i}	
+	\end{equation}
+	
+	If $v_i$ represents the number of paying visitors in category $i$ of repertoire, the public satisfaction can be estimated by
+	
+	\begin{equation}
+	\label{satisfaction-corrected}
+		S = \sum_{i=1}^{4}\bar{x}_i v_i
+	\end{equation}
+	
+	
+	
+	\begin{itemize}
+		\item \textbf{The aggregated cost $C$} -- this variable was obtained by adding up theatrical artistic expenses (differentiated from fixed costs).
+		
+		\item \textbf{scale $r$} --  
+	\end{itemize}
 	
 	
 	
