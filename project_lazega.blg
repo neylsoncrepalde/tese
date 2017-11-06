@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 204 of file project_lazega.aux
+White space in argument---line 222 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 35 entries,
+You've used 36 entries,
             6714 wiz_defined-function locations,
-            1398 strings with 14440 characters,
-and the built_in function-call counts, 27134 in all, are:
-= -- 2134
-> -- 951
+            1401 strings with 14497 characters,
+and the built_in function-call counts, 27925 in all, are:
+= -- 2197
+> -- 983
 < -- 35
-+ -- 402
-- -- 289
-* -- 1929
-:= -- 3649
-add.period$ -- 110
-call.type$ -- 36
-change.case$ -- 331
-chr.to.int$ -- 57
-cite$ -- 32
-duplicate$ -- 1340
-empty$ -- 2197
-format.name$ -- 1383
-if$ -- 6450
++ -- 414
+- -- 299
+* -- 1984
+:= -- 3754
+add.period$ -- 113
+call.type$ -- 37
+change.case$ -- 341
+chr.to.int$ -- 58
+cite$ -- 33
+duplicate$ -- 1381
+empty$ -- 2260
+format.name$ -- 1430
+if$ -- 6639
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 626
-newline$ -- 149
-num.names$ -- 163
-pop$ -- 821
+missing$ -- 646
+newline$ -- 153
+num.names$ -- 168
+pop$ -- 851
 preamble$ -- 1
-purify$ -- 132
+purify$ -- 136
 quote$ -- 0
-skip$ -- 1525
+skip$ -- 1567
 stack$ -- 1
-substring$ -- 989
-swap$ -- 626
+substring$ -- 1006
+swap$ -- 642
 text.length$ -- 27
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 9
 warning$ -- 0
-while$ -- 235
+while$ -- 241
 width$ -- 0
-write$ -- 503
+write$ -- 517
 (There were 3 error messages)
