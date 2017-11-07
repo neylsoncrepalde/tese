@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 222 of file project_lazega.aux
+White space in argument---line 224 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 36 entries,
+You've used 37 entries,
             6714 wiz_defined-function locations,
-            1401 strings with 14497 characters,
-and the built_in function-call counts, 27925 in all, are:
-= -- 2197
-> -- 983
-< -- 35
-+ -- 414
-- -- 299
-* -- 1984
-:= -- 3754
-add.period$ -- 113
-call.type$ -- 37
-change.case$ -- 341
-chr.to.int$ -- 58
-cite$ -- 33
-duplicate$ -- 1381
-empty$ -- 2260
-format.name$ -- 1430
-if$ -- 6639
+            1405 strings with 14579 characters,
+and the built_in function-call counts, 28838 in all, are:
+= -- 2271
+> -- 1006
+< -- 36
++ -- 422
+- -- 306
+* -- 2047
+:= -- 3874
+add.period$ -- 119
+call.type$ -- 38
+change.case$ -- 350
+chr.to.int$ -- 59
+cite$ -- 34
+duplicate$ -- 1431
+empty$ -- 2346
+format.name$ -- 1468
+if$ -- 6860
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 646
-newline$ -- 153
-num.names$ -- 168
-pop$ -- 851
+missing$ -- 664
+newline$ -- 157
+num.names$ -- 174
+pop$ -- 873
 preamble$ -- 1
-purify$ -- 136
+purify$ -- 139
 quote$ -- 0
-skip$ -- 1567
+skip$ -- 1613
 stack$ -- 1
-substring$ -- 1006
-swap$ -- 642
-text.length$ -- 27
+substring$ -- 1055
+swap$ -- 669
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 9
+type$ -- 10
 warning$ -- 0
-while$ -- 241
+while$ -- 251
 width$ -- 0
-write$ -- 517
+write$ -- 534
 (There were 3 error messages)
