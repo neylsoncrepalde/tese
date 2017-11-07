@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 231 of file project_lazega.aux
+White space in argument---line 232 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 39 entries,
+You've used 40 entries,
             6714 wiz_defined-function locations,
-            1416 strings with 15157 characters,
-and the built_in function-call counts, 31111 in all, are:
-= -- 2444
-> -- 1105
-< -- 41
-+ -- 460
-- -- 334
-* -- 2234
-:= -- 4173
-add.period$ -- 129
-call.type$ -- 40
-change.case$ -- 382
-chr.to.int$ -- 64
-cite$ -- 36
-duplicate$ -- 1539
-empty$ -- 2499
-format.name$ -- 1620
-if$ -- 7395
+            1419 strings with 15319 characters,
+and the built_in function-call counts, 31988 in all, are:
+= -- 2513
+> -- 1128
+< -- 42
++ -- 468
+- -- 341
+* -- 2295
+:= -- 4290
+add.period$ -- 135
+call.type$ -- 41
+change.case$ -- 391
+chr.to.int$ -- 65
+cite$ -- 37
+duplicate$ -- 1587
+empty$ -- 2583
+format.name$ -- 1658
+if$ -- 7607
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 703
-newline$ -- 166
-num.names$ -- 186
-pop$ -- 924
+missing$ -- 721
+newline$ -- 170
+num.names$ -- 192
+pop$ -- 946
 preamble$ -- 1
-purify$ -- 149
+purify$ -- 152
 quote$ -- 0
-skip$ -- 1716
+skip$ -- 1759
 stack$ -- 1
-substring$ -- 1154
-swap$ -- 730
-text.length$ -- 32
+substring$ -- 1195
+swap$ -- 755
+text.length$ -- 33
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 11
+type$ -- 12
 warning$ -- 0
-while$ -- 271
+while$ -- 281
 width$ -- 0
-write$ -- 570
+write$ -- 587
 (There were 3 error messages)
