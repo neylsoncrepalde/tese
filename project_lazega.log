@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  8 NOV 2017 07:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  8 NOV 2017 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1195,50 +1195,50 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 923.
 
 [23]
-Underfull \hbox (badness 10000) in paragraph at lines 949--949
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
 v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
  = page & Itemid =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 949--949
+Underfull \hbox (badness 10000) in paragraph at lines 960--960
  [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
  . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
 [24] [25]
-Overfull \hbox (10.9048pt too wide) in paragraph at lines 987--988
+Overfull \hbox (10.9048pt too wide) in paragraph at lines 998--999
 []\OT1/cmr/m/n/12 ERGM or P* mod-els ([]ROBINS et al.[], []2007[]; []LUSHER; KO
 SK-I-NEN; ROBINS[], []2013[]; []LAZEGA;
  []
 
-(./project_lazega.bbl
+[26] (./project_lazega.bbl
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[26] [27] [28]) [29] [30]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1021.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1021.
+[27] [28]) [29] [30]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1032.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1032.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1021.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1021.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1032.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1032.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1021.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1032.
  ) 
 Here is how much of TeX's memory you used:
- 12384 strings out of 492990
- 179139 string characters out of 6138688
- 319854 words of memory out of 5000000
- 15644 multiletter control sequences out of 15000+600000
+ 12380 strings out of 492990
+ 179041 string characters out of 6138688
+ 320672 words of memory out of 5000000
+ 15640 multiletter control sequences out of 15000+600000
  10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,2532b,643s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,12n,36p,2532b,639s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1254,10 +1254,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (30 pages, 349020 bytes).
+Output written on project_lazega.pdf (30 pages, 349696 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 662 compressed objects within 7 object streams
+ 731 PDF objects out of 1000 (max. 8388607)
+ 664 compressed objects within 7 object streams
  152 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
