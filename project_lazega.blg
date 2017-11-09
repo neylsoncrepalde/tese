@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 232 of file project_lazega.aux
+White space in argument---line 244 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 39 entries,
+You've used 41 entries,
             6714 wiz_defined-function locations,
-            1414 strings with 15157 characters,
-and the built_in function-call counts, 31367 in all, are:
-= -- 2468
-> -- 1113
-< -- 42
-+ -- 463
-- -- 336
-* -- 2259
-:= -- 4202
-add.period$ -- 132
-call.type$ -- 40
-change.case$ -- 385
-chr.to.int$ -- 64
-cite$ -- 36
-duplicate$ -- 1549
-empty$ -- 2521
-format.name$ -- 1635
-if$ -- 7458
+            1428 strings with 15378 characters,
+and the built_in function-call counts, 32859 in all, are:
+= -- 2574
+> -- 1145
+< -- 50
++ -- 475
+- -- 346
+* -- 2363
+:= -- 4398
+add.period$ -- 138
+call.type$ -- 42
+change.case$ -- 399
+chr.to.int$ -- 72
+cite$ -- 38
+duplicate$ -- 1639
+empty$ -- 2643
+format.name$ -- 1681
+if$ -- 7804
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 702
-newline$ -- 166
-num.names$ -- 187
-pop$ -- 921
+missing$ -- 736
+newline$ -- 176
+num.names$ -- 197
+pop$ -- 953
 preamble$ -- 1
-purify$ -- 149
+purify$ -- 155
 quote$ -- 0
-skip$ -- 1723
+skip$ -- 1805
 stack$ -- 1
-substring$ -- 1178
-swap$ -- 741
-text.length$ -- 33
+substring$ -- 1280
+swap$ -- 793
+text.length$ -- 39
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 12
 warning$ -- 0
-while$ -- 275
+while$ -- 293
 width$ -- 0
-write$ -- 573
+write$ -- 609
 (There were 3 error messages)
