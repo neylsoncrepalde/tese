@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  10 NOV 2017 18:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  20 NOV 2017 13:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -471,10 +471,10 @@ File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
 \BKM@id=\count149
 ))
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/06/29 3.12 The Babel package
+Package: babel 2017/11/03 3.15 The Babel package
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 (/usr/share/texmf-dist/tex/generic/babel-german/german.ldf
 Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
@@ -485,28 +485,25 @@ Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
 aphy)
 
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/06/29 3.12 Babel common definitions
+File: babel.def 2017/11/03 3.15 Babel common definitions
 
 (/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+File: switch.def 2017/11/03 3.15 Babel switching mechanism
 )
 \babel@savecnt=\count150
 \U@D=\dimen151
 )
 Package babel Info: Making " an active character on input line 139.
 ))
-(/usr/share/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2017/07/08 v3.3b French support from the babel system
-
 (/usr/share/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2017/07/08 v3.3b French support from the babel system
+Language: french 2017/10/19 v3.3d French support from the babel system
 \FB@nonchar=\count151
 \FBcolonsp=\toks23
 \FBthinsp=\toks24
-Package babel Info: Making : an active character on input line 321.
-Package babel Info: Making ; an active character on input line 322.
-Package babel Info: Making ! an active character on input line 323.
-Package babel Info: Making ? an active character on input line 324.
+Package babel Info: Making : an active character on input line 322.
+Package babel Info: Making ; an active character on input line 323.
+Package babel Info: Making ! an active character on input line 324.
+Package babel Info: Making ? an active character on input line 325.
 \FBguillsp=\toks25
 \FBguill@level=\count152
 \FB@everypar=\toks26
@@ -516,13 +513,14 @@ Package babel Info: Making ? an active character on input line 324.
 \mc@charslot=\count155
 \std@mcc=\count156
 \dec@mcc=\count157
+\c@FBcaption@count=\count158
 \listindentFB=\skip186
 \descindentFB=\skip187
 \labelwidthFB=\skip188
 \leftmarginFB=\skip189
 \parindentFFN=\dimen153
 \FBfnindent=\skip190
-))
+)
 (/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
@@ -538,7 +536,7 @@ Package babel Warning: Last declared language option is `brazil',
 (babel)                but the last processed one was `english'.
 (babel)                The main language cannot be set as both a global
 (babel)                and a package option. Use `main=brazil' as
-(babel)                option. Reported on input line 404.
+(babel)                option. Reported on input line 420.
 
 ) (/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
@@ -547,19 +545,19 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@outerparindent=\dimen154
 \enit@toks=\toks27
 \enit@inbox=\box29
-\enitdp@description=\count158
+\enitdp@description=\count159
 )
 (/usr/share/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count159
-\calc@Bcount=\count160
+\calc@Acount=\count160
+\calc@Bcount=\count161
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
 \calc@Askip=\skip192
 \calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count161
+\calc@Ccount=\count162
 \calc@Cskip=\skip194
 )
 
@@ -582,17 +580,17 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count162
+\c@abntex@bookmarkcounter=\count163
 \cftlastnumwidth=\skip256
 \chapternamenumlength=\skip257
 \ABNTEXcitacaorecuo=\skip258
-\c@alineasi=\count163
-\c@alineasii=\count164
-\enitdp@alineas=\count165
-\c@subalineasi=\count166
-\enitdp@subalineas=\count167
-\c@incisosi=\count168
-\enitdp@incisos=\count169
+\c@alineasi=\count164
+\c@alineasii=\count165
+\enitdp@alineas=\count166
+\c@subalineasi=\count167
+\enitdp@subalineas=\count168
+\c@incisosi=\count169
+\enitdp@incisos=\count170
 \ABNTEXsignwidth=\skip259
 \ABNTEXsignthickness=\skip260
 \ABNTEXsignskip=\skip261
@@ -939,7 +937,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen159
 \WF@size=\dimen160
-\c@WF@wrappedlines=\count170
+\c@WF@wrappedlines=\count171
 \WF@box=\box30
 \WF@everypar=\toks30
 Package: wrapfig 2003/01/31  v 3.6
@@ -949,7 +947,7 @@ Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 (/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count171
+\c@r@tfl@t=\count172
 \rotFPtop=\skip262
 \rotFPbot=\skip263
 \rot@float@box=\box31
@@ -981,8 +979,8 @@ Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 (/usr/share/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip264
 \ABCIauxlen=\skip265
-\c@ABCIaux=\count172
-\c@ABCImax=\count173
+\c@ABCIaux=\count173
+\c@ABCImax=\count174
 
 (/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
@@ -994,9 +992,9 @@ LaTeX Info: Redefining \cite on input line 618.
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count174
-\Gm@cntv=\count175
-\c@Gm@tempcnt=\count176
+\Gm@cnth=\count175
+\Gm@cntv=\count176
+\c@Gm@tempcnt=\count177
 \Gm@bindingoffset=\dimen161
 \Gm@wd@mp=\dimen162
 \Gm@odd@mp=\dimen163
@@ -1016,16 +1014,16 @@ Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTright=\skip268
 \LTpre=\skip269
 \LTpost=\skip270
-\LTchunksize=\count177
+\LTchunksize=\count178
 \LTcapwidth=\dimen169
 \LT@head=\box32
 \LT@firsthead=\box33
 \LT@foot=\box34
 \LT@lastfoot=\box35
-\LT@cols=\count178
-\LT@rows=\count179
-\c@LT@tables=\count180
-\c@LT@chunks=\count181
+\LT@cols=\count179
+\LT@rows=\count180
+\c@LT@tables=\count181
+\c@LT@chunks=\count182
 \LT@p@ftn=\toks34
 ) (./project_lazega.aux)
 \openout1 = `project_lazega.aux'.
@@ -1053,7 +1051,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count182
+\c@section@level=\count183
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -1073,16 +1071,16 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 \myptabboxwidth=\skip271
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count183
+\scratchcounter=\count184
 \scratchdimen=\dimen170
 \scratchbox=\box38
-\nofMPsegments=\count184
-\nofMParguments=\count185
+\nofMPsegments=\count185
+\nofMParguments=\count186
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count186
+\MPscratchCnt=\count187
 \MPscratchDim=\dimen171
-\MPnumerator=\count187
-\makeMPintoPDFobject=\count188
+\MPnumerator=\count188
+\makeMPintoPDFobject=\count189
 \everyMPtoPDFconversion=\toks36
 )
 *geometry* driver: auto-detecting
@@ -1184,7 +1182,7 @@ n-
  []
 
 [18] [19]
-\c@hip=\count189
+\c@hip=\count190
  [20] [21] [22] [23]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
@@ -1196,15 +1194,15 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 [24]
 Underfull \hbox (badness 10000) in paragraph at lines 964--964
- [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
-v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
- = page & Itemid =
+[][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . gov
+ . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller 
+= page & Itemid =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 964--964
- [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
- . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
+[][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com 
+. br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
 [25] [26] [27] (./project_lazega.bbl
@@ -1213,26 +1211,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[28] [29]) [30] [31]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1040.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1040.
+[28] [29]) [30] [31] [32] [33] [34] [35]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1191.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1191.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1040.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1040.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1191.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1191.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1040.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1191.
  ) 
 Here is how much of TeX's memory you used:
- 12408 strings out of 492990
- 179695 string characters out of 6138688
- 320437 words of memory out of 5000000
- 15661 multiletter control sequences out of 15000+600000
+ 12474 strings out of 492985
+ 180368 string characters out of 6138637
+ 323350 words of memory out of 5000000
+ 15693 multiletter control sequences out of 15000+600000
  10116 words of font info for 35 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,36p,2532b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,36p,2532b,632s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1248,10 +1246,10 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (31 pages, 356159 bytes).
+Output written on project_lazega.pdf (35 pages, 363926 bytes).
 PDF statistics:
- 781 PDF objects out of 1000 (max. 8388607)
- 712 compressed objects within 8 object streams
- 159 named destinations out of 1000 (max. 500000)
+ 844 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 201 named destinations out of 1000 (max. 500000)
  211 words of extra memory for PDF output out of 10000 (max. 10000000)
 
