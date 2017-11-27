@@ -825,11 +825,11 @@
 	
 	
 
-        \subsection{The multilevel approach}
+         \subsection{The multilevel approach}
 	
         \citeonline{lazega2016synchronization}\footnote{\citeonline{lazega2016synchronization} gives a theoretical introduction to multilevel networks. For a technical introduction as well as a reconstruction of the operationalization of the concept, see \citeonline{snijders2016multiple}.} states that a sociological tradition whose  origins are attributed to Max Weber develops itself to point out a kind of society that \apudonline{perrow1991society}{lazega2016synchronization} calls ``organizational'' and \apudonline{breiger1974duality}{lazega2016synchronization} calls ``dual''. Both concepts point to ``two levels of collective agency that co-constitute each other: an inter-individual level and an inter-organizational level'' \cite[p. 48]{lazega2016synchronization} between all kinds of collective entities. Individuals are distributed within a social structure where they have ties which each other, where they are affiliated to organizations and where those organizations also relate and build ties to each other. This makes the actors look at the world in a multilevel perspective and be aware of the importance of accounting for people's belongings to collectivities and the relations between these collectivities in a higher order to rationalize their actions in terms of control and efficiency. To \citeonline[p. 48]{lazega2016synchronization}, ``without this multilevel coordination (\dots), neither individuals nor organizations can access or mobilize on their own all the resources that are needed to produce, compete and survive''.
 
-        Interpersonal interdependencies are formed out of cowork, advice, friendship and other kind of relations build within of across organizations. The rules that organize social exchange are also part of these interdependencies. Inter-organizational interdependencies, on the other hand, are created mostly by contractual agreements between entities where contributions, rights and responsibilities are defined in the pursue of a common goal. It also depends on institutions that guarantee its credibility. It is important to notice that the relations are much less personalized in the organizational level. ``Resources, commitments and rules are different in nature from those characterizing the inter-individual level of agency'' \cite[p. 49]{lazega2016synchronization}. The links between those two levels are created by member affiliations on one level to the other (typically individuals in organizations). These approach is called `linked design' \cite{lazega2008catching}. 
+        Interpersonal interdependencies are formed out of cowork, advice, friendship and other kind of relations built within or across organizations. The rules that organize social exchange are also part of these interdependencies. Inter-organizational interdependencies, on the other hand, are created mostly by contractual agreements between entities where contributions, rights and responsibilities are defined in the pursue of a common goal. It also depends on institutions that guarantee its credibility. It is important to notice that the relations are much less personalized in the organizational level. ``Resources, commitments and rules are different in nature from those characterizing the inter-individual level of agency'' \cite[p. 49]{lazega2016synchronization}. The links between those two levels are created by member affiliations on one level to the other (typically individuals in organizations). These approach is called `linked design' \cite{lazega2008catching}. 
 
         When accounting for the interdependencies of both levels horizontally(within each level) and vertically (affiliations between levels), we can observe overlap and complementarity from which arise complex combinations of the various interests at stake. Also, actors are displayed in a stratified structure where status hierarchy is perceived not only regarding their individual assets, but also their organizations'. There can be ``big fish in big pond'', ``small fish in big pond'', and so on. \cite{lazega2008catching}.
 
@@ -853,11 +853,115 @@
         We are going to use these techniques on accounting for the multilevel networks of musicians and orchestra related organizations. Further detail is given in the ``Data and Methods'' section.
 	
 	
-	\subsection{Proposed indicators}
+
+        
+
+        \subsection{Measuring the $W(y)$ model}
+
+        Let us recall the two main equations of the $W(y)$ model. First the Cost equation (\ref{cost}):
+	$$C(y, n) = q \cdot y^c \cdot n^d$$
+        then, the Satisfaction equation (\ref{satisfaction}):
+        $$S(y, n) = r \cdot y^a \cdot n^b$$
+
+        The parameters will be measured in the following way:
+
+        \begin{itemize}
+        \item The constant $q = 1$;
+        \item the constant $r =$ the inverse of the average price of seats in all performances of the season;
+        \item The aggregated cost $C$ will be obtained by adding the orchestra's artistic expenses;
+        \item The satisfaction of consumers $S$ will be estimated by a ratio of the number of paying individuals in the audience over the number of seats available;
+        \item the volume of production $y$ will be estimated by the number of seats available for each performance\footnote{In case we cannot have access to data on the seats available, $y$ can be estimated by the total number of performances on a season.};
+        \item the quality index $n$ will be estimated aggregating the ticket prices, total budget, ``closeness to the state'' note and the musicians perception;
+        \end{itemize}
+
+        We will also try to capture the audience quality perception through a web application that we will construct only for this purpose. We will compare the results generated by both $n$ measurements. We will discuss this web application in more detail in the next section.
+
+        The elasticities $a$ and $b$, related to the Satisfaction equation, can be obtained as solutions of a system of two equations to two unknowns as it was proposed by \citeonline{biencourt2002market}. Trying to measure any of these variables would violate the assumption that cultural goods are not rivals in consumption.
+
+        The elasticities $c$ and $d$, on the other hand, can be measured in the following way:
+        % ELABORATE! ELABORATE! ELABORATE! ELABORATE! ELABORATE!
+
+        \begin{itemize}
+        \item $c =$ the number of salaried employees $/$ number of performances;
+        \item $d =$ the total budget $/$ number of performances
+        \end{itemize}
+
+        This makes sense because....... % EXPLAIN!!!!!!!
+	
+	\section{Data and Methods}
+	
+	
+	%Para realizar nossa investigação identificaremos as orquestras da cidade de Belo Horizonte incluindo sua região metropolitana e sua rede de parceiros comerciais. A escolha de Belo Horizonte se deu tendo em vista seu número relativamente pequeno de orquestras profissionais (em torno de seis), o que viabiliza o trabalho de campo, além de sua reconhecida expressividade no cenário cultural nacional. 
+	
+	We identified five professional orchestras in Belo Horizonte: Minas Gerais Philharmonic\footnote{\url{http://www.filarmonica.art.br}}, Minas Gerais Symphony Orchestra\footnote{\url{http://www.fcs.mg.gov.br/index.php?option=com_gmg&view=page&id=2631&controller=page&Itemid=1281}}, Sesiminas Chamber Orchestra\footnote{\url{http://www7.fiemg.com.br/sesi/centro-de-cultura/belo-horizonte/produtos/detalhe/orquestra-de-camara-sesiminas}}, Ouro Preto Orchestra\footnote{\url{http://www.orquestraouropreto.com.br}}, Military Police Symphony Orchestra\footnote{\url{https://www.policiamilitar.mg.gov.br/portal-pm/orquestra/principal.action}} and Opus Orchestra\footnote{\url{https://www.facebook.com/OrquestraOpus/}}. We chose	Belo Horizonte because of its recognized expressiveness in the national cultural field.
+	
+	%À luz da perspectiva relacional, buscaremos entender o fluxo de recursos e informação nessa estrutura permitindo a produção da música orquestral. Essa parte da pesquisa será realizada por meio de investigações preliminares do conteúdo a respeito das orquestras disponível \textit{online}, entrevistas com os gestores da organização e visitas \textit{in loco}.
+	
+	In light of the relational perspective, we will seek to understand resources and information flows in this structure which allow orchestral music production. This part of our research will be made through preliminary investigations on orchestras' content available online, interviews with organizations' managers and \textit{in loco} visits.
+	
+	%Para investigar a construção social do padrão de qualidade vigente na estrutura do mercado, adotaremos duas estratégias de pesquisa. A primeira está ancorada no pressuposto de que parte dos mecanismos cognitivos e de controle da qualidade acontecem na socialização realizada nos anos de formação acadêmica dos músicos. Dito de outra forma, os músicos aprendem com seus professores de graduação o que é uma performance boa e uma ruim, o que é uma orquestra boa e uma ruim, quais são os critérios que entram na avaliação da qualidade artística de um músico, etc. Muito embora essa concepção possa (e provavelmente vai) mudar ao longo da carreira de um músico em seus movimentos de acoplar e desacoplar dos diversos domínios em rede que participará, a base conceitual construída junto ao professor tende a criar raízes fortes. Desse modo, a primeira estratégia consiste em realizar entrevistas semiestruturadas com os professores de graduação em música das universidades em Belo Horizonte. Não será feito nenhum procedimento estatístico de amostragem devido ao caráter mais qualitativo dessa etapa da pesquisa. Adotaremos, portanto, uma amostragem por julgamento tendo em conta o conhecimento prévio do autor sobre os professores da cidade. O objetivo das entrevistas é verificar convergências no discurso dos professores acerca do que é uma boa performance e uma orquestra de qualidade. A segunda estratégia está ancorada no pressuposto de que o padrão de qualidade emerge de um sistema de status presente na estrutura hierarquizada dos músicos. Numa rede qualquer, os diversos indivíduos se estratificam numa hierarquia de prestígio e status e os indivíduos mais prestigiosos costumam mobilizar os critérios de qualidade. Desse modo, investigaremos a estrutura relacional entre os músicos das diversas orquestras identificando os nós mais centrais. Considerando o número alto de músicos profissionais em Belo Horizonte, julgamos que a abordagem mais apropriada e com maiores chances de retorno consiste da elaboração de um questionário sociométrico \textit{online}. Na ocasião de uma das visitas feitas às orquestras, este autor terá um momento com os músicos para explicar de maneira detalhada o teor do trabalho bem como a importância de sua colaboração ao que se seguirá o envio dos questionários. Após a identificação dos indivíduos com alta centralidade na rede, buscaremos entrevistá-los de maneira semelhante aos professores.
+
+
+        % Verificar!! --------------------------------------
+	To investigate the social construction of the current quality standard within market structure, we will adopt two research strategies. The first is anchored on the assumption that part of cognitive mechanisms and quality control happen in the socialization carried out in musicians academic education period. Put another way, musicians learn with their undergraduate teachers what is a good performance and a bad one, what is a good orchestra and a bad one, what are the criteria in the evaluation of a musician's artistic quality, etc. Although this conception may (and probably will) change throughout a musician's career in his coupling/decoupling movements from various netdoms, the conceptual basis build with the teacher tends to create strong roots. Therefore, the first strategy consists on interviewing undergraduate music professors in Belo Horizonte's universities. We will not do any statistical sampling procedure due to the qualitative character of this research stage. We will adopt, therefore, a sampling by judgement taking into account the author's previous knowledge on the city's professors. The goal of the interviews is to verify convergences in professors' discourse regarding a good performance and a quality orchestra. The second strategy is anchored on the assumption that the quality standard emerges from a status system present in the hierarchical structure of musicians. In any network, the various individuals stratify themselves in a prestige and status hierarchy. The most prestigious individuals usually mobilize quality criteria. Therefore, we will investigate the relational structure between musicians on the various orchestras identifying the most central nodes. Considering the large number of professional musicians in Belo Horizonte, we find that the most appropriate approach and the one that has the biggest return chances consists of an online sociometric survey. During the visits to the orchestras, this author intend to have a brief moment with musicians to explain this investigation as well as the importance of their collaboration. Then, the online survey will be sent by e-mail. After identifying the most central individuals, we will interview them in the same way as the professors.
+        % Verificar!! --------------------------------------
+	
+	%Após levantamento de atributos do entrevistado, identificaremos redes de aconselhamento (visando capturar o prestígio artístico),redes de amizade e redes de indicação profissional. Excluiremos aqui redes de coparticipação em performances por acreditarmos que elas resultarão em um dado demasiado redundante, visto que os questionários serão enviados para músicos de orquestras, e custoso para os entrevistados, dado o enorme número de músicos com os quais uma pessoa pode se apresentar.
+	
+
+
+	\section{The multilevel networks analysis}
+		
+	% As análises se darão através de dois tipos de modelagem em redes: os modelos de blocos, ou \textit{blockmodeling} e os ERGM, ou modelos P* (modelos estatísticos específicos para dados relacionais). Explicitaremos sucintamente a racionalidade por trás desses modelos e como eles serão úteis na análise dos dados supracitados.
+
+        This investigation will be conducted as a multilevel networks study. The low level is composed by individuals, musicians. The structure between them will be tracked from advisement networks\footnote{Cf. Appendix 2 - Sociometric online questionnaire - individuals.} (aiming to capture artistic prestige), friendship networks and job indication networks\footnote{We will exclude here performance co-participation networks because we believe that they will result in a too redundant data.}. The high level is composed by the orchestras and all the other organizations with whom they maintain any kind of relation, whether it is an economic relation, a partnership, a resources exchange agreement\footnote{Cf. Appendix 3 - Sociometric questionnaire - organizations.}. We will track the organizations' main activity, it's style (in White's terms\footnote{Explain what is STYLE in White's terms\dots}), it's formal structure and some economic variables of interest (for the companies in general budget, number of partnership contracts and relations with the State. Specifically for orchestras, the venues that it performs, average ticket price, number of tickets available and artistic expenses). These are the attributes we will use to model relation building between the organizations. 
+	
+        To investigate the quality market niches, we will identify structural equivalence among actors using Blockmodels as proposed by \citeonline{lazega2009theorie}. This will allow us to reduce complexity both on individual and organizational networks and identify niches that we can compare with the quality niches obtained through calculations and through surveys.
+
+        On accounting for the multilevel networks, we will adopt the analysis strategy described by \citeonline{brailly2016market}. We will use ERGM's to test our hypotheses regarding relations within each level and 2-mode to 1-mode transformations to investigate the affiliations between levels. We will briefly explain the rationale of the models.
+	
+	\subsection{Blockmodeling}
+	
+	%Os \textit{blockmodels} são uma operacionalização de um dos conceitos centrais na análise de redes, qual seja, a equivalência estrutural. Este conceito baseia-se na ideia de que indivíduos podem exercer papeis sociais numa estrutura em rede a partir de posições específicas \cite{lazega2014redes}. Os modelos de blocos utilizam, na maioria das vezes, correlações iteradas sobre as linhas e colunas de uma matriz relacional ou a medida da distância euclidiana para separar nós estruturalmente equivalentes. Para \citeonline{lazega2009theorie}, os \textit{blockmodels} são a melhor ferramenta disponível hoje para a investigação de nichos de mercado.
+	
+	Blockmodels are an operationalization of one the most central concepts in netowrks analysis, which is, structural equivalence. This concept is based on the ideia that individuals can play social roles in a network structure from specific positions \cite{lazega2014redes}. Blockmodels utilize, most of the time, iterated correlations on the rows and columns of a relational matrix or euclidean distance to separate structurally equivalent nodes \cite{wasserman1994social}. This process returns a ``shrinked'' network with relations between groups of structural equivalent nodes. In this way, we can simplify our data to better understand it with an almost insignificant loss of information. To \citeonline{lazega2009theorie}, blockmodels are the best available tool nowadays to investigate market niches.
+	
+	%Neste trabalho utilizaremos uma versão estocástica frequentista do modelo elaborada por \citeonline{daudin2008mixture} e uma versão estocástica bayesiana elaborada por \citeonline{latouche2012variational}.
+	
+	In this research we will use a stochastic frequentist version of the model elaborated by \citeonline{daudin2008mixture} and a stochastic bayesian version elaborated by \citeonline{latouche2012variational}.
+	
+	
+	\subsection{ERGM}
+	
+	%Os ERGM's, ou modelos P* \cite{robins2007introduction,lusher2013exponential,lazega2014redes,brailly2017explorer}, são modelos estatísticos desenvolvidos especificamente para dados relacionais. Uma estrutura de relações postula interdependência entre as identidades que a compõem. Isso fere um dos pressupostos da modelagem estatística convencional, qual seja, a independência das informações. ``O fato de que eu escolho Pedro como amigo não é necessariamente independente do fato de que eu também escolho Paulo porque eles também podem ser amigos entre si \cite[p. 76]{lazega2014redes}.
+	
+	ERGM's \cite{robins2007introduction,lusher2013exponential} are statistical models developed specifically to deal with relational data. A relations structure postulates interdependence between identities. This goes against one of the assumptions of conventional statistical modeling, the independence of information. ``The fact that I choose Peter as my friend is not necessarily independent of the fact that I also choose Paul because they can be friends with each other'' \cite[p. 76]{lazega2014redes}.
+	
+	The ERGM can be defined by
+	
+		
+	%\begin{equation}
+	$$Pr(Y=y) \quad = \quad \left(\frac{1}{k}\right) exp \left\{ \sum_{A} \eta_A g_A (\textbf{y}) \right\}$$
+	%\end{equation}
+	
+	where Y is the theoretical estimated graph, y is the observed graph, $\sum_{A}$ is the sum of all configurations \textit{A},  $\eta_A$ is the estimated parameter corresponding to configuration \textit{A}, $g_A(\textbf{y})$ is the network statistic corresponding to configuration \textit{A} of graph \textbf{y} and \textit{k} is a constant that ensures an adequate probabilities distribution \cite{robins2007introduction}. This model allows us to estimate the effect of each endogenous configuration of the network on the emergence of the network itself. Put another way, since every endogenous configuration can be associated with a social process, the model allows us to \textit{explain the network as a dependent variable}, to explain which processes are important and which are not important to understand the social structure under investigation. In our case, this procedure will be conducted for both levels of the network, that is, we will model both social processes modeling the inter-individual structure and the inter-organizational structure.
+		
+	%Para os fins deste trabalho, utilizaremos uma variação do modelo P* conhecida como ``modelo de seleção social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
+	
+	In this research we will use a variation of the ERGM known as ``Social Selection Models''. These models were proposed by \citeonline{robins2001network} aiming to take account of the existing heterogeneity inside social structures using nodal attributes as exogenous covariables. Therefore, besides the network's own configurations, we will analyze how exogenous variables shape the emergence of the structure as well \cite{wang2016social}.
+	
+	
+	\subsection{2-mode transformations}
+
+        2-mode to 1-mode transformations allow us to investigate an affiliation network anchored in the assumption that when people are engaged in the same organizations or in the same events (a common approach in the literature), people build ties between themselves. This procedure counts one tie between two organizations when they share a person or a tie between two persons when both are engaged in the same organization \cite{brailly2016market,lazega2014redes}. The result is a 1-mode weighted network of individuals who participate in the same organizations or a 1-mode weighted network of organizations that share members.
+	
+
+
+       	\section{Proposed indicators}
 	
 	%Com o intuito de operacionalizar o desenho de pesquisa descrito supra, buscaremos os seguintes indicadores: para verificar o padrão de qualidade vigente, verificaremos a representação dos músicos dos atributos da qualidade. Para verificar o Ranking das orquestras, utilizaremos um conjunto de indicadores: a representação dos músicos sobre o Ranking, o preço médio do ingresso, a quantidade de concertos por temporada e o volume total de investimentos. O preço médio do ingresso é adotado aqui como uma \textit{proxy} da qualidade embasado no achado de \citeonline{throsby1983quality} (a demanda é inelástica em relação ao preço mas altamente correlacionada com relação á qualidade percebida). Argumentamos que esta é uma boa proxy pois as pessoas estariam dispostas a pagar mais por um concerto que percebem como sendo de alta qualidade. A quantidade de concertos e o volume total de investimentos parecem, à primeira vista, \textit{proxys} menos seguras do que a anterior pois percebe-se um risco de cair numa tautologia. As orquestras são boas porque tem mais financiamento ou tem mais financiamento porque são boas? Tocam mais porque são boas ou são consideradas boas porque tocam mais? Contudo, argumentamos que, se adotados com parcimônia e sempre conjugados a outras variáveis, esses indicadores podem dar \textit{insights} valiosos sobre o campo. Pretendemos testar um índice de qualidade criado a partir da aglutinação dessas variáveis através de uma análise fatorial\footnote{Em linhas muito gerais, a análise fatorial é uma técnica de análise multivariada que visa reduzir a complexidade dimnuindo as dimensões a serem analisadas em índices ou escores \cite{mingoti2005analise}.}.
 	
-	Our first goal is to build a database with the variables we are going to rely for our investigation. In order to operationalize the research design described above, we will look for the following indicators: to verify the current \textbf{quality standard}, we will check musicians' representation of the ranking, the average ticket price and total investment. The average ticket price is adopted here as a quality proxy based on the finding of \citeonline{throsby1983quality} (the demand is inelastic in relation to the price but highly correlated in relation to perceived quality). We argue that this is a good proxy because, generally, people are willing to pay more for a concert they judge to be of high quality. Total budget seems, at first sight, a not so good proxy because there is a risk of falling into a tautology. Orchestras are good because they have more money or they have more money because they are good? However, we argue that, if we analyze this indicator conjugated with the organization's closeness to the State, it can give valuable insights on the field. We intend to test a quality index that will be created from the agglutination of these variables.
+	Our goal is to build a database with the variables we are going to rely for our investigation. In order to operationalize the research design described above, we will look for the following indicators: to verify the current \textbf{quality standard}, we will check musicians' representation of the ranking, the average ticket price and total investment. The average ticket price is adopted here as a quality proxy based on the finding of \citeonline{throsby1983quality} (the demand is inelastic in relation to the price but highly correlated in relation to perceived quality). We argue that this is a good proxy because, generally, people are willing to pay more for a concert they judge to be of high quality. Total budget seems, at first sight, a not so good proxy because there is a risk of falling into a tautology. Orchestras are good because they have more money or they have more money because they are good? However, we argue that, if we analyze this indicator conjugated with the organization's closeness to the State, it can give valuable insights on the field. We intend to test a quality index that will be created from the agglutination of these variables.
 	
 	%Para capturar as interações no nível individual, construiremos redes relacionais entre músicos a partir de questionários sociométricos. Maiores detalhes sobre o questionário serão apresentados na seção seguinte. Por ora é suficiente indicar que adotaremos a centralidade de grau, centralidade de intermediação e o \textit{constraint} como indicadores para encontrar os \textit{hubs}. Os atributos dos indivíduos, as variáveis exógenas às redes, serão mensuradas pelo país de origem, cidade de origem, instituição de formação e o professor. Esses indicadores nos mostram um pouco do contexto do músico e de como ele pode ser situado a priori numa escala de prestígio em meio ao campo.
 	
@@ -923,105 +1027,6 @@
 		{\fonte{Elaborated by the author.}}
         \end{table}
 
-
-        \subsection{Measuring the $W(y)$ model}
-
-        Let us recall the two main equations of the $W(y)$ model. First the Cost equation (\ref{cost}):
-	$$C(y, n) = q \cdot y^c \cdot n^d$$
-        then, the Satisfaction equation (\ref{satisfaction}):
-        $$S(y, n) = r \cdot y^a \cdot n^b$$
-
-        The parameters will be measured in the following way:
-
-        \begin{itemize}
-        \item The constant $q = 1$;
-        \item the constant $r =$ the inverse of the average price of seats in all performances of the season;
-        \item The aggregated cost $C$ will be obtained by adding the orchestra's artistic expenses;
-        \item The satisfaction of consumers $S$ will be estimated by a ratio of the number of paying individuals in the audience over the number of seats available;
-        \item the volume of production $y$ will be estimated by the number of seats available for each performance\footnote{In case we cannot have access to data on the seats available, $y$ can be estimated by the total number of performances on a season.};
-        \item the quality index $n$ will be estimated aggregating the ticket prices, total budget, ``closeness to the state'' note and the musicians perception;
-        \end{itemize}
-
-        We will also try to capture the audience quality perception through a web application that we will construct only for this purpose. We will compare the results generated by both $n$ measurements. We will discuss this web application in more detail in the next section.
-
-        The elasticities $a$ and $b$, related to the Satisfaction equation, can be obtained as solutions of a system of two equations to two unknowns as it was proposed by \citeonline{biencourt2002market}. Trying to measure any of these variables would violate the assumption that cultural goods are not rivals in consumption.
-
-        The elasticities $c$ and $d$, on the other hand, can be measured in the following way:
-        % ELABORATE! ELABORATE! ELABORATE! ELABORATE! ELABORATE!
-
-        \begin{itemize}
-        \item $c =$ the number of salaried employees $/$ number of performances;
-        \item $d =$ the total budget $/$ number of performances
-        \end{itemize}
-
-        This makes sense because....... % EXPLAIN!!!!!!!
-	
-	\section{Data and Methods}
-	
-	
-	%Para realizar nossa investigação identificaremos as orquestras da cidade de Belo Horizonte incluindo sua região metropolitana e sua rede de parceiros comerciais. A escolha de Belo Horizonte se deu tendo em vista seu número relativamente pequeno de orquestras profissionais (em torno de seis), o que viabiliza o trabalho de campo, além de sua reconhecida expressividade no cenário cultural nacional. 
-	
-	We identified five professional orchestras in Belo Horizonte: Minas Gerais Philharmonic\footnote{\url{http://www.filarmonica.art.br}}, Minas Gerais Symphony Orchestra\footnote{\url{http://www.fcs.mg.gov.br/index.php?option=com_gmg&view=page&id=2631&controller=page&Itemid=1281}}, Sesiminas Chamber Orchestra\footnote{\url{http://www7.fiemg.com.br/sesi/centro-de-cultura/belo-horizonte/produtos/detalhe/orquestra-de-camara-sesiminas}}, Ouro Preto Orchestra\footnote{\url{http://www.orquestraouropreto.com.br}}, Military Police Symphony Orchestra\footnote{\url{https://www.policiamilitar.mg.gov.br/portal-pm/orquestra/principal.action}} and Opus Orchestra\footnote{\url{https://www.facebook.com/OrquestraOpus/}}. We chose	Belo Horizonte because of its recognized expressiveness in the national cultural field.
-	
-	%À luz da perspectiva relacional, buscaremos entender o fluxo de recursos e informação nessa estrutura permitindo a produção da música orquestral. Essa parte da pesquisa será realizada por meio de investigações preliminares do conteúdo a respeito das orquestras disponível \textit{online}, entrevistas com os gestores da organização e visitas \textit{in loco}.
-	
-	In light of the relational perspective, we will seek to understand resources and information flows in this structure which allow orchestral music production. This part of our research will be made through preliminary investigations on orchestras' content available online, interviews with organizations' managers and \textit{in loco} visits.
-	
-	%Para investigar a construção social do padrão de qualidade vigente na estrutura do mercado, adotaremos duas estratégias de pesquisa. A primeira está ancorada no pressuposto de que parte dos mecanismos cognitivos e de controle da qualidade acontecem na socialização realizada nos anos de formação acadêmica dos músicos. Dito de outra forma, os músicos aprendem com seus professores de graduação o que é uma performance boa e uma ruim, o que é uma orquestra boa e uma ruim, quais são os critérios que entram na avaliação da qualidade artística de um músico, etc. Muito embora essa concepção possa (e provavelmente vai) mudar ao longo da carreira de um músico em seus movimentos de acoplar e desacoplar dos diversos domínios em rede que participará, a base conceitual construída junto ao professor tende a criar raízes fortes. Desse modo, a primeira estratégia consiste em realizar entrevistas semiestruturadas com os professores de graduação em música das universidades em Belo Horizonte. Não será feito nenhum procedimento estatístico de amostragem devido ao caráter mais qualitativo dessa etapa da pesquisa. Adotaremos, portanto, uma amostragem por julgamento tendo em conta o conhecimento prévio do autor sobre os professores da cidade. O objetivo das entrevistas é verificar convergências no discurso dos professores acerca do que é uma boa performance e uma orquestra de qualidade. A segunda estratégia está ancorada no pressuposto de que o padrão de qualidade emerge de um sistema de status presente na estrutura hierarquizada dos músicos. Numa rede qualquer, os diversos indivíduos se estratificam numa hierarquia de prestígio e status e os indivíduos mais prestigiosos costumam mobilizar os critérios de qualidade. Desse modo, investigaremos a estrutura relacional entre os músicos das diversas orquestras identificando os nós mais centrais. Considerando o número alto de músicos profissionais em Belo Horizonte, julgamos que a abordagem mais apropriada e com maiores chances de retorno consiste da elaboração de um questionário sociométrico \textit{online}. Na ocasião de uma das visitas feitas às orquestras, este autor terá um momento com os músicos para explicar de maneira detalhada o teor do trabalho bem como a importância de sua colaboração ao que se seguirá o envio dos questionários. Após a identificação dos indivíduos com alta centralidade na rede, buscaremos entrevistá-los de maneira semelhante aos professores.
-	
-	To investigate the social construction of the current quality standard within market structure, we will adopt two research strategies. The first is anchored on the assumption that part of cognitive mechanisms and quality control happen in the socialization carried out in musicians academic education period. Put another way, musicians learn with their undergraduate teachers what is a good performance and a bad one, what is a good orchestra and a bad one, what are the criteria in the evaluation of a musician's artistic quality, etc. Although this conception may (and probably will) change throughout a musician's career in his coupling/decoupling movements from various netdoms, the conceptual basis build with the teacher tends to create strong roots. Therefore, the first strategy consists on interviewing undergraduate music professors in Belo Horizonte's universities. We will not do any statistical sampling procedure due to the qualitative character of this research stage. We will adopt, therefore, a sampling by judgement taking into account the author's previous knowledge on the city's professors. The goal of the interviews is to verify convergences in professors' discourse regarding a good performance and a quality orchestra. The second strategy is anchored on the assumption that the quality standard emerges from a status system present in the hierarchical structure of musicians. In any network, the various individuals stratify themselves in a prestige and status hierarchy. The most prestigious individuals usually mobilize quality criteria. Therefore, we will investigate the relational structure between musicians on the various orchestras identifying the most central nodes. Considering the large number of professional musicians in Belo Horizonte, we find that the most appropriate approach and the one that has the biggest return chances consists of an online sociometric survey. During the visits to the orchestras, this author intend to have a brief moment with musicians to explain this investigation as well as the importance of their collaboration. Then, the online survey will be sent by e-mail. After identifying the most central individuals, we will interview them in the same way as the professors.
-	
-	%Após levantamento de atributos do entrevistado, identificaremos redes de aconselhamento (visando capturar o prestígio artístico),redes de amizade e redes de indicação profissional. Excluiremos aqui redes de coparticipação em performances por acreditarmos que elas resultarão em um dado demasiado redundante, visto que os questionários serão enviados para músicos de orquestras, e custoso para os entrevistados, dado o enorme número de músicos com os quais uma pessoa pode se apresentar.
-	
-	After the attribute collection of the interviewed, we will identify advisement networks (aiming to capture artistic prestige), friendship networks and job indication networks. We will exclude here performance coparticipation networks because we believe that they will result in a too redundant data.
-	
-
-
-
-	\section{Relational analytical models}
-		
-	%As análises se darão através de dois tipos de modelagem em redes: os modelos de blocos, ou \textit{blockmodeling} e os ERGM, ou modelos P* (modelos estatísticos específicos para dados relacionais). Explicitaremos sucintamente a racionalidade por trás desses modelos e como eles serão úteis na análise dos dados supracitados.
-	
-        To investigate the quality market niches, we will identify structural equivalence among actors using Blockmodels as proposed by \citeonline{lazega2009theorie}. This will allow us to reduce complexity both on individual and organizational networks and identify niches that we can compare with the quality niches obtained through calculations and through surveys.
-
-        On accounting for the multilevel networks, we will basically adopt the analysis strategy described by \citeonline{brailly2016market}. We will use ERGM's to test our hypotheses regarding relations within each level and 2-mode to 1-mode transformations to investigate the affiliations between levels. We will briefly explain the rationale of the models.
-	
-	\subsection{Blockmodeling}
-	
-	%Os \textit{blockmodels} são uma operacionalização de um dos conceitos centrais na análise de redes, qual seja, a equivalência estrutural. Este conceito baseia-se na ideia de que indivíduos podem exercer papeis sociais numa estrutura em rede a partir de posições específicas \cite{lazega2014redes}. Os modelos de blocos utilizam, na maioria das vezes, correlações iteradas sobre as linhas e colunas de uma matriz relacional ou a medida da distância euclidiana para separar nós estruturalmente equivalentes. Para \citeonline{lazega2009theorie}, os \textit{blockmodels} são a melhor ferramenta disponível hoje para a investigação de nichos de mercado.
-	
-	Blockmodels are an operationalization of one the most central concepts in netowrks analysis, which is, structural equivalence. This concept is based on the ideia that individuals can play social roles in a network structure from specific positions \cite{lazega2014redes}. Blockmodels utilize, most of the time, iterated correlations on the rows and columns of a relational matrix or euclidean distance to separate structurally equivalent nodes \cite{wasserman1994social}. This process returns a ``shrinked'' network with relations between groups of structural equivalent nodes. In this way, we can simplify our data to better understand it with an almost insignificant loss of information. To \citeonline{lazega2009theorie}, blockmodels are the best available tool nowadays to investigate market niches.
-	
-	%Neste trabalho utilizaremos uma versão estocástica frequentista do modelo elaborada por \citeonline{daudin2008mixture} e uma versão estocástica bayesiana elaborada por \citeonline{latouche2012variational}.
-	
-	In this research we will use a stochastic frequentist version of the model elaborated by \citeonline{daudin2008mixture} and a stochastic bayesian version elaborated by \citeonline{latouche2012variational}.
-	
-	
-	\subsection{ERGM}
-	
-	%Os ERGM's, ou modelos P* \cite{robins2007introduction,lusher2013exponential,lazega2014redes,brailly2017explorer}, são modelos estatísticos desenvolvidos especificamente para dados relacionais. Uma estrutura de relações postula interdependência entre as identidades que a compõem. Isso fere um dos pressupostos da modelagem estatística convencional, qual seja, a independência das informações. ``O fato de que eu escolho Pedro como amigo não é necessariamente independente do fato de que eu também escolho Paulo porque eles também podem ser amigos entre si \cite[p. 76]{lazega2014redes}.
-	
-	ERGM's \cite{robins2007introduction,lusher2013exponential,lazega2014redes,brailly2017explorer} are statistical models developed specifically to deal with relational data. A relations structure postulates interdependence between identities. This goes against one of the assumptions of conventional statistical modeling, the independence of information. ``The fact that I choose Peter as my friend is not necessarily independent of the fact that I also choose Paul because they can be friends with each other'' \cite[p. 76]{lazega2014redes}.
-	
-	The ERGM can be defined by
-	
-		
-	%\begin{equation}
-	$$Pr(Y=y) \quad = \quad \left(\frac{1}{k}\right) exp \left\{ \sum_{A} \eta_A g_A (\textbf{y}) \right\}$$
-	%\end{equation}
-	
-	where Y is the theoretical estimated graph, y is the observed graph, $\sum_{A}$ is the sum of all configurations \textit{A},  $\eta_A$ is the estimated parameter corresponding to configuration \textit{A}, $g_A(\textbf{y})$ is the network statistic corresponding to configuration \textit{A} of graph \textbf{y} and \textit{k} is a constant that ensures an adequate probabilities distribution \cite{robins2007introduction}. This model allows us to estimate the effect of each endogenous configuration of the network on the emergence of the network itself. Put another way, since every endogenous configuration can be associated with a social process, the model allows us to \textit{explain the network as a dependent variable}, to explain which processes are important and which are not important to understand the social structure under investigation. In our case, this procedure will be conducted for both levels of the network, that is, we will model both social processes modeling the inter-individual structure and the inter-organizational structure.
-		
-	%Para os fins deste trabalho, utilizaremos uma variação do modelo P* conhecida como ``modelo de seleção social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
-	
-	In this research we will use a variation of the ERGM known as ``Social Selection Models''. These models were proposed by \citeonline{robins2001network} aiming to take account of the existing heterogeneity inside social structures using nodal attributes as exogenous covariables. Therefore, besides the network's own configurations, we will analyze how exogenous variables shape the emergence of the structure as well \cite{wang2016social}.
-	
-	
-	\subsection{2-mode transformations}
-
-        2-mode to 1-mode transformations allow us to investigate an affiliation network anchored in the assumption that when people are engaged in the same organizations or in the same events (a common approach in the literature), people build ties between themselves. This procedure counts one tie between two organizations when they share a person or a tie between two persons when both are engaged in the same organization \cite{brailly2016market,lazega2014redes}. The result is a 1-mode weighted network of individuals who participate in the same organizations or a 1-mode weighted network of organizations that share members.
-	
-	
 	
 	
 	

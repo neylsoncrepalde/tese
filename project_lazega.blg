@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: project_lazega.aux
-White space in argument---line 256 of file project_lazega.aux
+White space in argument---line 254 of file project_lazega.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -35,45 +35,45 @@ Reallocated glb_str_end (elt_size=8) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 43 entries,
+You've used 42 entries,
             6714 wiz_defined-function locations,
-            1437 strings with 15609 characters,
-and the built_in function-call counts, 34560 in all, are:
-= -- 2709
-> -- 1201
-< -- 53
-+ -- 496
-- -- 363
-* -- 2482
-:= -- 4622
-add.period$ -- 148
-call.type$ -- 44
-change.case$ -- 418
-chr.to.int$ -- 77
-cite$ -- 40
-duplicate$ -- 1730
-empty$ -- 2790
-format.name$ -- 1766
-if$ -- 8214
+            1429 strings with 15334 characters,
+and the built_in function-call counts, 33564 in all, are:
+= -- 2637
+> -- 1159
+< -- 49
++ -- 480
+- -- 351
+* -- 2400
+:= -- 4492
+add.period$ -- 145
+call.type$ -- 43
+change.case$ -- 404
+chr.to.int$ -- 73
+cite$ -- 39
+duplicate$ -- 1682
+empty$ -- 2728
+format.name$ -- 1705
+if$ -- 7981
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 774
-newline$ -- 184
-num.names$ -- 208
-pop$ -- 1005
+missing$ -- 756
+newline$ -- 179
+num.names$ -- 203
+pop$ -- 985
 preamble$ -- 1
-purify$ -- 162
+purify$ -- 157
 quote$ -- 0
-skip$ -- 1889
+skip$ -- 1839
 stack$ -- 1
-substring$ -- 1340
-swap$ -- 837
-text.length$ -- 41
+substring$ -- 1290
+swap$ -- 809
+text.length$ -- 38
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 13
 warning$ -- 0
-while$ -- 309
+while$ -- 300
 width$ -- 0
-write$ -- 641
+write$ -- 623
 (There were 3 error messages)
