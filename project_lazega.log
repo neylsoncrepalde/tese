@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  11 DEC 2017 21:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  2 JAN 2018 12:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,32 +1205,48 @@ Underfull \hbox (badness 10000) in paragraph at lines 912--912
 . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
  []
 
-[24] [25] [26] [27] [28] (./project_lazega.bbl
+[24] [25] [26] [27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 1052--1052
+[]\OT1/cmr/m/n/10 Minas Gerais Phil-har-monic Web-site, []$\OMS/cmsy/m/n/10 h\O
+T1/cmr/m/n/10 http : / / www . ^^Llarmonica . art . br / instituto /
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1084--1084
+[]|\OT1/cmr/m/n/10 Cumulative num-ber of con-certs in pub-lic
+ []
+
+
+Underfull \hbox (badness 1472) in paragraph at lines 1084--1084
+[]|\OT1/cmr/m/n/10 Cumulative num-ber of con-certs in pub-lic
+ []
+
+[29] (./project_lazega.bbl
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[29] [30]) [31] [32] [33] [34] [35] [36] [37] [38]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1253.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1253.
+[30] [31] [32]) [33] [34] [35] [36] [37] [38] [39]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1316.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1316.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1253.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1253.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1316.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1316.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1253.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1316.
  ) 
 Here is how much of TeX's memory you used:
- 12502 strings out of 492985
- 180707 string characters out of 6138637
- 324512 words of memory out of 5000000
- 15700 multiletter control sequences out of 15000+600000
- 10116 words of font info for 35 fonts, out of 8000000 for 9000
+ 12525 strings out of 492985
+ 181140 string characters out of 6138637
+ 331047 words of memory out of 5000000
+ 15716 multiletter control sequences out of 15000+600000
+ 10468 words of font info for 36 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,36p,2532b,631s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,12n,36p,2532b,645s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
@@ -1245,11 +1261,12 @@ s/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><
 1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfo
 nts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.
 pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on project_lazega.pdf (38 pages, 371033 bytes).
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on project_lazega.pdf (39 pages, 385550 bytes).
 PDF statistics:
- 896 PDF objects out of 1000 (max. 8388607)
- 819 compressed objects within 9 object streams
- 222 named destinations out of 1000 (max. 500000)
- 219 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 928 PDF objects out of 1000 (max. 8388607)
+ 846 compressed objects within 9 object streams
+ 228 named destinations out of 1000 (max. 500000)
+ 227 words of extra memory for PDF output out of 10000 (max. 10000000)
 
