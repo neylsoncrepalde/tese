@@ -2,4 +2,4 @@
 ## Tese de Doutorado
 ### Neylson Crepalde
 
-Este repositório contém os códigos LaTeX da minha tese de doutorado. :)
+Este repositório contém os códigos LaTeX, R e Python da minha tese de doutorado. :)
