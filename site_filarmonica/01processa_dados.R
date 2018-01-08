@@ -42,6 +42,10 @@ fil_completo = read_csv("concertos_filarmonica_paracorrigir.csv")
 fil_completo = fil_completo %>% unique %>% 
   mutate(dia_sep = strsplit(dia, " e ")) %>% unnest
 
+# Tira uma turnê internacional que deu problema no mês
+turne_internacional = grep(" a ", fil_completo$mes)
+fil_completo = fil_completo[-turne_internacional, ]
+
 
 # Exporta banco de dados completo
 write_csv(fil_completo, "concertos_filarmonica_completo.csv")
