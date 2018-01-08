@@ -20,23 +20,29 @@ fil2008 = read_csv("concertos_filarmonica_2008_corrigido.csv")
 # Junta todos num banco de dados completo
 fil_completo = rbind(fil2016, fil2015, fil2014, fil2013, fil2012, fil2011,
                      fil2010, fil2009, fil2008) #OK
-#write_csv(fil_completo, "concertos_filarmonica_completo.csv")
 
 # Separa compositor e obra
 fil_completo = fil_completo %>% 
   separate(repertorio, c("compositor", "obra"), sep = "[[:space:]]\\|")
 
 # Exporta um csv com compositores para classificação de estilo
-fil_completo %>% select(compositor) %>% unique %>% arrange(compositor) %>%
-  write_excel_csv(., "fil_compositores.csv") #OK
+#fil_completo %>% select(compositor) %>% unique %>% arrange(compositor) %>%
+#  write_excel_csv(., "fil_compositores.csv") #OK
 
+# Após completar as informações, lê o banco das classificações do repertório
+compositores = read_csv("fil_compositores_completo.csv")
+
+# Merge classificação do período com o banco de dados completo
+fil_completo = left_join(fil_completo, compositores, by = "compositor")
 
 # Separa os dias
-fil_completo = fil_completo %>% mutate(V2 = strsplit(dia, " e ")) %>% unnest
+fil_completo = fil_completo %>% mutate(dia_sep = strsplit(dia, " e ")) %>% unnest
 
 
+# Exporta banco de dados completo
+write_csv(fil_completo, "concertos_filarmonica_completo.csv")
 
 # Exporta um csv com ano, mes e dias separados para juntar com 
 # taxa de ocupação
-fil_completo %>% select(ano, mes, V2) %>% unique %>% 
+fil_completo %>% select(ano, mes, dia_sep, serie) %>% unique %>% 
   write_excel_csv(., "occupancy_2016.csv")
