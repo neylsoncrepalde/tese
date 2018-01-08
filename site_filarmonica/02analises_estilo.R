@@ -13,17 +13,14 @@ library(ggplot2)
 source("https://gist.githubusercontent.com/jgarces02/dc7683d7ff464042e3b9da12ce8dbe97/raw/d2f9b00528138b65a329205b47ca70f4984ca952/multiplot.R")
 #--------------------
 
-compositores = read_csv("fil_compositores_completo.csv")
 fil_completo = read_csv("concertos_filarmonica_completo.csv")
-
-# Merge classificação do período com o banco de dados completo
-fil_completo = left_join(fil_completo, compositores, by = "compositor")
+compositores = read_csv("fil_compositores_completo.csv")
 
 # Contabilizando os períodos contemplados por número de compositores
 freq(compositores$periodo)
 
 #-------------------------
-# Separando as obras e os dias de execução, sem repetições
+# Separando as obras e os programas de execução, sem repetições
 obras_feitas = fil_completo %>% 
   select(ano, mes, dia, local, compositor, serie, obra, periodo) %>% unique
 
