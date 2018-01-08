@@ -26,6 +26,12 @@ fil_ocupacao = left_join(fil_completo, ocupacao)
 ### ANÁLISES
 View(fil_ocupacao)
 
+fil_2016 = fil_ocupacao %>% filter(ano == 2016)
+fil_2016$tx_ocup = (fil_2016$publico / fil_2016$pot_ocup) * 100
+summary(fil_2016$tx_ocup)
 
+analise_variancia = aov(formula = tx_ocup ~ periodo, data = fil_2016)
+summary(analise_variancia)
 
-
+fit1 = lm(tx_ocup ~ periodo + serie, data = fil_2016)
+summary(fit1)
