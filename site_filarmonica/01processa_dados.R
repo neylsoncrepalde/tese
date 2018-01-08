@@ -20,6 +20,7 @@ fil2008 = read_csv("concertos_filarmonica_2008_corrigido.csv")
 # Junta todos num banco de dados completo
 fil_completo = rbind(fil2016, fil2015, fil2014, fil2013, fil2012, fil2011,
                      fil2010, fil2009, fil2008) #OK
+#write_csv(fil_completo, "concertos_filarmonica_completo.csv")
 
 # Separa compositor e obra
 fil_completo = fil_completo %>% 
