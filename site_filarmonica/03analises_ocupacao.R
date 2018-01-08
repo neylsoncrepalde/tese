@@ -33,5 +33,12 @@ summary(fil_2016$tx_ocup)
 analise_variancia = aov(formula = tx_ocup ~ periodo, data = fil_2016)
 summary(analise_variancia)
 
-fit1 = lm(tx_ocup ~ periodo + serie, data = fil_2016)
+salaminasgerais = fil_2016 %>% filter(local == "Sala Minas Gerais")
+
+fit1 = lm(tx_ocup ~ periodo + dia_semana, 
+          data = salaminasgerais)
 summary(fit1)
+car::vif(fit1)
+texreg::screenreg(fit1)
+
+freq(fil_2016$dia_semana)
