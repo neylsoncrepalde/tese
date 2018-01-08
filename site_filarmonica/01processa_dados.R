@@ -35,8 +35,12 @@ compositores = read_csv("fil_compositores_completo.csv")
 # Merge classificação do período com o banco de dados completo
 fil_completo = left_join(fil_completo, compositores, by = "compositor")
 
+#############################
+# Corrigindo um problema de codificacao de dias errado
+fil_completo = read_csv("concertos_filarmonica_paracorrigir.csv")
 # Separa os dias
-fil_completo = fil_completo %>% mutate(dia_sep = strsplit(dia, " e ")) %>% unnest
+fil_completo = fil_completo %>% unique %>% 
+  mutate(dia_sep = strsplit(dia, " e ")) %>% unnest
 
 
 # Exporta banco de dados completo
