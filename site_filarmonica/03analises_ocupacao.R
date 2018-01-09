@@ -83,5 +83,21 @@ mean(pot_ocup_chapeu)
 
 
 # Tentando construir um modelo com Random Forests
+library(randomForest)
+rf.dataset = fil_2016 %>% 
+  select(pot_ocup, serie, dia_semana, periodo, compositor) %>%
+  filter(complete.cases(.) == T) %>% unique
+
+train = sample(1:nrow(rf.dataset), nrow(rf.dataset) / 2)
+
+rf.fil = randomForest(pot_ocup ~ serie + dia_semana + periodo + compositor, 
+                      mtry = 4, data = rf.dataset, importance = T,
+                      subset = train)
+
+
+
+
+
+
 
 
