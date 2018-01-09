@@ -93,26 +93,33 @@ rf.dataset$dia_semana = as.factor(rf.dataset$dia_semana)
 rf.dataset$periodo = as.factor(rf.dataset$periodo)
 #rf.dataset$pot_ocup = as.factor(rf.dataset$pot_ocup)
 
-train = sample(1:nrow(rf.dataset), nrow(rf.dataset) / 2)
+train = sample(1:nrow(rf.dataset), nrow(rf.dataset) * .8)
 
-rf.fit = randomForest(pot_ocup ~ serie + dia_semana + periodo, 
-                      mtry = 1, data = rf.dataset, importance = T,
-                      subset = train)
+Xtrain = model.matrix(pot_ocup ~ serie + dia_semana + periodo, 
+                 data = rf.dataset[train,])
+Ytrain = rf.dataset$pot_ocup[train]
+  
+Xtest = model.matrix(pot_ocup ~ serie + dia_semana + periodo, 
+                     data = rf.dataset[-train,])
+Ytest = rf.dataset$pot_ocup[-train]
+
+
+rf.fit = randomForest(x = Xtrain, y = Ytrain, xtest = Xtest, ytest = Ytest, 
+                      mtry = 3, data = rf.dataset, importance = T)
 rf.fit
 
-oob.err=double(3)
+oob.err = double(3)
+oob.test = double(3)
 for(mtry in 1:3){
-  fit=randomForest(pot_ocup ~ serie + dia_semana + periodo, 
-                   mtry = mtry, data = rf.dataset, importance = T,
-                   subset = train)
-  oob.err[mtry]=fit$err.rate[500]
+  fit = randomForest(x = Xtrain, y = Ytrain, xtest = Xtest, ytest = Ytest, 
+                   mtry = 3, data = rf.dataset, importance = T)
+  oob.err[mtry] = fit$err.rate[500]
+  oob.test[mtry] = fit$test$err.rate[500]
   cat(mtry," ")
 }
-matplot(1:mtry,oob.err,pch=19,col="red",type="b",
+matplot(1:mtry, c(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
         ylab="Mean Squared Error")
-legend("topright",legend="OOB",pch=19,col="red")
-
-
+legend("topright",legend=c("OOB train", "OOB test"),pch=19,col=c("red", "blue"))
 
 
 
