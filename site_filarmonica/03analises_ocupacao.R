@@ -116,6 +116,10 @@ rf.fit = randomForest(x = Xtrain, y = Ytrain, xtest = Xtest, ytest = Ytest,
                       mtry = 3, data = rf.dataset, importance = T,
                       ntree = 10000, keep.forest = T, keep.inbag = T)
 rf.fit
+# Monta a confusion matrix da Random Forest
+rf.confmat = table(rf.fit$test$predicted, Ytest)
+# Testa a confusion matrix
+confusionMatrix(rf.confmat)
 
 
 # Testando o erro
