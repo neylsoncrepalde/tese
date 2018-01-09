@@ -91,7 +91,7 @@ rf.dataset = fil_2016 %>%
 rf.dataset$serie = as.factor(rf.dataset$serie)
 rf.dataset$dia_semana = as.factor(rf.dataset$dia_semana)
 rf.dataset$periodo = as.factor(rf.dataset$periodo)
-#rf.dataset$pot_ocup = as.factor(rf.dataset$pot_ocup)
+rf.dataset$pot_ocup = as.factor(rf.dataset$pot_ocup)
 
 train = sample(1:nrow(rf.dataset), nrow(rf.dataset) * .8)
 
@@ -105,9 +105,11 @@ Ytest = rf.dataset$pot_ocup[-train]
 
 
 rf.fit = randomForest(x = Xtrain, y = Ytrain, xtest = Xtest, ytest = Ytest, 
-                      mtry = 3, data = rf.dataset, importance = T)
+                      mtry = 3, data = rf.dataset, importance = T,
+                      ntree = 10000, keep.forest = T)
 rf.fit
 
+# Testando o erro
 oob.err = double(3)
 oob.test = double(3)
 for(mtry in 1:3){
@@ -117,9 +119,21 @@ for(mtry in 1:3){
   oob.test[mtry] = fit$test$err.rate[500]
   cat(mtry," ")
 }
-matplot(1:mtry, c(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
+matplot(1:mtry, cbind(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
         ylab="Mean Squared Error")
 legend("topright",legend=c("OOB train", "OOB test"),pch=19,col=c("red", "blue"))
+cbind(oob.err,oob.test)
+#####
+
+# Predição para 2015
+pred.2015 = fil_2015 %>% 
+  select(ano, mes, publico, serie, dia_semana, periodo) %>%
+  filter(complete.cases(.) == T)
+pred.2015$serie = factor(pred.2015$serie)
+pred.2015$dia_semana = factor(pred.2015$dia_semana)
+pred.2015$periodo = factor(pred.2015$periodo)
+
+predict(rf.fit, pred.2015)
 
 
 
