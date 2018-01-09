@@ -67,15 +67,21 @@ ocupacao_mediana_2015 = fil_2015$publico / SMG2016$median
 mediadasduas = apply(cbind(ocupacao_media_2015, ocupacao_mediana_2015),
                      1, mean)
 
-
+# ----------------------------------------
 # Investigando a lógica de oferta de lugares na sala minas gerais em 2016
 # "Antedizendo" para 2016
+
+# Usando regressão linear
 fit.oferta = lm(pot_ocup ~ serie + relevel(factor(dia_semana), "quinta"), 
                 fil_2016)
 summary(fit.oferta)
+plot(fit.oferta)
 car::vif(fit.oferta)
 
 pot_ocup_chapeu = predict.lm(fit.oferta, newdata = fil_2015) %>% round
+mean(pot_ocup_chapeu)
 
+
+# Tentando construir um modelo com Random Forests
 
 
