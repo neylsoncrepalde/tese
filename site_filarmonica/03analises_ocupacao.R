@@ -85,17 +85,32 @@ mean(pot_ocup_chapeu)
 # Tentando construir um modelo com Random Forests
 library(randomForest)
 rf.dataset = fil_2016 %>% 
-  select(pot_ocup, serie, dia_semana, periodo, compositor) %>%
-  filter(complete.cases(.) == T) %>% unique
+  select(pot_ocup, serie, dia_semana, periodo) %>%
+  filter(complete.cases(.) == T)
+
+rf.dataset$serie = as.factor(rf.dataset$serie)
+rf.dataset$dia_semana = as.factor(rf.dataset$dia_semana)
+rf.dataset$periodo = as.factor(rf.dataset$periodo)
+#rf.dataset$pot_ocup = as.factor(rf.dataset$pot_ocup)
 
 train = sample(1:nrow(rf.dataset), nrow(rf.dataset) / 2)
 
-rf.fil = randomForest(pot_ocup ~ serie + dia_semana + periodo + compositor, 
-                      mtry = 4, data = rf.dataset, importance = T,
+rf.fit = randomForest(pot_ocup ~ serie + dia_semana + periodo, 
+                      mtry = 1, data = rf.dataset, importance = T,
                       subset = train)
+rf.fit
 
-
-
+oob.err=double(3)
+for(mtry in 1:3){
+  fit=randomForest(pot_ocup ~ serie + dia_semana + periodo, 
+                   mtry = mtry, data = rf.dataset, importance = T,
+                   subset = train)
+  oob.err[mtry]=fit$err.rate[500]
+  cat(mtry," ")
+}
+matplot(1:mtry,oob.err,pch=19,col="red",type="b",
+        ylab="Mean Squared Error")
+legend("topright",legend="OOB",pch=19,col="red")
 
 
 
