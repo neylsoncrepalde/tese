@@ -142,6 +142,8 @@ rf.fit.formula = randomForest(pot_ocup ~ serie + dia_semana + periodo + publico,
                               subset = train.formula)
 rf.fit.formula
 
+#saveRDS(rf.fit.formula, "rf_fit.rds") # Salva o modelo
+
 testset = fil_2016[1:limite2016,]
 testecomx = predict(rf.fit.formula, testset[-train.formula,])
 confusionMatrix(table(testecomx, testset$pot_ocup[-train.formula]))
