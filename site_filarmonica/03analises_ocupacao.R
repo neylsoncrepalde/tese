@@ -143,6 +143,7 @@ rf.fit.formula = randomForest(pot_ocup ~ serie + dia_semana + periodo + publico,
 rf.fit.formula
 
 #saveRDS(rf.fit.formula, "rf_fit.rds") # Salva o modelo
+#rf.fit.formula = readRDS("rf_fit.rds") # Importa o modelo salvo
 
 testset = fil_2016[1:limite2016,]
 testecomx = predict(rf.fit.formula, testset[-train.formula,])
