@@ -60,7 +60,7 @@ SMG2015 = fil_2015 %>% filter(local == "Sala Minas Gerais") %>%
                                 sd = sd(publico, na.rm = T),
                                 median = median(publico, na.rm = T))
 
-# Razão entre médias
+# Razão entre médias - método ruim
 ocupacao_media_2015 = fil_2015$publico / SMG2016$mean
 ocupacao_mediana_2015 = fil_2015$publico / SMG2016$median
 
@@ -121,6 +121,36 @@ rf.confmat = table(rf.fit$test$predicted, Ytest)
 # Testa a confusion matrix
 confusionMatrix(rf.confmat)
 
+# Monta o modelo com fórmula para predição
+fil_2016$pot_ocup = as.factor(fil_2016$pot_ocup)
+fil_2016$serie = as.factor(fil_2016$serie)
+fil_2016$dia_semana = as.factor(fil_2016$dia_semana)
+fil_2016$periodo = as.factor(fil_2016$periodo)
+fil_2015$serie = as.factor(fil_2015$serie)
+fil_2015$dia_semana = as.factor(fil_2015$dia_semana)
+fil_2015$periodo = as.factor(fil_2015$periodo)
+fil_2015$tx_ocup = NA
+rf.pred = rbind(fil_2016, fil_2015)
+
+limite2016 = rf.pred %>% filter(ano == 2016) %>% nrow
+train.formula = sample(1:limite2016, limite2016 * .8)
+
+rf.fit.formula = randomForest(pot_ocup ~ serie + dia_semana + periodo + publico,
+                              mtry = 3, data = rf.pred[1:limite2016, ], 
+                              importance = T, ntree = 10000, 
+                              keep.forest = T, keep.inbag = T,
+                              subset = train.formula)
+rf.fit.formula
+
+testset = fil_2016[1:limite2016,]
+testecomx = predict(rf.fit.formula, testset[-train.formula,])
+confusionMatrix(table(testecomx, testset$pot_ocup[-train.formula]))
+# Predicting
+pot_ocup_chapeu.rf = predict(rf.fit.formula,
+                             newdata = rf.pred[limite2016+1:nrow(rf.pred), ] )
+
+# Atribuindo ao dataset
+fil_2015$pot_ocup = pot_ocup_chapeu.rf[1:nrow(fil_2015)]
 
 # Testando o erro
 oob.err = double(3)
@@ -137,16 +167,4 @@ matplot(1:mtry, cbind(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
 legend("topright",legend=c("OOB train", "OOB test"),pch=19,col=c("red", "blue"))
 cbind(oob.err,oob.test)
 #####
-
-# Predição para 2015
-pred.2015 = fil_2015 %>% 
-  select(ano, mes, publico, serie, dia_semana, periodo)
-pred.2015$serie = factor(pred.2015$serie)
-pred.2015$dia_semana = factor(pred.2015$dia_semana)
-pred.2015$periodo = factor(pred.2015$periodo)
-
-X2015 = model.matrix(ano~serie + dia_semana + periodo, data = pred.2015)
-X2015
-
-
 
