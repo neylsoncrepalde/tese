@@ -152,10 +152,16 @@ confusionMatrix(table(testecomx, testset$pot_ocup[-train.formula]))
 pot_ocup_chapeu.rf = predict(rf.fit.formula,
                              newdata = rf.pred[limite2016+1:nrow(rf.pred), ] )
 
-# Atribuindo ao dataset
+# Atribuindo ao dataset e calcula tx_ocup
 fil_2015$pot_ocup = pot_ocup_chapeu.rf[1:nrow(fil_2015)]
+class(fil_2015$pot_ocup)
+fil_2015$pot_ocup = fil_2015$pot_ocup %>% as.character %>% as.integer
+fil_2015$tx_ocup = fil_2015$publico / fil_2015$pot_ocup
+summary(fil_2015$tx_ocup)
 
-# Testando o erro
+
+########################################
+# Testando o erro para diversos mtry
 oob.err = double(3)
 oob.test = double(3)
 for(mtry in 1:3){
@@ -169,5 +175,5 @@ matplot(1:mtry, cbind(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
         ylab="Mean Squared Error")
 legend("topright",legend=c("OOB train", "OOB test"),pch=19,col=c("red", "blue"))
 cbind(oob.err,oob.test)
-#####
+#######################################
 
