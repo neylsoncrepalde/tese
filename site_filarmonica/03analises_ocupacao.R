@@ -152,13 +152,6 @@ confusionMatrix(table(testecomx, testset$pot_ocup[-train.formula]))
 pot_ocup_chapeu.rf = predict(rf.fit.formula,
                              newdata = rf.pred[limite2016+1:nrow(rf.pred), ] )
 
-# Atribuindo ao dataset e calcula tx_ocup
-fil_2015$pot_ocup = pot_ocup_chapeu.rf[1:nrow(fil_2015)]
-class(fil_2015$pot_ocup)
-fil_2015$pot_ocup = fil_2015$pot_ocup %>% as.character %>% as.integer
-fil_2015$tx_ocup = fil_2015$publico / fil_2015$pot_ocup
-summary(fil_2015$tx_ocup)
-
 
 ########################################
 # Testando o erro para diversos mtry
@@ -176,4 +169,32 @@ matplot(1:mtry, cbind(oob.err,oob.test) ,pch=19,col=c("red", "blue"),type="b",
 legend("topright",legend=c("OOB train", "OOB test"),pch=19,col=c("red", "blue"))
 cbind(oob.err,oob.test)
 #######################################
+
+# Atribuindo ao dataset e calcula tx_ocup
+fil_2015$pot_ocup = pot_ocup_chapeu.rf[1:nrow(fil_2015)]
+class(fil_2015$pot_ocup)
+fil_2015$pot_ocup = fil_2015$pot_ocup %>% as.character %>% as.integer
+fil_2015$tx_ocup = fil_2015$publico / fil_2015$pot_ocup
+summary(fil_2015$tx_ocup)
+
+rf.pred$tx_ocup[(limite2016+1):nrow(rf.pred)] = fil_2015$tx_ocup
+rf.pred$pot_ocup[(limite2016+1):nrow(rf.pred)] = fil_2015$pot_ocup
+
+# Juntando no banco original
+names(rf.pred)
+names(fil_completo)
+
+rf.pred = unique(rf.pred)
+rf.pred$pot_ocup = rf.pred$pot_ocup %>% as.character %>% as.integer
+dados_prajuntar = rf.pred %>% select(ano, mes, dia_sep, dia_semana, periodo,
+                                     compositor, publico, pot_ocup, tx_ocup) %>%
+  unique
+
+fil_completo_1516 = left_join(fil_completo, dados_prajuntar)
+nrow(fil_completo_1516) == nrow(fil_completo)
+
+# Exportando o banco completo
+#write_excel_csv(fil_completo_1516, "concertos_filarmonica_ocupacao1516.csv")
+
+
 
