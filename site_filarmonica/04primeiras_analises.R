@@ -33,6 +33,18 @@ fil1516 %>% select(ano, mes, dia_sep, periodo) %>% unique %>%
   ggplot(aes(periodo))+geom_bar()+coord_flip()+facet_wrap(~ano)+
   labs(x="Período", y="")
 
+# Períodos dos compositores por serie
+fil1516 %>% select(ano, mes, dia_sep, serie, periodo) %>% 
+  filter(serie != "Concertos de Cãmara", serie != "Concertos Didáticos", 
+         serie != "Especial", serie != "Festival Tinta Fresca", 
+         serie != "Laboratório de Regência", 
+         serie != "Inhotim", serie != "Turnê Estadual",
+         serie != "Clássicos na Praça", serie != "Concertos de Câmara",
+         serie != "Fora de Série") %>%
+  unique %>% 
+  ggplot(aes(periodo))+geom_bar()+coord_flip()+facet_grid(ano~serie)+
+  labs(x="Período", y="")
+
 
 # Compositores mais tocados por ano
 fil1516 %>% select(ano, mes, dia_sep, compositor) %>% unique %>% 
