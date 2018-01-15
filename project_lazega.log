@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  15 JAN 2018 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.11.16)  15 JAN 2018 15:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1145,7 +1145,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 [9] [10] [11
 
 ]
-<white_1_2.png, id=281, 376.40625pt x 242.40562pt>
+<white_1_2.png, id=283, 376.40625pt x 242.40562pt>
 File: white_1_2.png Graphic file (type png)
 <use white_1_2.png>
 Package pdftex.def Info: white_1_2.png  used on input line 378. on input line 3
@@ -1163,7 +1163,7 @@ mm/m/it/12 k\OT1/cmr/m/n/12 ))\OML/cmm/m/it/12 =y\OT1/cmr/m/n/12 (\OML/cmm/m/it
  []
 
 [12] [13 <./white_1_2.png (PNG copy)>]
-<market_plane_favereau.png, id=334, 277.035pt x 345.54094pt>
+<market_plane_favereau.png, id=336, 277.035pt x 345.54094pt>
 File: market_plane_favereau.png Graphic file (type png)
 <use market_plane_favereau.png>
 Package pdftex.def Info: market_plane_favereau.png  used on input line 464. on 
@@ -1266,7 +1266,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [35
 
 ] [36]
-<periodo_peryear.pdf, id=740, pagebox=cropbox, 433.62pt x 289.08pt>
+<periodo_peryear.pdf, id=743, pagebox=cropbox, 433.62pt x 289.08pt>
 File: periodo_peryear.pdf Graphic file (type pdf)
 <use periodo_peryear.pdf>
 Package pdftex.def Info: periodo_peryear.pdf  used on input line 1161. on input
@@ -1277,7 +1277,7 @@ e 1161.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<periodo_perserie_year.pdf, id=742, pagebox=cropbox, 433.62pt x 289.08pt>
+<periodo_perserie_year.pdf, id=745, pagebox=cropbox, 433.62pt x 289.08pt>
 File: periodo_perserie_year.pdf Graphic file (type pdf)
 <use periodo_perserie_year.pdf>
 Package pdftex.def Info: periodo_perserie_year.pdf  used on input line 1172. on
@@ -1305,7 +1305,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 bibitemlist
 [43
 
-] [44]) [45] [46] [47] [48] [49] [50] [51]
+] [44]) [45] [46
+
+] [47
+
+] [48] [49] [50
+
+] [51] [52
+
+] [53
+
+]
 \tf@lof=\write4
 \openout4 = `project_lazega.lof'.
 
@@ -1315,22 +1325,22 @@ bibitemlist
 \tf@toc=\write6
 \openout6 = `project_lazega.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1448.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1448.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1493.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1493.
  (./project_lazega.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1448.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1448.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1493.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1493.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1448.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1493.
  ) 
 Here is how much of TeX's memory you used:
- 12606 strings out of 492985
- 182222 string characters out of 6138637
- 341631 words of memory out of 5000000
- 15753 multiletter control sequences out of 15000+600000
+ 12612 strings out of 492985
+ 182290 string characters out of 6138637
+ 341710 words of memory out of 5000000
+ 15754 multiletter control sequences out of 15000+600000
  11975 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,19n,36p,2532b,646s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1359,10 +1369,10 @@ ts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 ti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr
 /share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on project_lazega.pdf (51 pages, 458397 bytes).
+Output written on project_lazega.pdf (53 pages, 462068 bytes).
 PDF statistics:
- 1126 PDF objects out of 1200 (max. 8388607)
- 1020 compressed objects within 11 object streams
- 259 named destinations out of 1000 (max. 500000)
+ 1140 PDF objects out of 1200 (max. 8388607)
+ 1032 compressed objects within 11 object streams
+ 264 named destinations out of 1000 (max. 500000)
  309 words of extra memory for PDF output out of 10000 (max. 10000000)
 

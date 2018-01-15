@@ -1174,7 +1174,7 @@
         \end{figure}
 
 
-        In order to investigate the consumption, the 2016 results report gives us the number of seats available and the number of tickets sold to calculate the occupancy rate. At first, we are tented to believe that the consumption of the concerts is mostly related by the chosen repertoire which, therefore, would reflect on the concert series. Nevertheless, because of the change in the concerts offering since 2015, we believe that the weekday has a larger impact on consumption. Linear models showed that the series has a bigger explanatory power on consumption (cf. Table \ref{concert-consumption-models}).
+        In order to investigate the consumption, the 2016 results report gives us the number of seats available and the number of tickets sold to calculate the occupancy rate. At first, we are tented to believe that the consumption of the concerts is mostly related by the chosen repertoire which, therefore, would reflect on the concert series. Nevertheless, because of the change in the concerts offering since 2015, we believe that the weekday has a larger impact on consumption. Linear models showed that the series has a bigger explanatory power on consumption (cf. Table \ref{concert-consumption-models}). The models were estimated with the occupancy rate as the dependent variable and only for 2016\footnote{Unfortunately, the number of seats available is only reported in 2016's reports. In order to make our further analysis more robust, we estimated the seats available for 2015 given that the venues, the weekdays of the concerts and the series were the same as 2016. A technical description of the estimation procedure is given in the appendix.}.
 
         \begin{table}[!ht]
           \ibgetab{
@@ -1216,7 +1216,41 @@
 
 
        % Talk about occupancy rate by series. Run the analysis in R.
-        
+       On Table \ref{occupancy-table} we can observe that weekend concerts have higher occupancy rate than on weekdays. ....................
+
+       % latex table generated in R 3.4.3 by xtable 1.8-2 package
+       % Mon Jan 15 14:19:21 2018
+       \begin{table}[ht]
+         \ibgetab{
+           \centering
+           \caption{Occupancy rate -- 2015-16}
+           \label{occupancy-table}
+         }
+         {\begin{tabular}{lrrrrr}
+            \hline
+            \multicolumn{6}{l}{\textbf{By Concert Series}} \\
+            \hline
+            Concert Series & mean & median & sd & min & max \\ 
+            \hline
+            Allegro/Vivace & 91.45 & 92.11 & 6.13 & 70.56 & 99.20 \\ 
+            Concertos para a Juventude & 99.52 & 100.00 & 0.57 & 98.19 & 100.00 \\
+            Fora de Série & 99.19 & 99.67 & 1.12 & 96.05 & 100.00 \\
+            Presto/Veloce & 79.62 & 80.25 & 11.87 & 56.15 & 98.03 \\
+            \hline
+            \multicolumn{6}{l}{\textbf{By Weekday}} \\
+            \hline
+            Weekday & mean & median & sd & min & max \\
+            \hline
+            Sunday & 99.52 & 100.00 & 0.57 & 98.19 & 100.00 \\ 
+            Thursday & 89.86 & 91.01 & 7.49 & 66.55 & 99.20 \\ 
+            Saturday & 98.40 & 99.20 & 2.43 & 90.29 & 100.00 \\ 
+            Friday & 82.41 & 86.48 & 13.19 & 56.15 & 100.00 \\ 
+            \hline
+          \end{tabular}
+        }
+        {\fonte{Elaborated by the author.}}
+      \end{table}
+      
 
 
 
@@ -1251,12 +1285,12 @@
 \bibliography{BIBDOUTORADO, abnt-options}
 
 	\newpage
-	\section*{Appendix 1 -- The Market Plane}
+	\chapter*[Market Plane]{Appendix 1 -- The Market Plane}
 	Here is a space for the beautiful intention of deriving the much very complicated White mathematical models\dots
 
         \newpage
 
-        \section*{Appendix 2 -- Sociometric online questionnaire - individuals}
+        \chapter*[Questionnaire - individuals]{Appendix 2 -- Sociometric online questionnaire - individuals}
 
         [\textbf{First page}]
         
@@ -1378,7 +1412,7 @@
 
         \newpage
 
-        \section*{Appendix 3 -- Sociometric questionnaire - organizations}
+        \chapter*[Questionnaire - organizations]{Appendix 3 -- Sociometric questionnaire - organizations}
 
         Good day. I want to thank you very much for your participation and assure that it is extremely important for the success of this PhD research.
 
@@ -1418,7 +1452,7 @@
 
         \newpage
 
-        \section*{Appendix 4 -- Teacher/professor/hub's interview guide}
+        \chapter*[Interview guide]{Appendix 4 -- Teacher/professor/hub's interview guide}
 
         Good day. I want to thank you very much for your participation and assure that it is extremely important for the success of this PhD research. Let's begin talking about your \textbf{musical training}:
 
@@ -1443,6 +1477,17 @@
 
         Thank you very much for participating!
 
-       
+
+
+
+        \chapter*[Random Forests]{Appendix 5 -- The Estimation of 2015's occupancy rate}
+
+        In their periodic reports, Minas Gerais Philharmonic gives three major variables needed to investigate classical music consumption: number of tickets sold, number of seats available and the occupancy rate. Unfortunately, the number of seats available is only reported in 2016's reports. Given that since 2015 the venues, the concert series and the weekdays that concerts take place have exactly the same pattern, we can estimate the number of seats available for that year. This procedure is necessary because the number of seats available can vary according to the repertoire (chorus, no chorus), size of the orchestra and other factors.
+
+        To do the estimation, we used a Random Forests algorithm in an R programming environment.
+
+        EXPLAIN THE RANDOM FORESTS..................
+
+        
 
 \end{document}
