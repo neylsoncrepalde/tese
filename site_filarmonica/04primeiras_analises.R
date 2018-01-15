@@ -66,9 +66,10 @@ fit_consumo_dia = lm(tx_ocup ~ relevel(factor(dia_semana), ref = "sexta"),
 fit_consumo_serie = lm(tx_ocup ~ serie,
                  data = regdata); summary(fit_consumo_serie)
 # Exporta 3 modelos para Latex
-texreg::texreg(list(fit_consumo, fit_consumo_dia, fit_consumo_serie),
+texreg::texreg(list(fit_consumo_dia, fit_consumo_serie),
                caption = "Concert consumption - Linear models", 
-               caption.above = T)
+               caption.above = T, center = F)
+
 
 
 # Verificando a taxa de ocupação por dia da semana
@@ -80,7 +81,7 @@ fil1516 %>% group_by(dia_semana) %>%
             max = max(tx_ocup, na.rm = T))
 
 # Verificando a taxa de ocupação por dia da semana para 2016
-fil1516 %>% filter(ano == 2016) %>% group_by(dia_semana) %>% 
+fil1516 %>% group_by(dia_semana) %>% 
   summarise(mean = mean(tx_ocup, na.rm = T), 
             median = median(tx_ocup, na.rm = T), 
             sd = sd(tx_ocup, na.rm = T),
@@ -88,3 +89,11 @@ fil1516 %>% filter(ano == 2016) %>% group_by(dia_semana) %>%
             max = max(tx_ocup, na.rm = T)) %>% xtable %>% 
   print.xtable(., include.rownames = F)
 
+# Verificando a taxa de ocupação por serie para 2016
+fil1516 %>% group_by(serie) %>% 
+  summarise(mean = mean(tx_ocup, na.rm = T), 
+            median = median(tx_ocup, na.rm = T), 
+            sd = sd(tx_ocup, na.rm = T),
+            min = min(tx_ocup, na.rm = T), 
+            max = max(tx_ocup, na.rm = T)) %>% xtable %>% 
+  print.xtable(., include.rownames = F)
