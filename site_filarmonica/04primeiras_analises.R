@@ -6,6 +6,7 @@
 library(readr)
 library(dplyr)
 library(ggplot2)
+library(descr)
 
 ##########################################
 # Corrige problema na escala para 2015
@@ -29,7 +30,8 @@ fil1516 %>% filter(local == "Sala Minas Gerais") %>%
 
 # Períodos dos compositores tocados por ano
 fil1516 %>% select(ano, mes, dia_sep, periodo) %>% unique %>% 
-  ggplot(aes(periodo))+geom_bar()+coord_flip()+facet_wrap(~ano)
+  ggplot(aes(periodo))+geom_bar()+coord_flip()+facet_wrap(~ano)+
+  labs(x="Período", y="")
 
 
 # Compositores mais tocados por ano
