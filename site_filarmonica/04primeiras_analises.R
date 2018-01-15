@@ -7,6 +7,7 @@ library(readr)
 library(dplyr)
 library(ggplot2)
 library(descr)
+library(xtable)
 
 ##########################################
 # Corrige problema na escala para 2015
@@ -50,6 +51,26 @@ fil1516 %>% select(ano, mes, dia_sep, serie, periodo) %>%
 fil1516 %>% select(ano, mes, dia_sep, compositor) %>% unique %>% 
   group_by(ano) %>% count(compositor) %>% arrange(desc(ano), desc(n)) %>% View
 
+# Investigando fatores de impacto no consumo
+freq(fil1516$serie, plot=F)
+regdata = fil1516 %>% filter(ano == 2016, serie == "Concertos para a Juventude" |
+                               serie == "Fora de Série" | 
+                               serie == "Allegro/Vivace" |
+                               serie == "Presto/Veloce") %>%
+  select(-artista, -compositor, -obra, -periodo) %>% unique
+
+fit_consumo = lm(tx_ocup ~ relevel(factor(dia_semana), ref = "sexta") + serie,
+                 data = regdata); summary(fit_consumo)
+fit_consumo_dia = lm(tx_ocup ~ relevel(factor(dia_semana), ref = "sexta"),
+                 data = regdata); summary(fit_consumo_dia)
+fit_consumo_serie = lm(tx_ocup ~ serie,
+                 data = regdata); summary(fit_consumo_serie)
+# Exporta 3 modelos para Latex
+texreg::texreg(list(fit_consumo, fit_consumo_dia, fit_consumo_serie),
+               caption = "Concert consumption - Linear models", 
+               caption.above = T)
+
+
 # Verificando a taxa de ocupação por dia da semana
 fil1516 %>% group_by(dia_semana) %>% 
   summarise(mean = mean(tx_ocup, na.rm = T), 
@@ -58,4 +79,12 @@ fil1516 %>% group_by(dia_semana) %>%
             min = min(tx_ocup, na.rm = T), 
             max = max(tx_ocup, na.rm = T))
 
+# Verificando a taxa de ocupação por dia da semana para 2016
+fil1516 %>% filter(ano == 2016) %>% group_by(dia_semana) %>% 
+  summarise(mean = mean(tx_ocup, na.rm = T), 
+            median = median(tx_ocup, na.rm = T), 
+            sd = sd(tx_ocup, na.rm = T),
+            min = min(tx_ocup, na.rm = T), 
+            max = max(tx_ocup, na.rm = T)) %>% xtable %>% 
+  print.xtable(., include.rownames = F)
 
