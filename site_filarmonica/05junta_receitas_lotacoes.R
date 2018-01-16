@@ -12,9 +12,7 @@ receitas = read.table("receitas_concertos.csv", sep = ",", dec = ".", header = T
 head(receitas)
 
 novo = left_join(filarmonica, receitas)
-
-# Exporta
-#write_excel_csv(novo, "concertos_filarmonica_receitas.csv")
+novo$receita_total = novo$bilheteria + novo$assinaturas
 
 #---------------------------------------------------
 # Junta os potenciais de ocupação para antes de 2014
@@ -23,14 +21,25 @@ freq(filarmonica$local[filarmonica$ano != 2016 &
                          filarmonica$ano != 2015], plot=F)
 
 #Locais para juntar
-FEA = 0
-PALACIODASARTES = 0
-SALASAOPAULO = 0
-SESCPALLADIUM = 0
-BRADESCO = 0
-OIFUTURO = 0
-TEATROSESIMINAS = 0
-TEATROMUNICIPALDORIO = 0
+FEA = 200
+PALACIODASARTES = 1707
+SALASAOPAULO = 1484
+SESCPALLADIUM = 1321
+BRADESCO = 602
+OIFUTURO = 329
+TEATROSESIMINAS = 660
+TEATROMUNICIPALDORIO = 2252
 
+novo$pot_ocup[novo$local == "Fundação de Educação Artística"] = FEA
+novo$pot_ocup[novo$local == "Palácio das Artes"] = PALACIODASARTES
+novo$pot_ocup[novo$local == "Sala São Paulo"] = SALASAOPAULO
+novo$pot_ocup[novo$local == "Sesc Palladium"] = SESCPALLADIUM
+novo$pot_ocup[novo$local == "Teatro Bradesco"] = BRADESCO
+novo$pot_ocup[novo$local == "Teatro do Oi Futuro Klauss Vianna"] = OIFUTURO
+novo$pot_ocup[novo$local == "Teatro Sesiminas"] = TEATROSESIMINAS
+novo$pot_ocup[novo$local == "Theatro Municipal do Rio de Janeiro"] = TEATROMUNICIPALDORIO
+#------------------------------------------------
 
-
+# Exporta
+#write_excel_csv(novo, "concertos_filarmonica_receitas.csv")
+#------------------------------------------------------------
