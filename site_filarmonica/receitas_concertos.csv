@@ -75,95 +75,95 @@ ano,mes,dia_sep,serie,bilheteria,assinaturas
 2016,fevereiro,26,Presto/Veloce,"12478,2","12220,47"
 2016,fevereiro,18,Allegro/Vivace,"3254,92","33610,15"
 2016,fevereiro,19,Allegro/Vivace,"22439,39","20301,89"
-2015,dezembro,19,Fora de Série,,
-2015,dezembro,20,Fora de Série,,
-2015,dezembro,14,Concertos de Câmara,,
-2015,dezembro,10,Presto/Veloce,,
-2015,dezembro,11,Presto/Veloce,,
-2015,dezembro,3,Allegro/Vivace,,
-2015,dezembro,4,Allegro/Vivace,,
-2015,novembro,26,Presto/Veloce,,
-2015,novembro,27,Presto/Veloce,,
-2015,novembro,23,Concertos de Câmara,,
-2015,novembro,21,Fora de Série,,
-2015,novembro,12,Allegro/Vivace,,
-2015,novembro,13,Allegro/Vivace,,
-2015,novembro,5,Presto/Veloce,,
-2015,novembro,6,Presto/Veloce,,
-2015,novembro,1,Concertos para a Juventude,,
-2015,outubro,29,Concertos de Câmara,,
-2015,outubro,27,Concertos Didáticos,,
-2015,outubro,28,Concertos Didáticos,,
-2015,outubro,24,Fora de Série,,
-2015,outubro,18,Concertos de Câmara,,
-2015,outubro,17,Concertos de Câmara,,
-2015,outubro,15,Allegro/Vivace,,
-2015,outubro,16,Allegro/Vivace,,
-2015,outubro,8,Presto/Veloce,,
-2015,outubro,9,Presto/Veloce,,
-2015,outubro,1,Allegro/Vivace,,
-2015,outubro,2,Allegro/Vivace,,
-2015,setembro,26,Fora de Série,,
-2015,setembro,24,Concertos de Câmara,,
-2015,setembro,20,Concertos para a Juventude,,
-2015,setembro,17,Presto/Veloce,,
-2015,setembro,18,Presto/Veloce,,
-2015,setembro,11,Turnê Estadual,,
-2015,setembro,12,Turnê Estadual,,
-2015,setembro,10,Concertos de Câmara,,
-2015,agosto,29,Turnê Estadual,,
-2015,agosto,27,Allegro/Vivace,,
-2015,agosto,28,Allegro/Vivace,,
-2015,agosto,23,Concertos para a Juventude,,
-2015,agosto,20,Presto/Veloce,,
-2015,agosto,21,Presto/Veloce,,
+2015,dezembro,19,Fora de Série,"15755,04","23382,64"
+2015,dezembro,20,Fora de Série,49995,0
+2015,dezembro,14,Concertos de Câmara,0,0
+2015,dezembro,10,Presto/Veloce,"14957,3","19600,15"
+2015,dezembro,11,Presto/Veloce,"21387,5","7974,65"
+2015,dezembro,3,Allegro/Vivace,"4155,21","28805,21"
+2015,dezembro,4,Allegro/Vivace,"10197,21","15453,49"
+2015,novembro,26,Presto/Veloce,"7954,84","19600,15"
+2015,novembro,27,Presto/Veloce,"13293,99","7977,37"
+2015,novembro,23,Concertos de Câmara,0,0
+2015,novembro,21,Fora de Série,"18222,8","23395,49"
+2015,novembro,12,Allegro/Vivace,"5086,38","28822,35"
+2015,novembro,13,Allegro/Vivace,"14779,41","15453,49"
+2015,novembro,5,Presto/Veloce,"9811,53","19600,15"
+2015,novembro,6,Presto/Veloce,13935,"7977,37"
+2015,novembro,1,Concertos para a Juventude,4840,0
+2015,outubro,29,Concertos de Câmara,0,0
+2015,outubro,27,Concertos Didáticos,0,0
+2015,outubro,28,Concertos Didáticos,0,0
+2015,outubro,24,Fora de Série,"17729,3","23395,92"
+2015,outubro,18,Concertos de Câmara,0,0
+2015,outubro,17,Concertos de Câmara,0,0
+2015,outubro,15,Allegro/Vivace,"6802,41","28822,35"
+2015,outubro,16,Allegro/Vivace,"17259,72","15453,49"
+2015,outubro,8,Presto/Veloce,"9281,41","19600,15"
+2015,outubro,9,Presto/Veloce,"12890,71","7977,37"
+2015,outubro,1,Allegro/Vivace,"4815,71","28822,35"
+2015,outubro,2,Allegro/Vivace,"17871,09","15453,49"
+2015,setembro,26,Fora de Série,16830,"23391,92"
+2015,setembro,24,Concertos de Câmara,0,0
+2015,setembro,20,Concertos para a Juventude,"4912,5",0
+2015,setembro,17,Presto/Veloce,"12326,41","19600,15"
+2015,setembro,18,Presto/Veloce,"20374,88","7977,37"
+2015,setembro,11,Turnê Estadual,0,0
+2015,setembro,12,Turnê Estadual,0,0
+2015,setembro,10,Concertos de Câmara,0,0
+2015,agosto,29,Turnê Estadual,0,0
+2015,agosto,27,Allegro/Vivace,"5072,95","28822,35"
+2015,agosto,28,Allegro/Vivace,"14409,85","15452,49"
+2015,agosto,23,Concertos para a Juventude,4930,0
+2015,agosto,20,Presto/Veloce,"12671,41","19600,15"
+2015,agosto,21,Presto/Veloce,"23974,88","7977,37"
 2015,agosto,14,Fora de Série,,
-2015,agosto,15,Fora de Série,,
-2015,agosto,13,Concertos de Câmara,,
-2015,agosto,6,Allegro/Vivace,,
-2015,agosto,7,Allegro/Vivace,,
-2015,agosto,1,Turnê Estadual,,
-2015,julho,30,Laboratório de Regência,,
-2015,julho,23,Presto/Veloce,,
-2015,julho,24,Presto/Veloce,,
-2015,julho,16,Allegro/Vivace,,
-2015,julho,17,Allegro/Vivace,,
-2015,julho,12,Turnê Estadual,,
-2015,julho,9,Presto/Veloce,,
-2015,julho,10,Presto/Veloce,,
-2015,julho,2,Allegro/Vivace,,
-2015,julho,3,Allegro/Vivace,,
-2015,junho,25,Presto/Veloce,,
-2015,junho,26,Presto/Veloce,,
-2015,junho,20,Fora de Série,,
-2015,junho,11,Turnê Estadual,,
-2015,junho,12,Turnê Estadual,,
-2015,junho,13,Turnê Estadual,,
-2015,junho,7,Concertos para a Juventude,,
-2015,junho,3,Festival Tinta Fresca,,
-2015,maio,28,Allegro/Vivace,,
-2015,maio,29,Allegro/Vivace,,
-2015,maio,23,Fora de Série,,
-2015,maio,14,Presto/Veloce,,
-2015,maio,15,Presto/Veloce,,
-2015,maio,10,Clássicos na Praça,,
-2015,maio,7,Allegro/Vivace,,
-2015,maio,8,Allegro/Vivace,,
+2015,agosto,15,Fora de Série,"17802,16","23391,92"
+2015,agosto,13,Concertos de Câmara,0,0
+2015,agosto,6,Allegro/Vivace,"5095,86","28822,35"
+2015,agosto,7,Allegro/Vivace,"19368,59","15452,87"
+2015,agosto,1,Turnê Estadual,0,0
+2015,julho,30,Laboratório de Regência,0,0
+2015,julho,23,Presto/Veloce,"15251,41","19597,61"
+2015,julho,24,Presto/Veloce,"19691,25",7977
+2015,julho,16,Allegro/Vivace,"4571,45","28821,34"
+2015,julho,17,Allegro/Vivace,"22767,34","15452,61"
+2015,julho,12,Turnê Estadual,0,0
+2015,julho,9,Presto/Veloce,"17421,41","19597,26"
+2015,julho,10,Presto/Veloce,"23032,5",7977
+2015,julho,2,Allegro/Vivace,"11121,45","28821,34"
+2015,julho,3,Allegro/Vivace,"24419,84","15452,61"
+2015,junho,25,Presto/Veloce,"10165,16","19597,26"
+2015,junho,26,Presto/Veloce,"11546,25",7977
+2015,junho,20,Fora de Série,"17819,72","23391,92"
+2015,junho,11,Turnê Estadual,0,0
+2015,junho,12,Turnê Estadual,0,0
+2015,junho,13,Turnê Estadual,0,0
+2015,junho,7,Concertos para a Juventude,"5077,5",0
+2015,junho,3,Festival Tinta Fresca,0,0
+2015,maio,28,Allegro/Vivace,"7741,45","28821,34"
+2015,maio,29,Allegro/Vivace,"23909,84","15452,61"
+2015,maio,23,Fora de Série,"16040,6","23391,92"
+2015,maio,14,Presto/Veloce,"6596,41","19597,26"
+2015,maio,15,Presto/Veloce,"11843,75",7977
+2015,maio,10,Clássicos na Praça,0,0
+2015,maio,7,Allegro/Vivace,"6018,95","28821,34"
+2015,maio,8,Allegro/Vivace,"18737,26","15452,61"
 2015,abril,28,Especial,,
-2015,abril,26,Concertos para a Juventude,,
-2015,abril,16,Presto/Veloce,,
-2015,abril,17,Presto/Veloce,,
-2015,abril,11,Fora de Série,,
-2015,março,26,Allegro/Vivace,,
-2015,março,27,Allegro/Vivace,,
-2015,março,22,Concertos para a Juventude,,
-2015,março,21,Fora de Série,,
-2015,março,12,Presto/Veloce,,
-2015,março,13,Presto/Veloce,,
-2015,março,5,Allegro/Vivace,,
-2015,março,6,Allegro/Vivace,,
+2015,abril,26,Concertos para a Juventude,5205,0
+2015,abril,16,Presto/Veloce,"15038,91","19597,26"
+2015,abril,17,Presto/Veloce,"22328,75",7977
+2015,abril,11,Fora de Série,"18820,29","23391,92"
+2015,março,26,Allegro/Vivace,"4439,4","28831,34"
+2015,março,27,Allegro/Vivace,"18520,25","15452,61"
+2015,março,22,Concertos para a Juventude,5270,0
+2015,março,21,Fora de Série,"16157,5","23391,92"
+2015,março,12,Presto/Veloce,"12547,5","19628,8"
+2015,março,13,Presto/Veloce,"20606,25",7977
+2015,março,5,Allegro/Vivace,8010,"28821,34"
+2015,março,6,Allegro/Vivace,"25857,5","15445,13"
 2015,fevereiro,27,Especial,,
-2015,fevereiro,28,Especial,,
+2015,fevereiro,28,Especial,47020,0
 2014,dezembro,18,Allegro,,
 2014,dezembro,9,Vivace,,
 2014,novembro,25,Vivace,,
