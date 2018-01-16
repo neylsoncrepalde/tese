@@ -40,6 +40,20 @@ novo$pot_ocup[novo$local == "Teatro Sesiminas"] = TEATROSESIMINAS
 novo$pot_ocup[novo$local == "Theatro Municipal do Rio de Janeiro"] = TEATROMUNICIPALDORIO
 #------------------------------------------------
 
+publico = read_csv("publico_2014paratras.csv")
+completo = left_join(novo, publico, by = c("ano", "mes", "dia_sep",
+                                           "serie", "dia_semana"))
+limite2014 = completo %>% filter(ano == 2016 | ano == 2015) %>% nrow
+
+completo$publico.x[limite2014:nrow(completo)] = completo$publico.y[limite2014:nrow(completo)]
+names(completo)[12] = "publico"
+completo = completo %>% select(-publico.y)
+
+# corrige tx_ocup
+completo$tx_ocup = (completo$publico / completo$pot_ocup) * 100
+
+
 # Exporta
-#write_excel_csv(novo, "concertos_filarmonica_receitas.csv")
+#write_excel_csv(novo, "concertos_filarmonica_receitas.csv") antes da correção final
+#write_excel_csv(completo, "dataset_filarmonica.csv") banco completo!
 #------------------------------------------------------------
