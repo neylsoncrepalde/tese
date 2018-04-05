@@ -911,7 +911,88 @@
 	\section{2-mode transformations}
 
         2-mode to 1-mode transformations allow us to investigate an affiliation network anchored in the assumption that when people are engaged in the same organizations or in the same events (a common approach in the literature), people build ties between themselves. This procedure counts one tie between two organizations when they share a person or a tie between two persons when both are engaged in the same organization \cite{brailly2016market,lazega2014redes}. The result is a 1-mode weighted network of individuals who participate in the same organizations or a 1-mode weighted network of organizations that share members.
+
+
+        \section{The multilevel networks analysis}
+
+        CHANGE FROM HERE!!!!!
+        
+	% As análises se darão através de dois tipos de modelagem em redes: os modelos de blocos, ou \textit{blockmodeling} e os ERGM, ou modelos P* (modelos estatísticos específicos para dados relacionais). Explicitaremos sucintamente a racionalidade por trás desses modelos e como eles serão úteis na análise dos dados supracitados.
+
+        This investigation will be conducted as a multilevel networks study. The low level is composed by individuals, musicians. The structure between them will be tracked from advisement networks\footnote{Cf. Appendix 2 - Sociometric online questionnaire - individuals.} (aiming to capture artistic prestige), friendship networks and job indication networks\footnote{We will exclude here performance co-participation networks because we believe that they will result in a too redundant data.}. The high level is composed by the orchestras and all the other organizations with whom they maintain any kind of relation, whether it is an economic relation, a partnership, a resources exchange agreement\footnote{Cf. Appendix 3 - Sociometric questionnaire - organizations.}. We will track the organizations' main activity, it's style (in White's terms\footnote{Explain what is STYLE in White's terms\dots}), it's formal structure and some economic variables of interest (for the companies in general budget, number of partnership contracts and relations with the State. Specifically for orchestras, the venues that it performs, average ticket price, number of tickets available and artistic expenses). These are the attributes we will use to model relation building between the organizations. 
 	
+
+       	\section{Proposed indicators}
+	
+	%Com o intuito de operacionalizar o desenho de pesquisa descrito supra, buscaremos os seguintes indicadores: para verificar o padrão de qualidade vigente, verificaremos a representação dos músicos dos atributos da qualidade. Para verificar o Ranking das orquestras, utilizaremos um conjunto de indicadores: a representação dos músicos sobre o Ranking, o preço médio do ingresso, a quantidade de concertos por temporada e o volume total de investimentos. O preço médio do ingresso é adotado aqui como uma \textit{proxy} da qualidade embasado no achado de \citeonline{throsby1983quality} (a demanda é inelástica em relação ao preço mas altamente correlacionada com relação á qualidade percebida). Argumentamos que esta é uma boa proxy pois as pessoas estariam dispostas a pagar mais por um concerto que percebem como sendo de alta qualidade. A quantidade de concertos e o volume total de investimentos parecem, à primeira vista, \textit{proxys} menos seguras do que a anterior pois percebe-se um risco de cair numa tautologia. As orquestras são boas porque tem mais financiamento ou tem mais financiamento porque são boas? Tocam mais porque são boas ou são consideradas boas porque tocam mais? Contudo, argumentamos que, se adotados com parcimônia e sempre conjugados a outras variáveis, esses indicadores podem dar \textit{insights} valiosos sobre o campo. Pretendemos testar um índice de qualidade criado a partir da aglutinação dessas variáveis através de uma análise fatorial\footnote{Em linhas muito gerais, a análise fatorial é uma técnica de análise multivariada que visa reduzir a complexidade dimnuindo as dimensões a serem analisadas em índices ou escores \cite{mingoti2005analise}.}.
+	
+	Our goal is to build a database with the variables we are going to rely for our investigation. In order to operationalize the research design described above, we will look for the following indicators: to verify the current \textbf{quality standard}, we will check musicians' representation of the ranking, the average ticket price and total investment. The average ticket price is adopted here as a quality proxy based on the finding of \citeonline{throsby1983quality} (the demand is inelastic in relation to the price but highly correlated in relation to perceived quality). We argue that this is a good proxy because, generally, people are willing to pay more for a concert they judge to be of high quality. Total budget seems, at first sight, a not so good proxy because there is a risk of falling into a tautology. Orchestras are good because they have more money or they have more money because they are good? However, we argue that, if we analyze this indicator conjugated with the organization's closeness to the State, it can give valuable insights on the field. We intend to test a quality index that will be created from the agglutination of these variables.
+	
+	%Para capturar as interações no nível individual, construiremos redes relacionais entre músicos a partir de questionários sociométricos. Maiores detalhes sobre o questionário serão apresentados na seção seguinte. Por ora é suficiente indicar que adotaremos a centralidade de grau, centralidade de intermediação e o \textit{constraint} como indicadores para encontrar os \textit{hubs}. Os atributos dos indivíduos, as variáveis exógenas às redes, serão mensuradas pelo país de origem, cidade de origem, instituição de formação e o professor. Esses indicadores nos mostram um pouco do contexto do músico e de como ele pode ser situado a priori numa escala de prestígio em meio ao campo.
+	
+	To capture \textbf{interactions at the individual level}, we will build musicians networks from sociometric surveys. We will adopt degree centrality, betweeness centrality and constraint as indicators for finding \textit{hubs}. The \textbf{attributes} of the individuals will be measured by the country of origin, the city of origin, training institution and teacher. This indicators show us a little of the musicians' \textbf{context} and how he can be situated \textit{a priori} in a prestige scale within the field. The name generators will be as follows:
+
+        \begin{enumerate}
+        \item If you needed advise on the interpretation of a given piece, regardless of its period or style, to whom would you ask?
+        \item Do you meet regularly com other musicians on social occasions outside work (bars, parties, pubs, etc.)?
+        \item If you where invited to help on a musician hiring process to an excellent job vacancy, who would you recommend to get the job?
+        \item If you were responsible for organizing a recital, regardless of the needed instruments of the works that you would choose, who would you like to invite to play on stage with you?
+        \end{enumerate}
+	
+	%A estrutura de incentivos oferecida pela orquestra será mensurada através do salário médio e dos níveis salariais dos músicos\footnote{Pretendemos comparar entre orquestras tanto a média geral do salário quanto o salário por funções específicas, e.g., spalla e chefes de naipe que comumente ganham mais do que os demais músicos de seção.}. Os incentivos não financeiros serão mensurados pela quantidade de vezes em que um membro da orquestra se apresentou como solista ou teve um concerto de câmara agendado em nome da orquestra\footnote{É comum às orquestras organizarem concertos com formações menores como quartetos de cordas ou quintetos de metais com músicos selecionados entre seus membros.}. A complexidade da gestão será mensurada pela quantidade de setores e diretorias que a orquestra/instituição mantenedora possui e pela quantidade de níveis hierárquicos do instrumentista até o presidente.
+	
+	The \textbf{incentive structure} offered by the orchestra will be measured through average salary and salaries of musicians\footnote{We intend to compare both the average salary and specific salary by function, e.g., concertmaster and other leaders inside the orchestra that commonly earn more money than the other section musicians.}. The \textbf{non-financial incentives} will be measured by the number of times an orchestra member played as a soloist or in a chamber music concert in the orchestras' season\footnote{It is common to professional orchestras to organize concerts with smaller ensembles as string quartets or brass quintets with selected musicians.}. The \textbf{management complexity} will be measured by the quantity of sections and boards that the orchestra/maintainer have and by the amount of hierarchical levels between the intrumentalist and the CEO.
+	
+	%Os indicadores escolhidos para mensurar o nível de interação com o Estado são o volume financeiro investido pelo próprio Estado e a existência/quantidade de contratos, convênios ou parcerias firmados.
+	
+	The indicators chosen to measure the level of \textbf{interaction with State} are the amount of investment from the State itself and the existence/quantity of contracts, covenants and partnerships signed. The concepts mobilized and the proposed indicators are summarized in Table \ref{indicadores}.
+	
+	%Os indicadores aqui elencados estão apresentados de forma resumida na Tabela \ref{indicadores}. Seguimos apresentando os dados a serem coletados e os métodos de análise utilizados.
+	
+	
+	\begin{table}[ht]
+		\ibgetab{
+			\centering
+			\caption{Proposed Indicators}
+			\label{indicadores}
+		}
+		{\begin{tabular}{|c|c|}
+				
+				\hline
+				\textbf{Concept} & \textbf{Indicator} \\
+				\hline
+				&  Musicians perception \\
+				Quality  &  Average ticket price \\
+				&  Total financing \\
+				\hline
+				
+				& Networks \\
+				Individual interaction & Centrality measures  \\
+				& Constraint      \\
+				\hline
+				& Country of origin  \\
+				Individual Context & City of origin  \\
+				& Formation institution \\
+				& Professor    \\
+				\hline
+				& Average income  \\
+				Incentive Structure & Income by specific function \\
+				& Presentation as a soloist or in selected chamber groups \\
+				\hline
+				Management Complexity  & Number of boards/sections  \\
+				& Level-distance from the musician to the CEO \\
+				\hline
+				Interaction with the State  & Total financing from the State  \\
+				& Number of partnership contracts \\
+				\hline
+				
+				
+			\end{tabular}
+		}
+		{\fonte{Elaborated by the author.}}
+        \end{table}
+
+
 
 
         
@@ -1019,84 +1100,6 @@
 	
 	%Após levantamento de atributos do entrevistado, identificaremos redes de aconselhamento (visando capturar o prestígio artístico),redes de amizade e redes de indicação profissional. Excluiremos aqui redes de coparticipação em performances por acreditarmos que elas resultarão em um dado demasiado redundante, visto que os questionários serão enviados para músicos de orquestras, e custoso para os entrevistados, dado o enorme número de músicos com os quais uma pessoa pode se apresentar.
 	
-
-
-	\section{The multilevel networks analysis}
-		
-	% As análises se darão através de dois tipos de modelagem em redes: os modelos de blocos, ou \textit{blockmodeling} e os ERGM, ou modelos P* (modelos estatísticos específicos para dados relacionais). Explicitaremos sucintamente a racionalidade por trás desses modelos e como eles serão úteis na análise dos dados supracitados.
-
-        This investigation will be conducted as a multilevel networks study. The low level is composed by individuals, musicians. The structure between them will be tracked from advisement networks\footnote{Cf. Appendix 2 - Sociometric online questionnaire - individuals.} (aiming to capture artistic prestige), friendship networks and job indication networks\footnote{We will exclude here performance co-participation networks because we believe that they will result in a too redundant data.}. The high level is composed by the orchestras and all the other organizations with whom they maintain any kind of relation, whether it is an economic relation, a partnership, a resources exchange agreement\footnote{Cf. Appendix 3 - Sociometric questionnaire - organizations.}. We will track the organizations' main activity, it's style (in White's terms\footnote{Explain what is STYLE in White's terms\dots}), it's formal structure and some economic variables of interest (for the companies in general budget, number of partnership contracts and relations with the State. Specifically for orchestras, the venues that it performs, average ticket price, number of tickets available and artistic expenses). These are the attributes we will use to model relation building between the organizations. 
-	
-
-       	\section{Proposed indicators}
-	
-	%Com o intuito de operacionalizar o desenho de pesquisa descrito supra, buscaremos os seguintes indicadores: para verificar o padrão de qualidade vigente, verificaremos a representação dos músicos dos atributos da qualidade. Para verificar o Ranking das orquestras, utilizaremos um conjunto de indicadores: a representação dos músicos sobre o Ranking, o preço médio do ingresso, a quantidade de concertos por temporada e o volume total de investimentos. O preço médio do ingresso é adotado aqui como uma \textit{proxy} da qualidade embasado no achado de \citeonline{throsby1983quality} (a demanda é inelástica em relação ao preço mas altamente correlacionada com relação á qualidade percebida). Argumentamos que esta é uma boa proxy pois as pessoas estariam dispostas a pagar mais por um concerto que percebem como sendo de alta qualidade. A quantidade de concertos e o volume total de investimentos parecem, à primeira vista, \textit{proxys} menos seguras do que a anterior pois percebe-se um risco de cair numa tautologia. As orquestras são boas porque tem mais financiamento ou tem mais financiamento porque são boas? Tocam mais porque são boas ou são consideradas boas porque tocam mais? Contudo, argumentamos que, se adotados com parcimônia e sempre conjugados a outras variáveis, esses indicadores podem dar \textit{insights} valiosos sobre o campo. Pretendemos testar um índice de qualidade criado a partir da aglutinação dessas variáveis através de uma análise fatorial\footnote{Em linhas muito gerais, a análise fatorial é uma técnica de análise multivariada que visa reduzir a complexidade dimnuindo as dimensões a serem analisadas em índices ou escores \cite{mingoti2005analise}.}.
-	
-	Our goal is to build a database with the variables we are going to rely for our investigation. In order to operationalize the research design described above, we will look for the following indicators: to verify the current \textbf{quality standard}, we will check musicians' representation of the ranking, the average ticket price and total investment. The average ticket price is adopted here as a quality proxy based on the finding of \citeonline{throsby1983quality} (the demand is inelastic in relation to the price but highly correlated in relation to perceived quality). We argue that this is a good proxy because, generally, people are willing to pay more for a concert they judge to be of high quality. Total budget seems, at first sight, a not so good proxy because there is a risk of falling into a tautology. Orchestras are good because they have more money or they have more money because they are good? However, we argue that, if we analyze this indicator conjugated with the organization's closeness to the State, it can give valuable insights on the field. We intend to test a quality index that will be created from the agglutination of these variables.
-	
-	%Para capturar as interações no nível individual, construiremos redes relacionais entre músicos a partir de questionários sociométricos. Maiores detalhes sobre o questionário serão apresentados na seção seguinte. Por ora é suficiente indicar que adotaremos a centralidade de grau, centralidade de intermediação e o \textit{constraint} como indicadores para encontrar os \textit{hubs}. Os atributos dos indivíduos, as variáveis exógenas às redes, serão mensuradas pelo país de origem, cidade de origem, instituição de formação e o professor. Esses indicadores nos mostram um pouco do contexto do músico e de como ele pode ser situado a priori numa escala de prestígio em meio ao campo.
-	
-	To capture \textbf{interactions at the individual level}, we will build musicians networks from sociometric surveys. We will adopt degree centrality, betweeness centrality and constraint as indicators for finding \textit{hubs}. The \textbf{attributes} of the individuals will be measured by the country of origin, the city of origin, training institution and teacher. This indicators show us a little of the musicians' \textbf{context} and how he can be situated \textit{a priori} in a prestige scale within the field. The name generators will be as follows:
-
-        \begin{enumerate}
-        \item If you needed advise on the interpretation of a given piece, regardless of its period or style, to whom would you ask?
-        \item Do you meet regularly com other musicians on social occasions outside work (bars, parties, pubs, etc.)?
-        \item If you where invited to help on a musician hiring process to an excellent job vacancy, who would you recommend to get the job?
-        \item If you were responsible for organizing a recital, regardless of the needed instruments of the works that you would choose, who would you like to invite to play on stage with you?
-        \end{enumerate}
-	
-	%A estrutura de incentivos oferecida pela orquestra será mensurada através do salário médio e dos níveis salariais dos músicos\footnote{Pretendemos comparar entre orquestras tanto a média geral do salário quanto o salário por funções específicas, e.g., spalla e chefes de naipe que comumente ganham mais do que os demais músicos de seção.}. Os incentivos não financeiros serão mensurados pela quantidade de vezes em que um membro da orquestra se apresentou como solista ou teve um concerto de câmara agendado em nome da orquestra\footnote{É comum às orquestras organizarem concertos com formações menores como quartetos de cordas ou quintetos de metais com músicos selecionados entre seus membros.}. A complexidade da gestão será mensurada pela quantidade de setores e diretorias que a orquestra/instituição mantenedora possui e pela quantidade de níveis hierárquicos do instrumentista até o presidente.
-	
-	The \textbf{incentive structure} offered by the orchestra will be measured through average salary and salaries of musicians\footnote{We intend to compare both the average salary and specific salary by function, e.g., concertmaster and other leaders inside the orchestra that commonly earn more money than the other section musicians.}. The \textbf{non-financial incentives} will be measured by the number of times an orchestra member played as a soloist or in a chamber music concert in the orchestras' season\footnote{It is common to professional orchestras to organize concerts with smaller ensembles as string quartets or brass quintets with selected musicians.}. The \textbf{management complexity} will be measured by the quantity of sections and boards that the orchestra/maintainer have and by the amount of hierarchical levels between the intrumentalist and the CEO.
-	
-	%Os indicadores escolhidos para mensurar o nível de interação com o Estado são o volume financeiro investido pelo próprio Estado e a existência/quantidade de contratos, convênios ou parcerias firmados.
-	
-	The indicators chosen to measure the level of \textbf{interaction with State} are the amount of investment from the State itself and the existence/quantity of contracts, covenants and partnerships signed. The concepts mobilized and the proposed indicators are summarized in Table \ref{indicadores}.
-	
-	%Os indicadores aqui elencados estão apresentados de forma resumida na Tabela \ref{indicadores}. Seguimos apresentando os dados a serem coletados e os métodos de análise utilizados.
-	
-	
-	\begin{table}[ht]
-		\ibgetab{
-			\centering
-			\caption{Proposed Indicators}
-			\label{indicadores}
-		}
-		{\begin{tabular}{|c|c|}
-				
-				\hline
-				\textbf{Concept} & \textbf{Indicator} \\
-				\hline
-				&  Musicians perception \\
-				Quality  &  Average ticket price \\
-				&  Total financing \\
-				\hline
-				
-				& Networks \\
-				Individual interaction & Centrality measures  \\
-				& Constraint      \\
-				\hline
-				& Country of origin  \\
-				Individual Context & City of origin  \\
-				& Formation institution \\
-				& Professor    \\
-				\hline
-				& Average income  \\
-				Incentive Structure & Income by specific function \\
-				& Presentation as a soloist or in selected chamber groups \\
-				\hline
-				Management Complexity  & Number of boards/sections  \\
-				& Level-distance from the musician to the CEO \\
-				\hline
-				Interaction with the State  & Total financing from the State  \\
-				& Number of partnership contracts \\
-				\hline
-				
-				
-			\end{tabular}
-		}
-		{\fonte{Elaborated by the author.}}
-        \end{table}
 
 
 
