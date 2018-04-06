@@ -1,0 +1,21 @@
+##############################
+# Orientação com Silvio
+# FAFICH - Belo Horizonte
+# 2018, 06 de abril
+##############################
+
+Pensar em um artigo esclarecendo o conceito de agregado ou agregação dos economistas (demanda agregada e oferta agregada).
+
+Qual é o agregado sociológico do modelo de White?
+
+Não esquecer da estrutura multiplexo.
+
+Verificar o teste de hipóteses através de um modelo ALAAM (prediz o atributo a partir das relações) ou ERGM
+
+Conferir tb a triangulanção como input do modelo
+
+Montar atributos como categorias de variável resposta do modelo
+
+
+
+
