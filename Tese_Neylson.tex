@@ -700,7 +700,7 @@
 	%Let us now take a closer look to the elasticities parameters, the exponents $a$, $b$, $c$ and $d$, to understand how the market can be understood in terms of these variables.
 	
 	
-	\section{A topologia dos mercados -- os parâmetros de elasticidade}
+	\subsection{A topologia dos mercados -- os parâmetros de elasticidade}
 	
 	%To \citeonline{white2002markets}, the four elasticities parameters, saturation terms that shape the market curves, when analyzed jointly allow for the investigation of the viability of the market. Parameters $b$ and $d$ are measures of dispersion across quality, ``the exponents of discount of valuation with declining quality by, respectively, taste of consumers and cost of producers'' \cite[p. 50]{white2002markets}. The same way, $a$ and $c$ are saturation parameters for volume produced. These parameters relate themselves as we describe in table \ref{exponents-abcd}.
 	
@@ -741,10 +741,279 @@
 	
 	%To \citeonline{eloire2009reseaux}, the main goal of White's model is to show the structure of the market. The market plane shows six zones; four of them are zones that demarcate viable market, the other two, non-viable or unraveling. They can be described in a simplified way\footnote{A mathematical development of this plane is described in Appendix 1.} like this:
 	
+	Para \citeonline{eloire2009reseaux}, o principal objetivo do modelo de White é mostrar a estrutura do mercado. O plano do mercado mostra seis zonas; quatro delas são zonas que demarcam o mercado viável, as outras duas, o mercado não viável ou desvendado (\textit{unravelling}). Eles podem ser descritos de uma maneira simplificada da seguinte maneira:
+	
 	%Zone C is labelled \textbf{ordinary}. In this zone, revenues decrease to scale ($a/c < 1$) since cost increases with quality ($d > 0$). This is the `ordinary' that we think about quality. Also, returns are decreasing to quality to a more severe degree than to scale ($a/c > b/d$). Zones D and F are labelled \textbf{advanced}. In this zone higher quality is more expensive to produce ($d > 0$) and revenues increase to scale ($a/c > 1$). Zone A is labelled \textbf{paradox}. In this zone, in contrast with the ordinary thinking, higher quality is less costly to produce than lower quality ($d < 0$) although there are decreasing returns to scale ($a/c < 1$). B and E are non-viable market zones. 
 	
+	A zona C é chamada de \textit{ordinária}. Nessa zona, receitas diminuem com a escala ($a/c < 1$) visto que o custo aumenta com a qualidade ($d > 0$). Isto é o comum, o ``ordinário'', que pensamos sobre a qualidade. Além disso, os retornos diminuem com a qualidade em um grau mais severo do que com a escala ($a/c > b/d$). As zonas D e F são chamadas \textit{avançadas}. Nessa zona melhor qualidade é mais cara de ser produzida ($d > 0$) e as receitas aumentam com a escala ($a/c > 1$). A zona A é chamada \textit{paradoxo}. Nessa zona, em contraste com o pensamento ordinário, melhor qualidade é menos custosa de ser produzida do que pior qualidade ($d < 0$) embora os retornos diminuam com a escala ($a/c < 1$). B e E são zonas de mercado não viável.
 	
 	
+	
+	
+
+	
+	\subsection{Mensurações}
+	
+	\subsubsection{Como o modelo $W(y)$ tem sido mensurado}
+	
+	%In the $W(y)$ model, measurements are an issue to be solved in a creative way because White does not close the scope of the variables to be chosen. The review of two important studies gives us a basis to decide on this measurement issue.
+	
+	No modelo $W(y)$, as mensurações são uma questão a ser resolvida de uma maneira criativa devido ao fato de que White não fecha o escopo das possíveis variáveis a serem escolhidas para isso. A revisão de dois estudos importantes nos dá uma base para decidir sobre a questão da mensuração.
+	
+	%\citeonline{biencourt2002market} studied the theatrical institutions markets. They argue that the main advantage of White's model is related to the interdependence of the market structure and individual decisions through niches. This is particularly interesting to this specific case because
+	
+	\citeonline{biencourt2002market} estudou o mercado das instituições teatrais. Eles argumentam que a principal vantagem do modelo de White está relacionada à interdependência da estrutura do mercado e das decisões individuais através dos nichos. Isto é particularmente interessante para este caso específico porque
+	
+	\begin{citacao}
+		Organizações teatrais baseiam a construção de seus nichos nas competências de seus times administrativo, técnico e artístico, nas experiências prévias do público e na política de elaboração dos programas que orienta as escolhas de repertório e diretores. O conceito de nicho é adequado à singularidade das performances. Sua qualidade é resultado de uma combinação da qualidade do trabalho individual dos atores e técnicos num projeto sob o controle do diretor\footnote{Theatrical organizations base their construction of niches on the competencies of their administrative, technical and artistic teams, the public's former experiences and the programming policy that orients choices of repertories and directors. The concept of a niche is suited to the uniqueness of performances. Their quality is the result of a combination of the quality of actors' and technicians' individual work on a project, under the control of the director.}. \cite[p. 255]{biencourt2002market}
+	\end{citacao}
+	
+	
+	%If we retake the functions of satisfaction (\ref{satisfaction}) and cost (\ref{cost}), the variables were chosen in this manner:
+	
+	Se retomarmos as funções de satisfação (\ref{satisfaction}) e custo (\ref{cost}), as variáveis foram escolhidas da seguinte maneira:
+	
+	\begin{itemize}
+		\item \textbf{Volume de produção $Y$} -- estimado pelo número de performances listadas no relatório anual do teatro.
+	\end{itemize}
+	
+	%The authors show that for \apudonline{throsby1993economics}{biencourt2002market} the number of tickets sold is a better suited indicator for $Y$. However, ``the determination of $S$ would then require one to know the degree of audience satisfaction after each performance, something that is impossible'' \cite[p. 264]{biencourt2002market}. The number of seats available for each performance would also have been a good indicator if the authors had access to this data.
+	
+	Os autores mostram que para \apudonline{throsby1993economics}{biencourt2002market} o número de ingressos vendidos é um indicador bem adequado para $Y$. Entretanto, ``a determinação de $S$ requereria que se conhecesse o grau de satisfação do público após cada performance, algo impossível\footnote{The determination of $S$ would then require one to know the degree of audience satisfaction after each performance, something that is impossible.}'' \cite[p. 264]{biencourt2002market}.  O número de assentos disponíveis para cada performance seria também um bom indicador se os autores tivessem acesso a esses dados.
+	
+	\begin{itemize}
+		\item \textbf{Satisfação dos consumidores $S$} -- medida pelo número de visitantes pagantes à instituição.
+	\end{itemize}
+	
+	%The authors justify this choice showing data from previous research on theatre audiences' habits and representations. Also, they divided the performances on four repertoire categories, namely, ``classical'', ``20th century'', ``contemporary French'' and ``contemporary foreign'' plays. They also make a correction for the repertory effect by ``multiplying the number of paying visitors observed  in each of the four categories by the average ratio $\bar{x}_i$ between the share of performances and that of the number of visitors in a given genre $i$ for all the institution markets'' \cite[p. 265]{biencourt2002market}. Let $\tilde{P}_i$ be the number of performances and $\tilde{V}_i$ be the number of paying visitors to all theatres in category $i$. The average can be defined by
+	
+	Os autores justificam essa escolha mostrando dados de pesquisas anteriores em hábitos do público do teatro e representações. Além disso, eles dividem as performances em quatro categorias de repertório, a saber, ``clássico'', ``século XX'', ``contemporâneo Francês'' e ``contemporâneo de outros países''. Eles também fazem uma correção para o efeito do repertório ``multiplicando o número de visitantes pagantes observados em cada uma das quatro categorias pela razão média $\bar{x}_i$ entre a proporção de performances e a proporção do número de visitantes em um dado gênero $i$ para todas as instituições do mercado\footnote{(\dots) Multiplying the number of paying visitors observed  in each of the four categories by the average ratio $\bar{x}_i$ between the share of performances and that of the number of visitors in a given genre $i$ for all the institution markets.}'' \cite[p. 265]{biencourt2002market}. Seja $\tilde{P}_i$ o número de performances e $\tilde{V}_i$ o número de visitantes pagantes para todos os teatros na categoria $i$. A média pode ser definida por
+	
+	\begin{equation}
+	\label{repertory-effect-correction}
+	\bar{x}_i = \frac{\tilde{P}_i / \sum_{i=1}^{4}\tilde{P}_i}{\tilde{V}_i / \sum_{i=1}^{4}\tilde{V}_i}	
+	\end{equation}
+	
+	%If $v_i$ represents the number of paying visitors in category $i$ of repertoire, the public satisfaction can be estimated by
+	
+	Se $v_i$ representa o número de visitantes pagantes na categoria $i$ de repertório, a satisfação do público pode ser estimada por
+	
+	\begin{equation}
+	\label{satisfaction-corrected}
+	S = \sum_{i=1}^{4}\bar{x}_i v_i
+	\end{equation}
+	
+	
+
+	
+	\begin{itemize}
+		\item \textbf{O custo agregado $C$} -- esta variável foi obtida adicionando os custos artísticos do teatro (diferenciados aqui dos custos fixos).
+		
+		\item \textbf{escalar $r$} -- igual ao inverso do preço médio dos lugares $\bar{p}$ em todos os teatros.
+		
+		\item \textbf{escalar $q$} -- considerado igual a 1.
+	\end{itemize}
+	
+	%Although White's model represents a big step in the construction of knowledge about the markets, it has an issue related to its very core, the quality ranking. To him, quality is given in a predetermined social space. In fact, \citeonline{favereau2002markets} states that to agree on price is not a big deal but to agree on quality is intrinsically a problem. We shall argue, however, that quality is not predefined but actors struggle and negotiate on a daily basis for its definition.
+	
+	Embora o modelo de White representa um grande passo na construção de conhecimento sobre os mercados, ele tem um problema relacionado com seu núcleo duro, o ranking de qualidade. Para ele, a qualidade é dada em um espaço social predeterminado. De fato, \citeonline{favereau2002markets} postula que concordar no preço não é uma grande coisa mas concordar na qualidade é intrinsecamente um problema. Argumentamos, entretanto, que a qualidade não é predefinida mas que os atores disputam e negociam diariamente pela sua definição.
+	
+	%According to \citeonline{eloire2009reseaux}, by embracing the annual publications previously mentioned, this industry has ``specific judgement devices on quality'' as \citeonline{karpik2009elements}  argues. This devices do not only help the coordination between offer and demand, but they also ``contribuent au classement des producteurs selon des critères de qualité collectivement définis et surtout acceptés, mais qui sont aussi des objets de lutte pour leur définition'' \cite[p. 494]{eloire2009reseaux}. In fact, \citeonline{eloire2009reseaux} states that the very existence of various guides is, by itself, an evidence of this symbolic struggles for the definition of quality, although in the ``high distinction'' the guides seem to converge.
+	
+	De acordo com \citeonline{eloire2009reseaux}, ao receber as publicações anuais previamente mencionadas, esse setor tem ``dispositivos de julgamento específicos para a qualidade'' como argumenta \citeonline{karpik2009elements}. Estes dispositivos não somente ajudam a coordenação entre oferta e demanda mas também ``contribuem à classificação dos produtores de acordo com os critérios de qualidade definidos coletivamente e sobretudo aceitos, mas que são também objetos de luta por definição\footnote{(\dots) Contribuent au classement des producteurs selon des critères de qualité collectivement définis et surtout acceptés, mais qui sont aussi des objets de lutte pour leur définition.}'' \cite[p. 494]{eloire2009reseaux}. De fato, \citeonline{eloire2009reseaux} postula que a própria existência de vários guias de qualidade é, em si, uma evidência dessa luta simbólica pela definição da qualidade, embora na ``alta distinção'' os guias tendam a convergir.
+	
+	%What if there are no guides or websites to testify on orchestra's quality and the critics in the main newspapers in town are nearly nonexistent? Well, this is the case in Belo Horizonte and it poses a quite of a challenge. All the cultural economics and singularities economics discussion on quality relies on the action of critics who are, per excellence, the ones who have the primacy of quality definition. In Belo Horizonte, orchestral performances almost never get a critic and there is not such a well structured platform for it as Rotten Tomatoes\footnote{\url{https://www.rottentomatoes.com}.} or \textit{Adoro Cinema}\footnote{A famous Brazilian movie critics website. Available in \url{http://www.adorocinema.com}.} for movies. If critics do not act much within the field of our study object, where does the quality definition come from?
+	
+	E se não houverem guias ou plataformas online especializadas para testificar da qualidade de uma orquestra e a presença de críticas nos jornais for ínfima? Este é o caso da cidade de Belo Horizonte, MG, e ele coloca um grande desafio à pesquisa. Toda a discussão da economia da cultura e da economia das singularidades sobre a qualidade repousa sobre uma ação dos críticos que são, por excelência, aqueles que possuem a primazia da definição da qualidade. Em Belo Horizonte as performances orquestrais quase nunca recebem uma crítica e não há uma plataforma bem estruturada para isso como o Rotten Tomatoes\footnote{\url{https://www.rottentomatoes.com}.} ou \textit{Adoro Cinema}\footnote{Um website brasileiro famoso de críticas de cinema. Disponível em \url{http://www.adorocinema.com}.}. Se as críticas não possuem grande atuação dentro do campo de nosso objeto de estudo, de onde vem a definição da qualidade?
+	
+	%\citeonline{biencourt2002market} present an interesting approach to the quality problem regarding theatres' market. We shall depart from their rationale to build the quality index $n$ we will use in this investigation.
+	
+	\citeonline{biencourt2002market} apresenta uma abordagem interessante para o problema da qualidade com relação ao mercado teatral. Partiremos de sua \textit{rationle} para construir o índice de qualidade $n$ que usaremos em nossa investigação.
+	
+	%To deal with quality index $N$, the authors elaborate a sophisticated construct to explain how various actors have a different influence on quality. To them,
+	
+	Para lidar com o índice de qualidade $N$, os autores elaboraram um construto sofisticado para explicar como vários atores tem diferentes influências sobre a qualidade. Para eles
+	
+	\begin{equation}
+	\label{biencourt-quality}
+	N_{l}^{b_l} = N_{1l}^{b_{1l}} N_{2l}^{b_{2l}} N_{3l}^{b_{3l}} N_{4l}^{b_{4l}} 
+	\end{equation}
+	
+	%that is, the \textit{overall quality} $N$ in the year $l$ is constructed aggregating the judgements of \textit{drama critics} $N_1$, the judegements of \textit{programme planners} $N_2$, the judgement of the \textit{public authorities} $N_3$ and the influence of \textit{previous consumption} $N_4$. Now, each of these parts of the overall quality were measured in this manner:
+	
+	isto é, a \textit{qualidade geral} $N$ no ano $l$ é construída agregando as opiniões de \textit{críticos de teatro} $N_1$, as opiniões de \textit{planejadores de programas} $N_2$, a opinião de \textit{autoridades públicas} $N_3$ e a influência de \textit{consumo prévio} $N_4$. Cada uma das partes da qualidade geral foi mensurada da seguinte maneira:
+	
+
+	
+	\begin{itemize}
+		\item \textbf{Opiniões de críticos teatrais $N_1$} -- mensuradas registrando todas as críticas de apresentações agendadas nos teatros nos jornais \textit{Le Monde} e \textit{Libération} e na revista \textit{Télérama}, líderes de opinião entre os críticos teatrais.
+
+		\item \textbf{Opiniões dos planejadores de programas $N_2$} -- a centralidade de grau de entrada normalizada do teatro; nesse caso, isso significa o número de performances de espetáculos produzidos por outras instituições teatrais agendadas pelo teatro divididas pela centralidade máxima da rede.
+		
+		\item \textbf{Opiniões de autoridades públicas $N_3$} -- mensurada pelo volume de subsídio do Estado. Para \citeonline[p. 267]{biencourt2002market}, ``essa escolha é justificada pelo peso do Estado que é maior do que o das autoridades locais no reconhecimento político da reputação de uma instituição artística\footnote{This choice is justified by the weight of the state, which is greater that that of local authorities in the political recognition of an institution's artistic reputation.}''.
+
+		\item \textbf{Influência de consumos prévios $N_4$} -- mensurada pelo número de visitantes pagantes no período precedente.
+	\end{itemize}
+	
+	%The overall quality perceived by the public is constructed by aggregating these four variables in the form of a Cobb-Douglas function (cf. equation \ref{biencourt-quality}). To measure the weight of each one of these variables on the overall quality, they estimated a linear model that had the number of paying visitors per performance as the dependent variable. Knowing that $r = 1/\bar{p}$ and taking into account equations (\ref{satisfaction}) and (\ref{biencourt-quality}), we can derive
+	
+	A qualidade geral percebida pela público é construída agregando essas quatro variáveis na forma de uma função Cobb-Douglas (cf. equação \ref{biencourt-quality}). Para medir o peso de cada uma das variáveis, eles estimaram um modelo linear que possuía o número de visitantes pagantes por performances como variável dependente. Sabendo que $r = 1/\bar{p}$ e levando em conta as equações (\ref{satisfaction}) e (\ref{biencourt-quality}), podemos derivar
+	
+	\begin{equation}
+	\label{biencourt-derivation}
+	[S\bar{p}/Y]_l = Y_{l}^{\hat{a}_l} N_{l}^{\hat{b}_l} \varepsilon_l = Y_{l}^{\hat{a}_l} N_{1l}^{\hat{b}_{1l}} N_{2l}^{\hat{b}_{2l}} N_{3l}^{\hat{b}_{3l}} N_{4l}^{\hat{b}_{4l}} \varepsilon_l
+	\end{equation}
+	
+	%where $l$ is the year under investigation. This leads to the linear model
+	onde $l$ é o ano sob investigação. Isso leva ao modelo linear
+	
+	\begin{equation}
+	\label{regression}
+	\log([S\bar{p}/Y]_l) = \hat{a}_l \log Y_l + \hat{b}_{1l} \log N_{1l} + \hat{b}_{2l} \log N_{2l} + \hat{b}_{3l} \log N_{3l} + \hat{b}_{4l} \log N_{4l} + \hat{\varepsilon}_l
+	\end{equation}
+	
+	%From this, it is possible to deduce, without a constant,
+	Disto é possível deduzir, sem a constante,
+	
+	\begin{equation}
+	\label{N-com-pesos}
+	\log N_l = \hat{b}_{1l} \log N_{1l} + \hat{b}_{2l} \log N_{2l} + \hat{b}_{3l} \log N_{3l} + \hat{b}_{4l} \log N_{4l} + e_l \hat{\varepsilon}_l
+	\end{equation}
+	
+	%with $0 \le e_l \le 1$ assuming $\hat{b}_l = 1$.
+	com $0 \le e_l \le 1$ assumindo $\hat{b}_l = 1$.
+	
+	%Then, the four elasticities exponents were deduced as solutions of a system of two equations to two unknowns. As the authors were studying two years seasons, by posing $\Delta = \log Y_l \cdot \log N_{l+1} - \log Y_{l+1} \cdot \log N_l$, they obtain:
+	
+	Então, os quatro expoentes de elasticidade foram deduzidos como soluções de um sistema de duas equações para dois desconhecidos. Como os autores estudaram duas temporadas, definindo $\Delta = \log Y_l \cdot \log N_{l+1} - \log Y_{l+1} \cdot \log N_l$, eles obtiveram:
+	
+	$$ a = \frac{ \log([S\bar{p}]_l) \cdot \log N_{l+1} - \log([S\bar{p}]_{l+1}) \cdot \log N_{l} }{\Delta} $$
+	
+	$$ b = \frac{ \log([S\bar{p}]_{l+1}) \cdot \log Y_{l} - \log([S\bar{p}]_{l}) \cdot \log Y_{l+1} }{\Delta} $$
+	
+	$$ c = \frac{ \log C_l \cdot \log N_{l+1} - \log C_{l+1} \cdot \log N_{l} }{\Delta} $$
+	
+	\begin{equation}
+	\label{parameters}
+	d = \frac{ \log C_l \cdot \log Y_{l+1} - \log C_{l+1} \cdot \log Y_{l} }{\Delta}
+	\end{equation}
+	
+	
+
+	
+	% OBS: A partir da página 280, Éloire começar a falar dos niches de qualités e as variáveis que escolhe para medir cada parte do modelo.
+	
+	%On the other hand, \citeonline{eloire2009reseaux} chose a different set of variables to measure the inputs of the $W(y)$ model. In his PhD thesis, he studied the market of restaurants in Lille. He also uses the number of clients as an indicator to $y$ and observes the revenues (\textit{Chiffre d'affaires}) as well as uses the average ticket price for $W$. In order to investigate the market plane, \citeonline{eloire2009reseaux} mobilized the variables described in Table \ref{eloire-abcd}:
+	
+	Por outro lado, \citeonline{eloire2009reseaux} escolheu um set diferente de variáveis para medir os \textit{inputs} do modelo $W(y)$ 
+	
+	\begin{table}[ht]
+		\ibgetab{
+			\centering
+			\caption{Quality niches parameters}
+			\label{eloire-abcd}
+		}
+		{\begin{tabular}{c | p{5cm} p{5cm}}
+				\hline
+				& \textbf{Volume}  & \textbf{Quality} \\
+				\hline
+				\textbf{Satisfaction}  & \textbf{a} = Average number of clients per service & \textbf{b} = Average ticket value + Quality note \\
+				\textbf{Cost} & \textbf{c} = Salaried / Couverts * Services & \textbf{d} = Ratio of salaried availability / clients \\
+				\hline
+			\end{tabular}
+		}
+		{\fonte{\citeonline[p. 289]{eloire2009reseaux}}}
+	\end{table}
+
+
+\begin{comment}
+
+	% This here is on page 290!!!
+	Éloire argues that quality is a social construction build between the offer from structured producers and an aggregated demand. In the restaurants case, it also depends on the ``cuisine'' style which is very difficult to measure. However, this culinary scale is closely correlated with simple economic statistics: price, availability ratio in a way that the higher the prices and the ratio, the more ``fancy'' is the restaurant. Therefore, he considers the quality cost (\textbf{d} parameter) is related to the availability ratio, that is the amount of personnel that a restaurant hires over the number of clients it intends to serve. Clients satisfaction (\textbf{b} parameter) can be represented by the average ticket value.
+	
+	% PAGE 290
+	The author recognizes that the a restaurant's capacity is correlated to the volume of personnel. So, the volume costs (\textbf{c} parameter) are measured to the number of salaried employees divided by the (potential) number of cutlery multiplied by the number of services. Also, he acknowledges that a main strategy of the restaurants is related to the amount of time/time of the day that it stays open. Some restaurants can function 24/7, some only at lunch, some only at night,  and this implicates requires cost, personnel, logistics, etc. This is expressed on the \textbf{c} parameter calculus. The satisfaction at volume (\textbf{a} parameter) is measured by the average number of clients per service. This is derived of the restaurant's ``filling rate''. The higher this rate, the more we can infer that his decisions regarding volume costs are validated by the clients. On the other hand, the lower this rate, the more the volume costs can be seen as ``disproportional'' by the clients \cite{eloire2009reseaux}.
+	
+	The quality note pointed by the author in table \ref{eloire-abcd} is built aggregating the notes of five international restaurant guides, all of them well known and recognized in the profession, namely, ``Le Guide Michelin France'', ``Le Bottin Gourmand'', the ``GaultMillau'', the ``Champérard'' and ``Le Pudlo France''. The aggregation of these guides scoring was obtained through a specialized website\footnote{\url{http://restaurant-hitlisten.de/france/bewertung.htm}}.
+	
+	
+	
+	
+	\subsection{Our measurement proposal}
+	
+	NEEDS REVIEW!!!!!!!!!!!!!!!
+	
+	Let us recall the two main equations of the $W(y)$ model. First the Cost equation (\ref{cost}):
+	$$C(y, n) = q \cdot y^c \cdot n^d$$
+	then, the Satisfaction equation (\ref{satisfaction}):
+	$$S(y, n) = r \cdot y^a \cdot n^b$$
+	
+	For the purposes of this investigation, the parameters will be measured in the following way:
+	
+	\begin{itemize}
+		\item The constant $q = 1$;
+		\item the constant $r =$ the inverse of the average price of seats in all performances of the season, that is, $1/\bar{p}$;
+		\item The aggregated cost $C$ will be obtained by adding the orchestra's artistic expenses;
+		\item The satisfaction of consumers $S$ will be estimated by a ratio of the number of paying individuals in the audience over the number of seats available;
+		\item the volume of production $y$ will be estimated by the number of seats available for each performance\footnote{In case we cannot have access to data on the seats available, $y$ can be estimated by the total number of performances on a season.};
+		\item the quality index $n$ will be estimated aggregating the ticket prices, total budget, ``closeness to the state'' and the musicians perception;
+		\item ``closeness to the state'' will be measured by the number of contracts signed and the total financing from State.
+	\end{itemize}
+	
+	We will also try to capture the audience quality perception through a web application that we will construct only for this purpose. We will compare the results generated by both $N$ measurements.
+	
+	This application....... (DESCRIBE THE WEB APPLICATION)
+	
+	The elasticities $a$ and $b$, related to the Satisfaction equation, can be obtained as solutions of a system of two equations to two unknowns as proposed by \citeonline{biencourt2002market}. Trying to measure any of these variables would violate the assumption that cultural goods are not rivals in consumption.
+	
+	The elasticities $c$ and $d$, on the other hand, can be measured in the following way:
+	% ELABORATE! ELABORATE! ELABORATE! ELABORATE! ELABORATE!
+	
+	\begin{itemize}
+		\item $c =$ the number of salaried employees $/$ number of performances;
+		\item $d =$ the total budget $/$ number of performances
+	\end{itemize}
+	
+	Table \ref{measurements-wy} synthesizes the variables chosen as indicators to measure the $W(y)$ model.
+	
+	\begin{table}
+		\ibgetab{
+			\caption{Proposed indicators - $W(y)$ model}
+			\label{measurements-wy}
+		}
+		{\begin{tabular}{|c|c|}
+				
+				\hline
+				\textbf{Concept} & \textbf{Indicator} \\
+				\hline
+				The constant \textbf{q} & 1 \\
+				\hline
+				The constant \textbf{r} &  $1/\bar{p}$ \\
+				\hline
+				Aggregated Cost \textbf{C} & Artistics Espenses \\
+				\hline
+				Satisfaction \textbf{S} & Paying individuals / Seats available \\
+				\hline
+				Volume of production \textbf{y} & Seats available (or number of performances) \\
+				\hline
+				Quality index \textbf{N} & Ticket prices, \\
+				& Total Budget, \\
+				& ``Closeness to the State'', \\
+				& Musicians Perception. \\
+				\hline
+				``Closeness to the State'' & Number of contracts signed, \\
+				& Total financing from the State. \\
+				\hline
+				The elasticity \textbf{c} & Number of employees / number of performances \\
+				\hline
+				The elasticity \textbf{d} & Total budget / number of performances\\
+				\hline
+			\end{tabular}
+		}
+		{\fonte{Elaborated by the author.}}
+	\end{table}
+	
+	\end{comment}
 	
 	
 	
