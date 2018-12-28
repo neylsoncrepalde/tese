@@ -241,15 +241,69 @@
 	
 	\chapter{A sociologia neoestrutural}
 	
-	A chamada sociologia neoestrutural (também conhecida como sociologia de redes ou sociometria) concebe o mundo social como estruturas interconectadas, redes, compostas por laços sociais \cite{denooy2011exploratory}. 
+	A chamada sociologia neoestrutural (também conhecida como Análise de Redes Sociais ou Sociometria) concebe o mundo social como estruturas interconectadas, redes, compostas por laços sociais \cite{denooy2011exploratory}. A Análise de Redes Sociais não constitui, como alguns argumentam, uma nova metodologia ou técnica de pesquisa (embora se aproprie de técnicas matemáticas e estatísticas complexas para suas análises) mas, antes, um novo paradigma, uma nova forma de olhar para o mundo e perceber seu \textit{modus operandi}.
 	
-	A sociologia neoestrutural consiste, portanto, de um grande avanço no corpo teórico sociológico tradicional posto que abandona a velha dicotomia insolúvel entre agência e estrutura mas concebe o mundo como uma estrutura de indivíduos interdependentes onde tanto a ação individual quanto a força estrutural sobre o indivíduo emergem da própria estrutura e moldam-se uma à outra mutuamente.
+	Dados de dois tipos interessam à sociologia neoestrutural. O primeiro deles é o que podemos chamar \textit{atributos}, ou características gerais de cada unidade na estrutura a ser investigada. Atributos podem estar relacionados a atitudes, opiniões, comportamentos ou características de indivíduos ou grupos específicos. Normalmente, quando a unidade individual da rede em questão são pessoas, observamos a idade, o sexo, cor da pele, renda, anos de escolaridade, etc. Se as unidades da rede são, por exemplo, organizações, é comum observarmos orçamento anual, quantidade de funcionários, valor de custo fixo, receitas, natureza do negócio na qual a organização está inserida, etc. O segundo tipo é o que chamamos de \textit{dados relacionais} e consistem de contatos, conexões, laços que conectam um indivíduo a outro \cite{scott2017social,wasserman1994social,lazega2014redes}. De acordo com \citeonline[p. 3]{scott2017social}, esse dado ``não pode ser reduzido a propriedades dos agentes individuais em si. Relações não são propriedades dos agentes, mas de sistemas de agentes\footnote{[Relational Data] (\dots) cannot be reduced to the properties of the individual agents themselves. Relations are not the properties of agents, but of systems of agents.}''. Para \citeonline{lazega2014redes}, o dado do tipo relacional é o grande diferencial da sociologia neoestrutural (embora não deem menos importância aos atributos). Para esses autores, uma relação social pode ser entendida como um canal para troca ou transferência de recursos ou como interação ativa com outros membros participantes do mesmo coletivo social. Ainda segundo os autores, o pesquisador observa um sistema de interdependências que emerge das relações entre membros de uma coletividade para, a partir de suas observações
+	
+	\begin{citacao}
+		(\dots) reconstituir um \textit{sistema de interdependências}, descrever a influência desse sistema no comportamento dos membros e as variadas maneiras que empregam para gerir essas interdependências e as formas adquiridas pelos processos sociais decorrentes dessa gestão: aprendizagens, solidariedades, controles sociais, regulações, para citar apenas os mais genéricos. \cite[p. 5]{lazega2014redes}
+	\end{citacao}
+
 	
 	
+	A sociologia neoestrutural consiste, portanto, de um grande avanço no corpo teórico sociológico tradicional posto que abandona a velha dicotomia insolúvel entre agência e estrutura mas concebe o mundo como uma estrutura de indivíduos interdependentes onde tanto a ação individual quanto a força estrutural sobre o indivíduo emergem da própria estrutura e moldam-se uma à outra mutuamente \cite{white2008,higgins2018analise}.
+	
+	\section{Representação}
+	
+	Do ponto de vista técnico, as redes podem ser representadas de duas formas, utilizando matrizes e grafos. No caso das redes de 1 modo (redes construídas observando-se laços entre entidades da mesma natureza) a matriz é sempre quadrada de tamanho $m X n$ onde cada linha e cada coluna corresponde a um ator da estrutura. Podemos, por exemplo, representar uma rede da seguinte maneira:
+	
+	\begin{equation}
+	\label{example-matrix}
+	M = \begin{pmatrix}
+		0 & 1 & 1 & 1 & 1 \\
+		1 & 0 & 0 & 0 & 0 \\
+		1 & 0 & 0 & 0 & 0 \\
+		1 & 0 & 0 & 0 & 0 \\
+		1 & 0 & 0 & 0 & 0 \\
+	\end{pmatrix}
+	\end{equation}
+	
+	A Matriz \ref{example-matrix} representa uma rede binária, isto é, cada célula assume apenas a informação da existência ou não de um dado laço. No exemplo dado, o ator 2 possui um laço com o ator 1, o ator 3 possui laço com o ator 1, igualmente os atores 4 e 5. Normalmente, em redes de 1 modo, a diagonal da matriz é ignorada\footnote{Um valor igual a 1 numa célula diagonal indicaria que um ator possui uma relação com ele mesmo, o que chamado de \textit{looping}. Muito embora existam casos em que seja ontologicamente plausível que um ator possua uma relação consigo mesmo (voto, por exemplo), isso não é muito comum.}. A representação matricial é fundamental para a Análise de Redes Sociais pois é a partir dela que serão realizados os cálculos matemáticos dos escores e métricas típicos da abordagem. A mesma estrutura pode ser também representada a partir de um grafo (cf. Figura \ref{example-graph}).
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Exemplo de grafo não direcionado}
+		\label{example-graph}
+		\includegraphics[scale=.4]{example-graph.png}
+		\fonte{Elaboração do autor.}
+	\end{figure}
 
-
-
-
+	O grafo representado na Figura \ref{example-graph} é também um grafo não direcionado, ou seja, os laços nele observados não possuem direção inerente. Este é o caso, por exemplo, de redes de parentesco e matrimônio. Os grafos são compostos por pontos chamados \textit{vértices} ou \textit{nós} e conexões entre eles chamados de \textit{arestas} ou \textit{laços}. Existem também redes direcionadas, ou seja, cujos laços possuem direção inerente. Este é o caso, por exemplo, de redes de compra e venda, de trocas de recursos, de pedidos de conselho, etc. Além disso, podemos ter uma rede \textit{valorada} ou \textit{balanceada} quando os laços entre os vértices possuem pesos distintos. É possível, por exemplo, representar o volume de trocas econômicas entre empresas usando o valor do laço entre os vértices que as representam. Por outro lado, quando falamos de redes de amizade, por exemplo, o peso está associado ao conceito de \textit{força do laço} onde, usualmente, quanto mais tempo dois indivíduos passam juntos ou quanto maior for a carga emocional da relação, maior será o peso do laço\footnote{A esse respeito, consultar o trabalho seminal de \citeonline{granovetter1973strength}}.
+	
+	Uma rede direcionada e valorada poderia ser representada a partir da matriz \ref{weighted-matrix} e do grafo da Figura \ref{weighted-graph}.
+	
+	\begin{equation}
+	\label{weighted-matrix}
+	M = \begin{pmatrix}
+	0 & 1 & 2 & 0 & 1 \\
+	1 & 0 & 0 & 1 & 0 \\
+	2 & 1 & 0 & 0 & 0 \\
+	0 & 0 & 3 & 0 & 0 \\
+	3 & 0 & 0 & 1 & 0 \\
+	\end{pmatrix}
+	\end{equation}
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Exemplo de grafo direcionado e valorado}
+		\label{weighted-graph}
+		\includegraphics[scale=.4]{weighted-graph.png}
+		\fonte{Elaboração do autor.}
+	\end{figure}
+	
+	
 
 
 
