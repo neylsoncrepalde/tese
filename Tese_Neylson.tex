@@ -268,7 +268,7 @@
 	\end{pmatrix}
 	\end{equation}
 	
-	A Matriz \ref{example-matrix} representa uma rede binária, isto é, cada célula assume apenas a informação da existência ou não de um dado laço. No exemplo dado, o ator 2 possui um laço com o ator 1, o ator 3 possui laço com o ator 1, igualmente os atores 4 e 5. Normalmente, em redes de 1 modo, a diagonal da matriz é ignorada\footnote{Um valor igual a 1 numa célula diagonal indicaria que um ator possui uma relação com ele mesmo, o que chamado de \textit{looping}. Muito embora existam casos em que seja ontologicamente plausível que um ator possua uma relação consigo mesmo (voto, por exemplo), isso não é muito comum.}. A representação matricial é fundamental para a Análise de Redes Sociais pois é a partir dela que serão realizados os cálculos matemáticos dos escores e métricas típicos da abordagem. A mesma estrutura pode ser também representada a partir de um grafo (cf. Figura \ref{example-graph}).
+	A matriz de adjacência \ref{example-matrix} representa uma rede binária, isto é, cada célula assume apenas a informação da existência ou não de um dado laço. No exemplo dado, o ator 2 possui um laço com o ator 1, o ator 3 possui laço com o ator 1, igualmente os atores 4 e 5. Normalmente, em redes de 1 modo, a diagonal da matriz é ignorada\footnote{Um valor igual a 1 numa célula diagonal indicaria que um ator possui uma relação com ele mesmo, o que chamado de \textit{looping}. Muito embora existam casos em que seja ontologicamente plausível que um ator possua uma relação consigo mesmo (voto, por exemplo), isso não é muito comum.}. A representação matricial é fundamental para a Análise de Redes Sociais pois é a partir dela que serão realizados os cálculos matemáticos dos escores e métricas típicos da abordagem. A mesma estrutura pode ser também representada a partir de um grafo (cf. Figura \ref{example-graph}).
 	
 	
 	\begin{figure}[!ht]
@@ -304,8 +304,43 @@
 	\end{figure}
 	
 	
+	\section{Análise topológica da estrutra}
+	
+	As análises preliminares realizadas numa rede comumente abordam sua topologia. Trata-se de uma análise mais descritiva da estrutura. Isso não significa, entretanto, que a partir dela não possam ser feitas interpretações sociológicas profundas. Pelo contrário; é comum as primeiras análises trazerem excelentes esclarecimentos sobre a estrutura, até mesmo a análise visual da disposição dos vértices no plano\footnote{Aqui é pertinente comentar com o leitor que a disposição dos vértices no espaço não é algo trivial. Existem diversos algoritmos elaborados para isso hoje conhecidos na literatura e disponibilizados nos principais softwares de análise de redes sociais. Um \textit{layout} mal feito pode levar a \textit{insights} equivocados.} a qual, \textit{per se}, já é uma poderosa ferramenta analítica.
+	
+	A partir da matriz de adjacência podemos calcular a \textit{distância geodésica} entre dois vértices \textit{i} e \textit{j}, isto é, a distância mais curta em ``passos'' entre esses dois pontos. Quando a distância geodésica é pequena, podemos considerar que \textit{i} e \textit{j} estão próximos; quando é grande, podemos considerar que eles estão distantes. Do mesmo modo, o \textit{diâmetro} mostra a maior distância geodésica entre dois pontos observada na estrutura. Dizemos que um grafo é \textit{conectado} quando há um caminho ligando todos os seus vértices.
+	
+	A \textit{densidade} da rede pode ser calculada tomando-se o número de laços observados sobre o número de laços possíveis na estrutura. O cálculo pode ser definido por $$\delta = \frac{L}{g(g-1)}$$ onde $g$ é o número de vértices e $L$ o número de laços observados. Esta medida é um indicador de base da estrutura da rede e tende a diminuir quando o tamanho da rede aumenta \cite{lazega2014redes}. Se a rede sob investigação for valorada, a métrica pode representar a força média dos laços. No geral, quanto mais denso for um grafo, mais conectado ele é.
+	
+	\subsection{As medidas de centralidade}
+	
+	Uma das medidas mais importantes na Análise de Redes Sociais é o escore de \textit{centralidade} o qual indica o posicionamento de um vértice em relação à estrutura. A partir dela, podemos identificar os atores mais ``importantes'' do sistema de acordo com alguns critérios. As medidas de centralidade estão normalmente associadas a duas condições sociais, a saber, o \textit{prestígio} e a \textit{atividade}. No caso das redes direcionadas, podemos dizer que um indivíduo possui alto prestígio quando recebe muitos laços; de forma análoga, podemos dizer que um indivíduo é muito ativo na rede quando envia muitos laços. Nos casos das redes não direcionadas não é possível fazer essa distinção visto que o laço não possui direção intrínseca. Falamos, nesses casos, de centralidade de uma forma mais geral, como importância \cite{lazega2014redes}.
+	
+	As três medidas de centralidade mais comuns na literatura são a centralidade de grau (\textit{degree centrality}), a centralidade de intermediação (\textit{betweeness centrality}) e a centralidade de proximidade (\textit{closeness centrality}).
+	
+	A centralidade de grau de um nó é igual à força dos laços que ele possui. Nesse aspecto, quanto mais conectado com outros um ator tiver e quanto mais fortes forem seus laços, mais central ele será. 
+	
+	``A centralidade de proximidade de um ator é medida pelo número mínimo de passos que ele deve fazer para entrar em contato com os outros atores no sistema'' \cite[p. 43]{lazega2014redes}. Nesse aspecto, quanto mais próximo dos demais um ator estiver, mais central será pois poderá interagir com maior facilidade. A centralidade de proximidade é definida por $$C_{pro} = \frac{1}{\sum_{j=i}^{g} d_{ij}}$$ onde $d_{ij}$ é a distância geodésica entre os atores \textit{i} e \textit{j}. ``A distância total entre o ator \textit{i} e todos os outros é $\sum_{j=i}^{g} d_{ij}$ onde a soma se efetua para todos os $j \neq i$'' \cite[p. 44]{lazega2014redes}. Trata-se do inverso da soma das distâncias entre um ator \textit{i} e os demais na estrutura. Seu valor máximo é $1/(g-1)$
+	
+	A centralidade de intermediação se baseia na ideia de que dois indivíduos podem ser intermediados por um terceiro com os quais ambos possuem laço. Essa posição central é privilegiada pois pode interromper o fluxo de recursos ou informação. Quanto mais um ator se encontra ``no meio'', mais central ele é nesse critério. A centralidade de intermediação é definida por $$C_{inter} = \frac{\sum_{j<k} g_{jk} (i)}{g_{jk}}$$ para $i \neq j, k$. Este índice representa a proporção das distâncias geodésicas entre \textit{j} e \textit{k} que passam por \textit{i}. $g_{jk}$ representa o conjunto das geodésicas entre \textit{j} e \textit{k} e $g_{jk}(i)$ é um caminho entre \textit{j} e \textit{k} passando por \textit{i}. Essa medida pode chegar ao máximo de $(g-1)(g-2)/2$ e encontrará seu valor máximo quando um ator se encontrar em todas as geodésicas. 
+	
+	\subsection{Os buracos estruturais}
 
-
+	O conceito de \textit{capital social} é extremamente familiar na sociologia...
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 	\chapter{Investigação Bibliográfica Preliminar}
 
