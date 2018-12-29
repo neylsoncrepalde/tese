@@ -255,7 +255,7 @@
 	
 	\section{Representação}
 	
-	Do ponto de vista técnico, as redes podem ser representadas de duas formas, utilizando matrizes e grafos. No caso das redes de 1 modo (redes construídas observando-se laços entre entidades da mesma natureza) a matriz é sempre quadrada de tamanho $m X n$ onde cada linha e cada coluna corresponde a um ator da estrutura. Podemos, por exemplo, representar uma rede da seguinte maneira:
+	Do ponto de vista técnico, as redes podem ser representadas de duas formas, utilizando matrizes e grafos. No caso das redes de 1 modo (redes construídas observando-se laços entre entidades da mesma natureza) a matriz é sempre quadrada de tamanho $m \times m$ onde cada linha e cada coluna corresponde a um ator da estrutura. Podemos, por exemplo, representar uma rede da seguinte maneira:
 	
 	\begin{equation}
 	\label{example-matrix}
@@ -328,7 +328,7 @@
 
 	Para além das medidas de centralidade mencionadas acima, o sociólogo Ronald Burt (\citeyear{burt1982toward,burt1992structural,burt2005brokerage}) desenvolveu uma medida de autonomia e restrição estruturais. A medida chamada \textit{constraint} consiste de um escore que leva em conta não apenas o posicionamento do indivíduo na estrutura mas também o perfil relacional de seus vizinhos. 
 	
-	Baseado na \textit{densidade proporcional} da sub-rede de cada ator, Burt mede a restrição que \textit{i} exerce sobre \textit{j} através das interações diretas entre esses dois vértices e da força e quantidade de laços que \textit{j} possui com outros álteres de \textit{i}. A restrição ocorre porque o ator não pode substituir seu álter por outro. ``Logo, a autonomia significa, antes de tudo, a capacidade de substituir uma relação por outra; de ter uma alternativa relacional'' \cite[p. 71]{lazega2014redes}. Quanto maior for a restrição global que uma rede impõe sobre um ator, mais ``constrangido'' ele será; quanto menor for a restrição global da rede sobre o ator, maior liberdade de atuação na estrutura ele possui e ``mais se encontra em posição de beneficiar de oportunidades muito ricas em ganhos de toda natureza (sobretudo em informação e controle), tornando-se um intermediário indispensável a outros atores'' (\Ibidem{lazega2014redes}). Esta é a principal medida entre os analistas de redes para investigar o \textit{capital social}. Sua lógica obedece a descrição abaixo de \citeonline{lazega2014redes}:
+	Baseado na \textit{densidade proporcional} da sub-rede de cada ator, Burt mede a restrição que \textit{i} exerce sobre \textit{j} através das interações diretas entre esses dois vértices e da força e quantidade de laços que \textit{j} possui com outros alters de \textit{i}. A restrição ocorre porque o ator não pode substituir seu álter por outro. ``Logo, a autonomia significa, antes de tudo, a capacidade de substituir uma relação por outra; de ter uma alternativa relacional'' \cite[p. 71]{lazega2014redes}. Quanto maior for a restrição global que uma rede impõe sobre um ator, mais ``constrangido'' ele será; quanto menor for a restrição global da rede sobre o ator, maior liberdade de atuação na estrutura ele possui e ``mais se encontra em posição de beneficiar de oportunidades muito ricas em ganhos de toda natureza (sobretudo em informação e controle), tornando-se um intermediário indispensável a outros atores'' (\Ibidem{lazega2014redes}). Esta é a principal medida entre os analistas de redes para investigar o \textit{capital social}. Sua lógica obedece a descrição abaixo de \citeonline{lazega2014redes}:
 	
 	\begin{citacao}
 		Quanto mais alters ``não redundantes'' eu tiver em minha rede, mais minhas relações serão únicas, mais chances tenho de ser paralisado pela estrutura (\textit{aggregate constraint}). Quanto mais estiver vinculado a atores não vinculados entre si, mais serei intermediário entre posições não centralizadas, mais ``buracos estruturais'' haverá (ausência de relações entre posições) na rede e mais poderei beneficiar das oportunidades oferecidas por essas ausências de relações. \cite[p. 71-2]{lazega2014redes}
@@ -351,14 +351,75 @@
 	
 	\subsection{Equivalência estrutural}
 	
-	A equivalência estrutural \ldots
+	Para além da descrição do posicionamento relacional e do grau de autonomia/liberdade que um ator possui numa rede, a Análise de Redes Sociais está também interessada na investigação de \textit{papeis sociais}. Segundo \citeonline{scott2017social}, essa análise faz sentido quando na estrutura é possível observar pessoas ocupando papeis institucionalizados, papeis que sejam culturalmente bem definidos. A partir da identificação de atores que possuem o mesmo perfil relacional, ou seja, se relacionam de forma similar com alters similares, podemos afirmar que eles são \textit{estruturalmente equivalentes}, ou seja, cumprem a mesma função na rede e são portanto, intercambiáveis.
+	
+	\citeonline{lazega2014redes} argumentam que a equivalência estrutural é uma propriedade matemática matricial praticamente impossível de ser observada na vida social pois dois atores nunca possuem um perfil relacional idêntico. Entretanto, a partir das semelhanças do perfil relacional é possível constituir posições bem delimitadas. Para esses autores, o conceito de equivalência estrutural é o que distingue a abordagem neoestrutural da sociometria clássica.
+	
+	A equivalência estrutural pode ser medida de diversas maneiras embora duas delas sejam privilegiadas na literatura. Ambas são métodos de cálculo de \textit{blockmodels}, modelos de blocos categóricos. O blockmodel pode utilizar a correlação como medida de equivalência correlacionando tanto linhas (laços enviados) quanto colunas (laços recebidos) \cite{lazega2014redes}. O principal algoritmo utilizado para calcular o blockmodel a partir de correlações é o \textit{CONCOR} (\textit{Convergence of Iterated Correlations}) desenvoldido por \citeonline{white1976social}. Nesse algoritmo são calculadas as correlações para cada par de atores e elaborada uma nova matriz quadrada com os valores das correlações. A partir daí, para cada par, são calculadas novas correlações sobre as correlações calculadas anteriormente. Esse processo se repete até que a matriz final fique com valores iguais a $+1$ ou $-1$, ou seja, o padrão iterativo de correlações converge numa matriz com um critério forte de segmentação que pode ser dividida em dois clusters. Cada um dos clusters pode ser dividido novamente pelo mesmo critério até que o pesquisador decida pelo número desejado de clusters obtidos \cite{scott2017social}.
+	
+	Seja $x_{ik}$ o valor do laço entre os atores \textit{i} e \textit{k}. A correlação como critério de medida para a equivalência estrutural pode ser definida por
+	
+	\begin{equation}
+	r_{ij} = \frac{\sum(x_{ki} - \bar{x}_{oi})(x_{kj} - \bar{x}_{oj}) + \sum(x_{ik} - \bar{x}_{io})(x_{jk} - \bar{x}_{jo})}{\sqrt{ \sum(x_{ki} - \bar{x}_{oi})^2 + \sum(x_{ik} - \bar{x}_{io})^2} \sqrt{\sum(x_{kj} - \bar{x}_{oj})^2 + \sum(x_{jk} - \bar{x}_{jo})^2}}
+	\end{equation}
+	
+	onde $\bar{x}_{io}$ denota a média dos valores na linha \textit{i} e $\bar{x}_{oi}$ denota a média dos valores na coluna \textit{i} e todas as somas são sobre \textit{k}, $i \neq k$, $j \neq k$ \cite{wasserman1994social}.
+	
+	Por outro lado, Burt (\citeyear{burt1976positions,burt1982toward}) propôs medir a equivalência estrutural como a distância Euclidiana entre os laços recebidos e enviados por \textit{i} e \textit{j}. Para esses atores, a distância entre as linhas \textit{i} e \textit{j} e colunas \textit{i} e \textit{j} da matriz de adjacências pode ser definida por
+	
+	\begin{equation}
+	d_{ij} = \sqrt{\sum_{k=1}^{g} [(x_{ik} - x_{jk})^2 + (x_{ki} - x_{kj})^2 ] }
+	\end{equation}
+	
+	para $i \neq k$, $j \neq k$ \cite{wasserman1994social}. 
+	
+	
+	O blockmodel retorna uma nova matriz com os atores agrupados em \textit{posições} estruturalmente equivalentes. A Figura \ref{example-socio-blocked-matrix} mostra, à esquerda, uma matriz de adjacência conforme observada e, à direita, sua permutação para privilegiar a visualização dos grupos após o blockmodel.
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Matriz de adjacência observada e reorganizada após blockmodel}
+		\label{example-socio-blocked-matrix}
+		\includegraphics[scale=.6]{example_sociomatrix.png}
+		\includegraphics[scale=.6]{example_blockedmatrix.png}
+		%\includegraphics[scale=.5]{example_socio_and_blockedmatrix.png}
+		\fonte{Elaborado pelo autor usando o pacote \textit{sna} \cite{snapackage}}
+	\end{figure}
+	
+	A nova matriz pode ser representada agora através das densidades entre grupos e dentro dos grupos conforme a matriz da Tabela \ref{matriz-densidade}.
+	
+	% latex table generated in R 3.5.1 by xtable 1.8-3 package
+	% Sat Dec 29 12:44:07 2018
+	\begin{table}[ht]
+		\ibgetab{
+		\centering
+		\caption{Matriz de densidades}
+		\label{matriz-densidade}
+	}
+		{\begin{tabular}{rrrrr}
+			\hline
+			& Bloco 1 & Bloco 2 & Bloco 3 & Bloco 4 \\ 
+			\hline
+			Bloco 1 & 0.20 & 0.17 & 0.18 & 0.20 \\ 
+			Bloco 2 & 0.17 & 0.13 & 0.17 & 0.17 \\ 
+			Bloco 3 & 0.18 & 0.17 & 0.00 & 0.18 \\ 
+			Bloco 4 & 0.20 & 0.17 & 0.18 & 0.14 \\ 
+			\hline
+		\end{tabular}
+	}
+	{\fonte{Elaborado pelo autor.} }
+	\end{table}
 	
 	
 	
+	\section{Modelos probabilísticos com dados relacionais}
 	
+	A profundidade análise sociológica com dados relacionais depende de um uso consciente das métricas caractéristicas do paradigma mas também de técnicas probabilísticas que permitam modelar os processos sociais a partir dos atributos dos atores e das configurações internas da estrutura sob investigação. É fundamental entender o processo de escolhas sociométricas dos atores para explicar comportamentos, crenças, escolhas relacionais e normativas, etc \cite{lazega2014redes}.
 	
+	Contudo, o dado relacional apresenta problemas específicos quando utilizado em modelos estatísticos. Nos casos em que variáveis relacionais são utilizadas como variáveis independentes (escores de centralidade, autonomia, etc.), ou seja, variáveis que explicam algum fenômeno social, há grandes chances de multicolinearidade pois as diversas métricas relacionais tendem a ser altamente correlacionadas entre si.
 	
-	
+	Em outros casos, os dados relacionais são variáveis dependentes, ou seja, aquilo que se busca explicar \ldots
 	
 	
 	
