@@ -326,9 +326,32 @@
 	
 	\subsection{Os buracos estruturais}
 
-	O conceito de \textit{capital social} é extremamente familiar na sociologia...
+	Para além das medidas de centralidade mencionadas acima, o sociólogo Ronald Burt (\citeyear{burt1982toward,burt1992structural,burt2005brokerage}) desenvolveu uma medida de autonomia e restrição estruturais. A medida chamada \textit{constraint} consiste de um escore que leva em conta não apenas o posicionamento do indivíduo na estrutura mas também o perfil relacional de seus vizinhos. 
+	
+	Baseado na \textit{densidade proporcional} da sub-rede de cada ator, Burt mede a restrição que \textit{i} exerce sobre \textit{j} através das interações diretas entre esses dois vértices e da força e quantidade de laços que \textit{j} possui com outros álteres de \textit{i}. A restrição ocorre porque o ator não pode substituir seu álter por outro. ``Logo, a autonomia significa, antes de tudo, a capacidade de substituir uma relação por outra; de ter uma alternativa relacional'' \cite[p. 71]{lazega2014redes}. Quanto maior for a restrição global que uma rede impõe sobre um ator, mais ``constrangido'' ele será; quanto menor for a restrição global da rede sobre o ator, maior liberdade de atuação na estrutura ele possui e ``mais se encontra em posição de beneficiar de oportunidades muito ricas em ganhos de toda natureza (sobretudo em informação e controle), tornando-se um intermediário indispensável a outros atores'' (\Ibidem{lazega2014redes}). Esta é a principal medida entre os analistas de redes para investigar o \textit{capital social}. Sua lógica obedece a descrição abaixo de \citeonline{lazega2014redes}:
+	
+	\begin{citacao}
+		Quanto mais alters ``não redundantes'' eu tiver em minha rede, mais minhas relações serão únicas, mais chances tenho de ser paralisado pela estrutura (\textit{aggregate constraint}). Quanto mais estiver vinculado a atores não vinculados entre si, mais serei intermediário entre posições não centralizadas, mais ``buracos estruturais'' haverá (ausência de relações entre posições) na rede e mais poderei beneficiar das oportunidades oferecidas por essas ausências de relações. \cite[p. 71-2]{lazega2014redes}
+	\end{citacao}
+
+	A densidade proporcional pode ser definida por 
+	
+	\begin{equation}
+	p_{ij} = \frac{\sum_j \sum_q \delta_{ij}}{N (N - 1)}, \quad j \neq q
+	\end{equation}
+	
+	onde $\delta_{ij}$ é igual a 1 se $z_{ij}$ não for igual a zero. A partir dela, podemos calcular o \textit{constraint}, o nível de restrição que um alter \textit{j} impõe sobre \textit{i} usando
+	
+	\begin{equation}
+	c_{ij} = \left(p_{ij} + \left[\sum_q p_{iq} p_{qj} \right]\right)^2 O_j, \quad q \neq i,j
+	\end{equation}
+	
+	onde $p_{ij}$ representa a densidade proporcional e $O_j$ é uma medida da organização dos atores que pertencem ao mesmo subconjunto de \textit{j}. O \textit{constraint} agregado é, portanto, a soma de todas as restrições a \textit{i} provenientes das relações que ele tem com cada um de seus alters: $c_i = \sum_j c_{ij}$. É conhecido na literatura, entretanto, que este índice perde sua qualidade quando a rede investigada é muito grande.
 	
 	
+	\subsection{Equivalência estrutural}
+	
+	A equivalência estrutural \ldots
 	
 	
 	
