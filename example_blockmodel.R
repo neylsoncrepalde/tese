@@ -18,6 +18,8 @@ bm$blocked.data
 plot(bm)
 summary(bm)
 
+bm_image = blockmodel(laz, ec, k = 4, block.content = "types")
+
 my_plotbm = function(x, ...) {
     oldpar <- par(no.readonly = TRUE)
     on.exit(par(oldpar))
@@ -61,3 +63,7 @@ par(mfrow = c(1,2))
 plot.sociomatrix(laz, main = "", drawlines = T, drawlab = T, diaglab = F, cex.lab = .5)
 my_plotbm(bm)
 dev.off()
+
+# Exibe a matrix de densidades dos blocos
+print(xtable::xtable(bm$block.model))
+
