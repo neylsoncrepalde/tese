@@ -415,13 +415,23 @@
 	
 	\section{Modelos probabilísticos com dados relacionais}
 	
-	A profundidade análise sociológica com dados relacionais depende de um uso consciente das métricas caractéristicas do paradigma mas também de técnicas probabilísticas que permitam modelar os processos sociais a partir dos atributos dos atores e das configurações internas da estrutura sob investigação. É fundamental entender o processo de escolhas sociométricas dos atores para explicar comportamentos, crenças, escolhas relacionais e normativas, etc \cite{lazega2014redes}.
+	Uma análise sociológica com dados relacionais profunda e informativa depende de um uso consciente das métricas características do paradigma mas também de técnicas probabilísticas que permitam modelar os processos sociais a partir dos atributos dos atores e das configurações internas da estrutura sob investigação. É fundamental entender o processo de escolhas sociométricas dos atores para explicar comportamentos, crenças, escolhas relacionais e normativas, etc \cite{lazega2014redes}.
 	
 	Contudo, o dado relacional apresenta problemas específicos quando utilizado em modelos estatísticos. Nos casos em que variáveis relacionais são utilizadas como variáveis independentes (escores de centralidade, autonomia, etc.), ou seja, variáveis que explicam algum fenômeno social, há grandes chances de multicolinearidade pois as diversas métricas relacionais tendem a ser altamente correlacionadas entre si.
 	
-	Em outros casos, os dados relacionais são variáveis dependentes, ou seja, aquilo que se busca explicar \ldots
+	Em outros casos, os dados relacionais são variáveis dependentes, ou seja, aquilo que se busca explicar. ``É o caso quando se busca explicar porque alguns atores tem mais facilmente acesso a um maior número de recursos, ou identificar os critérios que utilizam para escolher ou selecionar suas relações'' \cite[p. 76]{lazega2014redes}. Investigamos aqui o impacto que a própria estrutura de interdependências bem como os atributos do indivíduo (como escolaridade, renda, cor da pele, status, gênero, etc.) tem nas escolhas relacionais observadas. O dado relacional, contudo, fere um pressuposto básico da análise estatística convencional, qual seja, a \textit{independência das observações} \cite{gujarati2011econometria}. É necessário, portanto, um tipo de modelo estatístico que leve em conta as interdependências das observações.
+	
+	A partir da década de 1980 surgiu um conjunto de modelos desde o primeiro batizado modelo $p_1$ de \citeonline{holland1981exponential} até os recentes ERGM's (\textit{Exponential Random Graph Models}) que dividem a rede em subestruturas de díades, tríades e configurações de ordem superior (\textit{high order}) e estimam parâmetros para uma melhor compreensão do sistema tanto em seu aspecto individual quanto coletivo.
+	
+	\begin{citacao}
+		Essa ideia se baseia no postulado de \citeonline{holland1981exponential} segundo o qual é possível compreender os mecanismos e processos em jogo em uma rede, se nos interessarmos unicamente pelas estruturas locais, na medida em que estas últimas são dependentes entre si. Porém, como demonstrado por \citeonline{besag1974spatial} e \citeonline{frank1986markov}, a consideração da dependência de estrutura permite reduzir o conjunto dos grafos possíveis condicionalmente às estruturas -- ou configurações -- especificadas. \cite[p. 78]{lazega2014redes}
+	\end{citacao}
 	
 	
+	
+	\subsection{Noções básicas do ERGM}
+	
+	Para os fins de nossa investigação, utilizaremos o modelo ERGM\footnote{Maiores esclarecimentos sobre como o modelo será empregado em nossa análise específica serão apresentados oportunamente.}. 
 	
 	
 	
