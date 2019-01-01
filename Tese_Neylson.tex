@@ -410,6 +410,17 @@
 	}
 	{\fonte{Elaborado pelo autor.} }
 	\end{table}
+
+
+	% enviar para estratégia metodológica	
+	% Para investigar os nichos de qualidade dos mercado, identificaremos equivalência estrutural entre atores usando Blockmodels como proposto por \citeonline{lazega2009theorie}. Isso nos permitirá reduzir a complexidade das redes identificando nichos de mercado. 
+	
+	%On accounting for the multilevel networks, we will adopt the analysis strategy described by \citeonline{brailly2016market}. We will use ERGM's to test our hypotheses regarding relations within each level and 2-mode to 1-mode transformations to investigate the affiliations between levels. We will briefly explain the rationale of the models.
+	
+	
+	Na análise empreendida neste trabalho utilizaremos uma versão estocástica frequentista do modelo elaborada por \citeonline{daudin2008mixture} e uma versão estocástica bayesiana elaborada por \citeonline{latouche2012variational}\footnote{Maiores esclarecimentos sobre essas variações dos blockmodels serão apresentadas oportunamente.}
+	
+	%In this research we will use a stochastic frequentist version of the model elaborated by \citeonline{daudin2008mixture} and a stochastic bayesian version elaborated by \citeonline{latouche2012variational}.
 	
 	
 	
@@ -431,7 +442,11 @@
 	
 	\subsection{Noções básicas do ERGM}
 	
-	Para os fins de nossa investigação, utilizaremos o modelo ERGM\footnote{Maiores esclarecimentos sobre o uso do modelo em nossa caso específico serão apresentados oportunamente.}. A segmentação do modelo em tríades mencionada acima ocorre a partir da classificação \textit{MAN} (sigla para \textit{Mutual, Asymmetric, Null}). Esse esquema classifica as díades dentro das tríades observadas com 3 algarismo, o primeiro indicando o número de laços mútuos, o segundo indicando o número de laços assimétricos e o terceiro indicando o número de laços nulos ou inexistentes. O esquema também faz uso das letras U (\textit{up}), D (\textit{down}), T (\textit{transitive}) e C (\textit{cyclic}) para diferenciar a direção dos laços quando necessário. Um exemplo das configurações possíveis está apresentado na Figura \ref{triades-man}.
+	Os ERGM's, \cite{robins2007introduction,lusher2013exponential,lazega2014redes,brailly2017explorer}, são modelos estatísticos desenvolvidos especificamente para dados relacionais. Uma estrutura de relações postula interdependência entre as identidades que a compõem. Isso fere um dos pressupostos da modelagem estatística convencional, qual seja, a independência das informações. ``O fato de que eu escolho Pedro como amigo não é necessariamente independente do fato de que eu também escolho Paulo porque eles também podem ser amigos entre si \cite[p. 76]{lazega2014redes}.
+	
+	%ERGM's are statistical models developed specifically to deal with relational data \cite{robins2007introduction,lusher2013exponential}. A relations structure postulates interdependence between identities. This goes against one of the assumptions of conventional statistical modeling, the independence of information. ``The fact that I choose Peter as my friend is not necessarily independent of the fact that I also choose Paul because they can be friends with each other'' \cite[p. 76]{lazega2014redes}.
+	
+	A segmentação da estrutura em rede em tríades mencionada acima ocorre a partir da classificação \textit{MAN} (sigla para \textit{Mutual, Asymmetric, Null}). Esse esquema classifica as díades dentro das tríades observadas com 3 algarismo, o primeiro indicando o número de laços mútuos, o segundo indicando o número de laços assimétricos e o terceiro indicando o número de laços nulos ou inexistentes. O esquema também faz uso das letras U (\textit{up}), D (\textit{down}), T (\textit{transitive}) e C (\textit{cyclic}) para diferenciar a direção dos laços quando necessário. Um exemplo das configurações possíveis está apresentado na Figura \ref{triades-man}.
 	
 	
 	\begin{figure}[!ht]
@@ -444,8 +459,26 @@
 	
 	Cada uma das configurações do esquema \textit{MAN} pode indicar um processo social. Para citar alguns exemplos, a configuração 102 indica reciprocidade, 021D indica atividade 021U indica prestígio, 030T indica transitividade, 030C indica relações cíclicas (a solidariedade no sentido da troca generalizada de Lévi-Strauss).
 	
-	Para além das configurações endógenas da própria rede, os últimos avanços do modelo incluem ainda os atributos dos indivíduos e outras relações também mensuradas entre eles. Utilizando os atributos é possível investigar se a construção de laços é moldada por algum deles (e.g., homofilia). Utilizando outros laços mensurados é possível testar em que medida outros laços condicionam a formação da rede em investigação. Por exemplo, \citeonline{crepalde2017social} investiga os laços de produção acadêmica conjunta, se a coautoria é moldada, no caso dos atributos, .......
+	Para além das configurações endógenas da própria rede, os últimos avanços do modelo incluem ainda os atributos dos indivíduos e outras relações também mensuradas entre eles. Utilizando os atributos é possível investigar se a construção de laços é moldada por algum deles (e.g., homofilia). Utilizando outros laços mensurados é possível testar o efeito de de redes covariáveis, ou seja, em que medida esses outros laços condicionam a formação da rede em investigação. Por exemplo, \citeonline{crepalde2017social} investiga os laços de produção acadêmica conjunta e testa se a coautoria é moldada, no caso dos atributos, por participação nos mesmos grupos de pesquisa, por gênero, cor, renda ou produtividade acadêmica ou, no caso das redes covariáveis, se laços de pedidos de revisão, prestígio metodológico, prestígio teórico, amizade ou indicação profissional moldam a construção de laços de coautoria.
 	
+	
+	
+	Os ERGM's podem ser definidos por
+	
+	
+	\begin{equation}
+	Pr(Y=y) \quad = \quad \left(\frac{1}{k}\right) exp \left\{ \sum_{A} \eta_A g_A (\textbf{y}) \right\}
+	\end{equation}
+	
+	onde $Y$ é o grafo teórico estimado, $y$ é o grafo observado, $\sum_{A}$ é a soma de todas as configurações \textit{A}, $\eta_A$ é o parâmetro estimado correspondente à configuração \textit{A}, $g_A(\textbf{y})$ é a estatística da rede correspondente à configuração \textit{A} no grafo \textbf{y} e \textit{k} é uma constante que assegura uma distribuição de probabilidade adequada\cite{robins2007introduction}. 
+	
+	%Esta família de modelos nos permite estimar o efeito de cada configuração endógena na emergência da própria rede. Dito de outra maneira, visto que cada configuração endógena pode ser associada a um processo social, este modelo nos permite \textit{explicar a rede como uma variável dependente}, explicar quais processos são importantes e quais são secundários para entender a estrutura social em investigação.
+	
+	%where Y is the theoretical estimated graph, y is the observed graph, $\sum_{A}$ is the sum of all configurations \textit{A},  $\eta_A$ is the estimated parameter corresponding to configuration \textit{A}, $g_A(\textbf{y})$ is the network statistic corresponding to configuration \textit{A} of graph \textbf{y} and \textit{k} is a constant that ensures an adequate probabilities distribution \cite{robins2007introduction}. This model allows us to estimate the effect of each endogenous configuration of the network on the emergence of the network itself. Put another way, since every endogenous configuration can be associated with a social process, the model allows us to \textit{explain the network as a dependent variable}, to explain which processes are important and which are not important to understand the social structure under investigation. In our case, this procedure will be conducted for both levels of the network, that is, we will model both social processes modeling the inter-individual structure and the inter-organizational structure.
+	
+	Para os fins deste trabalho, utilizaremos uma variação dos ERGM's conhecida como ``Modelos de Seleção Social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
+	
+	No próximo capítulo apresentaremos os achados da investigação bibliográfica preliminar sobre a temática geral deste trabalho nos principais indexadores da sociologia e economia.
 	
 	
 	
@@ -1360,26 +1393,9 @@
 	
 	Duas estratégias de análise são mobilizadas nessa perspectiva. Para analisar a dependência horizontal em ambos os níveis, os autores propõe o uso de ERGM's pois o modelo contextualiza os laços internodais em sua vizinhança imeditada (e.g., centralidade, díades, tríades e outras estruturas mais complexas). Para analisar a dependência vertical, os autores partem de uma intuição de comum na ARS que consiste da transformação de redes \textit{2-mode} em redes \textit{1-mode}. Essa transformação aloca um laço entre organizações que possuam um membro em comum e aloca um laço entre indivíduos que participam de uma mesma organização. Os autores propõe, portanto, a articulação dessas técnicas como uma nova abordagem para dar conta de ambas as dependências.
 	
+	
+	
 
-	\section{Blockmodels}
-	
-	
-	%To investigate the quality market niches, we will identify structural equivalence among actors using Blockmodels as proposed by \citeonline{lazega2009theorie}. This will allow us to reduce complexity both on individual and organizational networks and identify niches that we can compare with the quality niches obtained through calculations and through surveys.
-	
-	Para investigar os nichos de qualidade dos mercado, identificaremos equivalência estrutural entre atores usando Blockmodels como proposto por \citeonline{lazega2009theorie}. Isso nos permitirá reduzir a complexidade das redes identificando nichos de mercado. 
-	
-	%On accounting for the multilevel networks, we will adopt the analysis strategy described by \citeonline{brailly2016market}. We will use ERGM's to test our hypotheses regarding relations within each level and 2-mode to 1-mode transformations to investigate the affiliations between levels. We will briefly explain the rationale of the models.
-	
-	
-	Os \textit{blockmodels} são uma operacionalização de um dos conceitos centrais na análise de redes, qual seja, a equivalência estrutural. Este conceito baseia-se na ideia de que indivíduos podem exercer papeis sociais numa estrutura em rede a partir de posições específicas \cite{lazega2014redes}. Os modelos de blocos utilizam, na maioria das vezes, correlações iteradas sobre as linhas e colunas de uma matriz relacional ou a medida da distância euclidiana para separar nós estruturalmente equivalentes. Para \citeonline{lazega2009theorie}, os \textit{blockmodels} são a melhor ferramenta disponível hoje para a investigação de nichos de mercado.
-	
-	
-	
-	%Blockmodels are an operationalization of one the most central concepts in netowrks analysis, which is, structural equivalence. This concept is based on the ideia that individuals can play social roles in a network structure from specific positions \cite{lazega2014redes}. Blockmodels utilize, most of the time, iterated correlations on the rows and columns of a relational matrix or euclidean distance to separate structurally equivalent nodes \cite{wasserman1994social}. This process returns an aggregated network with relations between groups of structural equivalent nodes. In this way, we can simplify our data to better understand it with an almost insignificant loss of information. To \citeonline{lazega2009theorie}, blockmodels are the best available tool nowadays to investigate market niches.
-	
-	Neste trabalho utilizaremos uma versão estocástica frequentista do modelo elaborada por \citeonline{daudin2008mixture} e uma versão estocástica bayesiana elaborada por \citeonline{latouche2012variational}.
-	
-	%In this research we will use a stochastic frequentist version of the model elaborated by \citeonline{daudin2008mixture} and a stochastic bayesian version elaborated by \citeonline{latouche2012variational}.
 
 
 	
@@ -1397,28 +1413,11 @@
 
 
 
-	\section{ERGM}
 	
-	Os ERGM's, \cite{robins2007introduction,lusher2013exponential,lazega2014redes,brailly2017explorer}, são modelos estatísticos desenvolvidos especificamente para dados relacionais. Uma estrutura de relações postula interdependência entre as identidades que a compõem. Isso fere um dos pressupostos da modelagem estatística convencional, qual seja, a independência das informações. ``O fato de que eu escolho Pedro como amigo não é necessariamente independente do fato de que eu também escolho Paulo porque eles também podem ser amigos entre si \cite[p. 76]{lazega2014redes}.
-	
-	%ERGM's are statistical models developed specifically to deal with relational data \cite{robins2007introduction,lusher2013exponential}. A relations structure postulates interdependence between identities. This goes against one of the assumptions of conventional statistical modeling, the independence of information. ``The fact that I choose Peter as my friend is not necessarily independent of the fact that I also choose Paul because they can be friends with each other'' \cite[p. 76]{lazega2014redes}.
-	
-	Os ERGM's podem ser definidos por
-	
-	
-	\begin{equation}
-	Pr(Y=y) \quad = \quad \left(\frac{1}{k}\right) exp \left\{ \sum_{A} \eta_A g_A (\textbf{y}) \right\}
-	\end{equation}
-	
-	onde $Y$ é o grafo teórico estimado, $y$ é o grafo observado, $\sum_{A}$ é a soma de todas as configurações \textit{A}, $\eta_A$ é o parâmetro estimado correspondente à configuração \textit{A}, $g_A(\textbf{y})$ é a estatística da rede correspondente à configuração \textit{A} no grafo \textbf{y} e \textit{k} é uma constante que assegura uma distribuição de probabilidade adequada\cite{robins2007introduction}. Esta família de modelos nos permite estimar o efeito de cada configuração endógena na emergência da própria rede. Dito de outra maneira, visto que cada configuração endógena pode ser associada a um processo social, este modelo nos permite \textit{explicar a rede como uma variável dependente}, explicar quais processos são importantes e quais são secundários para entender a estrutura social em investigação.
-	
-	%where Y is the theoretical estimated graph, y is the observed graph, $\sum_{A}$ is the sum of all configurations \textit{A},  $\eta_A$ is the estimated parameter corresponding to configuration \textit{A}, $g_A(\textbf{y})$ is the network statistic corresponding to configuration \textit{A} of graph \textbf{y} and \textit{k} is a constant that ensures an adequate probabilities distribution \cite{robins2007introduction}. This model allows us to estimate the effect of each endogenous configuration of the network on the emergence of the network itself. Put another way, since every endogenous configuration can be associated with a social process, the model allows us to \textit{explain the network as a dependent variable}, to explain which processes are important and which are not important to understand the social structure under investigation. In our case, this procedure will be conducted for both levels of the network, that is, we will model both social processes modeling the inter-individual structure and the inter-organizational structure.
-	
-	Para os fins deste trabalho, utilizaremos uma variação dos ERGM's conhecida como ``Modelos de Seleção Social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
 	
 	%In this research we will use a variation of the ERGM known as ``Social Selection Models''. These models were proposed by \citeonline{robins2001network} aiming to take account of the existing heterogeneity inside social structures using nodal attributes as exogenous covariables. Therefore, besides the network's own configurations, we will analyze how exogenous variables shape the emergence of the structure as well \cite{wang2016social}.
 	
-	
+	\begin{comment}
 	\section{Transformações de redes de 2 modos}
 	
 	%2-mode to 1-mode transformations allow us to investigate an affiliation network anchored in the assumption that when people are engaged in the same organizations or in the same events (a common approach in the literature), people build ties between themselves. This procedure counts one tie between two organizations when they share a person or a tie between two persons when both are engaged in the same organization \cite{brailly2016market,lazega2014redes}. The result is a 1-mode weighted network of individuals who participate in the same organizations or a 1-mode weighted network of organizations that share members.
@@ -1432,6 +1431,7 @@
 	
 	O procedimento de transformação conta um laço entre duas organizações quando elas compartilham um indivíduo afiliado ou um laço entre duas pessoas quando ambas estão engajadas na mesma organização \cite{brailly2016market,lazega2014redes}. O resultado é uma rede ponderada de 1 modo de indivíduos que participam nas mesmas organizações ou uma rede ponderada de 1 modo de organizações que compartilham membros.
 	
+	\end{comment}
 
 	
 	
