@@ -53,6 +53,23 @@ plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
      vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
 dev.off()
 
+## OPUS ####
+opus = fread('~/tese_files/opus_network.csv', header = T) %>% as_tibble %>% 
+  select(1:4)
+opus
+
+gopus = graph_from_edgelist(as.matrix(opus[1:2]), directed = F)
+E(gopus)$relation = opus$relation
+
+V(gopus)$cor = c("z", opus$relation)
+
+plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
+     vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
+
+png('rede_opus.png', height = 600, width = 600)
+plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
+     vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
+dev.off()
 
 
 # Teste rede completa
