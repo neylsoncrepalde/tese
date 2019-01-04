@@ -6,6 +6,8 @@ library(tidyr)
 library(igraph)
 library(xtable)
 
+## Filarmônica ####
+
 filarmonica = fread('~/tese_files/filarmonica_network.csv', header = T) %>% as_tibble %>% 
   select(1:4) %>% slice(1:(n()-2))
 filarmonica %>% tail
@@ -27,4 +29,39 @@ dev.off()
 filarmonica %>% group_by(relation) %>% summarise(n=n()) %>% 
   arrange(desc(n)) %>% xtable %>% print.xtable(include.rownames = F)
 
-filarmonica %>% filter(relation == 'terceirizado')
+filarmonica %>% filter(relation == "parceria institucional")
+
+filarmonica %>% filter(relation == "patrocinador") %>% group_by(activity) %>% summarise(n = n()) %>% 
+  arrange(desc(n))
+
+## Sinfônica ####
+
+sinfonica = fread('~/tese_files/sinfonica_network.csv', header = T) %>% as_tibble %>% 
+  select(1:4)
+sinfonica
+
+gsinf = graph_from_edgelist(as.matrix(sinfonica[1:2]), directed = F)
+E(gsinf)$relation = sinfonica$relation
+
+V(gsinf)$cor = c("z", sinfonica$relation)
+
+plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
+     vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
+
+png('rede_sinfonica.png', height = 600, width = 600)
+plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
+     vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
+dev.off()
+
+
+
+# Teste rede completa
+gcompleto = gfil %u% gsinf
+E(gcompleto)$relation_1; E(gcompleto)$relation_2
+E(gcompleto)$relation = c(E(gcompleto)$relation_2[1:8], E(gcompleto)$relation_1[9:58]) 
+
+plot(gcompleto, vertex.size = 6, edge.color = as.factor(E(gcompleto)$relation),
+     vertex.color = adjustcolor('red', .6))
+
+
+
