@@ -10,7 +10,7 @@ library(xtable)
 
 filarmonica = fread('~/tese_files/filarmonica_network.csv', header = T) %>% as_tibble %>% 
   select(1:4) %>% slice(1:(n()-2))
-filarmonica %>% View
+filarmonica %>% tail
 
 
 gfil = graph_from_edgelist(as.matrix(filarmonica[1:2]), directed = F)
@@ -103,11 +103,12 @@ V(gsesi)$cor = c("z", sesi$relation)
 
 
 # Teste rede completa
-gcompleto = gfil %u% gsinf
+gcompleto = gfil %u% gsinf %u% gouropreto %u% gsesi %u% gopus
 E(gcompleto)$relation_1; E(gcompleto)$relation_2
 E(gcompleto)$relation = c(E(gcompleto)$relation_2[1:8], E(gcompleto)$relation_1[9:58]) 
 
-plot(gcompleto, vertex.size = 6, edge.color = as.factor(E(gcompleto)$relation),
+plot(gcompleto, vertex.size = 6, 
+     #edge.color = as.factor(E(gcompleto)$relation),
      vertex.color = adjustcolor('red', .6))
 
 
