@@ -18,13 +18,13 @@ E(gfil)$relation = filarmonica$relation
 
 V(gfil)$cor = c("z", filarmonica$relation)
 
-plot(gfil, vertex.shape = "none", edge.color = as.factor(E(gfil)$relation),
-     vertex.label.color = as.integer(as.factor(V(gfil)$cor)))
-
-png('rede_filarmonica.png', height = 600, width = 600)
-plot(gfil, vertex.shape = "none", edge.color = as.factor(E(gfil)$relation),
-     vertex.label.color = as.integer(as.factor(V(gfil)$cor)))
-dev.off()
+# plot(gfil, vertex.shape = "none", edge.color = as.factor(E(gfil)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gfil)$cor)))
+# 
+# png('rede_filarmonica.png', height = 600, width = 600)
+# plot(gfil, vertex.shape = "none", edge.color = as.factor(E(gfil)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gfil)$cor)))
+# dev.off()
 
 filarmonica %>% group_by(relation) %>% summarise(n=n()) %>% 
   arrange(desc(n)) %>% xtable %>% print.xtable(include.rownames = F)
@@ -45,13 +45,13 @@ E(gsinf)$relation = sinfonica$relation
 
 V(gsinf)$cor = c("z", sinfonica$relation)
 
-plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
-     vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
-
-png('rede_sinfonica.png', height = 600, width = 600)
-plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
-     vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
-dev.off()
+# plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
+# 
+# png('rede_sinfonica.png', height = 600, width = 600)
+# plot(gsinf, vertex.shape = "none", edge.color = as.factor(E(gsinf)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gsinf)$cor)))
+# dev.off()
 
 ## OPUS ####
 opus = fread('~/tese_files/opus_network.csv', header = T) %>% as_tibble %>% 
@@ -63,13 +63,13 @@ E(gopus)$relation = opus$relation
 
 V(gopus)$cor = c("z", opus$relation)
 
-plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
-     vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
-
-png('rede_opus.png', height = 600, width = 600)
-plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
-     vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
-dev.off()
+# plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
+# 
+# png('rede_opus.png', height = 600, width = 600)
+# plot(gopus, vertex.shape = "none", edge.color = as.factor(E(gopus)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gopus)$cor)))
+# dev.off()
 
 ## Ouro Preto ####
 ouropreto = fread('~/tese_files/ouro_preto_network.csv', header = T) %>% as_tibble %>% 
@@ -81,13 +81,13 @@ E(gouropreto)$relation = ouropreto$relation
 
 V(gouropreto)$cor = c("z", ouropreto$relation)
 
-plot(gouropreto, vertex.shape = "none", edge.color = as.factor(E(gouropreto)$relation),
-     vertex.label.color = as.integer(as.factor(V(gouropreto)$cor)))
-
-png('rede_ouropreto.png', height = 600, width = 600)
-plot(gouropreto, vertex.shape = "none", edge.color = as.factor(E(gouropreto)$relation),
-     vertex.label.color = as.integer(as.factor(V(gouropreto)$cor)))
-dev.off()
+# plot(gouropreto, vertex.shape = "none", edge.color = as.factor(E(gouropreto)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gouropreto)$cor)))
+# 
+# png('rede_ouropreto.png', height = 600, width = 600)
+# plot(gouropreto, vertex.shape = "none", edge.color = as.factor(E(gouropreto)$relation),
+#      vertex.label.color = as.integer(as.factor(V(gouropreto)$cor)))
+# dev.off()
 
 ## SESI ####
 sesi = fread('~/tese_files/sesi_network.csv', header = T) %>% as_tibble %>% 
@@ -104,12 +104,13 @@ V(gsesi)$cor = c("z", sesi$relation)
 
 # Teste rede completa
 gcompleto = gfil %u% gsinf %u% gouropreto %u% gsesi %u% gopus
-E(gcompleto)$relation_1; E(gcompleto)$relation_2
-E(gcompleto)$relation = c(E(gcompleto)$relation_2[1:8], E(gcompleto)$relation_1[9:58]) 
+# E(gcompleto)$relation_1; E(gcompleto)$relation_2
+# E(gcompleto)$relation = c(E(gcompleto)$relation_2[1:8], E(gcompleto)$relation_1[9:58]) 
 
-plot(gcompleto, vertex.size = 6, 
-     #edge.color = as.factor(E(gcompleto)$relation),
-     vertex.color = adjustcolor('red', .6))
+# plot(gcompleto, vertex.size = 6, 
+#      #edge.color = as.factor(E(gcompleto)$relation),
+#      vertex.color = adjustcolor('red', .6))
 
 
 
+ 
