@@ -103,7 +103,7 @@ V(gsesi)$cor = c("z", sesi$relation)
 
 
 # Teste rede completa
-gcompleto = gfil %u% gsinf %u% gouropreto %u% gsesi %u% gopus
+gnivel2 = gfil %u% gsinf %u% gouropreto %u% gsesi %u% gopus
 # E(gcompleto)$relation_1; E(gcompleto)$relation_2
 # E(gcompleto)$relation = c(E(gcompleto)$relation_2[1:8], E(gcompleto)$relation_1[9:58]) 
 
