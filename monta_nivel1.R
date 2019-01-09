@@ -238,4 +238,5 @@ legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blu
 
 individuos = extract_lowlevel(gcompletao)
 plot(individuos, vertex.size = degree(individuos, mode = "in"), 
-     edge.arrow.size = .2)
+     edge.arrow.size = .2, 
+     vertex.label.cex = (degree(individuos, mode = "in")+.1)/7)
