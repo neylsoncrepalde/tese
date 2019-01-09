@@ -240,6 +240,7 @@ tabela_descritivas = cbind(
   sapply(list(g1,g2,g3,g4), diameter),
   sapply(list(g1,g2,g3,g4), mean_distance),
   sapply(list(g1,g2,g3,g4), function(x) mean(degree(x, mode = "in")))
+  #sapply(list(g1,g2,g3,g4), transitivity)
 )
 colnames(tabela_descritivas) = c("N","Laços","Densidade", "Diâmetro", "Distância média", "Grau Médio")
 rownames(tabela_descritivas) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
