@@ -221,22 +221,45 @@ V(gcompletao)$type
 ## Prepara a multinível
 is_multilevel(gcompletao) #OK
 
-gcompletao = set_color_multilevel(gcompletao)
+gcompletao = set_color_multilevel(gcompletao, E.alpha = .3)
 gcompletao = set_shape_multilevel(gcompletao)
 mlayout = layout_multilevel(gcompletao)
 
+t1 = E(gcompletao)$color
+t2 = E(gcompletao)$color
+t3 = E(gcompletao)$color
+t4 = E(gcompletao)$color
+
+t1 == t2
+
 plot(gcompletao, 
-     #vertex.size = 5, 
-     vertex.size = degree(gcompletao, mode = "in")/4,
+     vertex.size = 3, 
+     #vertex.size = degree(gcompletao, mode = "in")/4,
      vertex.label = NA,
-     edge.arrow.size = .3, layout = mlayout
+     edge.arrow.size = .2, layout = mlayout
      )
 title("Rede Multinível")
 legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blue'), pt.cex = 1.5)
 
+# Save in a picture
+# png('rede_multinivel.png', height = 600, width = 600)
+# plot(gcompletao,
+#      vertex.size = 3,
+#      #vertex.size = degree(gcompletao, mode = "in")/4,
+#      vertex.label = NA,
+#      edge.arrow.size = .2, layout = mlayout
+# )
+# title("Rede Multinível")
+# legend("topleft", c("Organizações", "Músicos"), pch = 19, col = c('blue','red'), pt.cex = 1.5)
+# dev.off()
+
 
 
 individuos = extract_lowlevel(gcompletao)
-plot(individuos, vertex.size = degree(individuos, mode = "in"), 
-     edge.arrow.size = .2, 
+plot(individuos, vertex.size = degree(individuos, mode = "in"),
+     edge.arrow.size = .2,
      vertex.label.cex = (degree(individuos, mode = "in")+.1)/7)
+
+organizacoes = extract_highlevel(gcompletao)
+plot(organizacoes, vertex.size = degree(individuos), vertex.label=NA,
+     edge.arrow.size = .3)
