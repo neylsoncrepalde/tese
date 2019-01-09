@@ -2,15 +2,20 @@
 ## Redes de músicos
 ## Tese Neylson
 
+# install development version of multinet
+#devtools::install_github("neylsoncrepalde/multinets")
+
 library(googlesheets)
 library(tidyverse)
 library(reshape2)
 library(igraph)
 library(descr)
 library(stringr)
+library(multinets)
 source("sheet_key.R")
+source("monta_redes.R")
 
-gs_auth(new_user = TRUE)
+#gs_auth(new_user = TRUE)
 ss = gs_key(sheet_key)
 bd = gs_read(ss)
 bd = bd[-10,]
@@ -40,7 +45,7 @@ rede1 = cbind(
 
 rede1 = rede1 %>% gather(var, receiver, -sender) %>% select(-var) %>% 
   filter(receiver != "")
-rede1 %>% View
+#rede1 %>% View
 
 g1 = graph_from_edgelist(as.matrix(rede1), directed = T)
 E(g1)$relation = "Conselho"
@@ -66,7 +71,7 @@ rede2 = cbind(
 
 rede2 = rede2 %>% gather(var, receiver, -sender) %>% select(-var) %>% 
   filter(receiver != "")
-rede2 %>% View
+#rede2 %>% View
 
 g2 = graph_from_edgelist(as.matrix(rede2), directed = T)
 g2 = delete_vertices(g2, "Não")
@@ -94,7 +99,7 @@ rede3 = cbind(
 
 rede3 = rede3 %>% gather(var, receiver, -sender) %>% select(-var) %>% 
   filter(receiver != "")
-rede3 %>% View
+#rede3 %>% View
 
 g3 = graph_from_edgelist(as.matrix(rede3), directed = T)
 g3 = delete_vertices(g3, "Não")
@@ -121,7 +126,7 @@ rede4 = cbind(
 
 rede4 = rede4 %>% gather(var, receiver, -sender) %>% select(-var) %>% 
   filter(receiver != "")
-rede4 %>% View
+#rede4 %>% View
 
 g4 = graph_from_edgelist(as.matrix(rede4), directed = T)
 g4 = delete_vertices(g4, "Não")
@@ -183,3 +188,54 @@ title("Rede Multiplexo")
 # afiliacoes = data_frame(sender = V(g)$name) %>% left_join(redeaff)
 # afiliacoes %>% filter(is.na(receiver)) %>% write_csv("paracompletar.csv")
 afiliacoes = read_csv("paracompletar.csv") %>% filter(!is.na(aff))
+afiliacoes = cbind(sender = afiliacoes$sender, colsplit(afiliacoes$aff, ", ", c("aff1", "aff2"))) %>% 
+  gather(var, receiver, -sender) %>% select(-var) %>% filter(receiver != "")
+
+afiliacoes$relation = "Afiliação"
+
+tipos = data_frame(nos = c(as.character(afiliacoes$sender), afiliacoes$receiver),
+                   type = rep(c(FALSE, TRUE), each = nrow(afiliacoes)))
+
+
+# Multinível ####
+# Junta as redes em uma multinível
+
+gnivel2 = as.directed(gnivel2, "mutual")
+V(g)$type = FALSE
+
+gcompleto = g %u% gnivel2
+gcompleto
+
+V(gcompleto)$type = c(V(gcompleto)$type_1[1:161], V(gcompleto)$type_2[162:231])
+
+gmaisedges = graph_from_edgelist(as.matrix(afiliacoes[,1:2]), directed = T)
+
+gcompletao = gcompleto %u% gmaisedges
+gcompletao
+
+semtipo = which(is.na(V(gcompletao)$type))
+V(gcompletao)$type[semtipo] = TRUE
+
+V(gcompletao)$type
+
+## Prepara a multinível
+is_multilevel(gcompletao) #OK
+
+gcompletao = set_color_multilevel(gcompletao)
+gcompletao = set_shape_multilevel(gcompletao)
+mlayout = layout_multilevel(gcompletao)
+
+plot(gcompletao, 
+     #vertex.size = 5, 
+     vertex.size = degree(gcompletao, mode = "in")/4,
+     vertex.label = NA,
+     edge.arrow.size = .3, layout = mlayout
+     )
+title("Rede Multinível")
+legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blue'), pt.cex = 1.5)
+
+
+
+individuos = extract_lowlevel(gcompletao)
+plot(individuos, vertex.size = degree(individuos, mode = "in"), 
+     edge.arrow.size = .2)
