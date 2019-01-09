@@ -232,19 +232,6 @@ tipos = data_frame(nos = c(as.character(afiliacoes$sender), afiliacoes$receiver)
 # Verifica quantas organizacoes tem indivíduos afiliados
 length(unique(afiliacoes$receiver))
 
-# Estatísticas descritivas das redes
-tabela_descritivas = cbind(
-  sapply(list(g1,g2,g3,g4), function(x) length(V(x))),
-  sapply(list(g1,g2,g3,g4), function(x) length(E(x))),
-  sapply(list(g1,g2,g3,g4), edge_density),
-  sapply(list(g1,g2,g3,g4), diameter),
-  sapply(list(g1,g2,g3,g4), mean_distance),
-  sapply(list(g1,g2,g3,g4), function(x) mean(degree(x, mode = "in")))
-  #sapply(list(g1,g2,g3,g4), transitivity)
-)
-colnames(tabela_descritivas) = c("N","Laços","Densidade", "Diâmetro", "Distância média", "Grau Médio")
-rownames(tabela_descritivas) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
-print.xtable(xtable(tabela_descritivas, digits = 4))
 
 # Multinível ####
 # Junta as redes em uma multinível
