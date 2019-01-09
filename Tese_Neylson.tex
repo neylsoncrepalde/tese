@@ -1435,7 +1435,7 @@
 
 	
 	
-	\section{Dados relacionais}
+	\section{Dados relacionais}\label{sec:geradores_nomes}
 	
 	%Our study object presents itself as a multilevel structure: the meso/organizational level represented by social groupings, in this case, orchestras and organizations and their relations with the State, the micro, individual level and the affiliations between the two levels \cite{brailly2016market,eloire2009reseaux,lazega2008catching,favre2016inter,lazega2016synchronization}.
 	
@@ -2604,10 +2604,65 @@
 	
 	%a carga enorme de trabalho que os músicos da cidade possuem tanto de ensaios nas orquestras quanto de estudos fora de seu horário regular de trabalho (especialmente em se tratando de repertório cuja execução é tecnicamente mais desafiadora) e ao perfil característico dos músicos que, no contexto investigado, tendem a possuir alto status sócio-ocupacional e, em geral, selecionam de forma bastante criteriosa os compromissos nos quais irão se engajar.
 	
-	Os músicos de orquestra da cidade de Belo Horizonte não são um público de fácil acesso. Além de possuírem uma rotina bastante pesada de ensaios, estudo individual do repertório e aulas (sejam particulares ou nas universidades e escolas de música), eles contam com um status socioeconômico elevado o que faz com eles tenham uma seleção muito criteriosa dos compromissos que assumem. Contudo, a rede identificada a partir dos entrevistados parece ser bastante representativa do cenário musical orquestral de Belo Horizonte visto que, além das entrevistas em si, fizemos um trabalho de mapeamento do pertencimento de cada indivíduo citado na estrutura com as orquestras existentes...... (PAREI AQUI....)
+	Os músicos de orquestra da cidade de Belo Horizonte não são um público de fácil acesso. Além de possuírem uma rotina bastante pesada de ensaios, estudo individual do repertório e aulas (sejam particulares ou nas universidades e escolas de música), eles contam com um status socioeconômico elevado o que faz com eles tenham uma seleção muito criteriosa dos compromissos que assumem. Contudo, a rede identificada a partir dos entrevistados parece ser bastante representativa do cenário musical orquestral de Belo Horizonte visto que, além das entrevistas em si, fizemos um trabalho de mapeamento do pertencimento de cada indivíduo citado na estrutura com as orquestras existentes.
 	
+	Foram usados quatro geradores de nomes\footnote{cf. Capítulo \ref{sec:geradores_nomes}.} para construir as redes de Aconselhamento, Amizade, Indicação para trabalho e Convites para tocar apresentadas na Figura \ref{redes-entre-musicos}. 	As mesmas redes foram aglutinadas para formar uma rede multiplexo dos músicos. A rede multiplexo está apresentada na Figura \ref{rede-multiplexo}.
 	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Redes entre músicos}
+		\label{redes-entre-musicos}
+		\includegraphics[scale=.35]{rede_conselho.png}
+		\includegraphics[scale=.35]{rede_amizade.png}
+		\includegraphics[scale=.35]{rede_indicacao.png}
+		\includegraphics[scale=.35]{rede_convite.png}
+		\fonte{Elaboração do autor usando linguagem \textbf{R} e \textbf{igraph} \cite{rlanguage,igraph}}
+	\end{figure}
 	
+
+	\begin{figure}[!ht]
+		\centering
+		\caption{Rede multiplexo entre músicos}
+		\label{rede-multiplexo}
+		\includegraphics[scale=.7]{rede_multiplexo.png}
+		\fonte{Elaboração do autor usando linguagem \textbf{R} e \textbf{igraph} \cite{rlanguage,igraph}}
+	\end{figure}
+
+
+
+	Ao todo 19 músicos colaboraram com a pesquisa. Dessas respostas foi possível elaborar uma rede multiplexo com 161 indivíduos. Esses indivíduos estão associados a 24 organizações identificadas. A tabela \ref{redes-descritivas} apresenta algumas medidas descritivas das redes identificadas.
+
+	% latex table generated in R 3.5.1 by xtable 1.8-3 package
+	% Wed Jan  9 11:24:52 2019
+	\begin{table}[!ht]
+		\ibgetab{
+		\centering
+		\label{redes-descritivas}
+		\caption{Medidas descritivas das redes de indivíduos}
+	}
+		{\begin{tabular}{rllllp{1.5cm}p{1.5cm}}
+			\hline
+			\textbf{Rede} & \textbf{N} & \textbf{Laços} & \textbf{Densidade} & \textbf{Diâmetro} & \textbf{Distância média} & \textbf{Grau médio}  \\ 
+			\hline
+			Aconselhamento & 71 & 64 & 0.0129 & 2 & 1.1600 & 0.9014 \\ 
+			Amizade & 66 & 62 & 0.0145 & 3 & 1.2771 & 0.9394  \\ 
+			Indicação & 69 & 73 & 0.0156 & 2 & 1.1798 & 1.0580 \\ 
+			Convite & 106 & 127 & 0.0114 & 3 & 1.3450 & 1.1981 \\  
+			\hline
+		\end{tabular}
+	}
+	{\fonte{Elaboração do autor.}}
+	\end{table}
+
+
+
+
+
+
+
+
+
+		
 
 	\chapter{Considerações Finais}
 

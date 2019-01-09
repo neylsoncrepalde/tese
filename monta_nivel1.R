@@ -139,7 +139,27 @@ sapply(list(g1,g2,g3,g4), function(x) {plot(x,
                         main = E(x)$relation[1])})
 par(mfrow = c(1,1))
 
+# Salva redes
+png("rede_conselho.png", height = 600, width = 600)
+plot(g1, vertex.label = NA, vertex.size = 4, edge.arrow.size = .4)
+title("Aconselhamento", cex.main = 2)
+dev.off()
+png("rede_amizade.png", height = 600, width = 600)
+plot(g2, vertex.label = NA, vertex.size = 4, edge.arrow.size = .4)
+title("Amizade", cex.main = 2)
+dev.off()
+png("rede_indicacao.png", height = 600, width = 600)
+plot(g3, vertex.label = NA, vertex.size = 4, edge.arrow.size = .4)
+title("Indicação", cex.main = 2)
+dev.off()
+png("rede_convite.png", height = 600, width = 600)
+plot(g4, vertex.label = NA, vertex.size = 4, edge.arrow.size = .4)
+title("Convite", cex.main = 2)
+dev.off()
+
+# Densidades das redes
 sapply(list(g1,g2,g3,g4), edge_density)
+
 
 # Montando a rede multiplexo com as quatro relações
 rede1$relation = "Conselho"
@@ -158,7 +178,7 @@ multiplexo = multiplexo %>%
     relation == "Conselho" ~ 'red',
     relation == "Amizade" ~ 'green',
     relation == "Indicação" ~ 'darkblue',
-    relation == "Convite" ~ 'yellow'
+    relation == "Convite" ~ 'orange'
   ))
 
 plot(g, vertex.label = NA, vertex.size = 5,
@@ -166,7 +186,19 @@ plot(g, vertex.label = NA, vertex.size = 5,
      edge.color = multiplexo$cor,
      edge.arrow.size = .2)
 title("Rede Multiplexo")
+legend("topleft", c("Conselho", "Amizade", "Indicação", "Convite"), 
+       col = c('red', 'green', 'darkblue','orange'), lwd = 3)
 
+# Salva rede multiplexo
+# png("rede_multiplexo.png", height = 600, width = 600)
+# plot(g, vertex.label = NA, vertex.size = 5,
+#      vertex.color = adjustcolor("red", .6),
+#      edge.color = multiplexo$cor,
+#      edge.arrow.size = .2)
+# title("Rede Multiplexo")
+# legend("topleft", c("Conselho", "Amizade", "Indicação", "Convite"), 
+#        col = c('red', 'green', 'darkblue','orange'), lwd = 3)
+# dev.off()
 
 ## Afiliações ####
 # #Já rodei
@@ -196,6 +228,22 @@ afiliacoes$relation = "Afiliação"
 tipos = data_frame(nos = c(as.character(afiliacoes$sender), afiliacoes$receiver),
                    type = rep(c(FALSE, TRUE), each = nrow(afiliacoes)))
 
+
+# Verifica quantas organizacoes tem indivíduos afiliados
+length(unique(afiliacoes$receiver))
+
+# Estatísticas descritivas das redes
+tabela_descritivas = cbind(
+  sapply(list(g1,g2,g3,g4), function(x) length(V(x))),
+  sapply(list(g1,g2,g3,g4), function(x) length(E(x))),
+  sapply(list(g1,g2,g3,g4), edge_density),
+  sapply(list(g1,g2,g3,g4), diameter),
+  sapply(list(g1,g2,g3,g4), mean_distance),
+  sapply(list(g1,g2,g3,g4), function(x) mean(degree(x, mode = "in")))
+)
+colnames(tabela_descritivas) = c("N","Laços","Densidade", "Diâmetro", "Distância média", "Grau Médio")
+rownames(tabela_descritivas) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
+print.xtable(xtable(tabela_descritivas, digits = 4))
 
 # Multinível ####
 # Junta as redes em uma multinível
