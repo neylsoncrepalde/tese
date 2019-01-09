@@ -111,6 +111,7 @@ gnivel2 = gfil %u% gsinf %u% gouropreto %u% gsesi %u% gopus
 #      #edge.color = as.factor(E(gcompleto)$relation),
 #      vertex.color = adjustcolor('red', .6))
 
+V(gnivel2)$type = TRUE
 
 
  

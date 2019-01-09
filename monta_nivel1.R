@@ -210,22 +210,27 @@ legend("topleft", c("Conselho", "Indicação", "Convite"),
 # #Já rodei
 # affs = bd %>% select(`Qual é o seu nome?`, `O(a) senhor(a) toca em alguma orquestra? Qual ou quais?`)
 # affs
-# n_max = melt(strsplit(affs$`O(a) senhor(a) toca em alguma orquestra? Qual ou quais?`, ", ")) %>% group_by(L1) %>% summarise(n=n()) %>% 
+# n_max = melt(strsplit(affs$`O(a) senhor(a) toca em alguma orquestra? Qual ou quais?`, ", ")) %>% group_by(L1) %>% summarise(n=n()) %>%
 #   pull(n) %>% max
 # redeaff = cbind(
-#   sender = nomes$`Qual é o seu nome?`,
+#   sender = affs$`Qual é o seu nome?`,
 #   colsplit(affs$`O(a) senhor(a) toca em alguma orquestra? Qual ou quais?`, ", ", sapply(1:n_max, function(x) paste0("col", x)))
 # ) %>% as_tibble
 # 
-# redeaff = redeaff %>% gather(var, receiver, -sender) %>% select(-var) %>% 
-#   filter(receiver != "", receiver != "Não", receiver != "Freelancer") %>% 
+# redeaff = redeaff %>% gather(var, receiver, -sender) %>% select(-var) %>%
+#   filter(receiver != "", receiver != "Não", receiver != "Freelancer") %>%
 #   mutate(sender = as.character(sender))
 # #redeaff %>% View
 # 
 # 
 # afiliacoes = data_frame(sender = V(g)$name) %>% left_join(redeaff)
 # afiliacoes %>% filter(is.na(receiver)) %>% write_csv("paracompletar.csv")
-afiliacoes = read_csv("paracompletar.csv") %>% filter(!is.na(aff))
+# affs2 = data_frame(sender = V(g)$name) %>% left_join(redeaff)
+# affs2 %>% write_csv("paracompletar2.csv")
+affs1 = read_csv("paracompletar.csv") %>% filter(!is.na(aff))
+affs2 = read_csv("paracompletar2.csv") %>% filter(!is.na(receiver))
+names(affs2)[2] = "aff"
+afiliacoes = rbind(affs1, affs2)
 afiliacoes = cbind(sender = afiliacoes$sender, colsplit(afiliacoes$aff, ", ", c("aff1", "aff2"))) %>% 
   gather(var, receiver, -sender) %>% select(-var) %>% filter(receiver != "")
 
@@ -303,5 +308,5 @@ plot(individuos, vertex.size = degree(individuos, mode = "in"),
      vertex.label.cex = (degree(individuos, mode = "in")+.1)/7)
 
 organizacoes = extract_highlevel(gcompletao)
-plot(organizacoes, vertex.size = degree(individuos), vertex.label=NA,
+plot(organizacoes, vertex.size = degree(individuos)/3, vertex.label=NA,
      edge.arrow.size = .3)

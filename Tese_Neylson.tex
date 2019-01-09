@@ -2611,7 +2611,7 @@
 	
 	Os músicos de orquestra da cidade de Belo Horizonte não são um público de fácil acesso. Além de possuírem uma rotina bastante pesada de ensaios, estudo individual do repertório e aulas (sejam particulares ou nas universidades e escolas de música), eles contam com um status socioeconômico elevado o que faz com eles tenham uma seleção muito criteriosa dos compromissos que assumem. Contudo, a rede identificada a partir dos entrevistados parece ser bastante representativa do cenário musical orquestral de Belo Horizonte visto que, além das entrevistas em si, fizemos um trabalho de mapeamento do pertencimento de cada indivíduo citado na estrutura com as orquestras existentes.
 	
-	Foram usados quatro geradores de nomes\footnote{cf. Capítulo \ref{sec:geradores_nomes}.} para construir as redes de Aconselhamento, Amizade, Indicação para trabalho e Convites para tocar apresentadas na Figura \ref{redes-entre-musicos}. 	As mesmas redes foram aglutinadas para formar uma rede multiplexo dos músicos. A rede multiplexo está apresentada na Figura \ref{rede-multiplexo}.
+	Foram usados quatro geradores de nomes\footnote{cf. Capítulo \ref{sec:geradores_nomes}.} para construir as redes de Aconselhamento, Amizade, Indicação para trabalho e Convites para tocar apresentadas na Figura \ref{redes-entre-musicos}. 	Todas exceto a rede de amizede foram aglutinadas para formar uma rede multiplexo de prestígio dos músicos. A rede multiplexo de prestígio está apresentada na Figura \ref{rede-multiplexo}.
 	
 	\begin{figure}[!ht]
 		\centering
@@ -2627,7 +2627,7 @@
 
 	\begin{figure}[!ht]
 		\centering
-		\caption{Rede multiplexo entre músicos}
+		\caption{Rede multiplexo de prestígio entre músicos}
 		\label{rede-multiplexo}
 		\includegraphics[scale=.7]{rede_multiplexo.png}
 		\fonte{Elaboração do autor usando linguagem \textbf{R} e \textbf{igraph} \cite{rlanguage,igraph}}
@@ -2635,14 +2635,14 @@
 
 
 
-	Ao todo 19 músicos colaboraram com a pesquisa. Dessas respostas foi possível elaborar uma rede multiplexo com 161 indivíduos. Esses indivíduos estão associados a 24 organizações identificadas. A tabela \ref{redes-descritivas} apresenta algumas medidas descritivas das redes identificadas.
+	Ao todo 19 músicos colaboraram com a pesquisa. Dessas respostas foi possível elaborar uma rede multiplexo com 161 indivíduos. Esses indivíduos estão associados a 24 organizações identificadas. A tabela \ref{redes-descritivas1} apresenta algumas medidas descritivas das redes identificadas.
 
 	% latex table generated in R 3.5.1 by xtable 1.8-3 package
 	% Wed Jan  9 11:24:52 2019
 	\begin{table}[!ht]
 		\ibgetab{
 		\centering
-		\label{redes-descritivas}
+		\label{redes-descritivas1}
 		\caption{Medidas descritivas das redes de indivíduos}
 	}
 		{\begin{tabular}{rllllp{1.5cm}p{1.5cm}}
@@ -2653,6 +2653,7 @@
 			Amizade & 66 & 62 & 0.0145 & 3 & 1.2771 & 0.9394  \\ 
 			Indicação & 69 & 73 & 0.0156 & 2 & 1.1798 & 1.0580 \\ 
 			Convite & 106 & 127 & 0.0114 & 3 & 1.3450 & 1.1981 \\  
+			Multiplexo - Prestígio & 161 & 264 & 0.0102 & 3 & 1.4549 & 1.6398 \\
 			\hline
 		\end{tabular}
 	}
@@ -2660,7 +2661,7 @@
 	\end{table}
 
 
-	Entre as redes observadas, é possível perceber que a rede de convites para se apresentar em conjunto foi a que gerou mais nós e laços. As demais geraram redes de tamanhos similares. Todas possuem baixa densidade (devido ao número pequeno de respondentes), possuem diâmetros 2 e 3, distância média e grau médio próximos de 1. No Anexo 4 apresentamos as medidas de centralidade de grau, centralidade de intermediação, centralidade de proximidade e constraint para as 4 redes observadas e para a rede multiplexo.
+	Entre as redes observadas, é possível perceber que a rede de convites para se apresentar em conjunto foi a que gerou mais nós e laços. As demais geraram redes de tamanhos similares. Todas possuem baixa densidade (devido ao número pequeno de respondentes), possuem diâmetros 2 e 3, distância média e grau médio próximos de 1. No Anexo 4 apresentamos as medidas de centralidade de grau, centralidade de intermediação, centralidade de proximidade e constraint para as 4 redes observadas e para a rede multiplexo de prestígio (cf Tabelas \ref{centralidades:conselho}, \ref{centralidades:amizade}, \ref{centralidades:indicacao}, \ref{centralidades:convite} e \ref{centralidades:multiplexo}).
 	
 	
 
@@ -3717,7 +3718,7 @@
 		\begin{footnotesize}
 			\begin{center}
 				\begin{longtable}{c c c c c}
-					\caption{Medidas de centralidade e constraint da rede multiplexo}\\
+					\caption{Medidas de centralidade e constraint da rede multiplexo de prestígio}\\
 					\label{centralidades:multiplexo}\\
 					\hline
 					\textbf{ID}  & \textbf{Indegree} & \textbf{Betweeness} & \textbf{Closeness} & \textbf{Constraint} \\
@@ -3730,50 +3731,50 @@
 					\hline
 					\multicolumn{5}{l}{Fonte: Elaboração do autor}\\
 					\endlastfoot
-					V1 & 0 & 0 & 0.009 & 0.058 \\ 
+					V1 & 0 & 0 & 0.008 & 0.056 \\ 
 					V2 & 2 & 0 & 0.006 & 1 \\ 
-					V3 & 0 & 0 & 0.008 & 0.123 \\ 
+					V3 & 0 & 0 & 0.008 & 0.163 \\ 
 					V4 & 1 & 0 & 0.006 & 1 \\ 
-					V5 & 1 & 29 & 0.008 & 0.157 \\ 
+					V5 & 1 & 29 & 0.006 & 0.177 \\ 
 					V6 & 1 & 0 & 0.006 & 1 \\ 
-					V7 & 10 & 118.083 & 0.008 & 0.134 \\ 
-					V8 & 13 & 0 & 0.006 & 0.266 \\ 
-					V9 & 0 & 0 & 0.007 & 0.07 \\ 
+					V7 & 8 & 84.685 & 0.007 & 0.125 \\ 
+					V8 & 10 & 0 & 0.006 & 0.248 \\ 
+					V9 & 0 & 0 & 0.007 & 0.076 \\ 
 					V10 & 1 & 0 & 0.006 & 1 \\ 
-					V11 & 0 & 0 & 0.008 & 0.153 \\ 
-					V12 & 0 & 0 & 0.009 & 0.059 \\ 
-					V13 & 12 & 0 & 0.006 & 0.253 \\ 
-					V14 & 0 & 0 & 0.007 & 0.069 \\ 
+					V11 & 0 & 0 & 0.008 & 0.185 \\ 
+					V12 & 0 & 0 & 0.008 & 0.075 \\ 
+					V13 & 11 & 0 & 0.006 & 0.257 \\ 
+					V14 & 0 & 0 & 0.007 & 0.068 \\ 
 					V15 & 1 & 0 & 0.006 & 1 \\ 
-					V16 & 1 & 6 & 0.006 & 0.27 \\ 
+					V16 & 1 & 6 & 0.006 & 0.273 \\ 
 					V17 & 1 & 0 & 0.006 & 1 \\ 
-					V18 & 1 & 0 & 0.006 & 0.333 \\ 
-					V19 & 0 & 0 & 0.007 & 0.1 \\ 
+					V18 & 1 & 0 & 0.006 & 0.5 \\ 
+					V19 & 0 & 0 & 0.007 & 0.133 \\ 
 					V20 & 1 & 0 & 0.006 & 1 \\ 
-					V21 & 1 & 7 & 0.007 & 0.257 \\ 
-					V22 & 5 & 0 & 0.006 & 0.52 \\ 
+					V21 & 1 & 7 & 0.007 & 0.251 \\ 
+					V22 & 4 & 0 & 0.006 & 0.5 \\ 
 					V23 & 0 & 0 & 0.006 & 1 \\ 
 					V24 & 1 & 0 & 0.006 & 1 \\ 
 					V25 & 0 & 0 & 0.007 & 0.112 \\ 
 					V26 & 1 & 0 & 0.006 & 1 \\ 
 					V27 & 0 & 0 & 0.006 & 0.224 \\ 
 					V28 & 2 & 0 & 0.006 & 1 \\ 
-					V29 & 0 & 0 & 0.007 & 0.14 \\ 
-					V30 & 2 & 0 & 0.006 & 1 \\ 
-					V31 & 4 & 39.917 & 0.008 & 0.17 \\ 
-					V32 & 2 & 0 & 0.006 & 1 \\ 
+					V29 & 0 & 0 & 0.006 & 0.167 \\ 
+					V30 & 1 & 0 & 0.006 & 1 \\ 
+					V31 & 1 & 4.315 & 0.007 & 0.18 \\ 
+					V32 & 1 & 0 & 0.006 & 1 \\ 
 					V33 & 0 & 0 & 0.007 & 0.133 \\ 
 					V34 & 3 & 0 & 0.006 & 1 \\ 
-					V35 & 0 & 0 & 0.007 & 0.1 \\ 
+					V35 & 0 & 0 & 0.007 & 0.139 \\ 
 					V36 & 2 & 0 & 0.006 & 0.5 \\ 
 					V37 & 2 & 0 & 0.006 & 1 \\ 
-					V38 & 10 & 0 & 0.006 & 0.317 \\ 
+					V38 & 9 & 0 & 0.006 & 0.33 \\ 
 					V39 & 2 & 0 & 0.006 & 1 \\ 
-					V40 & 3 & 0 & 0.006 & 0.556 \\ 
+					V40 & 2 & 0 & 0.006 & 0.5 \\ 
 					V41 & 8 & 0 & 0.006 & 0.25 \\ 
 					V42 & 2 & 0 & 0.006 & 0.5 \\ 
 					V43 & 1 & 0 & 0.006 & 1 \\ 
-					V44 & 8 & 0 & 0.006 & 0.411 \\ 
+					V44 & 6 & 0 & 0.006 & 0.454 \\ 
 					V45 & 2 & 0 & 0.006 & 1 \\ 
 					V46 & 2 & 0 & 0.006 & 1 \\ 
 					V47 & 1 & 0 & 0.006 & 1 \\ 
@@ -3784,59 +3785,59 @@
 					V52 & 2 & 0 & 0.006 & 1 \\ 
 					V53 & 1 & 0 & 0.006 & 1 \\ 
 					V54 & 2 & 0 & 0.006 & 1 \\ 
-					V55 & 7 & 0 & 0.006 & 0.269 \\ 
-					V56 & 6 & 0 & 0.006 & 0.333 \\ 
+					V55 & 6 & 0 & 0.006 & 0.283 \\ 
+					V56 & 5 & 0 & 0.006 & 0.28 \\ 
 					V57 & 1 & 0 & 0.006 & 1 \\ 
 					V58 & 3 & 0 & 0.006 & 1 \\ 
-					V59 & 4 & 0 & 0.006 & 0.395 \\ 
-					V60 & 3 & 0 & 0.006 & 0.556 \\ 
+					V59 & 4 & 0 & 0.006 & 0.405 \\ 
+					V60 & 2 & 0 & 0.006 & 1 \\ 
 					V61 & 1 & 0 & 0.006 & 1 \\ 
 					V62 & 1 & 0 & 0.006 & 1 \\ 
-					V63 & 3 & 0 & 0.006 & 0.694 \\ 
-					V64 & 3 & 0 & 0.006 & 0.556 \\ 
-					V65 & 4 & 0 & 0.006 & 0.414 \\ 
+					V63 & 3 & 0 & 0.006 & 0.688 \\ 
+					V64 & 2 & 0 & 0.006 & 0.5 \\ 
+					V65 & 4 & 0 & 0.006 & 0.427 \\ 
 					V66 & 1 & 0 & 0.006 & 1 \\ 
-					V67 & 9 & 0 & 0.006 & 0.306 \\ 
+					V67 & 7 & 0 & 0.006 & 0.292 \\ 
 					V68 & 1 & 0 & 0.006 & 1 \\ 
 					V69 & 1 & 0 & 0.006 & 1 \\ 
 					V70 & 1 & 0 & 0.006 & 1 \\ 
 					V71 & 1 & 0 & 0.006 & 1 \\ 
-					V72 & 4 & 0 & 0.006 & 0.398 \\ 
-					V73 & 1 & 0 & 0.006 & 1 \\ 
-					V74 & 1 & 0 & 0.006 & 1 \\ 
-					V75 & 1 & 0 & 0.006 & 1 \\ 
-					V76 & 1 & 0 & 0.006 & 1 \\ 
-					V77 & 1 & 0 & 0.006 & 1 \\ 
-					V78 & 4 & 0 & 0.006 & 0.415 \\ 
-					V79 & 4 & 0 & 0.006 & 0.5 \\ 
-					V80 & 6 & 0 & 0.006 & 0.278 \\ 
-					V81 & 2 & 0 & 0.006 & 0.5 \\ 
-					V82 & 2 & 0 & 0.006 & 1 \\ 
-					V83 & 1 & 0 & 0.006 & 1 \\ 
-					V84 & 1 & 0 & 0.006 & 1 \\ 
-					V85 & 2 & 0 & 0.006 & 0.626 \\ 
-					V86 & 2 & 0 & 0.006 & 0.5 \\ 
-					V87 & 2 & 0 & 0.006 & 0.539 \\ 
-					V88 & 2 & 0 & 0.006 & 0.539 \\ 
-					V89 & 2 & 0 & 0.006 & 0.5 \\ 
-					V90 & 1 & 0 & 0.006 & 1 \\ 
-					V91 & 1 & 0 & 0.006 & 1 \\ 
-					V92 & 1 & 0 & 0.006 & 1 \\ 
-					V93 & 3 & 0 & 0.006 & 1 \\ 
-					V94 & 1 & 0 & 0.006 & 1 \\ 
-					V95 & 2 & 0 & 0.006 & 1 \\ 
-					V96 & 1 & 0 & 0.006 & 1 \\ 
-					V97 & 2 & 0 & 0.006 & 1 \\ 
-					V98 & 1 & 0 & 0.006 & 1 \\ 
-					V99 & 1 & 0 & 0.006 & 1 \\ 
-					V100 & 1 & 0 & 0.006 & 1 \\ 
-					V101 & 1 & 0 & 0.006 & 1 \\ 
-					V102 & 1 & 0 & 0.006 & 1 \\ 
-					V103 & 3 & 0 & 0.006 & 1 \\ 
-					V104 & 1 & 0 & 0.006 & 1 \\ 
-					V105 & 1 & 0 & 0.006 & 1 \\ 
+					V72 & 1 & 0 & 0.006 & 1 \\ 
+					V73 & 0 & 0 & 0.006 & NaN \\ 
+					V74 & 0 & 0 & 0.006 & NaN \\ 
+					V75 & 0 & 0 & 0.006 & NaN \\ 
+					V76 & 0 & 0 & 0.006 & NaN \\ 
+					V77 & 0 & 0 & 0.006 & NaN \\ 
+					V78 & 3 & 0 & 0.006 & 0.375 \\ 
+					V79 & 3 & 0 & 0.006 & 0.556 \\ 
+					V80 & 4 & 0 & 0.006 & 0.428 \\ 
+					V81 & 1 & 0 & 0.006 & 1 \\ 
+					V82 & 1 & 0 & 0.006 & 1 \\ 
+					V83 & 0 & 0 & 0.006 & NaN \\ 
+					V84 & 0 & 0 & 0.006 & NaN \\ 
+					V85 & 0 & 0 & 0.006 & NaN \\ 
+					V86 & 0 & 0 & 0.006 & NaN \\ 
+					V87 & 1 & 0 & 0.006 & 1 \\ 
+					V88 & 0 & 0 & 0.006 & NaN \\ 
+					V89 & 1 & 0 & 0.006 & 1 \\ 
+					V90 & 0 & 0 & 0.006 & NaN \\ 
+					V91 & 0 & 0 & 0.006 & NaN \\ 
+					V92 & 0 & 0 & 0.006 & NaN \\ 
+					V93 & 2 & 0 & 0.006 & 1 \\ 
+					V94 & 0 & 0 & 0.006 & NaN \\ 
+					V95 & 1 & 0 & 0.006 & 1 \\ 
+					V96 & 0 & 0 & 0.006 & NaN \\ 
+					V97 & 1 & 0 & 0.006 & 1 \\ 
+					V98 & 0 & 0 & 0.006 & NaN \\ 
+					V99 & 0 & 0 & 0.006 & NaN \\ 
+					V100 & 0 & 0 & 0.006 & NaN \\ 
+					V101 & 0 & 0 & 0.006 & NaN \\ 
+					V102 & 0 & 0 & 0.006 & NaN \\ 
+					V103 & 2 & 0 & 0.006 & 1 \\ 
+					V104 & 0 & 0 & 0.006 & NaN \\ 
+					V105 & 0 & 0 & 0.006 & NaN \\ 
 					V106 & 3 & 0 & 0.006 & 0.556 \\ 
-					V107 & 3 & 0 & 0.006 & 0.679 \\ 
+					V107 & 3 & 0 & 0.006 & 0.694 \\ 
 					V108 & 1 & 0 & 0.006 & 1 \\ 
 					V109 & 2 & 0 & 0.006 & 1 \\ 
 					V110 & 2 & 0 & 0.006 & 1 \\ 
@@ -3890,7 +3891,7 @@
 					V158 & 1 & 0 & 0.006 & 1 \\ 
 					V159 & 2 & 0 & 0.006 & 0.5 \\ 
 					V160 & 1 & 0 & 0.006 & 1 \\ 
-					V161 & 1 & 0 & 0.006 & 1 \\ 
+					V161 & 1 & 0 & 0.006 & 1 \\  
 					
 				\end{longtable}
 			\end{center}
