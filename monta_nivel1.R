@@ -181,23 +181,29 @@ multiplexo = multiplexo %>%
     relation == "Convite" ~ 'orange'
   ))
 
-plot(g, vertex.label = NA, vertex.size = 5,
+# Monta rede multiplexo de prestígio
+deletar = which(E(g)$relation == "Amizade")
+gprestigio = delete_edges(g, deletar)
+freq(E(gprestigio)$relation, p=F) #OK
+
+
+plot(gprestigio, vertex.label = NA, vertex.size = 5,
      vertex.color = adjustcolor("red", .6),
-     edge.color = multiplexo$cor,
+     edge.color = multiplexo$cor[multiplexo$cor != 'green'],
      edge.arrow.size = .2)
-title("Rede Multiplexo")
-legend("topleft", c("Conselho", "Amizade", "Indicação", "Convite"), 
-       col = c('red', 'green', 'darkblue','orange'), lwd = 3)
+title("Rede Multiplexo de Prestígio")
+legend("topleft", c("Conselho", "Indicação", "Convite"), 
+       col = c('red', 'darkblue','orange'), lwd = 3)
 
 # Salva rede multiplexo
 # png("rede_multiplexo.png", height = 600, width = 600)
-# plot(g, vertex.label = NA, vertex.size = 5,
+# plot(gprestigio, vertex.label = NA, vertex.size = 5,
 #      vertex.color = adjustcolor("red", .6),
-#      edge.color = multiplexo$cor,
+#      edge.color = multiplexo$cor[multiplexo$cor != 'green'],
 #      edge.arrow.size = .2)
-# title("Rede Multiplexo")
-# legend("topleft", c("Conselho", "Amizade", "Indicação", "Convite"), 
-#        col = c('red', 'green', 'darkblue','orange'), lwd = 3)
+# title("Rede Multiplexo de Prestígio")
+# legend("topleft", c("Conselho", "Indicação", "Convite"), 
+#        col = c('red', 'darkblue','orange'), lwd = 3)
 # dev.off()
 
 ## Afiliações ####
