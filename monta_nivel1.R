@@ -272,12 +272,12 @@ gcompletao = set_color_multilevel(gcompletao, E.alpha = .3)
 gcompletao = set_shape_multilevel(gcompletao)
 mlayout = layout_multilevel(gcompletao)
 
-t1 = E(gcompletao)$color
-t2 = E(gcompletao)$color
-t3 = E(gcompletao)$color
-t4 = E(gcompletao)$color
-
-t1 == t2
+# t1 = E(gcompletao)$color
+# t2 = E(gcompletao)$color
+# t3 = E(gcompletao)$color
+# t4 = E(gcompletao)$color
+# 
+# t1 == t2
 
 plot(gcompletao, 
      vertex.size = 3, 
