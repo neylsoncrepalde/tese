@@ -2663,15 +2663,40 @@
 
 	Entre as redes observadas, é possível perceber que a rede de convites para se apresentar em conjunto foi a que gerou mais nós e laços. As demais geraram redes de tamanhos similares. Todas possuem baixa densidade (devido ao número pequeno de respondentes), possuem diâmetros 2 e 3, distância média e grau médio próximos de 1. No Anexo 4 apresentamos as medidas de centralidade de grau, centralidade de intermediação, centralidade de proximidade e constraint para as 4 redes observadas e para a rede multiplexo de prestígio (cf Tabelas \ref{centralidades:conselho}, \ref{centralidades:amizade}, \ref{centralidades:indicacao}, \ref{centralidades:convite} e \ref{centralidades:multiplexo}).
 	
-	Os indivíduos que possuem os maiores índices de centralidade de grau e centralidade de intermediação estão concentrados, respectivamente, na Orquestra Filarmônica de MG, na Orquestra Ouro Preto e na Orquestra SESIMINAS. Um músico do naipe de percussão aparece como um dos nós mais centrais em todas as redes mapeadas. Outro músico também percussionista, três músicos do naipe das madeiras\footnote{Tracidionalmente o naipe composto por flautas, oboé, clarinete e fagote.} e um músico do naipe das cordas.
+	Os indivíduos que possuem os maiores índices de centralidade de grau e centralidade de intermediação estão concentrados, respectivamente, na Orquestra Filarmônica de MG, na Orquestra Ouro Preto e na Orquestra SESIMINAS. Um músico do naipe de percussão aparece como um dos nós mais centrais em todas as redes mapeadas. Outro músico também percussionista, três músicos do naipe das madeiras\footnote{Tracidionalmente o naipe composto por flautas, oboés, clarinetes e fagotes.} e um músico do naipe das cordas.
 	
-	\section{Blockmodel}
+	Várias tentativas de blockmodel foram realizadas. Entretanto, este modelo não apresentou resultados relevantes. Ele foi capaz de separar os nós que responderam ao questionário e os que foram identificados mas não responderam.
 
-	Para entender a articulação da estrutura, estimamos um blockmodel estocástico....
+	
+	Investigamos ainda a correlação entre as redes utilizando a técnica da correlação QAP\footnote{A correlação QAP ... \cite{borgatti2018analyzing}.} A rede de aconselhamento não pôde ser correlacionada com as demais. A correlação entre as redes de amizade e indicação foi $r = 0.18$; entre as redes de amizade e convite para tocar foi $r = 0.17$; entre indicações para trabalho e convite para tocar foi $r = 0.54$.
+	
+	
+	%Para entender a articulação da estrutura, estimamos um blockmodel estocástico e um blockmodel bayesiano segundo os desenvolvimentos de \citeonline{daudin2008mixture} e \citeonline{latouche2012variational}. O blockmodel estocástico variacional obteve o melhor desempenho. O modelo indicou que a divisão da rede em 3 subgrupos obteve o melhor critério de ajuste (ICL). Os resultados da estimação e uma representação da matriz reordenada estão apresentados na Figura \ref{block_ind_res}. O componente principal da rede multiplexo de prestígio com os blocos demarcados está apresentado na Figura \ref{rede_prestigio_blocos}.
+	
+	
+	
+%	\begin{figure}[!ht]
+%		\centering
+%		\caption{Resultados do blockmodel estocástico}
+%		\label{block_ind_res}
+%		\includegraphics[scale=.8]{sbm_individual_out.png}
+%		\fonte{Elaboração do autor usando pacote \textbf{mixer} \cite{daudin2008mixture}.}
+%	\end{figure}
 
 
-
+%	\begin{figure}[!ht]
+%		\centering
+%		\caption{Rede Multiplexo de prestígio com blocos}
+%		\label{rede_prestigio_blocos}
+%		%\includegraphics[scale=.7]{}
+%		\fonte{Elaboração do autor usando pacote \textbf{mixer} \cite{daudin2008mixture}.}
+%	\end{figure}
 		
+		
+	
+	
+	
+	
 
 	\chapter{Considerações Finais}
 

@@ -73,6 +73,44 @@ o5 = 2+0+0+0+1+0+0+0+0+0+0+2+0+0+2+0+2+0
 
 o1;o2;o3;o4;o5
 
+# Correlação ####
+# Estimar com qap
+library(statnet)
+library(intergraph)
+
+# Extrai as redes da completa para que todas tenham os mesmos nós
+conselho  = delete_edges(g, which(E(g)$relation != "Aconselhamento"))
+amizade   = delete_edges(g, which(E(g)$relation != "Amizade"))
+indicacao = delete_edges(g, which(E(g)$relation != "Indicação"))
+convite   = delete_edges(g, which(E(g)$relation != "Convite"))
+
+# Transforma em network (para sna)
+n1 = asNetwork(conselho)
+n2 = asNetwork(amizade)
+n3 = asNetwork(indicacao)
+n4 = asNetwork(convite)
+
+# Testa as correlações. Com n1 não deu certo
+gcor(n2, n3); gcor(n2, n4); gcor(n3, n4)
+
+qaptest(list(n2, n3), gcor, g1=1, g2=2, reps=1000)
+qaptest(list(n2, n4), gcor, g1=1, g2=2, reps=1000)
+qaptest(list(n3, n4), gcor, g1=1, g2=2, reps=1000)
+
+
+# model1 = formula(n4 ~ edges + edgecov(n1) + edgecov(n2) + edgecov(n3) +
+#                    gwidegree(1, fixed=T) + gwesp(1, fixed=T))
+# summary.statistics(model1)
+# fit1 = ergm(model1)
+# summary(fit1)
+# gof1 = gof(fit1)
+# par(mfrow = c(1,4))
+# plot(gof1)
+# par(mfrow = c(1,1))
+
+
+
+
 
 ## Blockmodel individuos
 # Infelizmente o pacote mixer saiu do CRAN. Será necessário instalá-lo pelo
@@ -86,7 +124,11 @@ prestigiogc = decompose(gprestigio, mode = "weak", min.vertices = 2)[[1]]
 set.seed(123)
 sbmout = mixer(as.matrix(get.adjacency(prestigiogc)), qmin=2, qmax=5)
 m = getModel(sbmout)
-plot(sbmout)
+
+# png('sbm_individual_out.png', height = 450, width = 450)
+# plot(sbmout)
+# dev.off()
+
 
 pertencimento = c()
 for (col in 1:ncol(m$Taus)) {
@@ -97,9 +139,10 @@ for (col in 1:ncol(m$Taus)) {
   }
 }
 
-corblock = ifelse(pertencimento==1, adjustcolor('red', 6), 
-                  ifelse(pertencimento == 2, adjustcolor('blue', .6), 
+corblock = ifelse(pertencimento==1, adjustcolor('red', 6),
+                  ifelse(pertencimento == 2, adjustcolor('blue', .6),
                          ifelse(pertencimento == 3, adjustcolor('orange', .6), adjustcolor('grey', .6))))
+
 
 plot(prestigiogc, vertex.label = NA, 
      #vertex.size = degree(prestigiogc, mode = "in")*2,
@@ -109,7 +152,29 @@ plot(prestigiogc, vertex.label = NA,
      edge.arrow.size = .2,
      layout = layout_with_kk)
 title("Componente principal da rede de prestígio")
-legend("bottomright", c("Conselho", "Indicação", "Convite"), 
+legend("topright", c("Bloco 1", "Bloco 2", "Bloco 3", "Bloco residual"), 
        col = c(adjustcolor('red', .6), adjustcolor('blue', .6),
                adjustcolor('orange', .6), adjustcolor('grey', .6)),
        pt.cex = 1.5, pch = 19)
+
+# png("prestigio_blocos.png", height=600, width=600)
+# plot(prestigiogc, vertex.label = NA, 
+#      #vertex.size = degree(prestigiogc, mode = "in")*2,
+#      vertex.size = 6,
+#      vertex.color = corblock,
+#      #edge.color = multiplexo$cor[multiplexo$cor != 'green'],
+#      edge.arrow.size = .2,
+#      layout = layout_with_kk)
+# title("Componente principal da rede de prestígio")
+# legend("topright", c("Bloco 1", "Bloco 2", "Bloco 3", "Bloco residual"), 
+#        col = c(adjustcolor('red', .6), adjustcolor('blue', .6),
+#                adjustcolor('orange', .6), adjustcolor('grey', .6)),
+#        pt.cex = 1.5, pch = 19)
+# dev.off()
+
+indblocos = tibble(nome = V(prestigiogc)$name, pertencimento)
+indblocos %>% filter(pertencimento == 1)
+
+
+
+
