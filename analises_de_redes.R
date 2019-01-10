@@ -59,3 +59,57 @@ afiliacoes %>% filter(sender %in% hubs) %>%
   group_by(receiver) %>% summarise(n = n()) %>%
   arrange(desc(n))
 
+
+bd %>% select(`Qual é o seu nome?`,`Para o(a) senhor(a), quais são as orquestras em Belo Horizonte que possuem a melhor qualidade? Por favor, cite da que possui a melhor qualidade para a que possui a pior dentre elas.`, `Porque a orquestra que o(a) senhor(a) disse ser a melhor é a melhor? Cite quantas razões o(a) senhor(a) quiser.`)
+bd$`Para o(a) senhor(a), quais são as orquestras em Belo Horizonte que possuem a melhor qualidade? Por favor, cite da que possui a melhor qualidade para a que possui a pior dentre elas.`
+
+
+# Faz o Ranking das votações entre os entrevistados
+o1 = 5+5+5+5+5+5+5+5+0+5+5+4+5+5+5+5+5+5
+o2 = 3+4+0+4+4+4+3+0+5+3+0+5+4+4+4+0+4+0
+o3 = 4+0+0+3+3+3+0+0+0+0+0+1+0+0+3+0+3+0
+o4 = 0+3+0+2+2+2+4+0+0+4+0+3+0+0+1+0+1+0
+o5 = 2+0+0+0+1+0+0+0+0+0+0+2+0+0+2+0+2+0
+
+o1;o2;o3;o4;o5
+
+
+## Blockmodel individuos
+# Infelizmente o pacote mixer saiu do CRAN. Será necessário instalá-lo pelo
+# espelho oficial do CRAN no github
+#devtools::install_github("cran/mixer")
+library(mixer)
+# Extrai o componente principal
+prestigiogc = decompose(gprestigio, mode = "weak", min.vertices = 2)[[1]]
+
+# Roda o blockmodel
+set.seed(123)
+sbmout = mixer(as.matrix(get.adjacency(prestigiogc)), qmin=2, qmax=5)
+m = getModel(sbmout)
+plot(sbmout)
+
+pertencimento = c()
+for (col in 1:ncol(m$Taus)) {
+  if (sum(m$Taus[,col]) == 0) {
+    pertencimento[col] = 4
+  } else {
+    pertencimento[col] = which.max(m$Taus[,col])
+  }
+}
+
+corblock = ifelse(pertencimento==1, adjustcolor('red', 6), 
+                  ifelse(pertencimento == 2, adjustcolor('blue', .6), 
+                         ifelse(pertencimento == 3, adjustcolor('orange', .6), adjustcolor('grey', .6))))
+
+plot(prestigiogc, vertex.label = NA, 
+     #vertex.size = degree(prestigiogc, mode = "in")*2,
+     vertex.size = 6,
+     vertex.color = corblock,
+     #edge.color = multiplexo$cor[multiplexo$cor != 'green'],
+     edge.arrow.size = .2,
+     layout = layout_with_kk)
+title("Componente principal da rede de prestígio")
+legend("bottomright", c("Conselho", "Indicação", "Convite"), 
+       col = c(adjustcolor('red', .6), adjustcolor('blue', .6),
+               adjustcolor('orange', .6), adjustcolor('grey', .6)),
+       pt.cex = 1.5, pch = 19)
