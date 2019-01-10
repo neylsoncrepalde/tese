@@ -195,6 +195,19 @@ title("Rede Multiplexo de Prestígio")
 legend("topleft", c("Conselho", "Indicação", "Convite"), 
        col = c('red', 'darkblue','orange'), lwd = 3)
 
+# Multiplexo Prestígio sem isolados
+isolados = which(degree(gprestigio) == 0)
+gprestigiosi = delete_vertices(gprestigio, isolados)
+plot(gprestigiosi, vertex.label = NA, vertex.size = 5,
+     vertex.color = adjustcolor("red", .6),
+     edge.color = multiplexo$cor[multiplexo$cor != 'green'],
+     edge.arrow.size = .2)
+title("Rede Multiplexo de Prestígio sem isolados")
+legend("topleft", c("Conselho", "Indicação", "Convite"), 
+       col = c('red', 'darkblue','orange'), lwd = 3)
+
+
+
 # Salva rede multiplexo
 # png("rede_multiplexo.png", height = 600, width = 600)
 # plot(gprestigio, vertex.label = NA, vertex.size = 5,
