@@ -181,6 +181,11 @@ multiplexo = multiplexo %>%
     relation == "Convite" ~ 'orange'
   ))
 
+# Coloca o Sexo
+sexo = read_csv("sexo.csv")
+length(V(g)); length(sexo$sexo)
+V(g)$sexo = sexo$sexo
+
 # Monta rede multiplexo de prestígio
 deletar = which(E(g)$relation == "Amizade")
 gprestigio = delete_edges(g, deletar)
@@ -272,6 +277,7 @@ gmaisedges = graph_from_edgelist(as.matrix(afiliacoes[,1:2]), directed = T)
 
 gcompletao = gcompleto %u% gmaisedges
 gcompletao
+remove(gcompleto, gmaisedges)
 
 semtipo = which(is.na(V(gcompletao)$type))
 V(gcompletao)$type[semtipo] = TRUE
