@@ -2605,7 +2605,9 @@
 	
 	
 	
-	\chapter{A rede de músicos}
+	\chapter{Análise das Redes}
+	
+	\section{As redes de músicos observadas}
 	
 	%a carga enorme de trabalho que os músicos da cidade possuem tanto de ensaios nas orquestras quanto de estudos fora de seu horário regular de trabalho (especialmente em se tratando de repertório cuja execução é tecnicamente mais desafiadora) e ao perfil característico dos músicos que, no contexto investigado, tendem a possuir alto status sócio-ocupacional e, em geral, selecionam de forma bastante criteriosa os compromissos nos quais irão se engajar.
 	
@@ -2668,7 +2670,21 @@
 	Várias tentativas de blockmodel foram realizadas. Entretanto, este modelo não apresentou resultados relevantes. Ele foi capaz de separar os nós que responderam ao questionário e os que foram identificados mas não responderam.
 
 	
-	Investigamos ainda a correlação entre as redes utilizando a técnica da correlação QAP\footnote{A correlação QAP ... \cite{borgatti2018analyzing}.} A rede de aconselhamento não pôde ser correlacionada com as demais. A correlação entre as redes de amizade e indicação foi $r = 0.18$; entre as redes de amizade e convite para tocar foi $r = 0.17$; entre indicações para trabalho e convite para tocar foi $r = 0.54$.
+	Investigamos ainda a correlação entre as redes utilizando a técnica da correlação QAP\footnote{A correlação QAP {Quadratic Assignment Procedure} é calculada empilhando as colunas das matrizes para formar vetores e calculando uma medida escolhida de correlação (neste caso, o $r$ de Pearson). O teste de hipótese é feito através de permutações das matrizes, ou seja, as linhas e colunas são rearranjadas aleatoriamente para testar a proporção em que todos os resultados com matrizes permutadas resultam numa correlação tão grande quanto a observada \cite{borgatti2018analyzing}.} A rede de aconselhamento não pôde ser correlacionada com as demais. A correlação entre as redes de amizade e indicação foi $r = 0.18$; entre as redes de amizade e convite para tocar foi $r = 0.17$; entre indicações para trabalho e convite para tocar foi $r = 0.54$.
+	
+	
+	\section{A rede multinível}
+	
+	Após a construção da rede interganizacional, a construção das redes entre indivíduos e a identificação dos laços de afiliações dos indivíduos mencionados a organizações, elaboramos a rede multinível apresentada na Figura \ref{rede-multinivel}.
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Rede Multinível}
+		\label{rede-multinivel}
+		\includegraphics[scale=.7]{rede_multinivel.png}
+		\fonte{Elaboração do autor usando linguagem \textbf{R} e \textbf{multinets} \cite{rlanguage,multinets}}
+	\end{figure}
 	
 	
 	%Para entender a articulação da estrutura, estimamos um blockmodel estocástico e um blockmodel bayesiano segundo os desenvolvimentos de \citeonline{daudin2008mixture} e \citeonline{latouche2012variational}. O blockmodel estocástico variacional obteve o melhor desempenho. O modelo indicou que a divisão da rede em 3 subgrupos obteve o melhor critério de ajuste (ICL). Os resultados da estimação e uma representação da matriz reordenada estão apresentados na Figura \ref{block_ind_res}. O componente principal da rede multiplexo de prestígio com os blocos demarcados está apresentado na Figura \ref{rede_prestigio_blocos}.
