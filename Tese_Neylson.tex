@@ -2670,7 +2670,29 @@
 	Várias tentativas de blockmodel foram realizadas. Entretanto, este modelo não apresentou resultados relevantes. Ele foi capaz de separar os nós que responderam ao questionário e os que foram identificados mas não responderam.
 
 	
-	Investigamos ainda a correlação entre as redes utilizando a técnica da correlação QAP\footnote{A correlação QAP {Quadratic Assignment Procedure} é calculada empilhando as colunas das matrizes para formar vetores e calculando uma medida escolhida de correlação (neste caso, o $r$ de Pearson). O teste de hipótese é feito através de permutações das matrizes, ou seja, as linhas e colunas são rearranjadas aleatoriamente para testar a proporção em que todos os resultados com matrizes permutadas resultam numa correlação tão grande quanto a observada \cite{borgatti2018analyzing}.} A rede de aconselhamento não pôde ser correlacionada com as demais. A correlação entre as redes de amizade e indicação foi $r = 0.18$; entre as redes de amizade e convite para tocar foi $r = 0.17$; entre indicações para trabalho e convite para tocar foi $r = 0.54$.
+	Investigamos ainda a correlação entre as redes utilizando a técnica da correlação QAP\footnote{A correlação QAP {Quadratic Assignment Procedure} é calculada empilhando as colunas das matrizes para formar vetores e calculando uma medida escolhida de correlação (neste caso, o $r$ de Pearson). O teste de hipótese é feito através de permutações das matrizes, ou seja, as linhas e colunas são rearranjadas aleatoriamente para testar a proporção em que todos os resultados com matrizes permutadas resultam numa correlação tão grande quanto a observada \cite{borgatti2018analyzing}.} Os resultados estão apresentados na Tabela \ref{cor:redes}. Todas as corelações giram em torno de 0,2 com exceção da correlação entre indicações para trabalho e convite para tocar: $r = 0,538$, indicando uma correlação mais forte.
+	
+	% latex table generated in R 3.5.1 by xtable 1.8-3 package
+	% Fri Jan 11 13:07:07 2019
+	\begin{table}[ht]
+		\ibgetab{
+		\centering
+		\caption{Matriz de correlações QAP entre as redes observadas}
+		\label{cor:redes}
+	}
+		{\begin{tabular}{rrrrr}
+			\hline
+			& Aconselhamento & Amizade & Indicação & Convite \\ 
+			\hline
+			Aconselhamento & 1.000 &  &  &  \\ 
+			Amizade & 0.206 & 1.000 &  &  \\ 
+			Indicação & 0.204 & 0.176 & 1.000 &  \\ 
+			Convite & 0.232 & 0.166 & 0.538 & 1.000 \\ 
+			\hline
+		\end{tabular}
+	}
+		{\fonte{Elaboração do autor.}}
+	\end{table}
 	
 	
 	\section{A rede multinível}
@@ -2691,7 +2713,40 @@
 	
 	\subsection{O nível inferior}
 	
-	Estimamos um .......
+	Estimamos um ERGM para explicar os laços que compõem a rede multiplexo de prestígio. Assim procedemos pois não estamos interessados em explicar, necessariamente, os convites ou indicações para trabalho de forma efetiva ...
+	
+	
+	
+	\begin{table}[!ht]
+		\ibgetab{
+		\centering
+		\caption{ERGM - rede multiplexo de prestígio}
+		\label{ergm:prestigio-coefs}
+	}
+			{\begin{tabular}{p{7cm} c }
+				\hline
+				& ERGM results \\
+				\hline
+				Edges           		& $-4.07 \; (0.25)^{***}$ \\
+				Geometrically weighted edgewise shared partner distribution           		& $2.90 \; (0.20)^{***}$  \\
+				Geometrically weighted edgewise shared partner distribution: decay     		& $0.78 \; (0.65)$        \\
+				Geometrically weighted in-degree distribution       		& $4.67 \; (0.55)^{***}$  \\
+				Geometrically weighted in-degree distribution: decay 		& $-0.14 \; (0.07)^{*}$   \\
+				2 Paths          		& $-1.46 \; (0.13)^{***}$ \\
+				Homofilia (sexo)  		& $0.57 \; (0.20)^{**}$   \\
+				Covariável (amizade)    & $3.09 \; (0.26)^{***}$  \\
+				\hline
+				AIC             & 1663.29                 \\
+				BIC             & 1726.19                 \\
+				Log Likelihood  & -823.65                 \\
+				\hline
+				\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+			\end{tabular}
+		}
+		{\fonte{Elaboração do autor usando \textbf{statnet} \cite{ergm,hunter2008ergm}}}
+	\end{table}
+	
+	
 	
 	%Para entender a articulação da estrutura, estimamos um blockmodel estocástico e um blockmodel bayesiano segundo os desenvolvimentos de \citeonline{daudin2008mixture} e \citeonline{latouche2012variational}. O blockmodel estocástico variacional obteve o melhor desempenho. O modelo indicou que a divisão da rede em 3 subgrupos obteve o melhor critério de ajuste (ICL). Os resultados da estimação e uma representação da matriz reordenada estão apresentados na Figura \ref{block_ind_res}. O componente principal da rede multiplexo de prestígio com os blocos demarcados está apresentado na Figura \ref{rede_prestigio_blocos}.
 	
