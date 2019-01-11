@@ -176,5 +176,24 @@ indblocos = tibble(nome = V(prestigiogc)$name, pertencimento)
 indblocos %>% filter(pertencimento == 1)
 
 
+# Estimações ####
+# Indivíduos
+nprestigio = asNetwork(simplify(gprestigio,remove.multiple = F))
+triad.census(nprestigio)
+
+model_prestigio = formula(nprestigio ~ edges + gwesp(1, fixed=T) +
+                            gwidegree(1, fixed=T) +
+                            ttriple + istar(2) + m2star + isolates + 
+                            nodematch("sexo") + edgecov(n2))
+summary.statistics(model_prestigio)
+
+fit_prestigio = ergm(model_prestigio)
+summary(fit_prestigio)
+gof_prestigio = gof(fit_prestigio)
+plot(gof_prestigio)
+
+
+
+
 
 

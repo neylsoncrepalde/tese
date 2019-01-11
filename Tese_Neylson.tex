@@ -1368,7 +1368,7 @@
 
 
 
-	\section{A abordagem multinível}
+	\section{A abordagem multinível}\label{cap:multinivel}
 	
 	
 	 %\citeonline{lazega2016synchronization}\footnote{\citeonline{lazega2016synchronization} gives a theoretical introduction to multilevel networks. For a technical introduction as well as a reconstruction of the operationalization of the concept, see \citeonline{snijders2016multiple}.} states that a sociological tradition whose  origins are attributed to Max Weber develops itself to point out a kind of society that \apudonline{perrow1991society}{lazega2016synchronization} calls ``organizational'' and \apudonline{breiger1974duality}{lazega2016synchronization} calls ``dual''. Both concepts point to ``two levels of collective agency that co-constitute each other: an inter-individual level and an inter-organizational level'' \cite[p. 48]{lazega2016synchronization} between all kinds of collective entities. Individuals are distributed within a social structure where they have ties which each other, where they are affiliated to organizations and where those organizations also relate and build ties to each other. This makes the actors look at the world in a multilevel perspective and be aware of the importance of accounting for people's belongings to collectivities and the relations between these collectivities in a higher order to rationalize their actions in terms of control and efficiency. To \citeonline[p. 48]{lazega2016synchronization}, ``without this multilevel coordination (\dots), neither individuals nor organizations can access or mobilize on their own all the resources that are needed to produce, compete and survive''.
@@ -1389,9 +1389,9 @@
 	
 	Nos estudos em redes, ambos os níveis tem sido levados em conta embora um de cada vez. Ou os autores concentram-se no nível das organizações (e colocam sua atenção em laços como alianças comerciais, trocas, parcerias que afetam o desempenho e as chances de sobrevivência das empresas) ou no nível dos indivíduos (identificando redes relacionais informais como amizade, aconselhamento, colaboração, troca de recursos e informação, etc.). \citeonline{brailly2016market} argumentam que as atividades econômicas e os mercados são moldados pelos dois níveis que operam de maneira interdependente. ``Um negócio entre duas companhias, que é um laço interorganizacional, depende de relações interpessoais e vice versa. Relações econômicas como negócios entre duas organizações e relações informais entre seus membros são interdependentes\footnote{A deal between two companies, which is an inter-organizational tie, depends on inter-individual relationships and \textit{vice versa}. Economic relationships such as deals between two organizations and informal relationships between their members are interdependent.}'' \cite[p. 246]{brailly2016market}. Ambos os níveis são, portanto, superpostos e parcialmente aninhados.
 	
-	Considerar trasações mercantis como fenômenos multinível implica em duas hipóteses: (1) a \textit{hipótese de dependência estrutural horizontal} dentro dos dois níveis e (2) a \textit{hipótese da dependência estrutural vertical} entre os níveis. A primeira postula que atores em ambos os níveis agem em contexto social. A segunda postula que a rede relacional de um indivíduo depende da rede de sua companhia e vice versa.
+	Considerar transações mercantis como fenômenos multinível implica em duas hipóteses: (1) a \textit{hipótese de dependência estrutural horizontal} dentro dos dois níveis e (2) a \textit{hipótese da dependência estrutural vertical} entre os níveis. A primeira postula que atores em ambos os níveis agem em contexto social. A segunda postula que a rede relacional de um indivíduo depende da rede de sua companhia e vice versa.
 	
-	Duas estratégias de análise são mobilizadas nessa perspectiva. Para analisar a dependência horizontal em ambos os níveis, os autores propõe o uso de ERGM's pois o modelo contextualiza os laços internodais em sua vizinhança imeditada (e.g., centralidade, díades, tríades e outras estruturas mais complexas). Para analisar a dependência vertical, os autores partem de uma intuição de comum na ARS que consiste da transformação de redes \textit{2-mode} em redes \textit{1-mode}. Essa transformação aloca um laço entre organizações que possuam um membro em comum e aloca um laço entre indivíduos que participam de uma mesma organização. Os autores propõe, portanto, a articulação dessas técnicas como uma nova abordagem para dar conta de ambas as dependências.
+	Duas estratégias de análise são mobilizadas nessa perspectiva. Para analisar a dependência horizontal em ambos os níveis, os autores propõe o uso de ERGM's pois o modelo contextualiza os laços internodais em sua vizinhança imediata (e.g., centralidade, díades, tríades e outras estruturas mais complexas). Para analisar a dependência vertical, os autores partem de uma intuição comum na ARS que consiste da transformação de redes \textit{2-mode} em redes \textit{1-mode}. Essa transformação aloca um laço entre organizações que possuam um membro em comum e aloca um laço entre indivíduos que participam de uma mesma organização. Os autores propõe, portanto, a articulação dessas técnicas como uma nova abordagem para dar conta de ambas as dependências.
 	
 	
 	
@@ -2607,7 +2607,7 @@
 	
 	\chapter{Análise das Redes}
 	
-	\section{As redes de músicos observadas}
+	\section{As redes entre músicos observadas}
 	
 	%a carga enorme de trabalho que os músicos da cidade possuem tanto de ensaios nas orquestras quanto de estudos fora de seu horário regular de trabalho (especialmente em se tratando de repertório cuja execução é tecnicamente mais desafiadora) e ao perfil característico dos músicos que, no contexto investigado, tendem a possuir alto status sócio-ocupacional e, em geral, selecionam de forma bastante criteriosa os compromissos nos quais irão se engajar.
 	
@@ -2686,6 +2686,12 @@
 		\fonte{Elaboração do autor usando linguagem \textbf{R} e \textbf{multinets} \cite{rlanguage,multinets}}
 	\end{figure}
 	
+	O grafo representa em azul as organizações identificadas e, também em azul, os laços entre elas, em vermelho os músicos identificados e os laços entre eles (aqui todas as quatro redes observadas foram agrupadas formando um multiplexo) e em cinza, os laços de afiliação entre músicos e organizações. Por razões técnicas\footnote{Tradicionalmente, as redes \textit{2-mode} contém laços de afiliações que são essencialmente não direcionados. Não há como um indivíduo trabalhar numa organização e essa organização não tê-lo contratado. Contudo, as redes entre indivíduos e organizações são redes direcionadas. O pacote \textbf{igraph} não permite que numa mesma rede hajam laços direcionados e não direcionados o que, na verdade, não faz sentido pois as redes são representações de uma relação apenas entre nós.}, os laços de afiliação (tradicionalmente não direcionados) foram representados como laços direcionados mútuos. A rede multinível possui densidade $\delta = 0,0097$, diâmetro 5 e distância geodésica média 2,74. Conforme exposto no capítulo \ref{cap:multinivel}, procederemos com as análises de ambos os níveis em separado bem como das transformações das afiliações.
+	
+	
+	\subsection{O nível inferior}
+	
+	Estimamos um .......
 	
 	%Para entender a articulação da estrutura, estimamos um blockmodel estocástico e um blockmodel bayesiano segundo os desenvolvimentos de \citeonline{daudin2008mixture} e \citeonline{latouche2012variational}. O blockmodel estocástico variacional obteve o melhor desempenho. O modelo indicou que a divisão da rede em 3 subgrupos obteve o melhor critério de ajuste (ICL). Os resultados da estimação e uma representação da matriz reordenada estão apresentados na Figura \ref{block_ind_res}. O componente principal da rede multiplexo de prestígio com os blocos demarcados está apresentado na Figura \ref{rede_prestigio_blocos}.
 	
