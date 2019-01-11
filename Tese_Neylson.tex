@@ -2713,7 +2713,7 @@
 	
 	\subsection{O nível inferior}
 	
-	Estimamos um ERGM para explicar os laços que compõem a rede multiplexo de prestígio. Assim procedemos pois não estamos interessados em explicar, necessariamente, os convites ou indicações para trabalho de forma efetiva ...
+	Estimamos um ERGM para explicar os laços que compõem a rede multiplexo de prestígio. Assim procedemos pois não estamos interessados em explicar, necessariamente, os convites ou indicações para trabalho de forma efetiva mas o reconhecimento de uma grande capacidade técnica/musical mensurada pelos laços observados. O modelo explica, portanto, a emergência de uma estrutura de reconhecimento de uma certa autoridade artística.
 	
 	
 	
@@ -2727,14 +2727,15 @@
 				\hline
 				& ERGM results \\
 				\hline
-				Edges           		& $-4.07 \; (0.25)^{***}$ \\
-				Geometrically weighted edgewise shared partner distribution           		& $2.90 \; (0.20)^{***}$  \\
-				Geometrically weighted edgewise shared partner distribution: decay     		& $0.78 \; (0.65)$        \\
-				Geometrically weighted in-degree distribution       		& $4.67 \; (0.55)^{***}$  \\
-				Geometrically weighted in-degree distribution: decay 		& $-0.14 \; (0.07)^{*}$   \\
-				2 Paths          		& $-1.46 \; (0.13)^{***}$ \\
-				Homofilia (sexo)  		& $0.57 \; (0.20)^{**}$   \\
-				Covariável (amizade)    & $3.09 \; (0.26)^{***}$  \\
+				Edges           		& $-6.11 \; (0.33)^{***}$ \\
+				Geometrically weighted edgewise shared partner distribution           		& $2.23 \; (0.23)^{***}$  \\
+				Geometrically weighted edgewise shared partner distribution: decay     		& $-0.02 \; (0.44)$       \\
+				Geometrically weighted in-degree distribution       		& $3.33 \; (0.40)^{***}$  \\
+				Geometrically weighted in-degree distribution: decay 		& $-0.20 \; (0.09)^{*}$   \\
+				2-Paths          		& $-0.88 \; (0.11)^{***}$ \\
+				Homophily (sexo)  		& $0.47 \; (0.22)^{*}$    \\
+				Attribute (Prestígio da Orquestra)  & $0.20 \; (0.02)^{***}$  \\
+				Covariate Network (Amizade)    & $3.09 \; (0.26)^{***}$  \\
 				\hline
 				AIC             & 1663.29                 \\
 				BIC             & 1726.19                 \\
@@ -2747,6 +2748,11 @@
 	\end{table}
 	
 	
+	O primeiro parâmetro (\textit{Edges}) estima a quantidade de laços na rede. O resultado nos mostra que esta rede possui menos laços do que o esperado se a estrutura fosse aleatória. O parâmetro \textit{Geometrically weighted edgewise shared partner distribution} estima o surgimento de triangulações de ordem superior (\textit{higher order}), ou seja, a distribuição de quantidades de nós que fazem o fechamento de triângulos para a base (\textit{i, j}). Trata-se do efeito \textit{closure}, ou fechamento das redes \cite{robins2007introduction}. O seu resultado positivo indica a tendência de buracos estruturais se fecharem quando há múltiplos caminhos independentes entre \textit{i} e \textit{j}. Dito de outra forma, pudemos identificar um efeito de fechamento, uma tendência à triangulação quanto maior o número de nós compartilhados entre dois nós (\textit{i, j}). O parâmetro de fechamento \textit{decay} não significativo mostra que a tendência se mantém constante em toda a distribuição (isso faz sentido visto que foram estimados os fechamentos múltiplos apenas até $k = 2$). Já o parâmetro \textit{geometrically weighted in-degree distribution} estima um efeito de concentração de laços recebidos por alguns nós. O parâmetro positivo indica que os laços de entrada, ou seja, os ``reconhecimentos de autoridade musical'' não são distribuídos igualmente pela rede mas, ao contrário, tendem a uma grande concentração. O parâmetro de caída associado a essa estatística negativo e significativo mostra que quanto maior o número de laços de entrada, menor tende a ser o efeito de concentração. O parâmetro \textit{2-Paths}, ou seja, a construção de tríades do tipo 021C e 111U\footnote{cf. Figura \ref{triades-man}.}, caminhos de 2 passos literalmente, obteve resultado negativo e significativo. Esse resultado também mostra a não igualdade da distribuição de laços, reforçando a constatação de alta concentração.
+	
+	No modelo foram testados 3 parâmetros exógenos, a saber, homofilia com relação ao sexo, o atributo ``prestígio da orquestra'' e a rede de amizade observada. O modelo indica uma leve tendência à homofilia por sexo, ou seja, os músicos tendem a reconhecer pessoas do mesmo sexo como autoridades musicais. Esse resultado, entretanto, não diz muito a respeito da estrutura, visto que a grande maioria dos indivíduos identificados é homem (82,5\%).	O atributo ``prestígio da orquestra'' foi construído a partir da classificação feita pelos respondentes. À orquestra considerada a de melhor qualidade pelo maior número de respondentes foi atribuído o valor de 5 e à orquestra considerada a de menor qualidade foi atribuída o valor de 1 e somados os valores para cada músico (pois alguns músicos tocam em mais de uma orquestra). O parâmetro positivo e significante mostra uma leve tendência de que indivíduos participantes em orquestras mais prestigiosas tendam a atribuir prestígio a seus pares. Exatamente, o parâmetro diz que quanto maior a soma dos valores de prestígio da orquestra dos nós (\textit{i, j}), maior a probabilidade da existência do laço. Por fim, os laços de amizade tem um efeito positivo sobre o reconhecimento de competência musical. Há maiores chances de reconhecimento de competência entre amigos do que entre pessoas que não possuem laço de amizade.
+	
+	O modelo teve um excelente ajuste. Os gráficos de avaliação de ajuste (\textit{goodness of fit}) mostram a adequação das redes simuladas aos dados observados. Em regras gerais a avaliação dos gráficos segue a seguinte lógica:......
 	
 	%Para entender a articulação da estrutura, estimamos um blockmodel estocástico e um blockmodel bayesiano segundo os desenvolvimentos de \citeonline{daudin2008mixture} e \citeonline{latouche2012variational}. O blockmodel estocástico variacional obteve o melhor desempenho. O modelo indicou que a divisão da rede em 3 subgrupos obteve o melhor critério de ajuste (ICL). Os resultados da estimação e uma representação da matriz reordenada estão apresentados na Figura \ref{block_ind_res}. O componente principal da rede multiplexo de prestígio com os blocos demarcados está apresentado na Figura \ref{rede_prestigio_blocos}.
 	

@@ -1,6 +1,5 @@
 ## Analises de Redes
 ## Tese Neylson
-
 source("monta_nivel1.R")
 
 ## Nível 1 ####
@@ -79,7 +78,7 @@ library(statnet)
 library(intergraph)
 
 # Extrai as redes da completa para que todas tenham os mesmos nós
-conselho  = delete_edges(g, which(E(g)$relation != "Aconselhamento"))
+conselho  = delete_edges(g, which(E(g)$relation != "Conselho"))
 amizade   = delete_edges(g, which(E(g)$relation != "Amizade"))
 indicacao = delete_edges(g, which(E(g)$relation != "Indicação"))
 convite   = delete_edges(g, which(E(g)$relation != "Convite"))
@@ -91,8 +90,18 @@ n3 = asNetwork(indicacao)
 n4 = asNetwork(convite)
 
 # Testa as correlações. Com n1 não deu certo
-gcor(n2, n3); gcor(n2, n4); gcor(n3, n4)
+matcor = matrix(c(1, NA, NA, NA,
+                  gcor(n2, n1), 1, NA, NA,
+                  gcor(n3, n1), gcor(n3, n2), 1, NA,
+                  gcor(n4, n1), gcor(n4, n2), gcor(n4, n3), 1),
+                ncol = 4, byrow = T)
+rownames(matcor) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
+colnames(matcor) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
+xtable(matcor, digits=3)
 
+qaptest(list(n1, n2), gcor, g1=1, g2=2, reps=1000)
+qaptest(list(n1, n3), gcor, g1=1, g2=2, reps=1000)
+qaptest(list(n1, n4), gcor, g1=1, g2=2, reps=1000)
 qaptest(list(n2, n3), gcor, g1=1, g2=2, reps=1000)
 qaptest(list(n2, n4), gcor, g1=1, g2=2, reps=1000)
 qaptest(list(n3, n4), gcor, g1=1, g2=2, reps=1000)
@@ -178,22 +187,68 @@ indblocos %>% filter(pertencimento == 1)
 
 # Estimações ####
 # Indivíduos
-nprestigio = asNetwork(simplify(gprestigio,remove.multiple = F))
+
+# Prepara atributo "prestígio da orquestra" de acordo com o achado
+aff_para_modelar = tibble(sender = V(gprestigiosi)$name) %>% 
+  left_join(afiliacoes %>% select(-relation)) %>% 
+  mutate(prestorq = case_when(
+    receiver == "Orquestra Filarmônica de MG" ~ 5L,
+    receiver == "Orquestra Sinfônica de MG" ~ 4L,
+    receiver == "Orquestra Ouro Preto" ~ 3L,
+    receiver == "Orquestra SESIMINAS" ~ 2L,
+    receiver == "Orquestra OPUS" ~ 1L
+  )) %>% 
+  group_by(sender) %>% summarise(prest = sum(prestorq, na.rm = T))
+
+V(gprestigiosi)$prestorq = tibble(sender = V(gprestigiosi)$name) %>% 
+  left_join(aff_para_modelar) %>% pull(prest)
+# Estimação
+nprestigio = asNetwork(simplify(gprestigiosi))
 triad.census(nprestigio)
 
-model_prestigio = formula(nprestigio ~ edges + gwesp(1, fixed=T) +
-                            gwidegree(1, fixed=T) +
-                            ttriple + istar(2) + m2star + isolates + 
-                            nodematch("sexo") + edgecov(n2))
+set.seed(123)
+model_prestigio = formula(nprestigio ~ edges + 
+                            #gwdsp(1, fixed=F, cutoff=2) +
+                            gwesp(1, fixed=F, cutoff=2) + 
+                            gwidegree(1, fixed=F, cutoff=6) +
+                            #transitive +
+                            #ttriple + 
+                            #istar(2) + 
+                            m2star + 
+                            nodematch("sexo") + 
+                            nodecov("prestorq") +
+                            edgecov(n2))
 summary.statistics(model_prestigio)
 
 fit_prestigio = ergm(model_prestigio)
+#saveRDS(fit_prestigio, "fit_prestigio.rds")
+#fit_prestigio = readRDS("fit_prestigio.rds")
 summary(fit_prestigio)
+plot(fit_prestigio)
 gof_prestigio = gof(fit_prestigio)
+# Plot gof
+png("gof_individuos.png", height=400, width = 500)
+par(mfrow = c(2,3))
 plot(gof_prestigio)
+par(mfrow = c(1,1))
+dev.off()
 
+# Export table with the results
+texreg::texreg(fit_prestigio, single.row = T)
 
-
-
+# # Investiga rede de conselho
+# triad.census(n1)
+# n1 = asNetwork(simplify(conselho))
+# plot(n1)
+# model_conselho = formula(n1 ~ edges +
+#                            gwidegree(1, fixed=F, cutoff=3) +
+#                            m2star + 
+#                            nodematch("sexo") + 
+#                            isolates +
+#                            edgecov(n2) + edgecov(n3) + edgecov(n4))
+# summary.statistics(model_conselho)
+# fit_conselho = ergm(model_conselho)
+# summary(fit_conselho)
+# plot(gof(fit_conselho))
 
 
