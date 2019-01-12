@@ -313,6 +313,41 @@ corblock = ifelse(pertencimento==1, adjustcolor('red', 6), adjustcolor('blue', .
 #      edge.width = E(mesonivel2)$weight)
 # dev.off()
 
+
+# SBM no nível 2 observado
+plot(organizacoes, vertex.size = igraph::degree(organizacoes)/3, vertex.label=NA,
+     edge.arrow.size = .3)
+set.seed(123)
+sbmorg = mixer(as.matrix(get.adjacency(organizacoes)), qmin=2, qmax=5)
+sbmorgout = getModel(sbmorg)
+# png("blockoutorgs.png", height = 400, width = 500)
+# plot(sbmorg)
+# dev.off()
+
+sbmorgout$Taus
+pertencimento = c()
+for (col in 1:ncol(sbmorgout$Taus)) {
+  pertencimento[col] = which.max(sbmorgout$Taus[,col])
+}
+
+corblock = ifelse(pertencimento==1, adjustcolor('red', 6),
+                  ifelse(pertencimento == 2, adjustcolor('blue', .6),
+                         ifelse(pertencimento == 3, adjustcolor('orange', .6), adjustcolor('violet', .6))))
+
+# png("block_nivel2_observado.png", height=600, width=600)
+# plot(organizacoes,
+#      vertex.size = 5,
+#      vertex.color = corblock,
+#      edge.arrow.size = .3,
+#      #vertex.size = igraph::betweenness(mesonivel2),
+#      #layout = layout_with_kk,
+#      vertex.label = NA)
+# legend("bottomleft", c("Bloco 1", "Bloco 2", "Bloco 3", "Bloco 4"), 
+#        col = c(adjustcolor('red', 6),adjustcolor('blue', .6),
+#                adjustcolor('orange', .6),adjustcolor('violet', .6)),
+#        pch = 15, pt.cex = 1.5)
+# dev.off()
+
 # Ergm organizaçoes
 norganizacoes = asNetwork(as.undirected(organizacoes))
 triad.census(norganizacoes)

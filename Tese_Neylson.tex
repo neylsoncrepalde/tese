@@ -2821,7 +2821,9 @@
 
 	O tamanho dos vértices na Figura \ref{rede:mesonivel2} representa a centralidade de grau. É possível perceber um núcleo fortemente conectado no centro do grafo composto pelas orquestras de Belo Horizonte exceto a OPUS. Os nós tangenciais na parte superior à esquerda e inferior do grafo são outras orquestras da qual os músicos já fizeram parte e que, por esse motivo, carregam conhecimento e cultura desses lugares para as organizações que estão no centro. Os nós na ponta superior direta são instituições de ensino superior e uma escola de música da cidade. É possível perceber aqui a estreita ligação que o mercado das orquestras tem com as universidades.
 	
-	Estimamos um modelo de blocos para identificar subgrupos na estrutura gerada pelo compartilhamento de colaboradores (Figura \ref{sbmout:mesonivel2}). Tanto o modelo ``variacional'' quanto o modelo bayesiano identificaram dois blocos de nós estruturalmente equivalentes (Figura \ref{blocos:mesonivel2}).
+	\subsubsection{Blockmodels}
+	
+	Estimamos dois modelo de blocos para identificar subgrupos na estrutura gerada pelo compartilhamento de colaboradores (Figura \ref{sbmout:mesonivel2}). e na estrutura observada a partir das entrevistas com os dirigentes (Figura \ref{sbmout:orgs}). Em ambos os casos, tanto o modelo ``variacional'' quanto o modelo bayesiano produziram resultados idênticos. No primeiro caso, na rede de compartilhamento de colaboradores, o modelo identificou dois blocos de nós estruturalmente equivalentes (Figura \ref{blocos:mesonivel2}).
 	
 	
 	\begin{figure}[!ht]
@@ -2834,6 +2836,14 @@
 
 	\begin{figure}[!ht]
 		\centering
+		\caption{Blockmodel para rede de organizações observada}
+		\label{sbmout:orgs}
+		\includegraphics[scale=.8]{blockoutorgs.png}
+		\fonte{Elaboração do autor usando o pacote \textbf{mixer} \cite{daudin2008mixture,latouche2012variational}}
+	\end{figure}
+
+	\begin{figure}[!ht]
+		\centering
 		\caption{Rede de compartilhamento de músicos afiliados entre organizações com blocos de nós estruturalmente equivalentes}
 		\label{blocos:mesonivel2}
 		\includegraphics[scale=.7]{block_rede_mesonivel2.png}
@@ -2841,7 +2851,22 @@
 	\end{figure}
 	
 	
-	É curioso notar que o modelo de blocos alocou num mesmo bloco as três orquestras que possuem o maior escore de qualidade percebida calculado e, no outro, alocou a orquestra que ocupa a quarta posição no ranking. A última orquestra não está presente nessa estrutura pois não houveram identificações de afiliação a ela nos dados. Por fim, estimamos um ERGM para investigar a emergência da estrutura entre organizações. Várias tentativas foram realizadas e os diversos modelos de circuitos sociais (\textit{higher order}) testados não convergiram. Foi estimado um modelo markoviano com dois parâmetros, a saber, \textit{Edges} (laços) e \textit{K-star(2)} (estrela de 2 pontas) (Tabela \ref{ergm:organizacoes}). O primeiro parâmetro indica que a rede possui menos laços do que o esperado se a estrutura fosse aleatória. O segundo parâmetro indica uma leve tendência à concentração de laços.
+	É curioso notar que o modelo de blocos alocou num mesmo bloco as três orquestras que possuem o maior escore de qualidade percebida calculado e, no outro, alocou a orquestra que ocupa a quarta posição no ranking. A última orquestra não está presente nessa estrutura pois não houveram identificações de afiliação a ela nos dados.
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Rede observada entre organizações com blocos de nós estruturalmente equivalentes}
+		\label{blocos:orgs}
+		\includegraphics[scale=.7]{block_nivel2_observado.png}
+		\fonte{Elaboração do autor.}
+	\end{figure}
+
+	Já o blockmodel da rede observada identificou quatro blocos de nós estruturalmente equivalentes (Figura \ref{blocos:orgs}). A orquestra Filarmônica ficou alocada sozinha no bloco 1, as demais orquestras no bloco 4. O bloco 3 é formado pelas organizações que possuem relacionamento com a Filarmônica e com outras duas orquestras (7 delas). O bloco 2 é formado pelas organizações que possuem relacionamento com as outras orquestras da cidade. Este modelo captou que a Filarmônica possui um perfil relacional diferenciado em relação às outras orquestras que, por sua vez, possuem perfil relacional semelhante. ......
+	
+	\subsubsection{ERGM}
+	
+	Por fim, estimamos um ERGM para investigar a emergência da estrutura entre organizações. Várias tentativas foram realizadas e os diversos modelos de circuitos sociais (\textit{higher order}) testados não convergiram. Foi estimado um modelo markoviano com dois parâmetros, a saber, \textit{Edges} (laços) e \textit{K-star(2)} (estrela de 2 pontas) (Tabela \ref{ergm:organizacoes}). O primeiro parâmetro indica que a rede possui menos laços do que o esperado se a estrutura fosse aleatória. O segundo parâmetro indica uma leve tendência à concentração de laços.
 	
 	\begin{table}[!ht]
 		\ibgetab{

@@ -307,6 +307,13 @@ plot(gcompletao,
 title("Rede Multinível")
 legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blue'), pt.cex = 1.5)
 
+# 3d Viz ####
+# Basear nisso para construir visualização 3d
+# rglplot(gcompletao, layout=layout_on_grid(gcompletao, dim=3),
+#      vertex.size = 5, vertex.label = NA)
+
+
+
 # Save in a picture
 # png('rede_multinivel.png', height = 600, width = 600)
 # plot(gcompletao,
@@ -328,5 +335,5 @@ plot(individuos, vertex.size = degree(individuos, mode = "in"),
      vertex.label.cex = (degree(individuos, mode = "in")+.1)/7)
 
 organizacoes = extract_highlevel(gcompletao)
-plot(organizacoes, vertex.size = degree(individuos)/3, vertex.label=NA,
+plot(organizacoes, vertex.size = igraph::degree(organizacoes)/3, vertex.label=NA,
      edge.arrow.size = .3)
