@@ -2841,7 +2841,30 @@
 	\end{figure}
 	
 	
-	É curioso notar que o modelo de blocos alocou num mesmo bloco as três orquestras que possuem o maior escore de qualidade percebida calculado e, no outro, alocou a orquestra que ocupa a quarta posição no ranking. A última orquestra não está presente nessa estrutura pois não houveram identificações de afiliação a ela nos dados.
+	É curioso notar que o modelo de blocos alocou num mesmo bloco as três orquestras que possuem o maior escore de qualidade percebida calculado e, no outro, alocou a orquestra que ocupa a quarta posição no ranking. A última orquestra não está presente nessa estrutura pois não houveram identificações de afiliação a ela nos dados. Por fim, estimamos um ERGM para investigar a emergência da estrutura entre organizações. Várias tentativas foram realizadas e os diversos modelos de circuitos sociais (\textit{higher order}) testados não convergiram. Foi estimado um modelo markoviano com dois parâmetros, a saber, \textit{Edges} (laços) e \textit{K-star(2)} (estrela de 2 pontas) (Tabela \ref{ergm:organizacoes}). O primeiro parâmetro indica que a rede possui menos laços do que o esperado se a estrutura fosse aleatória. O segundo parâmetro indica uma leve tendência à concentração de laços.
+	
+	\begin{table}[!ht]
+		\ibgetab{
+		\centering
+		\caption{ERGM - rede entre organizações}
+		\label{ergm:organizacoes}	
+	}
+			{\begin{tabular}{l c }
+				\hline
+				& ERGM - results \\
+				\hline
+				Edges          & $-1.51 \; (0.67)^{*}$ \\
+				K-star (2)         & $0.16 \; (0.08)^{*}$  \\
+				\hline
+				AIC            & 77.75                 \\
+				BIC            & 81.77                 \\
+				Log Likelihood & -36.88                \\
+				\hline
+				\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+			\end{tabular}
+	}
+	{\fonte{Elaboração do autor usando \textbf{statnet}, \cite{ergm,hunter2008ergm}}}
+	\end{table}
 	
 	
 	\chapter{Considerações Finais}

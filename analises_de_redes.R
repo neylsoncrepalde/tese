@@ -314,4 +314,19 @@ corblock = ifelse(pertencimento==1, adjustcolor('red', 6), adjustcolor('blue', .
 # dev.off()
 
 # Ergm organizaçoes
-
+norganizacoes = asNetwork(as.undirected(organizacoes))
+triad.census(norganizacoes)
+plot(norganizacoes)
+model_org = formula(nmesonivel2 ~ edges +
+                      kstar(2)
+)
+summary.statistics(model_org)
+set.seed(123)
+fit_org = ergm(model_org)
+summary(fit_org)
+texreg::texreg(fit_org, single.row = T)
+gof_org = gof(fit_org)
+# png('gof_org.png', height = 400, width = 500)
+# par(mfrow = c(2,2))
+# plot(gof_org)
+# par(mfrow = c(1,1))
