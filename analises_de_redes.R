@@ -268,8 +268,27 @@ mesonivel1 = decompose(mesonivel1, "weak")[[1]]
 organizacoes = extract_highlevel(gcompletao)
 organizacoes = decompose(organizacoes, "weak")[[1]]
 # png("nivel2.png", height=600, width=600)
-# plot(organizacoes, 
-#      vertex.size = igraph::degree(organizacoes)/4, 
-#      vertex.label=NA,
-#      edge.arrow.size = .3)
+plot(organizacoes,
+     vertex.size = igraph::degree(organizacoes)/4,
+     vertex.label=NA,
+     vertex.label.size = igraph::degree(organizacoes)/10,
+     edge.arrow.size = .3)
 # dev.off()
+
+
+# meso-level 2 ####
+mesonivel2 = mode_transformation(extract_mesolevel(gcompletao), "high")
+mesonivel2 = decompose(mesonivel2, "weak", 2)[[1]]
+
+# png("mesonivel2.png", height=600, width=600)
+# plot(mesonivel2, 
+#      vertex.size = igraph::degree(mesonivel2)*1.5, 
+#      #vertex.size = igraph::betweenness(mesonivel2), 
+#      #layout = layout_with_kk,
+#      vertex.label = NA,
+#      edge.width = E(mesonivel2)$weight)
+# dev.off()
+
+
+
+
