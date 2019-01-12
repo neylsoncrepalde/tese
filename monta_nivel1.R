@@ -319,7 +319,8 @@ legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blu
 # legend("topleft", c("Organizações", "Músicos"), pch = 19, col = c('blue','red'), pt.cex = 1.5)
 # dev.off()
 
-
+which(V(gcompletao)$name == "Rodrigo Monteiro")
+V(gcompletao)$name[V(gcompletao)$type == T] %>% unique
 
 individuos = extract_lowlevel(gcompletao)
 plot(individuos, vertex.size = degree(individuos, mode = "in"),

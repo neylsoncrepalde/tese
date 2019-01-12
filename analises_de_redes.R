@@ -99,12 +99,12 @@ rownames(matcor) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
 colnames(matcor) = c("Aconselhamento", "Amizade", "Indicação", "Convite")
 xtable(matcor, digits=3)
 
-qaptest(list(n1, n2), gcor, g1=1, g2=2, reps=1000)
-qaptest(list(n1, n3), gcor, g1=1, g2=2, reps=1000)
-qaptest(list(n1, n4), gcor, g1=1, g2=2, reps=1000)
-qaptest(list(n2, n3), gcor, g1=1, g2=2, reps=1000)
-qaptest(list(n2, n4), gcor, g1=1, g2=2, reps=1000)
-qaptest(list(n3, n4), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n1, n2), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n1, n3), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n1, n4), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n2, n3), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n2, n4), gcor, g1=1, g2=2, reps=1000)
+# qaptest(list(n3, n4), gcor, g1=1, g2=2, reps=1000)
 
 
 # model1 = formula(n4 ~ edges + edgecov(n1) + edgecov(n2) + edgecov(n3) +
@@ -196,7 +196,7 @@ aff_para_modelar = tibble(sender = V(gprestigiosi)$name) %>%
     receiver == "Orquestra Sinfônica de MG" ~ 4L,
     receiver == "Orquestra Ouro Preto" ~ 3L,
     receiver == "Orquestra SESIMINAS" ~ 2L,
-    receiver == "Orquestra OPUS" ~ 1L
+    receiver == "OPUS" ~ 1L
   )) %>% 
   group_by(sender) %>% summarise(prest = sum(prestorq, na.rm = T))
 
@@ -220,9 +220,9 @@ model_prestigio = formula(nprestigio ~ edges +
                             edgecov(n2))
 summary.statistics(model_prestigio)
 
-fit_prestigio = ergm(model_prestigio)
+#fit_prestigio = ergm(model_prestigio)
 #saveRDS(fit_prestigio, "fit_prestigio.rds")
-#fit_prestigio = readRDS("fit_prestigio.rds")
+fit_prestigio = readRDS("fit_prestigio.rds")
 summary(fit_prestigio)
 plot(fit_prestigio)
 gof_prestigio = gof(fit_prestigio)
@@ -252,3 +252,24 @@ texreg::texreg(fit_prestigio, single.row = T)
 # plot(gof(fit_conselho))
 
 
+# meso-level 1 ####
+mesonivel1 = mode_transformation(extract_mesolevel(gcompletao), "low")
+mesonivel1 = decompose(mesonivel1, "weak")[[1]]
+# png("mesonivel1.png", height=600, width=600)
+# plot(mesonivel1, 
+#      vertex.label = NA, 
+#      vertex.size = igraph::betweenness(mesonivel1)/50, 
+#      edge_width = E(mesonivel1)$weight,
+#      layout = layout_with_kk)
+# dev.off()
+
+
+# Nível 2 ####
+organizacoes = extract_highlevel(gcompletao)
+organizacoes = decompose(organizacoes, "weak")[[1]]
+# png("nivel2.png", height=600, width=600)
+# plot(organizacoes, 
+#      vertex.size = igraph::degree(organizacoes)/4, 
+#      vertex.label=NA,
+#      edge.arrow.size = .3)
+# dev.off()
