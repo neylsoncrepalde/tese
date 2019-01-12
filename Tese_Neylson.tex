@@ -2809,7 +2809,7 @@
 		\fonte{Elaboração do autor.}
 	\end{figure}
 	
-	A complexidade das orquestras já foi discutida nos capítulos \ref{cap:filarmonica} a \ref{cap:ouropreto}. Aqui é possível visualizar de maneira mais completa, a complexidade das orquestras. O ponto central conectando toda a estrutura é o Ministério da Cultura. Ele configura o que chamamos de \textit{cutpoint}, ou seja, se ele fosse retirado, a estrutura se fragmentaria. A visualização mostra a centralidade da Lei Rouanet para o funcionamento da música de orquestra em Belo Horizonte. É possível perceber também alguns nós fazendo conexão entre as orquestras (5 nós na parte superior direta e 2 nós à esquerda). Trata-se de empresas que patrocinam as orquestras em Belo Horizonte e teatros, locais de apresentação. A estrutura reconstruída a partir das afiliações também possui uma configuração muito interessante. Sua representação está na Figura \ref{rede:mesonivel2}.
+	A complexidade das orquestras já foi discutida nos capítulos \ref{cap:filarmonica} a \ref{cap:ouropreto}. Aqui é possível visualizar de maneira mais completa, a complexidade das orquestras. O ponto central conectando toda a estrutura é o Ministério da Cultura. Ele configura o que chamamos de \textit{cutpoint}, ou seja, se ele fosse retirado, a estrutura se fragmentaria. A visualização mostra a centralidade da Lei Rouanet para o funcionamento da música de orquestra em Belo Horizonte. É possível perceber também alguns nós fazendo conexão entre as orquestras (5 nós na parte superior direta e 2 nós à esquerda). Trata-se de empresas que patrocinam as orquestras em Belo Horizonte e teatros, locais de apresentação. A estrutura reconstruída a partir das afiliações também possui uma configuração muito interessante. A representação de seu componente principal está na Figura \ref{rede:mesonivel2}.
 	
 	\begin{figure}[!ht]
 		\centering
@@ -2819,7 +2819,30 @@
 		\fonte{Elaboração do autor.}
 	\end{figure}
 
-	Podemos 
+	O tamanho dos vértices na Figura \ref{rede:mesonivel2} representa a centralidade de grau. É possível perceber um núcleo fortemente conectado no centro do grafo composto pelas orquestras de Belo Horizonte exceto a OPUS. Os nós tangenciais na parte superior à esquerda e inferior do grafo são outras orquestras da qual os músicos já fizeram parte e que, por esse motivo, carregam conhecimento e cultura desses lugares para as organizações que estão no centro. Os nós na ponta superior direta são instituições de ensino superior e uma escola de música da cidade. É possível perceber aqui a estreita ligação que o mercado das orquestras tem com as universidades.
+	
+	Estimamos um modelo de blocos para identificar subgrupos na estrutura gerada pelo compartilhamento de colaboradores (Figura \ref{sbmout:mesonivel2}). Tanto o modelo ``variacional'' quanto o modelo bayesiano identificaram dois blocos de nós estruturalmente equivalentes (Figura \ref{blocos:mesonivel2}).
+	
+	
+	\begin{figure}[!ht]
+		\centering
+		\caption{Blockmodel para rede de organizações a partir das afiliações}
+		\label{sbmout:mesonivel2}
+		\includegraphics[scale=.8]{blockmesonivel2.png}
+		\fonte{Elaboração do autor usando o pacote \textbf{mixer} \cite{daudin2008mixture,latouche2012variational}}
+	\end{figure}
+
+	\begin{figure}[!ht]
+		\centering
+		\caption{Rede de compartilhamento de músicos afiliados entre organizações com blocos de nós estruturalmente equivalentes}
+		\label{blocos:mesonivel2}
+		\includegraphics[scale=.7]{block_rede_mesonivel2.png}
+		\fonte{Elaboração do autor.}
+	\end{figure}
+	
+	
+	É curioso notar que o modelo de blocos alocou num mesmo bloco as três orquestras que possuem o maior escore de qualidade percebida calculado e, no outro, alocou a orquestra que ocupa a quarta posição no ranking. A última orquestra não está presente nessa estrutura pois não houveram identificações de afiliação a ela nos dados.
+	
 	
 	\chapter{Considerações Finais}
 

@@ -288,7 +288,30 @@ mesonivel2 = decompose(mesonivel2, "weak", 2)[[1]]
 #      vertex.label = NA,
 #      edge.width = E(mesonivel2)$weight)
 # dev.off()
+set.seed(2)
+sbmnivel2 = mixer(as.matrix(get.adjacency(mesonivel2)), qmin = 2, qmax = 5)
 
+# png("blockmesonivel2.png", height = 450, width = 450)
+# plot(sbmnivel2)
+# dev.off()
 
+bestsbm = getModel(sbmnivel2)
+bestsbm$Taus
+pertencimento = c()
+for (col in 1:ncol(bestsbm$Taus)) {
+  pertencimento[col] = which.max(bestsbm$Taus[,col])
+}
 
+corblock = ifelse(pertencimento==1, adjustcolor('red', 6), adjustcolor('blue', .6))
+# png("block_rede_mesonivel2.png", height=600, width=600)
+# plot(mesonivel2,
+#      vertex.size = igraph::degree(mesonivel2)*1.5,
+#      vertex.color = corblock,
+#      #vertex.size = igraph::betweenness(mesonivel2),
+#      #layout = layout_with_kk,
+#      vertex.label = NA,
+#      edge.width = E(mesonivel2)$weight)
+# dev.off()
+
+# Ergm organizaçoes
 
