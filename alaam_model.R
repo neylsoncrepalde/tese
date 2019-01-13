@@ -24,6 +24,16 @@ atributos = tibble(name = V(organizacoes)$name,
                    )
 )
 
+# Incentivos financeiros - renda
+salmed = tibble(sender = c("Orquestra Filarmônica de MG", "Orquestra Sinfônica de MG",
+                               "Orquestra Ouro Preto", "Orquestra SESIMINAS", "OPUS"),
+               salario = c(7000, mean(c(3000,2300)), 3000, 1500, 1500))
+
+renda = tibble(sender=V(organizacoes)$name) %>% left_join(salmed)
+salario = renda$salario
+salario[is.na(salario)] = 0
+names(salario) = renda$sender
+
 # Prestígio dos músicos
 central_musicos = afiliacoes %>% 
   left_join(tibble(sender=V(gprestigio)$name, 
@@ -37,7 +47,12 @@ central_musicos_fit = atributos$central_musicos
 names(central_musicos_fit) = atributos$name
 
 # Complexidade Organizacional
-
+comp_org = tibble(name = c("Orquestra Filarmônica de MG",
+                           "Orquestra Sinfônica de MG",
+                           "Orquestra Ouro Preto",
+                           "Orquestra SESIMINAS",
+                           "OPUS"),
+                  complexidade = c())
 
 # Fit the model
 Y = data.frame(qualidadeperc = atributos$qualidadeperc)
@@ -47,7 +62,8 @@ alaamfit = tnam(Y ~
                   centrality(norganizacoes, type = "outdegree") +
                   netlag(atributos$qualidadeperc, norganizacoes) +
                   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-                  covariate(central_musicos_fit, coefname = "central_musicos"))
+                  covariate(central_musicos_fit, coefname = "central_musicos") +
+                  covariate(salario, coefname = "salario"))
 
 
 summary(alaamfit)

@@ -11,10 +11,15 @@ source("sheet_key.R")
 
 gs_auth(new_user = TRUE)
 ss = gs_key(sheet_key)
-bd = gs_read(ss)
-bd %>% View
+bd = gs_read_csv(ss)
+#bd %>% View
 
 names(bd)
+
+# Corrige a renda
+bd = bd %>% mutate(renda_orq = if_else(`Qual foi a sua renda total no último mês considerando todas as orquestras nas quais o(a) senhor(a) tocou?` < 1000, 
+                                          `Qual foi a sua renda total no último mês considerando todas as orquestras nas quais o(a) senhor(a) tocou?` * 1000, 
+                                          `Qual foi a sua renda total no último mês considerando todas as orquestras nas quais o(a) senhor(a) tocou?`))
 
 # Limpa rede1 ####
 nomes = bd %>% select(3, 18) %>% 
