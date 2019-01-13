@@ -11,6 +11,7 @@ plot.network(norganizacoes)
 # Proximidade com o Estado
 # Prestígio dos músicos que pertencem a ela
 # Complexidade organizacional
+# Orçamento anual
 
 norganizacoes = asNetwork(organizacoes)
 atributos = tibble(name = V(organizacoes)$name,
@@ -27,7 +28,7 @@ atributos = tibble(name = V(organizacoes)$name,
 # Incentivos financeiros - renda
 salmed = tibble(sender = c("Orquestra Filarmônica de MG", "Orquestra Sinfônica de MG",
                                "Orquestra Ouro Preto", "Orquestra SESIMINAS", "OPUS"),
-               salario = c(7000, mean(c(3000,2300)), 3000, 1500, 1500))
+               salario = c(7000, mean(c(3000,2300)), 3000, 1500, 500))
 
 renda = tibble(sender=V(organizacoes)$name) %>% left_join(salmed)
 salario = renda$salario
@@ -47,23 +48,47 @@ central_musicos_fit = atributos$central_musicos
 names(central_musicos_fit) = atributos$name
 
 # Complexidade Organizacional
+# Fil = 8 setores e 1 passo entre os músicos e o Diretor Presidente
+# Sinf = 1 diretoria artística e 2 passos entre os músicos e o diretor artístico
+# Ouro Preto = 8 setores e 1 passo até a Diretoria Artística
+# SESI = 1 setor (cooperativa) e 1 passo entre os músicos e o gerente.
+# OPUS = 1 setor e 2 passos entre os músicos e o diretor artístico
 comp_org = tibble(name = c("Orquestra Filarmônica de MG",
                            "Orquestra Sinfônica de MG",
                            "Orquestra Ouro Preto",
                            "Orquestra SESIMINAS",
                            "OPUS"),
-                  complexidade = c())
+                  complexidade = c(9,3,9,2,3))
+atributos = atributos %>% left_join(comp_org) %>% 
+  mutate(complexidade = if_else(is.na(complexidade), 0, complexidade))
+complexidade_fit = atributos$complexidade
+names(complexidade_fit) = atributos$name
+
+# Orçamento Anual (em milhoes de reias)
+orca_org = tibble(name = c("Orquestra Filarmônica de MG",
+                           "Orquestra Sinfônica de MG",
+                           "Orquestra Ouro Preto",
+                           "Orquestra SESIMINAS",
+                           "OPUS"),
+                  orcamento = c(29.74,3.13,2.5,0.75,0.15))
+atributos = atributos %>% left_join(orca_org) %>% 
+  mutate(orcamento = if_else(is.na(orcamento), 0, orcamento))
+orcamento_fit = atributos$orcamento
+names(orcamento_fit) = atributos$name
+
 
 # Fit the model
 Y = data.frame(qualidadeperc = atributos$qualidadeperc)
 rownames(Y) = V(organizacoes)$name
 
 alaamfit = tnam(Y ~ 
-                  centrality(norganizacoes, type = "outdegree") +
+                  #centrality(norganizacoes, type = "outdegree") +
                   netlag(atributos$qualidadeperc, norganizacoes) +
                   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
                   covariate(central_musicos_fit, coefname = "central_musicos") +
-                  covariate(salario, coefname = "salario"))
+                  covariate(salario, coefname = "salario") +
+                  covariate(orcamento_fit, coefname = "orcamento") +
+                  covariate(complexidade_fit, coefname = "complexidade"))
 
 
 summary(alaamfit)
