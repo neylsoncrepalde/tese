@@ -320,7 +320,7 @@ plot(organizacoes, vertex.size = igraph::degree(organizacoes)/3, vertex.label=NA
 set.seed(123)
 sbmorg = mixer(as.matrix(get.adjacency(organizacoes)), qmin=2, qmax=5)
 sbmorgout = getModel(sbmorg)
-# png("blockoutorgs.png", height = 400, width = 500)
+# png("blockoutorgs.png", height = 450, width = 450)
 # plot(sbmorg)
 # dev.off()
 
@@ -352,7 +352,7 @@ corblock = ifelse(pertencimento==1, adjustcolor('red', 6),
 norganizacoes = asNetwork(as.undirected(organizacoes))
 triad.census(norganizacoes)
 plot(norganizacoes)
-model_org = formula(nmesonivel2 ~ edges +
+model_org = formula(norganizacoes ~ edges +
                       kstar(2)
 )
 summary.statistics(model_org)
