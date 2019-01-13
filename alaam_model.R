@@ -28,7 +28,7 @@ atributos = tibble(name = V(organizacoes)$name,
 # Incentivos financeiros - renda
 salmed = tibble(sender = c("Orquestra Filarmônica de MG", "Orquestra Sinfônica de MG",
                                "Orquestra Ouro Preto", "Orquestra SESIMINAS", "OPUS"),
-               salario = c(7000, mean(c(3000,2300)), 3000, 1500, 500))
+               salario = c(7000, mean(c(3000,2300)), 2000, 1500, 500))
 
 renda = tibble(sender=V(organizacoes)$name) %>% left_join(salmed)
 salario = renda$salario
@@ -78,18 +78,39 @@ names(orcamento_fit) = atributos$name
 
 
 # Fit the model
-Y = data.frame(qualidadeperc = atributos$qualidadeperc)
+Y = data.frame(qualidadeperc = atributos$qualidadeperc+.1)
 rownames(Y) = V(organizacoes)$name
+vedist1 = fitdistrplus::fitdist(Y$qualidadeperc, "gamma", "mle")
+vedist2 = fitdistrplus::fitdist(Y$qualidadeperc, "exp", "mle")
+fitdistrplus::gofstat(vedist1)
 
-alaamfit = tnam(Y ~ 
+# MELHOR RESULTADO!!! GAMMA
+alaamgamma = tnam(Y ~ 
                   #centrality(norganizacoes, type = "outdegree") +
                   netlag(atributos$qualidadeperc, norganizacoes) +
                   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
                   covariate(central_musicos_fit, coefname = "central_musicos") +
                   covariate(salario, coefname = "salario") +
                   covariate(orcamento_fit, coefname = "orcamento") +
-                  covariate(complexidade_fit, coefname = "complexidade"))
+                  covariate(complexidade_fit, coefname = "complexidade"),
+                family = Gamma())
+
+texreg::screenreg(alaamgamma, single.row = T)
+
+# Nao deu certo
+alaamdata = tnamdata(Y ~ 
+                   #centrality(norganizacoes, type = "outdegree") +
+                   netlag(atributos$qualidadeperc, norganizacoes) +
+                   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+                   covariate(central_musicos_fit, coefname = "central_musicos") +
+                   covariate(salario, coefname = "salario") +
+                   covariate(orcamento_fit, coefname = "orcamento") +
+                   covariate(complexidade_fit, coefname = "complexidade"))
+alaamdata$response = as.factor(alaamdata$response)
+
+alaamordlog = MASS::polr(response ~. -node-time, data = alaamdata, Hess = T)
+summary(alaamordlog)
 
 
-summary(alaamfit)
-texreg::screenreg(alaamfit, single.row = T)
+texreg::screenreg(list(alaamgamma, alaamordlog), single.row = T)
+lmtest::lrtest(alaamgamma, alaamordlog) # teste de likelihood
