@@ -153,14 +153,14 @@ for (i in 1:length(formulas)) {
   }
 }
 
-sapply(models, function(x) print(x$family))
+sapply(models, function(x) print(x$family)) # Todos Gamma com link log
 ggplot(NULL, aes(x = 1:length(models))) +
   geom_line(aes(y = sapply(models, AIC)), col = "red") +
-  geom_line(aes(y = sapply(models, BIC)), col = "blue")
+  geom_line(aes(y = sapply(models, BIC)), col = "blue") # Plota AIC e BIC
 
-hist(residuals(models[[7]]))
+hist(residuals(models[[7]]))  # Análise de resíduos
 
-texreg::screenreg(models, single.row = F)
+texreg::texreg(models, single.row = F, caption.above = T, center = F) # Monta a tabela
 
 # Nao deu certo
 alaamdata = tnamdata(Y ~ 
