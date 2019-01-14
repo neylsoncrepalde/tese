@@ -46,6 +46,7 @@ atributos = atributos %>% left_join(central_musicos) %>%
   mutate(central_musicos = if_else(is.na(central_musicos), 0, central_musicos))
 central_musicos_fit = atributos$central_musicos
 names(central_musicos_fit) = atributos$name
+summary(central_musicos_fit)
 
 # Complexidade Organizacional
 # Fil = 8 setores e 1 passo entre os músicos e o Diretor Presidente
@@ -77,7 +78,7 @@ orcamento_fit = atributos$orcamento
 names(orcamento_fit) = atributos$name
 
 
-# Fit the model
+# Verificando a distribuição
 Y = data.frame(qualidadeperc = atributos$qualidadeperc+.1)
 rownames(Y) = V(organizacoes)$name
 vedist1 = fitdistrplus::fitdist(Y$qualidadeperc, "gamma", "mle")
@@ -85,17 +86,81 @@ vedist2 = fitdistrplus::fitdist(Y$qualidadeperc, "exp", "mle")
 fitdistrplus::gofstat(vedist1)
 
 # MELHOR RESULTADO!!! GAMMA
-alaamgamma = tnam(Y ~ 
-                  #centrality(norganizacoes, type = "outdegree") +
-                  netlag(atributos$qualidadeperc, norganizacoes) +
-                  netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-                  covariate(central_musicos_fit, coefname = "central_musicos") +
-                  covariate(salario, coefname = "salario") +
-                  covariate(orcamento_fit, coefname = "orcamento") +
-                  covariate(complexidade_fit, coefname = "complexidade"),
-                family = Gamma())
+formulas = list(
+  Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1)
+    #covariate(central_musicos_fit, coefname = "central_musicos") +
+    #covariate(salario, coefname = "salario") +
+    #covariate(orcamento_fit, coefname = "orcamento") +
+    #covariate(complexidade_fit, coefname = "complexidade" +
+    #centrality(norganizacoes, type = "outdegree") +
+    ,
+  Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+    covariate(central_musicos_fit, coefname = "central_musicos")
+  #covariate(salario, coefname = "salario") +
+  #covariate(orcamento_fit, coefname = "orcamento") +
+  #covariate(complexidade_fit, coefname = "complexidade" +
+  #centrality(norganizacoes, type = "outdegree") +
+  ,
+Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+  netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+  covariate(central_musicos_fit, coefname = "central_musicos") +
+  covariate(salario, coefname = "salario")
+  #covariate(orcamento_fit, coefname = "orcamento") +
+  #covariate(complexidade_fit, coefname = "complexidade" +
+  #centrality(norganizacoes, type = "outdegree") +
+  ,
+Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+  netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+  covariate(central_musicos_fit, coefname = "central_musicos") +
+  #covariate(salario, coefname = "salario")
+  covariate(orcamento_fit, coefname = "orcamento")
+  #covariate(complexidade_fit, coefname = "complexidade" +
+  #centrality(norganizacoes, type = "outdegree") +
+,
+Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+  netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+  covariate(central_musicos_fit, coefname = "central_musicos") +
+  covariate(salario, coefname = "salario") +
+  covariate(orcamento_fit, coefname = "orcamento")
+  #covariate(complexidade_fit, coefname = "complexidade" +
+  #centrality(norganizacoes, type = "outdegree") +
+  ,
+  Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+  covariate(central_musicos_fit, coefname = "central_musicos") +
+  covariate(salario, coefname = "salario") +
+  covariate(orcamento_fit, coefname = "orcamento") +
+  covariate(complexidade_fit, coefname = "complexidade")
+  #centrality(norganizacoes, type = "outdegree") +
+  ,
+    Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+    covariate(central_musicos_fit, coefname = "central_musicos") +
+    covariate(salario, coefname = "salario") +
+    covariate(orcamento_fit, coefname = "orcamento") +
+    covariate(complexidade_fit, coefname = "complexidade") +
+    centrality(norganizacoes, type = "outdegree")
+)
+models = list()
+for (i in 1:length(formulas)) {
+  tentativa = try(tnam(formulas[[i]], family = Gamma(link = "log")))
+  if ("try-error" %in% class(tentativa)) {
+    models[[i]] = tnam(formulas[[i]], family = Gamma(link = "identity"))
+  } else {
+    models[[i]] = tnam(formulas[[i]], family = Gamma(link = "log"))
+  }
+}
 
-texreg::screenreg(alaamgamma, single.row = T)
+sapply(models, function(x) print(x$family))
+ggplot(NULL, aes(x = 1:length(models))) +
+  geom_line(aes(y = sapply(models, AIC)), col = "red") +
+  geom_line(aes(y = sapply(models, BIC)), col = "blue")
+
+hist(residuals(models[[7]]))
+
+texreg::screenreg(models, single.row = F)
 
 # Nao deu certo
 alaamdata = tnamdata(Y ~ 
