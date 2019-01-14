@@ -1561,25 +1561,29 @@
 	
 	Partimos do pressuposto central de que o padrão de qualidade, o centro gravitacional do mercado das orquestras, emerge de sua própria estrutura. No nível individual, argumentamos que os conceitos de ``boa orquestra'', ``boa performance'', ``boa técnica instrumental'', emergem de baixo para cima e não de cima para baixo. Além disso, parece haver uma disputa pela ``correta'' definição da qualidade. Isto nos leva a hipótese relacionadas aos indivíduos, às organizações e a suas relações com o Estado.
 	
-	\begin{hip}
-		Quanto maior a concentração de músicos prestigiosos uma orquestra tiver, melhor será sua qualidade percebida.
+	\begin{hip}\label{hip:musprest}
+		Quanto maior for a concentração de músicos prestigiosos numa orquestra, melhor será sua qualidade percebida.
 	\end{hip}
 	
 
 	
-	\begin{hip}
+	\begin{hip}\label{hip:incentivos}
 		%The more an orchestra provides structural incentives for the musicians, the better it will be positioned in quality ranking.
 		Quanto mais uma orquestra provê incentivos para os músicos, melhor será sua qualidade percebida.
 	\end{hip}
 	
+	\begin{hip}\label{hip:orcamento}
+		Quanto maior for o orçamento anual de uma orquestra, melhor será sua qualidade percebida.
+	\end{hip}
+	
 	%Quanto mais incentivos as orquestras proporcionam a seus músicos, mais elas tendem a ocupar as primeiras posições no Ranking de qualidade.
 	
-	\begin{hip}
+	\begin{hip}\label{hip:estruturacomplexa}
 		%The more complex the organizational structure of an orchestra or of its maintainer, the better it will be positioned in quality ranking.
 		Quanto mais complexa for a estrutura organizacional de uma orquestra ou de sua mantenedora, melhor será sua qualidade percebida.
 	\end{hip}
 	
-	\begin{hip}
+	\begin{hip}\label{hip:redecomplexa}
 		%The more complex an orchestra's business network, the better it will be positioned in quality ranking.
 		Quanto mais complexa a rede de negócios de uma orquestra, melhor será sua qualidade percebida.
 	\end{hip}
@@ -1588,7 +1592,7 @@
 	%Por fim, num nível macro, o nível do próprio mercado e sua relação com o Estado, argumentamos que
 	Por fim,
 	
-	\begin{hip}
+	\begin{hip}\label{hip:proxestado}
 		%The closest the relationship of an orchestra with the State, the better it will be positioned in quality ranking.
 		Quanto mais próximas as relações de uma orquestra com o Estado, melhor será sua qualidade percebida.
 	\end{hip}
@@ -2743,7 +2747,93 @@
 	
 	\chapter{Testes de hipóteses}
 	
-	Para testar as hipóteses traçadas no capítulo \ref{hipoteses}, utilizaremos o \textit{Network Autocorrelation Model} conforme especificado na Equação \ref{NAM}. Para elaborar um modelo que tivesse bom ajuste aos dados, estimamo um modelo linear generalizado com distribuição \textit{gamma} e link ``log''. Nosso modelo estimou a qualidade percebida de cada orquestra 
+	Para testar as hipóteses traçadas no capítulo \ref{hipoteses}, utilizaremos o \textit{Network Autocorrelation Model} conforme especificado na Equação \ref{NAM}. Visando um bom ajuste aos dados, estimamo um modelo linear generalizado com distribuição \textit{gamma} e link ``log''. Nosso modelo estimou a qualidade percebida de cada orquestra como função da rede observada entre organizações levando em consideração tanto as relações de primeira ordem quanto de segunda ordem, da soma da centralidade dos músicos a ela afiliados (um parâmetro, neste caso, essencialmente multinível), do salário médio na orquestra, do orçamento anual, da complexidade
+	%, da proximidade com o estado 
+	e da centralidade de grau.	
+	Estatísticas descritivas das variáveis estão apresentadas na Tabela \ref{varsMAN}.
+	
+	% Table created by stargazer v.5.2.2 by Marek Hlavac, Harvard University. E-mail: hlavac at fas.harvard.edu
+	% Date and time: Mon, Jan 14, 2019 - 11:50:22
+	\begin{table}[!htbp] 
+		\ibgetab{
+		\centering 
+		\caption{Estatísticas descritivas das variáveis do \textit{Network Autocorrelate Model}} 
+		\label{varsMAN}
+	}
+		{\begin{tabular}{@{\extracolsep{5pt}}lcccccc} 
+			\\[-1.8ex]\hline 
+			\hline \\[-1.8ex] 
+			Statistic &  \multicolumn{1}{c}{Mean} & \multicolumn{1}{c}{St. Dev.} & \multicolumn{1}{c}{Min} & \multicolumn{1}{c}{Pctl(25)} & \multicolumn{1}{c}{Pctl(75)} & \multicolumn{1}{c}{Max} \\ 
+			\hline \\[-1.8ex] 
+			Qualidade &  0.314 & 0.866 & 0.100 & 0.100 & 0.100 & 5.100 \\ 
+			Rede - Distância 1  & 4.543 & 2.563 & 0 & 4 & 5 & 15 \\ 
+			Rede - Distância 2  & 0.857 & 3.136 & 0 & 0 & 0 & 14 \\ 
+			Centralidade de grau & 2.171 & 5.983 & 1 & 1 & 1 & 50 \\ 
+			Centr. dos músicos (soma) & 2.929 & 16.859 & 0 & 0 & 0 & 137 \\ 
+			Salário & 195.000 & 931.422 & 0 & 0 & 0 & 7,000 \\ 
+			Orçamento anual & 0.518 & 3.576 & 0 & 0 & 0 & 30 \\ 
+			Complexidade & 0.371 & 1.590 & 0 & 0 & 0 & 9 \\
+			Prox. com o Estado & 0.214 & 0.866 & 0 & 0 & 0 & 5 \\ 
+			\hline \\[-1.8ex] 
+		\end{tabular}
+	}
+	{\fonte{Elaboração do autor.}}
+	\end{table} 
+
+	A variável \textit{Qualidade} foi construída a partir das respostas dos músicos ao questionário sociométrico online onde a orquestra identificada como a de melhor qualidade recebia 5 e a de menor qualidade recebia 1. Quando uma orquestra não era citada pelo respondente recebia o valor 0 (ausência de classificação). As demais organizações da rede receberam também 0. A essa variável foi somado 0,1 para tornar possível a estimação do modelo generalizado com distribuição \textit{gamma}. Como não possuímos dados das covariáveis para todas as organizações presentes na estrutura, apenas as orquestras, elaboraremos seis modelos; o primeiro com apenas as variáveis da estrutura relacional, ou seja, A rede e a centralidade de grau, e um modelo para cada covariável controlando pelas variáveis estruturais. Colocar as covariáveis juntas no modelo cria, desse modo, um viés.
+	Os resultados dos modelos estimados estão apresentados na Tabela \ref{res:NAM} abaixo.
+	
+	
+	\begin{table}[!ht]
+		\ibgetab{
+		\centering
+		\caption{Network Autocorrelation Models - Resultados - Dependente: Qualidade percebida}
+		\label{res:NAM}
+	}
+		{\begin{tabular}{l c c c c c c }
+			\hline
+			 & Model 1 & Model 2 & Model 3 & Model 4 & Model 5 & Model 6 \\
+			\hline
+			(Intercept)                & $-2.29^{***}$ & $-2.28^{***}$ & $-2.29^{***}$ & $-2.27^{***}$ & $-2.29^{***}$ & $-2.30^{***}$ \\
+			& $(0.05)$      & $(0.04)$      & $(0.02)$      & $(0.05)$      & $(0.05)$      & $(0.01)$      \\
+			Rede (1)           & $-0.01$       & $0.02^{*}$    & $0.01^{***}$  & $0.01$        & $-0.01$       & $0.00$        \\
+			& $(0.01)$      & $(0.01)$      & $(0.00)$      & $(0.01)$      & $(0.01)$      & $(0.00)$      \\
+			Rede (2)           & $0.25^{***}$  & $0.25^{***}$  & $0.18^{***}$  & $0.28^{***}$  & $0.23^{***}$  & $0.14^{***}$  \\
+			& $(0.01)$      & $(0.01)$      & $(0.00)$      & $(0.01)$      & $(0.01)$      & $(0.00)$      \\
+			Cent. Grau                  & $0.03^{***}$  & $-0.10^{***}$ & $-0.07^{***}$ & $-0.08^{*}$   & $0.02^{***}$  & $-0.01^{***}$ \\
+			& $(0.00)$      & $(0.01)$      & $(0.00)$      & $(0.03)$      & $(0.01)$      & $(0.00)$      \\
+			Cent. Músicos &               & $0.05^{***}$  &               &               &               &               \\
+			&               & $(0.01)$      &               &               &               &               \\
+			Salário          &               &               & $0.00^{***}$  &               &               &               \\
+			&               &               & $(0.00)$      &               &               &               \\
+			Orçamento        &               &               &               & $0.17^{**}$   &               &               \\
+			&               &               &               & $(0.05)$      &               &               \\
+			Complexidade     &               &               &               &               & $0.06^{*}$    &               \\
+			&               &               &               &               & $(0.03)$      &               \\
+			Prox. Estado      &               &               &               &               &               & $0.58^{***}$  \\
+			&               &               &               &               &               & $(0.01)$      \\
+			\hline
+			AIC                        & -329.87       & -370.08       & -496.39       & -336.66       & -332.87       & -636.36       \\
+			BIC                        & -318.63       & -356.59       & -482.89       & -323.17       & -319.38       & -622.86       \\
+			Log Likelihood             & 169.94        & 191.04        & 254.19        & 174.33        & 172.44        & 324.18        \\
+			Deviance                   & 1.98          & 1.09          & 0.18          & 1.75          & 1.85          & 0.02          \\
+			Num. obs.                  & 70            & 70            & 70            & 70            & 70            & 70            \\
+			\hline
+			\multicolumn{7}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+		\end{tabular}
+	}
+	{	\fonte{Elaboração do autor usando o pacote \textbf{tnam} \cite{tnam}.} }
+	\end{table}
+
+	
+	A partir do modelo 1, faremos as análises referentes às variáveis estruturais. A rede vizinha não obteve resultado estatisticamente significativo. Ao levar em conta os nós a dois passos de distância, entretanto, encontramos um efeito positivo e significativo. Esse feito controla a atividade dos nós com os quais o ego não possui relação direta. A centralidade de grau também obteve um resultado positivo e significativo. Esses dois resultados em conjunto podem ser vistos como excelentes indicadores da complexidade da rede egocentrada de cada nó. Podemos, com eles, testar \textit{H\ref{hip:estruturacomplexa}}: eles nos dizem que quanto maior a complexidade da estrutura ao redor de um ego, maior tende a ser a sua qualidade percebida.
+	
+	A partir do segundo observamos os resultados para a soma da centralidade de grau dos músicos de cada instituição. O resultado foi positivo e significante. Com ele podemos testar \textit{H\ref{hip:musprest}}; o modelo mostra que quanto mais um orquestra possui colaboradores que sejam prestigiosos na rede interindividual, maior será a sua qualidade percebida. 
+	
+	Do terceiro e quarto modelos observaremos os resultados para as covariáveis exógenas salário e orçamento. Embora o salário tenha obtido um coeficiente significativo e positivo, o efeito é bastante pequeno. Já o orçamento obteve, como esperado, um efeito positivo e significativo. Esses resultados nos ajudam a testar \textit{H\ref{hip:incentivos} e \textit{H\ref{hip:orcamento}};  \textit{H\ref{hip:orcamento}} foi confirmada pelo modelo. Já \textit{H\ref{hip:incentivos} não pôde ser confirmada devido ao efeito muito pequeno da variável. 
+			
+	Por fim, 
+
 	
 	\chapter{Considerações Finais}
 
