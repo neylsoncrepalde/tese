@@ -476,7 +476,6 @@
 	
 	%where Y is the theoretical estimated graph, y is the observed graph, $\sum_{A}$ is the sum of all configurations \textit{A},  $\eta_A$ is the estimated parameter corresponding to configuration \textit{A}, $g_A(\textbf{y})$ is the network statistic corresponding to configuration \textit{A} of graph \textbf{y} and \textit{k} is a constant that ensures an adequate probabilities distribution \cite{robins2007introduction}. This model allows us to estimate the effect of each endogenous configuration of the network on the emergence of the network itself. Put another way, since every endogenous configuration can be associated with a social process, the model allows us to \textit{explain the network as a dependent variable}, to explain which processes are important and which are not important to understand the social structure under investigation. In our case, this procedure will be conducted for both levels of the network, that is, we will model both social processes modeling the inter-individual structure and the inter-organizational structure.
 	
-	Para os fins deste trabalho, utilizaremos uma variação dos ERGM's conhecida como ``Modelos de Seleção Social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
 	
 	No próximo capítulo apresentaremos os achados da investigação bibliográfica preliminar sobre a temática geral deste trabalho nos principais indexadores da sociologia e economia.
 	
@@ -1942,7 +1941,7 @@
 
 
 
-	\chapter{Metodologia}
+	\chapter{Dados e Métodos}
 	
 	Os dados deste trabalho foram coletados entre os meses de setembro e dezembro de 2018. Para compreender o nível organizacional, dirigentes das orquestras foram contactados e convidados a realizar uma entrevista semiestruturada abordando questões pertinentes para a investigação. O roteiro de entrevista com os dirigentes das orquestras encontra-se no anexo 3 deste trabalho.
 	
@@ -1950,17 +1949,21 @@
 	
 	Neste ponto, é importante salientar ao leitor que houve grande dificuldade no contato com os músicos. Atribuímos esse fator a duas razões, a saber, a carga enorme de trabalho que os músicos da cidade possuem tanto de ensaios nas orquestras quanto de estudos fora de seu horário regular de trabalho (especialmente em se tratando de repertório cuja execução é tecnicamente mais desafiadora) e ao perfil característico dos músicos que, no contexto investigado, tendem a possuir alto status sócio-ocupacional e, em geral, selecionam de forma bastante criteriosa os compromissos nos quais irão se engajar.
 	
-	\section{Análise dos dados}
+	As análises serão realizadas em duas partes. No primeira, apresentaremos uma descrição detalhada do campo a partir das entrevistas semiestruturadas realizadas com os dirigentes das orquestras. Na segunda, apresentaremos os resultados das análises para as redes observadas entre indivíduos e para as redes de indivíduos e organizações obtidas através da transformação \textit{2-mode} para \textit{1-mode} (redes de afiliações). As análises de redes se darão em 3 momentos; o primeiro consiste uma apresentação descritiva da rede com métricas básicas ao nível da rede (densidade, diâmetro, distância média e grau médio) e ao nível do indivíduo (centralidade de grau, centralidade de intermediação, centralidade de proximidade e \textit{constraint}). O segundo consiste de uma modelagem de blocos visando identificar padrões de vértices estruturalmente equivalentes. O terceiro consistirá de uma estimação de ERGM's para explicar os processos sociais que exercem influência na emergência da estrutura. Para os fins deste trabalho, utilizaremos uma variação dos ERGM's conhecida como ``Modelos de Seleção Social'' (\textit{Social Selection Model}). Esses modelos foram propostos por \citeonline{robins2001network} com o objetivo de dar conta da heterogeneidade existente dentro das estruturas sociais usando atributos dos nós como covariáveis exógenas. Desse modo, além das configurações internas da própria rede, analisaremos ainda como variáveis exógenas moldam a emergência da estrutura \cite{wang2016social}.
+
+	Por fim, as hipóteses deste trabalho serão predominantemente testadas utilizando o \textit{Network Autocorrelation Model} (NAM). O NAM foi proposto de duas maneiras; a primeira, como um modelo de autocorrelação a partir \footnote{Segundo \citeonline[p. 22]{leenders2002modeling}, ``Autocorrelation of either a variable (or error term) is the situation where the observations of variables (or error terms) for different actors are not independent over time, through space, or across a network''.}; a segunda como uma variação dos ERGM e chamado de \textit{Autologistic Actor Attribute Model} \cite{kashima2013acquisition,daraganova2013autologistic,daraganova_pattison_2013};
+	A intuição básica desse modelo consiste da estimação de atributos dos atores como variáveis dependentes da estrutura relacional do ator e de outras covariáveis exógenas. Dito de outra forma ao invés de modelar a estrutura, este modelo estima um atributo específico dos atores. Nesse caso, ele difere dos métodos estatísticos convencionais como a regressão linear ou a regressão logística pois leva em conta a dependência das observações de modo que os atributos dos atores são dependentes uns dos outros por meio da relação diádica, isto é, se eles compartilham um laço.
 	
-	As análises serão realizadas em duas partes. No primeira, apresentaremos uma descrição detalhada do campo a partir das entrevistas semiestruturadas realizadas com os dirigentes das orquestras. Na segunda, apresentaremos os resultados das técnicas de análise de redes sociais mencionadas acima.
+	O \textit{Network Autocorrelation Model} pode ser definido por
 	
-	DESCREVER OS MÉTODOS E SUAS ESPECIFICIDADES NO CASO AQUI ABORDADO.
+	\begin{equation}
+	y = \rho W_y + X \beta + \epsilon
+	\end{equation}
 	
-	.............
+	onde \textit{y} representa o atributo estimado, $\rho W_y$ representa a matriz de adjacência da rede em questão (necessariamente uma matriz $m \times m$), $\beta$ representa o vetor de estimadores para as covariáveis da matriz $X$ e $\epsilon$, o erro do modelo.
 
-
-
-
+	
+	................
 
 
 	Voltemos nossa atenção agora às orquestras da cidade de Belo Horizonte. No momento da redação deste trabalho, existem cinco orquestras profissionais\footnote{A Orquestra Sinfônica da Polícia Militar não foi aqui incluída pois foge ao escopo do nosso trabalho.} de tamanhos variados atuando na cidade, a saber, a Orquestra Filarmônica de Minas Gerais\footnote{\url{http://www.filarmonica.art.br}}, a Orquestra Sinfônica de Minas Gerais\footnote{\url{http://www.fcs.mg.gov.br/index.php?option=com_gmg&view=page&id=2631&controller=page&Itemid=1281}}, a Orquestra de Câmara Sesiminas\footnote{\url{http://www7.fiemg.com.br/sesi/centro-de-cultura/belo-horizonte/produtos/detalhe/orquestra-de-camara-sesiminas}}, a Orquestra Ouro Preto\footnote{\url{http://www.orquestraouropreto.com.br}} e a Orquestra Opus\footnote{\url{https://www.facebook.com/OrquestraOpus/}}.
