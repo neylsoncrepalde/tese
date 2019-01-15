@@ -77,6 +77,17 @@ atributos = atributos %>% left_join(orca_org) %>%
 orcamento_fit = atributos$orcamento
 names(orcamento_fit) = atributos$name
 
+# Proximidade com o Estado
+proxEst = tibble(name = c("Orquestra Filarmônica de MG",
+                           "Orquestra Sinfônica de MG",
+                           "Orquestra Ouro Preto",
+                           "Orquestra SESIMINAS",
+                           "OPUS"),
+                  proximidade = c(5,4,3,2,1))
+atributos = atributos %>% left_join(proxEst) %>% 
+  mutate(proximidade = if_else(is.na(proximidade), 0, proximidade))
+proximidade_fit = atributos$proximidade
+names(proximidade_fit) = atributos$name
 
 # Verificando a distribuição
 Y = data.frame(qualidadeperc = atributos$qualidadeperc+.1)
@@ -88,60 +99,54 @@ fitdistrplus::gofstat(vedist1)
 # MELHOR RESULTADO!!! GAMMA
 formulas = list(
   Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
-    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1)
-    #covariate(central_musicos_fit, coefname = "central_musicos") +
-    #covariate(salario, coefname = "salario") +
-    #covariate(orcamento_fit, coefname = "orcamento") +
-    #covariate(complexidade_fit, coefname = "complexidade" +
-    #centrality(norganizacoes, type = "outdegree") +
-    ,
+    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+    centrality(norganizacoes, type = "outdegree")
+  ,
   Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
     netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+    centrality(norganizacoes, type = "outdegree") +
     covariate(central_musicos_fit, coefname = "central_musicos")
   #covariate(salario, coefname = "salario") +
   #covariate(orcamento_fit, coefname = "orcamento") +
   #covariate(complexidade_fit, coefname = "complexidade" +
-  #centrality(norganizacoes, type = "outdegree") +
+  #covariate(proximidade_fit, coefname = "proximidade")
   ,
 Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-  covariate(central_musicos_fit, coefname = "central_musicos") +
+  centrality(norganizacoes, type = "outdegree") +
+  #covariate(central_musicos_fit, coefname = "central_musicos") +
   covariate(salario, coefname = "salario")
   #covariate(orcamento_fit, coefname = "orcamento") +
   #covariate(complexidade_fit, coefname = "complexidade" +
-  #centrality(norganizacoes, type = "outdegree") +
+  #covariate(proximidade_fit, coefname = "proximidade")
   ,
 Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-  covariate(central_musicos_fit, coefname = "central_musicos") +
+  centrality(norganizacoes, type = "outdegree") +
+  #covariate(central_musicos_fit, coefname = "central_musicos") +
   #covariate(salario, coefname = "salario")
   covariate(orcamento_fit, coefname = "orcamento")
   #covariate(complexidade_fit, coefname = "complexidade" +
-  #centrality(norganizacoes, type = "outdegree") +
+  #covariate(proximidade_fit, coefname = "proximidade")
 ,
-Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
-  netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-  covariate(central_musicos_fit, coefname = "central_musicos") +
-  covariate(salario, coefname = "salario") +
-  covariate(orcamento_fit, coefname = "orcamento")
-  #covariate(complexidade_fit, coefname = "complexidade" +
-  #centrality(norganizacoes, type = "outdegree") +
-  ,
+
   Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
     netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-  covariate(central_musicos_fit, coefname = "central_musicos") +
-  covariate(salario, coefname = "salario") +
-  covariate(orcamento_fit, coefname = "orcamento") +
+  centrality(norganizacoes, type = "outdegree") +
+  #covariate(central_musicos_fit, coefname = "central_musicos") +
+  #covariate(salario, coefname = "salario") +
+  #covariate(orcamento_fit, coefname = "orcamento") +
   covariate(complexidade_fit, coefname = "complexidade")
-  #centrality(norganizacoes, type = "outdegree") +
+  #covariate(proximidade_fit, coefname = "proximidade")
   ,
     Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
     netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-    covariate(central_musicos_fit, coefname = "central_musicos") +
-    covariate(salario, coefname = "salario") +
-    covariate(orcamento_fit, coefname = "orcamento") +
-    covariate(complexidade_fit, coefname = "complexidade") +
-    centrality(norganizacoes, type = "outdegree")
+    centrality(norganizacoes, type = "outdegree") +
+    #covariate(central_musicos_fit, coefname = "central_musicos") +
+    # covariate(salario, coefname = "salario") +
+    # covariate(orcamento_fit, coefname = "orcamento") +
+    # covariate(complexidade_fit, coefname = "complexidade") +
+    covariate(proximidade_fit, coefname = "proximidade")
 )
 models = list()
 for (i in 1:length(formulas)) {
@@ -158,24 +163,38 @@ ggplot(NULL, aes(x = 1:length(models))) +
   geom_line(aes(y = sapply(models, AIC)), col = "red") +
   geom_line(aes(y = sapply(models, BIC)), col = "blue") # Plota AIC e BIC
 
-hist(residuals(models[[7]]))  # Análise de resíduos
+hist(residuals(models[[length(models)]]))  # Análise de resíduos
+qqnorm(residuals(models[[length(models)]]))
 
+
+texreg::screenreg(models, single.row = F) # Monta a tabela
 texreg::texreg(models, single.row = F, caption.above = T, center = F) # Monta a tabela
 
+(exp(coef(models[[3]]))-1)*100
+
+# Estatísticas descritivas das variáveis
+stargazer::stargazer(tnamdata(formulas[[length(formulas)]]), nobs = F)
+
+summary(tnam(Y ~ netlag(atributos$qualidadeperc, norganizacoes) +
+               netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+               covariate(orcamento_fit, coefname = "orcamento"),
+             family = Gamma(link = "log")))
+
+
 # Nao deu certo
-alaamdata = tnamdata(Y ~ 
-                   #centrality(norganizacoes, type = "outdegree") +
-                   netlag(atributos$qualidadeperc, norganizacoes) +
-                   netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
-                   covariate(central_musicos_fit, coefname = "central_musicos") +
-                   covariate(salario, coefname = "salario") +
-                   covariate(orcamento_fit, coefname = "orcamento") +
-                   covariate(complexidade_fit, coefname = "complexidade"))
-alaamdata$response = as.factor(alaamdata$response)
-
-alaamordlog = MASS::polr(response ~. -node-time, data = alaamdata, Hess = T)
-summary(alaamordlog)
-
-
-texreg::screenreg(list(alaamgamma, alaamordlog), single.row = T)
-lmtest::lrtest(alaamgamma, alaamordlog) # teste de likelihood
+# alaamdata = tnamdata(Y ~ 
+#                    #centrality(norganizacoes, type = "outdegree") +
+#                    netlag(atributos$qualidadeperc, norganizacoes) +
+#                    netlag(atributos$qualidadeperc, norganizacoes, pathdist = 2, decay=1) +
+#                    covariate(central_musicos_fit, coefname = "central_musicos") +
+#                    covariate(salario, coefname = "salario") +
+#                    covariate(orcamento_fit, coefname = "orcamento") +
+#                    covariate(complexidade_fit, coefname = "complexidade"))
+# alaamdata$response = as.factor(alaamdata$response)
+# 
+# alaamordlog = MASS::polr(response ~. -node-time, data = alaamdata, Hess = T)
+# summary(alaamordlog)
+# 
+# 
+# texreg::screenreg(list(alaamgamma, alaamordlog), single.row = T)
+# lmtest::lrtest(alaamgamma, alaamordlog) # teste de likelihood
