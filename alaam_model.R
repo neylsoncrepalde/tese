@@ -28,7 +28,7 @@ atributos = tibble(name = V(organizacoes)$name,
 # Incentivos financeiros - renda
 salmed = tibble(sender = c("Orquestra Filarmônica de MG", "Orquestra Sinfônica de MG",
                                "Orquestra Ouro Preto", "Orquestra SESIMINAS", "OPUS"),
-               salario = c(7000, mean(c(3000,2300)), 2000, 1500, 500))
+               salario = c(7, mean(c(3,2.3)), 3, 1.5, 0.5))
 
 renda = tibble(sender=V(organizacoes)$name) %>% left_join(salmed)
 salario = renda$salario
