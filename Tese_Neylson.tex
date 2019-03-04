@@ -25,6 +25,8 @@
 %\algrenewcommand\algorithmicfunction{\textbf{Função}}
 %\algrenewcommand\algorithmicend{\textbf{termina}}
 \usepackage{listings} %para escrever códigos
+\usepackage{booktabs}
+\usepackage{enumitem}
 \pagestyle{plain}
 
 \titulo{\textbf{A Construção Social da Qualidade num Mercado de Música de Concerto}}
@@ -1565,7 +1567,12 @@
 	
 	Partimos do pressuposto central de que o padrão de qualidade, o centro gravitacional do mercado das orquestras, emerge de sua própria estrutura. No nível individual, argumentamos que os conceitos de ``boa orquestra'', ``boa performance'', ``boa técnica instrumental'', emergem de baixo para cima e são fortemente influenciados pelos atores de maior prestígio na rede. Além disso, parece haver uma disputa pela ``correta'' definição da qualidade. Traçamos, portanto, as seguintes hipótese:
 	
-	
+
+        \begin{hip}\label{hip:redecomplexa}
+		%The more complex an orchestra's business network, the better it will be positioned in quality ranking.
+		Quanto mais complexa a rede de negócios de uma orquestra, melhor será sua qualidade percebida.
+	\end{hip}
+        
 	\begin{hip}\label{hip:musprest}
 		Quanto maior for a concentração de músicos prestigiosos numa orquestra, melhor será sua qualidade percebida.
 	\end{hip}
@@ -1587,11 +1594,7 @@
 		%The more complex the organizational structure of an orchestra or of its maintainer, the better it will be positioned in quality ranking.
 		Quanto mais complexa for a estrutura organizacional de uma orquestra ou de sua mantenedora, melhor será sua qualidade percebida.
 	\end{hip}
-	
-	\begin{hip}\label{hip:redecomplexa}
-		%The more complex an orchestra's business network, the better it will be positioned in quality ranking.
-		Quanto mais complexa a rede de negócios de uma orquestra, melhor será sua qualidade percebida.
-	\end{hip}
+
 	
 	
 	%Por fim, num nível macro, o nível do próprio mercado e sua relação com o Estado, argumentamos que
@@ -2607,25 +2610,26 @@
 		\caption{ERGM - rede multiplexo de prestígio}
 		\label{ergm:prestigio-coefs}
 	}
-			{\begin{tabular}{p{8.5cm} c }
+			{\begin{tabular}{p{6cm} c c }
 				\hline
-				& ERGM results \\
+				 &  & ERGM results \\
 				\hline
-				Edges           		& $-6.11 \; (0.33)^{***}$ \\
-				Geometrically weighted edgewise shared partner distribution           		& $2.23 \; (0.23)^{***}$  \\
-				Geometrically weighted edgewise shared partner distribution: decay     		& $-0.02 \; (0.44)$       \\
-				Geometrically weighted in-degree distribution       		& $3.33 \; (0.40)^{***}$  \\
-				Geometrically weighted in-degree distribution: decay 		& $-0.20 \; (0.09)^{*}$   \\
-				2-Paths          		& $-0.88 \; (0.11)^{***}$ \\
-				Homophily (Sexo)  		& $0.47 \; (0.22)^{*}$    \\
-				Attribute (Prestígio da Orquestra)  & $0.20 \; (0.02)^{***}$  \\
-				Covariate Network (Amizade)    & $3.09 \; (0.26)^{***}$  \\
+                           Edges           &	 \raisebox{-.5\height}{\includegraphics[scale=.5]{arc.png}}
+                                               & $-6.11 \; (0.33)^{***}$ \\
+                           Geometrically weighted edgewise shared partner distribution           & \raisebox{-.5\height}{\includegraphics[scale=.5]{gwesp.png}}    & $2.23 \; (0.23)^{***}$  \\
+				Geometrically weighted edgewise shared partner distribution: decay     &		& $-0.02 \; (0.44)$       \\
+				Geometrically weighted in-degree distribution     & \raisebox{-.5\height}{\includegraphics[scale=.5]{gwidegree.png}}   & $3.33 \; (0.40)^{***}$  \\
+				Geometrically weighted in-degree distribution: decay & 	& $-0.20 \; (0.09)^{*}$   \\
+				2-Paths    & \raisebox{-.5\height}{\includegraphics[scale=.5]{2paths.png}}      	& $-0.88 \; (0.11)^{***}$ \\
+				Homophily (Sexo)  & \raisebox{-.5\height}{\includegraphics[scale=.5]{homophily.png}}	& $0.47 \; (0.22)^{*}$    \\
+				Attribute (Prestígio da Orquestra) & \raisebox{-.5\height}{\includegraphics[scale=.5]{attribute_sum.png}} & $0.20 \; (0.02)^{***}$  \\
+				Covariate Network (Amizade) & \raisebox{-.5\height}{\includegraphics[scale=.5]{covariate.png}}   & $3.09 \; (0.26)^{***}$  \\
 				\hline
-				AIC             & 1663.29                 \\
-				BIC             & 1726.19                 \\
-				Log Likelihood  & -823.65                 \\
+				AIC      &       & 1663.29                 \\
+				BIC        &     & 1726.19                 \\
+				Log Likelihood & & -823.65                 \\
 				\hline
-				\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+				\multicolumn{3}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
 			\end{tabular}
 		}
 		{\fonte{Elaboração do autor usando \textbf{statnet} \cite{ergm,hunter2008ergm}}}
@@ -2760,18 +2764,18 @@
 		\caption{ERGM - rede entre organizações}
 		\label{ergm:organizacoes}	
 	}
-			{\begin{tabular}{l c }
+			{\begin{tabular}{l c c }
 				\hline
-				& ERGM - results \\
+				 &  & ERGM - results \\
 				\hline
-				Edges          & $-1.51 \; (0.67)^{*}$ \\
-				K-star (2)         & $0.16 \; (0.08)^{*}$  \\
+				Edges & \raisebox{-.5\height}{\includegraphics[scale=.5]{edges.png}}         & $-1.51 \; (0.67)^{*}$ \\
+				K-star (2)  & \raisebox{-.5\height}{\includegraphics[scale=.5]{2star.png}}       & $0.16 \; (0.08)^{*}$  \\
 				\hline
-				AIC            & 77.75                 \\
-				BIC            & 81.77                 \\
-				Log Likelihood & -36.88                \\
+				AIC      &      & 77.75                 \\
+				BIC        &    & 81.77                 \\
+				Log Likelihood  &  & -36.88                \\
 				\hline
-				\multicolumn{2}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
+				\multicolumn{3}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
 			\end{tabular}
 	}
 	{\fonte{Elaboração do autor usando \textbf{statnet}, \cite{ergm,hunter2008ergm}}}
@@ -2919,9 +2923,9 @@
 
 	\section{Perspectivas para o futuro}
 	
-	Como o leitor pode perceber, infelizmente nem todas as variáveis pretendidas e coletadas foram utilizadas nos modelos e testadas. Isso se deu por conta do baixo volume de respostas que obtivemos. Além disso, para investigar a construção da qualidade, utilizamos o \textit{Network Autocorrelation Model} o qual é um modelo bastante robusto e adequado para os testes de hipótese propostos. Entretanto, os \textit{Autologistic Actor Attribute Models} que trabalham a partir das técnicas de estimação oriundas dos ERGM's parecem ser mais robustos para a estimação de atributos de atores e permitem outros tipos de controles. 
+	Como o leitor pode perceber, nem todas as variáveis pretendidas e coletadas foram utilizadas nos modelos e testadas. Isso se deu por conta do baixo volume de respostas que obtivemos. Além disso, para investigar a construção da qualidade, utilizamos o \textit{Network Autocorrelation Model} o qual é um modelo bastante robusto e adequado para os testes de hipótese propostos. Entretanto, os \textit{Autologistic Actor Attribute Models} que trabalham a partir das técnicas de estimação oriundas dos ERGM's parecem ser mais robustos para a estimação de atributos de atores e permitem outros tipos de controles. 
 	
-	Além disso, utilizamos os ERGM's para estimação das estruturas entre indivíduos e entre organizações separadamente. Entretanto, o MELNET, laboratório de pesquisa especializado em análise de redes da Universidade de Melbourne na Austrália já desenvolveu um software (MPNET) capaz de realizar a estimação de redes multinível levando em conta o nível 1, o nível 2 e as afiliações de maneira conjunta. Isso implica em novas configurações a serem testadas no modelo e, por consequência, novos tipos de processos sociais multinível a serem explicados. Seria formidável se tivéssemos tempo hábil para abordar esses novos métodos que muito nos interessam o que, infelizmente, não é possível. Pretendemos abordá-los em trabalhos futuros junto com a revisão da teoria de White apontada supra.
+	Além disso, utilizamos os ERGM's para estimação das estruturas entre indivíduos e entre organizações separadamente. Entretanto, o MELNET, laboratório de pesquisa especializado em análise de redes da Universidade de Melbourne na Austrália já desenvolveu um software (MPNET) capaz de realizar a estimação de redes multinível levando em conta o nível 1, o nível 2 e as afiliações de maneira conjunta. Isso implica em novas configurações a serem testadas no modelo e, por consequência, novos tipos de processos sociais multinível a serem explicados. Seria formidável se tivéssemos tempo hábil para abordar esses novos métodos que muito nos interessam o que, infelizmente, não é possível. Pretendemos abordá-los em trabalhos futuros junto com a revisão da teoria de White apontada acima.
 
 
 
