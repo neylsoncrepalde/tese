@@ -8,6 +8,8 @@ library(dplyr)
 library(ggplot2)
 library(descr)
 library(xtable)
+library(FactoMineR)
+library(factoextra)
 
 ##########################################
 # Corrige problema na escala para 2015
@@ -19,7 +21,7 @@ library(xtable)
 #write_excel_csv(filarmonica, "concertos_filarmonica_ocupacao1516.csv")
 #########################################
 
-filarmonica = read_csv("concertos_filarmonica_ocupacao1516.csv")
+filarmonica = read_csv(paste0(getwd(), "/site_filarmonica/concertos_filarmonica_ocupacao1516.csv"))
 fil1516 = filarmonica %>% filter(ano == 2015 | ano == 2016)
 
 # Número de concertos realizados nos dois anos
@@ -35,6 +37,7 @@ fil1516 %>% select(ano, mes, dia_sep, periodo) %>% unique %>%
   labs(x="Período", y="")
 
 # Períodos dos compositores por serie
+pdf("periodo_perserie_year.pdf", height = 5, width = 7)
 fil1516 %>% select(ano, mes, dia_sep, serie, periodo) %>% 
   filter(serie != "Concertos de Cãmara", serie != "Concertos Didáticos", 
          serie != "Especial", serie != "Festival Tinta Fresca", 
@@ -45,6 +48,7 @@ fil1516 %>% select(ano, mes, dia_sep, serie, periodo) %>%
   unique %>% 
   ggplot(aes(periodo))+geom_bar()+coord_flip()+facet_grid(ano~serie)+
   labs(x="Período", y="")
+dev.off()
 
 
 # Compositores mais tocados por ano
@@ -81,19 +85,26 @@ fil1516 %>% group_by(dia_semana) %>%
             max = max(tx_ocup, na.rm = T))
 
 # Verificando a taxa de ocupação por dia da semana para 2016
-fil1516 %>% group_by(dia_semana) %>% 
+fil1516 %>% filter(ano == 2016) %>% 
+  group_by(dia_semana) %>% 
   summarise(mean = mean(tx_ocup, na.rm = T), 
             median = median(tx_ocup, na.rm = T), 
             sd = sd(tx_ocup, na.rm = T),
             min = min(tx_ocup, na.rm = T), 
             max = max(tx_ocup, na.rm = T)) %>% xtable %>% 
-  print.xtable(., include.rownames = F)
+  print.xtable(include.rownames = F)
 
 # Verificando a taxa de ocupação por serie para 2016
-fil1516 %>% group_by(serie) %>% 
+fil1516 %>% filter(ano == 2016) %>% 
+  group_by(serie) %>% 
   summarise(mean = mean(tx_ocup, na.rm = T), 
             median = median(tx_ocup, na.rm = T), 
             sd = sd(tx_ocup, na.rm = T),
             min = min(tx_ocup, na.rm = T), 
             max = max(tx_ocup, na.rm = T)) %>% xtable %>% 
-  print.xtable(., include.rownames = F)
+  print.xtable(include.rownames = F)
+
+##
+# Análise de correspondência entre
+# tx de ocupação, dia da semana e serie
+# Verificar como inserir tx de ocupação na estimação
