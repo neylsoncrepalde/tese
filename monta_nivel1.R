@@ -305,7 +305,7 @@ plot(gcompletao,
      edge.arrow.size = .2, layout = mlayout
      )
 title("Rede Multinível")
-legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blue'), pt.cex = 1.5)
+legend("topleft", c("Músicos", "Organizações"), pch = c(19, 15), col = c('red', 'blue'), pt.cex = 1.5)
 
 # 3d Viz ####
 # Basear nisso para construir visualização 3d
@@ -323,7 +323,7 @@ legend("topleft", c("Músicos", "Organizações"), pch = 19, col = c('red', 'blu
 #      edge.arrow.size = .2, layout = mlayout
 # )
 # title("Rede Multinível")
-# legend("topleft", c("Organizações", "Músicos"), pch = 19, col = c('blue','red'), pt.cex = 1.5)
+# legend("topleft", c("Organizações", "Músicos"), pch = c(15,19), col = c('blue','red'), pt.cex = 1.5)
 # dev.off()
 
 which(V(gcompletao)$name == "Rodrigo Monteiro")
