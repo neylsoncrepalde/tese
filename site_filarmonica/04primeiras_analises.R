@@ -75,6 +75,20 @@ texreg::texreg(list(fit_consumo_dia, fit_consumo_serie),
                caption.above = T, center = F)
 
 
+## Figura com médias de taxa de ocupação por categorias diversas
+regdata %>% select(tx_ocup, dia_semana, serie) %>% tidyr::gather(key, value, -tx_ocup) %>% 
+  filter(!is.na(value)) %>% 
+  ggplot(aes(#x = value,
+    x = fct_rev(fct_relevel(value, c("domingo", "sábado", "sexta", "quinta",
+                                      "Concertos para a Juventude", "Fora de Série",
+                                      "Presto/Veloce"))),
+             y = tx_ocup)) +
+  geom_boxplot() +
+  geom_vline(xintercept = 4.5, linetype = "dashed") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
+  labs(x="", y="Taxa de Ocupação")
+ggsave("~/tese/taxa_ocup_dia_serie.png", height=4, width=6, dpi = 100)
+
 
 # Verificando a taxa de ocupação por dia da semana
 fil1516 %>% group_by(dia_semana) %>% 
