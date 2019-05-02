@@ -2841,7 +2841,7 @@
 	{\fonte{Elaboração do autor.}}
 	\end{table} 
 
-	A variável \textit{Qualidade} foi construída a partir das respostas dos músicos ao questionário sociométrico online onde a orquestra identificada como a de melhor qualidade recebia 5 e a de menor qualidade recebia 1. Quando uma orquestra não era citada pelo respondente recebia o valor 0 (ausência de classificação). As demais organizações da rede receberam também 0. A essa variável foi somado 0,1 para tornar possível a estimação do modelo generalizado com distribuição \textit{gamma}. Como não possuímos dados das covariáveis para todas as organizações presentes na estrutura, apenas as orquestras, elaboraremos seis modelos; o primeiro com apenas as variáveis da estrutura relacional, ou seja, a rede e a centralidade de grau, e um modelo para cada covariável controlando pelas variáveis estruturais. Colocar as covariáveis juntas no modelo cria, desse modo, um viés.
+	A variável \textit{Qualidade} foi construída a partir das respostas dos músicos ao questionário sociométrico online onde a orquestra identificada como a de melhor qualidade recebia 5 e a de menor qualidade recebia 1. Quando uma orquestra não era citada pelo respondente recebia o valor 0 (ausência de classificação). As demais organizações da rede receberam também 0. A essa variável foi somado 0,1 para tornar possível a estimação do modelo generalizado com distribuição \textit{gamma} e \textit{link log}. Como não possuímos dados das covariáveis para todas as organizações presentes na estrutura, apenas as orquestras, elaboraremos seis modelos; o primeiro com apenas as variáveis da estrutura relacional, ou seja, a rede e a centralidade de grau, e um modelo para cada covariável controlando pelas variáveis estruturais. Colocar as covariáveis juntas no modelo cria, desse modo, um viés.
 	Os resultados dos modelos estimados estão apresentados na Tabela \ref{res:NAM} abaixo.
 	
 	
@@ -2877,7 +2877,8 @@
 			AIC                        & -329.87       & -370.08       & -440.87       & -336.66       & -332.87       & -636.36       \\
 			BIC                        & -318.63       & -356.59       & -427.38       & -323.17       & -319.38       & -622.86       \\
 			Log Likelihood             & 169.94        & 191.04        & 226.44        & 174.33        & 172.44        & 324.18        \\
-			Deviance                   & 1.98          & 1.09          & 0.40          & 1.75          & 1.85          & 0.02          \\
+                   Deviance                   & 1.98          & 1.09          & 0.40          & 1.75          & 1.85          & 0.02          \\
+                   Effron's Pseudo $R^2$ & 0.714 & 0.837 & 0.918 & 0.806 & 0.774 & 0.996 \\
 			Num. obs.                  & 70            & 70            & 70            & 70            & 70            & 70            \\
 			\hline
 			\multicolumn{7}{l}{\scriptsize{$^{***}p<0.001$, $^{**}p<0.01$, $^*p<0.05$}}
@@ -2893,7 +2894,9 @@
 	
 	Do terceiro e quarto modelos observaremos os resultados para as covariáveis exógenas salário e orçamento. Ambas as variáveis obtiveram resultados positivos e estatisticamente significativos. Esses resultados nos ajudam a testar \textit{H\ref{hip:incentivos}} e \textit{H\ref{hip:orcamento}}; ambas confirmadas. É curioso notar que a variável salário médio pago possui, dentre as variáveis investigadas, o maior efeito. 
 			
-	Por fim, do quarto e quinto modelos analisaremos os resultados para a complexidade organizacional da orquestra e para sua proximidade com o Estado. Ambas as variáveis obtiveram resultados positivos e significantes. A partir deles podemos corroborar \textit{H\ref{hip:estruturacomplexa}} e \textit{H\ref{hip:proxestado}}.
+	Do quarto e quinto modelos analisaremos os resultados para a complexidade organizacional da orquestra e para sua proximidade com o Estado. Ambas as variáveis obtiveram resultados positivos e significantes. A partir deles podemos corroborar \textit{H\ref{hip:estruturacomplexa}} e \textit{H\ref{hip:proxestado}}.
+
+        Por fim, apresentamos o pseudo $R^2$ de Effron para cada modelo estimado. Esta métrica funciona de modo análogo ao $R^2$ da regressão linear indicando o percentual da variância explicada pelo modelo. É curioso notar que o modelo que possui o melhor ajuste aos dados é aquele que leva em conta a proximidade com o estado e, em segundo lugar, o modelo que leva em conta o salário pago.
 
 
 	
@@ -2922,7 +2925,7 @@
 	
 	Todas as hipóteses que traçamos a respeito da qualidade percebida de uma orquestra foram corroboradas Foi possível verificar que a percepção da qualidade da orquestra pelos músicos é fortemente afetada pela complexidade da estrutura relacional das organizações, pelo prestígio dos músicos que a compõem, pelo seu orçamento, pelo salário ou cachê pago aos músicos, pela complexidade organizacional e pela proximidade com o Estado.
 
-        Muito embora o maior efeito identificado seja justamente relacionado ao salário dos músicos (como era de se esperar), encontramos um efeito forte para a variável construída ``Proximidade com o Estado'' mensurada a partir do número de contratos de parceria firmados e volume de investimento direto do Estado na orquestra. No caso brasileiro, isso faz muito sentido tendo em vista que o Estado é o principal mantenedor/fomentador de ações culturais no país. As artes em geral possuem um grau altíssimo de depência do Estado, seja por investimento direto, seja por investimento indireto através do montante investido pelas empresas mediante isenção fiscal.
+        Muito embora o maior efeito identificado seja justamente relacionado ao salário dos músicos (como era de se esperar), o modelo que obteve o melhor ajuste aos dados é o que leva em conta a variável ``Proximidade com o Estado'' mensurada a partir do número de contratos de parceria firmados e volume de investimento direto do Estado na orquestra. No caso brasileiro, isso faz muito sentido tendo em vista que o Estado é o principal mantenedor/fomentador de ações culturais no país. As artes em geral possuem um grau altíssimo de depência do Estado, seja por investimento direto, seja por investimento indireto através do montante investido pelas empresas mediante isenção fiscal.
 
         É curioso notar que, no caso de Belo Horizonte, o Estado possui uma atuação muito forte não só como financiador mas como regulador da atuação orquestral. As duas orquestras com a maior qualidade percebida são justamente aquelas que possuem contratos de parceria onde o Estado estabele metas e indicadores de mensuração. No caso da Filarmônica, a orquestra com a maior qualidade percebida, o rigor do Estado é maior quanto ao controle (cf. Tabela \ref{goals}). Embora os indicadores escolhidos para monitoramento nessa orquestra pareçam ter a finalidade de controlar essencialmente a quantidade do serviço oferecido à população mineira e brasileira de um modo geral, vários desses indicadores tem impacto direto em aspectos qualitativos do grupo como, por exemplo, a quantidade de solistas e regentes convidados, a realização do Festival Tinta Fresca (com estreias de obras inéditas) e a realização de turnês estaduais e nacionais.
 
