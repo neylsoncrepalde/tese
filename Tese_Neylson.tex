@@ -48,23 +48,23 @@
 	\imprimircapa
 	\imprimirfolhaderosto
 
-	%	\begin{dedicatoria}
-	%		\vspace*{\fill}
-	%		Dedico este trabalho a \ldots
-	%		\vspace*{\fill}
-	%	\end{dedicatoria}
+		\begin{dedicatoria}
+			\vspace*{\fill}
+			A Sarah e João Pedro
+			\vspace*{\fill}
+		\end{dedicatoria}
 
 	\begin{agradecimentos}
 		Gostaria de agradecer \ldots
 	\end{agradecimentos}
 
-	%\begin{epigrafe}
-	%	\vspace*{\fill}
-	%	\begin{flushright}
-	%		\textit{Não é da benevolência do violinista, do maestro e do diretor artístico que esperamos a nossa \textbf{música}, mas da consideração que ele tem pelos prórprios interesses.\\
-	%			(parafraseando Adam Smith)}
-	%	\end{flushright}
-	%\end{epigrafe}
+	\begin{epigrafe}
+		\vspace*{\fill}
+		\begin{flushright}
+			\textit{A verdadeira felicidade custa pouco; sendo cara, é porque a sua qualidade não presta.\\
+				François Chateaubriand}
+		\end{flushright}
+	\end{epigrafe}
 
 	% --- resumo em português ---
 	\begin{resumo}
@@ -2154,10 +2154,61 @@
           \includegraphics[scale=0.6]{taxa_ocup_dia_serie}
         \end{figure}
 
-        Para testar essa hipótese, estimamos dois modelos de regressão linear tendo a taxa de ocupação como variável dependente. O primeiro modelo utilizava os dias da semana como preditores. O segundo utilizava as séries de concerto como preditores. Comparando as medidas de ajuste do modelo ($R^2$ ajustado e RMSE), foi possível identificar que as séries de concerto possuem maior poder explicativo sobre o consumo ($R^2$ ajustado calculado para o modelo com as séries foi o dobro - 0.5 - que a mesma estatística de ajuste calculada para o modelo com os dias da semana - 0.25. O RMSE daquele modelo também foi menor indicando melhor ajuste). Os resultados dos dois modelos estão apresentados na  Tabela \ref{concert-consumption-models}. Os modelos foram estimados usando dados de 2016\footnote{Infelizmente, o número de assentos disponíveis foi reportado apenas no relatório de 2016, não em 2015.}.
+        Para testar essa hipótese, estimamos testes de média para todos os pares de dias da semana (cf. Tabela \ref{tab:tdia}) e séries de concerto (cf. Tabela \ref{tab:tserie}). É possível notar que os pares de séries de concerto apresentam mais diferenças de média estatisticamente significativas do que pares de dias da semana, o que indica que a ocupação está mais relacionada à escolha do repertório e desenho da série do que ao dia da semana.
 
 
-	
+        %estimamos dois modelos de regressão linear tendo a taxa de ocupação como variável dependente. O primeiro modelo utilizava os dias da semana como preditores. O segundo utilizava as séries de concerto como preditores. Comparando as medidas de ajuste do modelo ($R^2$ ajustado e RMSE), foi possível identificar que as séries de concerto possuem maior poder explicativo sobre o consumo ($R^2$ ajustado calculado para o modelo com as séries foi o dobro - 0.5 - que a mesma estatística de ajuste calculada para o modelo com os dias da semana - 0.25. O RMSE daquele modelo também foi menor indicando melhor ajuste). Os resultados dos dois modelos estão apresentados na  Tabela \ref{concert-consumption-models}. Os modelos foram estimados usando dados de 2016\footnote{Infelizmente, o número de assentos disponíveis foi reportado apenas no relatório de 2016, não em 2015.}.
+
+
+
+
+        % Pairwise t testes
+        % latex table generated in R 3.5.3 by xtable 1.8-3 package
+        % Wed May  1 22:57:38 2019
+        \begin{table}[ht]
+          \ibgetab{
+          \centering
+          \caption{Testes de média pareados - dias da semana (p-values)}
+          \label{tab:tdia}
+          }
+          {\begin{tabular}{r|rrr}
+            \hline
+            & Domingo & Quinta & Sábado \\ 
+            \hline
+            Quinta & 0.05 &  &  \\ 
+            Sábado & 0.55 & 0.05 &  \\ 
+            Sexta & 0.00 & 0.16 & 0.00 \\ 
+            \hline
+           \end{tabular}
+         }
+         {\fonte{Elaboração do autor.}}
+        \end{table}
+
+
+
+        % latex table generated in R 3.5.3 by xtable 1.8-3 package
+        % Wed May  1 22:57:38 2019
+        \begin{table}[ht]
+          \ibgetab{
+          \centering
+          \caption{Testes de média pareados - séries de concertos (p-values)}
+          \label{tab:tserie}
+          }
+          {\begin{tabular}{r|p{2.5cm}p{2.5cm}p{2.5cm}}
+             \hline
+             & Allegro/Vivace & Concertos para a Juventude & Fora de Série \\ 
+             \hline
+             Concertos para a Juventude & 0.09 &  &  \\ 
+             Fora de Série & 0.07 & 0.89 &  \\ 
+             Presto/Veloce & 0.00 & 0.00 & 0.00 \\ 
+             \hline
+           \end{tabular}
+         }
+         {\fonte{Elaboração do autor.}}
+        \end{table}
+
+        
+\begin{comment}	
 	\begin{table}[!h]
 		\ibgetab{
 			\centering
@@ -2195,7 +2246,7 @@
 		}
 		{\fonte{Elaborado pelo autor.}}
 	\end{table}
-	
+\end{comment}	
 	
 	% Talk about occupancy rate by series. Run the analysis in R.
 	%On Table \ref{occupancy-table} we can observe that weekend concerts have higher occupancy rate than on weekdays. ....................
