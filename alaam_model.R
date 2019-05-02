@@ -2,9 +2,10 @@
 # ALAAM Model
 
 library(tnam)
+library(intergraph)
+library(BaylorEdPsych)
 
 plot(organizacoes, vertex.label=NA, vertex.size = 5, edge.arrow.size=.3)
-plot.network(norganizacoes)
 
 # Preparar vetores: ####
 # Qualidade percebida
@@ -14,6 +15,8 @@ plot.network(norganizacoes)
 # Orçamento anual
 
 norganizacoes = asNetwork(organizacoes)
+plot.network(norganizacoes)
+
 atributos = tibble(name = V(organizacoes)$name,
                    qualidadeperc = case_when(
                      name == "Orquestra Filarmônica de MG" ~ 5,
@@ -168,6 +171,7 @@ qqnorm(residuals(models[[length(models)]]))
 
 
 texreg::screenreg(models, single.row = F) # Monta a tabela
+sapply(models, PseudoR2)
 texreg::texreg(models, single.row = F, caption.above = T, center = F) # Monta a tabela
 
 (exp(coef(models[[3]]))-1)*100
