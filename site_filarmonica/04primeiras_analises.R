@@ -10,6 +10,7 @@ library(descr)
 library(xtable)
 library(FactoMineR)
 library(factoextra)
+library(forcats)
 
 ##########################################
 # Corrige problema na escala para 2015
@@ -73,6 +74,11 @@ fit_consumo_serie = lm(tx_ocup ~ serie,
 texreg::texreg(list(fit_consumo_dia, fit_consumo_serie),
                caption = "Concert consumption - Linear models", 
                caption.above = T, center = F)
+
+## Conselho do Silvio - fazer pairwise t testes
+pairwise.t.test(regdata$tx_ocup, regdata$dia_semana)$p.value %>% xtable
+
+pairwise.t.test(regdata$tx_ocup, regdata$serie)$p.value %>% xtable
 
 
 ## Figura com médias de taxa de ocupação por categorias diversas
