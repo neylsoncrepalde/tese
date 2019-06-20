@@ -1,5 +1,30 @@
-\select@language {brazil}
-\contentsline {figure}{\numberline {1}{\ignorespaces Chaves de busca usadas}}{7}{figure.1.1}
-\contentsline {figure}{\numberline {2}{\ignorespaces Custos de Produ\IeC {\c c}\IeC {\~a}o}}{13}{figure.2.2}
-\contentsline {figure}{\numberline {3}{\ignorespaces Um perfil Retorno X Volume}}{23}{figure.3.3}
-\contentsline {figure}{\numberline {4}{\ignorespaces Modelo de An\IeC {\'a}lise}}{36}{figure.4.4}
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Exemplo de grafo n\IeC {\~a}o direcionado}}{16}{figure.1.1}
+\contentsline {figure}{\numberline {2}{\ignorespaces Exemplo de grafo direcionado e valorado}}{17}{figure.1.2}
+\contentsline {figure}{\numberline {3}{\ignorespaces Matriz de adjac\IeC {\^e}ncia observada e reorganizada ap\IeC {\'o}s blockmodel}}{22}{figure.1.3}
+\contentsline {figure}{\numberline {4}{\ignorespaces Tipos de isomorfismos de tr\IeC {\'\i }ades com a nomemclatura \textit {MAN}}}{24}{figure.1.4}
+\contentsline {figure}{\numberline {5}{\ignorespaces Chaves de busca usadas}}{26}{figure.2.5}
+\contentsline {figure}{\numberline {6}{\ignorespaces Densidade de publica\IeC {\c c}\IeC {\~o}es por ano}}{28}{figure.2.6}
+\contentsline {figure}{\numberline {7}{\ignorespaces Custos de Produ\IeC {\c c}\IeC {\~a}o}}{34}{figure.3.7}
+\contentsline {figure}{\numberline {8}{\ignorespaces Um perfil Retorno X Volume}}{44}{figure.4.8}
+\contentsline {figure}{\numberline {9}{\ignorespaces Market plane, designando quatro regi\IeC {\~o}es, tr\IeC {\^e}s locais}}{47}{figure.4.9}
+\contentsline {figure}{\numberline {10}{\ignorespaces Nuvem de palavras - palavras mais faladas sobre a qualidade}}{68}{figure.6.10}
+\contentsline {figure}{\numberline {11}{\ignorespaces \textit {Cluster Analysis} - palavras mais faladas sobre a qualidade}}{69}{figure.6.11}
+\contentsline {figure}{\numberline {12}{\ignorespaces Repert\IeC {\'o}rio da orquestra}}{78}{figure.7.12}
+\contentsline {figure}{\numberline {13}{\ignorespaces Repert\IeC {\'o}rio por s\IeC {\'e}rie}}{79}{figure.7.13}
+\contentsline {figure}{\numberline {14}{\ignorespaces Taxa de ocupa\IeC {\c c}\IeC {\~a}o por s\IeC {\'e}rie e dia da semana}}{79}{figure.7.14}
+\contentsline {figure}{\numberline {15}{\ignorespaces Rede Egocentrada da Orquestra Filarm\IeC {\^o}nica}}{82}{figure.7.15}
+\contentsline {figure}{\numberline {16}{\ignorespaces Rede Egocentrada da Orquestra Sinf\IeC {\^o}nica}}{87}{figure.7.16}
+\contentsline {figure}{\numberline {17}{\ignorespaces Rede Egocentrada da Orquestra OPUS}}{92}{figure.7.17}
+\contentsline {figure}{\numberline {18}{\ignorespaces Rede Egocentrada da Orquestra Ouro Preto}}{95}{figure.7.18}
+\contentsline {figure}{\numberline {19}{\ignorespaces Redes entre m\IeC {\'u}sicos}}{99}{figure.8.19}
+\contentsline {figure}{\numberline {20}{\ignorespaces Rede multiplexo de prest\IeC {\'\i }gio entre m\IeC {\'u}sicos}}{100}{figure.8.20}
+\contentsline {figure}{\numberline {21}{\ignorespaces Rede Multin\IeC {\'\i }vel}}{101}{figure.8.21}
+\contentsline {figure}{\numberline {22}{\ignorespaces Gr\IeC {\'a}ficos de ajuste do modelo ERGM para a rede multiplexo de prest\IeC {\'\i }gio}}{104}{figure.8.22}
+\contentsline {figure}{\numberline {23}{\ignorespaces Rede interm\IeC {\'u}sicos por coparticipa\IeC {\c c}\IeC {\~a}o em organiza\IeC {\c c}\IeC {\~o}es (transforma\IeC {\c c}\IeC {\~a}o 2-mode para 1-mode) -- componente principal}}{105}{figure.8.23}
+\contentsline {figure}{\numberline {24}{\ignorespaces Rede observada entre organiza\IeC {\c c}\IeC {\~o}es -- componente principal}}{106}{figure.8.24}
+\contentsline {figure}{\numberline {25}{\ignorespaces Rede interorganizacional a partir da cofilia\IeC {\c c}\IeC {\~a}o de m\IeC {\'u}sicos (transforma\IeC {\c c}\IeC {\~a}o 2-mode para 1-mode) -- componente principal}}{107}{figure.8.25}
+\contentsline {figure}{\numberline {26}{\ignorespaces Blockmodel para rede de organiza\IeC {\c c}\IeC {\~o}es a partir das afilia\IeC {\c c}\IeC {\~o}es}}{107}{figure.8.26}
+\contentsline {figure}{\numberline {27}{\ignorespaces Blockmodel para rede de organiza\IeC {\c c}\IeC {\~o}es observada}}{108}{figure.8.27}
+\contentsline {figure}{\numberline {28}{\ignorespaces Rede interorganizacional a partir da cofilia\IeC {\c c}\IeC {\~a}o de m\IeC {\'u}sicos (transforma\IeC {\c c}\IeC {\~a}o 2-mode para 1-mode) com blocos de n\IeC {\'o}s estruturalmente equivalentes}}{108}{figure.8.28}
+\contentsline {figure}{\numberline {29}{\ignorespaces Rede observada entre organiza\IeC {\c c}\IeC {\~o}es com blocos de n\IeC {\'o}s estruturalmente equivalentes}}{109}{figure.8.29}

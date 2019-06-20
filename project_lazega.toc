@@ -1,0 +1,58 @@
+\changetocdepth {4}
+\babel@toc {english}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{List of Figures}{2}{section*.2}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{List of Tables}{2}{section*.3}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Contents}{3}{section*.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introduction}}{5}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Biliographic Investigation}}{6}{chapter.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Cultural goods and music market}}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}The economy of singularities}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}Baumol and Bowen's model -- The Cost Disease}{8}{section.3.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {The Social Construction of Markets}}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}Stabilizing the knightian uncertainty}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}The mechanism behind production}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}Whites production model}{12}{section.4.3}
+\contentsline {section}{\numberline {4.4}The topology of markets -- elasticities parameters}{14}{section.4.4}
+\contentsline {section}{\numberline {4.5}Measurements}{16}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}How the $W(y)$ model has been measured}{16}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Our measurement proposal}{20}{subsection.4.5.2}
+\contentsline {section}{\numberline {4.6}Fligstein's model}{21}{section.4.6}
+\contentsline {section}{\numberline {4.7}The search for market's stability}{23}{section.4.7}
+\contentsline {section}{\numberline {4.8}The emergence of quality}{25}{section.4.8}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {The multilevel relational approach}}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}Blockmodeling}{27}{section.5.1}
+\contentsline {section}{\numberline {5.2}ERGM}{28}{section.5.2}
+\contentsline {section}{\numberline {5.3}2-mode transformations}{28}{section.5.3}
+\contentsline {section}{\numberline {5.4}Relational data}{29}{section.5.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Analysis}}{31}{chapter.6}
+\contentsline {section}{\numberline {6.1}Theoretical synthesis}{31}{section.6.1}
+\contentsline {section}{\numberline {6.2}Hypotheses}{32}{section.6.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {The Field}}{34}{chapter.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Preliminary Data}}{36}{chapter.8}
+\contentsline {section}{\numberline {8.1}Evaluation of the orchestra goals}{36}{section.8.1}
+\contentsline {section}{\numberline {8.2}Main concerts}{38}{section.8.2}
+\contentsline {section}{\numberline {8.3}Fund-raising and dependency on the State}{38}{section.8.3}
+\contentsline {section}{\numberline {8.4}Repertoire and consumption}{38}{section.8.4}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Next Steps}}{43}{chapter.9}
+\vspace {\cftbeforechapterskip }
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANNEX \space }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Bibliography}}{44}{section*.7}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}

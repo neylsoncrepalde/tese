@@ -1,7 +1,7 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99d (TeX Live 2017)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: projeto_pdse.aux
-White space in argument---line 96 of file projeto_pdse.aux
+White space in argument---line 98 of file projeto_pdse.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
@@ -37,7 +37,7 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 You've used 16 entries,
             6714 wiz_defined-function locations,
-            1288 strings with 11257 characters,
+            1289 strings with 11255 characters,
 and the built_in function-call counts, 11755 in all, are:
 = -- 994
 > -- 396

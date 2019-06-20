@@ -1,20 +1,21 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Arch Linux)
+This is BibTeX, Version 0.99d (TeX Live 2018)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Tese_Neylson.aux
-White space in argument---line 268 of file Tese_Neylson.aux
+White space in argument---line 638 of file Tese_Neylson.aux
  : \bibdata{abntex2-options,BIBDOUTORADO,
  :                                        abnt-options}
 I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 6000 items from 3000.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated wiz_functions (elt_size=8) to 9000 items from 6000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Reallocated field_info (elt_size=4) to 10934 items from 5000.
 Database file #1: abntex2-options.bib
 Database file #2: BIBDOUTORADO.bib
 "{" immediately follows a field name---line 601 of file BIBDOUTORADO.bib
@@ -26,54 +27,54 @@ I was expecting a `,' or a `}'---line 1095 of file BIBDOUTORADO.bib
  :  urlaccessdate={28/12/2015}
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=8) to 100 items from 50.
-Reallocated glb_str_ptr (elt_size=8) to 20 items from 10.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=20001) to 20 items from 10.
-Reallocated glb_str_end (elt_size=8) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 +---------------------------------------------------------+
 | Estilo bibliográfico abntex2-alf.bst versão v-1.9.6           |
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 43 entries,
+You've used 86 entries,
             6714 wiz_defined-function locations,
-            1450 strings with 15633 characters,
-and the built_in function-call counts, 35850 in all, are:
-= -- 3047
-> -- 1087
-< -- 219
-+ -- 618
-- -- 332
-* -- 2475
-:= -- 4712
-add.period$ -- 139
-call.type$ -- 43
-change.case$ -- 395
-chr.to.int$ -- 81
-cite$ -- 41
-duplicate$ -- 2195
-empty$ -- 2664
-format.name$ -- 1577
-if$ -- 8276
-int.to.chr$ -- 1
+            1678 strings with 22335 characters,
+and the built_in function-call counts, 76981 in all, are:
+= -- 6767
+> -- 2272
+< -- 640
++ -- 1417
+- -- 692
+* -- 5322
+:= -- 9997
+add.period$ -- 309
+call.type$ -- 86
+change.case$ -- 817
+chr.to.int$ -- 165
+cite$ -- 84
+duplicate$ -- 5051
+empty$ -- 5393
+format.name$ -- 3307
+if$ -- 17533
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 778
-newline$ -- 189
-num.names$ -- 197
-pop$ -- 1022
+missing$ -- 1554
+newline$ -- 388
+num.names$ -- 407
+pop$ -- 1996
 preamble$ -- 1
-purify$ -- 158
+purify$ -- 319
 quote$ -- 0
-skip$ -- 2282
+skip$ -- 5122
 stack$ -- 1
-substring$ -- 1385
-swap$ -- 954
-text.length$ -- 40
+substring$ -- 3092
+swap$ -- 2185
+text.length$ -- 96
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 6
+type$ -- 15
 warning$ -- 0
-while$ -- 287
+while$ -- 607
 width$ -- 0
-write$ -- 648
+write$ -- 1344
 (There were 3 error messages)

@@ -1,0 +1,348 @@
+;; RefTeX parse info file
+;; File: /Users/neylson/tese/Tese_Neylson.tex
+;; User: neylson (Neylson Crepalde)
+
+(set reftex-docstruct-symbol '(
+
+
+(xr nil "\\\\\\\\\\\\")
+
+(index-tags)
+
+(is-multi nil)
+
+(bibview-cache ("lazega2016multilevel" . "Lazega & Snijders 2016, Mult. Netw. Analys. Soci. Scienc"))
+
+(master-dir . "/Users/neylson/tese/")
+
+(label-numbers)
+
+(bof "/Users/neylson/tese/Tese_Neylson.tex")
+
+(toc "toc" "  * Introdução" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "*" "\\chapter*[Introdução]{Introdução}" 10456)
+
+(toc "toc" "  1 A sociologia neoestrutural" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "1" "\\chapter{A sociologia neoestrutural}" 26892)
+
+(toc "toc" "    1.1 Representação" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "1.1" "\\section{Representação}" 30125)
+
+("example-matrix" "e" "M = \\begin{pmatrix} 0 & 1 & 1 & 1 & 1 " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("example-graph" "f" "Exemplo de grafo não direcionado" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("weighted-matrix" "e" "M = \\begin{pmatrix} 0 & 1 & 2 & 0 & 1 " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("weighted-graph" "f" "Exemplo de grafo direcionado e valorado" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    1.2 Análise topológica da estrutra" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "1.2" "\\section{Análise topológica da estrutra}" 33638)
+
+(toc "toc" "      1.2.1 As medidas de centralidade" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "1.2.1" "\\subsection{As medidas de centralidade}" 35622)
+
+(toc "toc" "      1.2.2 Os buracos estruturais" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "1.2.2" "\\subsection{Os buracos estruturais}" 38597)
+
+(toc "toc" "      1.2.3 Equivalência estrutural" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "1.2.3" "\\subsection{Equivalência estrutural}" 41619)
+
+("example-socio-blocked-matrix" "f" "Matriz de adjacência observada e reorganizada após blockmodel" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("matriz-densidade" "t" "Matriz de densidades" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    1.3 Modelos probabilísticos com dados relacionais" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "1.3" "\\section{Modelos probabilísticos com dados relacionais}" 47865)
+
+(toc "toc" "      1.3.1 Noções básicas do ERGM" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "1.3.1" "\\subsection{Noções básicas do ERGM}" 50680)
+
+("triades-man" "f" "Tipos de isomorfismos de tríades com a nomemclatura \\textit{MAN}" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "  2 Investigação Bibliográfica Preliminar" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "2" "\\chapter{Investigação Bibliográfica Preliminar}" 56203)
+
+("chaves-busca" "f" "Chaves de busca usadas" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("tipo-de-estudo" "t" "Tipo de Estudo" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("metodos-usados" "t" "Métodos usados" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("grafico-densidade" "f" "Densidade de publicações por ano" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    2.1 Perspectivas teóricas e abordagens" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "2.1" "\\section{Perspectivas teóricas e abordagens}" 62602)
+
+(toc "toc" "  3 Os produtos culturais" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "3" "\\chapter{Os produtos culturais}" 64744)
+
+(toc "toc" "    3.1 A economia das singularidades" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "3.1" "\\section{A economia das singularidades}" 70538)
+
+(toc "toc" "    3.2 O modelo de Baumol e Bowen -- a ``doença dos custos''" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "3.2" "\\section{O modelo de Baumol e Bowen -- a ``doença dos custos''}" 74726)
+
+("custos-de-producao" "f" "Custos de Produção" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    3.3 Políticas Culturais no Brasil" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "3.3" "\\section{Políticas Culturais no Brasil}" 86392)
+
+(toc "toc" "  4 A Construção Social dos Mercados" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "4" "\\chapter{A Construção Social dos Mercados}" 94979)
+
+(toc "toc" "    4.1 O modelo de White" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.1" "\\section{O modelo de White}" 95713)
+
+(toc "toc" "      4.1.1 Estabilizando a ``incerteza knightiana''" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "4.1.1" "\\subsection{Estabilizando a ``incerteza knightiana''}" 101446)
+
+(toc "toc" "      4.1.2 O mecanismo por trás da produção" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "4.1.2" "\\subsection{O mecanismo por trás da produção}" 104372)
+
+(toc "toc" "      4.1.3 O modelo de produção de White" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "4.1.3" "\\subsection{O modelo de produção de White}" 106473)
+
+("white_1.2" "f" "Um perfil Retorno X Volume" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("cost" "e" "C(y, n) = q \\cdot y^c \\cdot n^d " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("satisfaction" "e" "S(y, n) = r \\cdot y^a \\cdot n^b " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("S-theta" "e" "S(y[n], n) = \\theta \\cdot W(y[n]) " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      4.1.4 A topologia dos mercados -- os parâmetros de elasticidade" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "4.1.4" "\\subsection{A topologia dos mercados -- os parâmetros de elasticidade}" 113890)
+
+("exponents-abcd" "t" "Tabulação dos parâmetros" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("market-plane" "f" "Market plane, designando quatro regiões, três locais" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      4.1.5 Mensurações" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "4.1.5" "\\subsection{Mensurações}" 118810)
+
+("repertory-effect-correction" "e" "\\bar{x}_i = \\frac{\\tilde{P}_i / \\sum_{i=1}^{4}\\tilde{P}_i}{\\tilde{V}_i / \\sum_{i=1}^{4}\\tilde{V}_i} " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("satisfaction-corrected" "e" "S = \\sum_{i=1}^{4}\\bar{x}_i v_i " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("biencourt-quality" "e" "N_{l}^{b_l} = N_{1l}^{b_{1l}} N_{2l}^{b_{2l}} N_{3l}^{b_{3l}} N_{4l}^{b_{4l}} " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("biencourt-derivation" "e" "[S\\bar{p}/Y]_l = Y_{l}^{\\hat{a}_l} N_{l}^{\\hat{b}_l} \\varepsilon_l = Y_{l}^{\\hat{a}_l} N_{1l}^{\\hat{" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("regression" "e" "\\log([S\\bar{p}/Y]_l) = \\hat{a}_l \\log Y_l + \\hat{b}_{1l} \\log N_{1l} + \\hat{b}_{2l} \\log N_{2l} + \\h" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("N-com-pesos" "e" "\\log N_l = \\hat{b}_{1l} \\log N_{1l} + \\hat{b}_{2l} \\log N_{2l} + \\hat{b}_{3l} \\log N_{3l} + \\hat{b}_" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("parameters" "e" "d = \\frac{ \\log C_l \\cdot \\log Y_{l+1} - \\log C_{l+1} \\cdot \\log Y_{l} }{\\Delta} " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("eloire-abcd" "t" "Parâmetros de nichos de qualidade" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("measurements-wy" "t" "Indicadores propostos - modelo $W(y)$" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    4.2 A arquitetura dos mercados" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.2" "\\section{A arquitetura dos mercados}" 145790)
+
+(toc "toc" "    4.3 A busca de nichos como processo social regulatório" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.3" "\\section{A busca de nichos como processo social regulatório}" 159100)
+
+(toc "toc" "    4.4 Isomorfismos normativos" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.4" "\\section{Isomorfismos normativos}" 164486)
+
+(toc "toc" "    4.5 A abordagem multinível" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.5" "\\section{A abordagem multinível}" 168076)
+
+("cap:multinivel" "s" "%\\citeonline{lazega2016synchronization}\\footnote{\\citeonline{lazega2016synchronization} gives a theo" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("modelo-analise" "f" "Modelo de Análise" "/Users/neylson/tese/Tese_Neylson.tex" 172403)
+
+(toc "toc" "    4.6 Transformações de redes de 2 modos" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.6" "\\section{Transformações de redes de 2 modos}" 178649)
+
+(toc "toc" "    4.7 Síntese teórica" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.7" "\\section{Síntese teórica}" 181163)
+
+(toc "toc" "    4.8 Indicadores" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.8" "\\section{Indicadores}" 187163)
+
+("sec:geradores_nomes" "s" "%Our study object presents itself as a multilevel structure: the meso/organizational level represent" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("indicadores-relational" "t" "Indicadores propostos - dados relacionais" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    4.9 Hipóteses" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "4.9" "\\section{Hipóteses}" 198272)
+
+("hipoteses" "s" "\\newtheorem{hip}{Hipótese} %We depart from the central assumption that the quality standard, the gra" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:redecomplexa" "s" "%The more complex an orchestra's business network, the better it will be positioned in quality ranki" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:musprest" "s" "Quanto maior for a concentração de músicos prestigiosos numa orquestra, melhor será sua qualidade pe" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:incentivos" "s" "%The more an orchestra provides structural incentives for the musicians, the better it will be posit" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:orcamento" "s" "Quanto maior for o orçamento anual de uma orquestra, melhor será sua qualidade percebida. " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:estruturacomplexa" "s" "%The more complex the organizational structure of an orchestra or of its maintainer, the better it w" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("hip:proxestado" "s" "%The closest the relationship of an orchestra with the State, the better it will be positioned in qu" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "  5 Dados e Métodos" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "5" "\\chapter{Dados e Métodos}" 221559)
+
+("NAM" "e" "y = \\rho W_y + X \\beta + \\epsilon, \\quad \\epsilon \\sim \\mathcal{N}(0, \\sigma^2 1) " "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "  6 A qualidade para os músicos" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "6" "\\chapter{A qualidade para os músicos}" 226469)
+
+("wordcloud" "f" "Nuvem de palavras - palavras mais faladas sobre a qualidade" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("cluster" "f" "\\textit{Cluster Analysis} - palavras mais faladas sobre a qualidade" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "  7 As orquestras" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "7" "\\chapter{As orquestras}" 231897)
+
+(toc "toc" "    7.1 Orquestra Filarmônica de Minas Gerais" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "7.1" "\\section{Orquestra Filarmônica de Minas Gerais}" 231923)
+
+("cap:filarmonica" "s" "Criada muito recentemente, em 2008, a Orquestra Filarmônica de MG tem sido aclamada pela crítica nac" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("fil2mode" "f" "O Instituto Cultural Filarmônica e os recursos mobilizados" "/Users/neylson/tese/Tese_Neylson.tex" 230232)
+
+("goals" "t" "Objetivos da Orquestra Filarmônica" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.1.1 Avaliação dos objetivos da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.1" "\\subsection{Avaliação dos objetivos da orquestra}" 244405)
+
+(toc "toc" "      7.1.2 Principais concertos" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.2" "\\subsection{Principais concertos}" 252699)
+
+(toc "toc" "      7.1.3 Financiamento e dependência do Estado" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.3" "\\subsection{Financiamento e dependência do Estado}" 254511)
+
+("financiamento2017" "t" "Fontes de financiamento da Filarmônica em 2017" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.1.4 Repertório e consumo" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.4" "\\subsection{Repertório e consumo}" 259391)
+
+("repertoire-peryear" "f" "Repertório da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("repertoire-perseries" "f" "Repertório por série" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("fig:txocup" "f" "Taxa de ocupação por série e dia da semana" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("tab:tdia" "t" "Testes de média pareados - dias da semana (p-values)" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("tab:tserie" "t" "Testes de média pareados - séries de concertos (p-values)" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("concert-consumption-models" "t" "Consumo de concertos - Modelos Lineares - Dependente: Taxa de Ocupação" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("occupancy-table" "t" "Taxa de Ocupação -- 2016" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.1.5 Custos" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.5" "\\subsection{Custos}" 271082)
+
+(toc "toc" "      7.1.6 Motivação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.6" "\\subsection{Motivação}" 271823)
+
+(toc "toc" "      7.1.7 A rede da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.1.7" "\\subsection{A rede da orquestra}" 273569)
+
+("rede-filarmonica" "f" "Rede Egocentrada da Orquestra Filarmônica" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("relacoes-filarmonica" "t" "Tipos de relações da Filarmônica" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    7.2 Orquestra Sinfônica de Minas Gerais" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "7.2" "\\section{Orquestra Sinfônica de Minas Gerais}" 277466)
+
+(toc "toc" "      7.2.1 Avaliação dos objetivos da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.2.1" "\\subsection{Avaliação dos objetivos da orquestra}" 280807)
+
+("objetivos-sinfonica" "t" "Avaliação dos objetivos da Orquestra Sinfônica" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.2.2 Séries de concertos" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.2.2" "\\subsection{Séries de concertos}" 284564)
+
+(toc "toc" "      7.2.3 A rede da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.2.3" "\\subsection{A rede da orquestra}" 287493)
+
+("rede-sinfonica" "f" "Rede Egocentrada da Orquestra Sinfônica" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.2.4 Motivação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.2.4" "\\subsection{Motivação}" 288749)
+
+(toc "toc" "    7.3 Orquestra SESIMINAS" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "7.3" "\\section{Orquestra SESIMINAS}" 290478)
+
+(toc "toc" "      7.3.1 Séries e locais de apresentação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.3.1" "\\subsection{Séries e locais de apresentação}" 294919)
+
+(toc "toc" "      7.3.2 Motivação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.3.2" "\\subsection{Motivação}" 295629)
+
+(toc "toc" "    7.4 Orquestra OPUS" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "7.4" "\\section{Orquestra OPUS}" 297548)
+
+(toc "toc" "      7.4.1 Estrutura e Financiamento" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.4.1" "\\subsection{Estrutura e Financiamento}" 298389)
+
+(toc "toc" "      7.4.2 A rede da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.4.2" "\\subsection{A rede da orquestra}" 300342)
+
+("rede-opus" "f" "Rede Egocentrada da Orquestra OPUS" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.4.3 Diferenciação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.4.3" "\\subsection{Diferenciação}" 301062)
+
+(toc "toc" "    7.5 Orquestra Ouro Preto" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "7.5" "\\section{Orquestra Ouro Preto}" 301772)
+
+("cap:ouropreto" "s" "A Orquestra Ouro Preto nasceu no ano 2000 fundada por Rufo Herrera e Ronaldo Toffolo com o nome de `" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.5.1 Estrutura e Financiamento" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.5.1" "\\subsection{Estrutura e Financiamento}" 303700)
+
+(toc "toc" "      7.5.2 Locais e ingressos" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.5.2" "\\subsection{Locais e ingressos}" 304933)
+
+(toc "toc" "      7.5.3 A rede da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.5.3" "\\subsection{A rede da orquestra}" 305578)
+
+("rede-ouropreto" "f" "Rede Egocentrada da Orquestra Ouro Preto" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      7.5.4 Motivação" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.5.4" "\\subsection{Motivação}" 306178)
+
+(toc "toc" "      7.5.5 Repertório e Branding" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "7.5.5" "\\subsection{Repertório e Branding}" 307093)
+
+(toc "toc" "  8 Análise das Redes" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "8" "\\chapter{Análise das Redes}" 312492)
+
+(toc "toc" "    8.1 As redes entre músicos observadas" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "8.1" "\\section{As redes entre músicos observadas}" 312523)
+
+("redes-entre-musicos" "f" "Redes entre músicos" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("rede-multiplexo" "f" "Rede multiplexo de prestígio entre músicos" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("redes-descritivas1" "t" "NO MATCH FOR CONTEXT REGEXP" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("cor:redes" "t" "Matriz de correlações QAP entre as redes observadas" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    8.2 A rede multinível" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "8.2" "\\section{A rede multinível}" 318744)
+
+("rede-multinivel" "f" "Rede Multinível" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "      8.2.1 O nível dos músicos" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "8.2.1" "\\subsection{O nível dos músicos}" 320463)
+
+("ergm:prestigio-coefs" "t" "ERGM - rede multiplexo de prestígio" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("gof:prestigio" "f" "Gráficos de ajuste do modelo ERGM para a rede multiplexo de prestígio" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("rede:coparticipacao" "f" "Rede de coparticipação de músicos em organizações (transformação 2-mode para 1-mode) -- componente p" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("block_ind_res" "f" "Resultados do blockmodel estocástico" "/Users/neylson/tese/Tese_Neylson.tex" 323806)
+
+("rede_prestigio_blocos" "f" "Rede Multiplexo de prestígio com blocos" "/Users/neylson/tese/Tese_Neylson.tex" 324077)
+
+(toc "toc" "      8.2.2 O nível organizacional" "/Users/neylson/tese/Tese_Neylson.tex" nil 3 "8.2.2" "\\subsection{O nível organizacional}" 330184)
+
+("rede:organizacoes" "f" "Rede observada entre organizações -- componente principal" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("rede:mesonivel2" "f" "Rede interorganizacional a partir da cofiliação de músicos (transformação 2-mode para 1-mode) -- com" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "        8.2.2.1 Blockmodels" "/Users/neylson/tese/Tese_Neylson.tex" nil 4 "8.2.2.1" "\\subsubsection{Blockmodels}" 332615)
+
+("sbmout:mesonivel2" "f" "Blockmodel para rede de organizações a partir das afiliações" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("sbmout:orgs" "f" "Blockmodel para rede de organizações observada" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("blocos:mesonivel2" "f" "Rede interorganizacional a partir da cofiliação de músicos (transformação 2-mode para 1-mode) com bl" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("blocos:orgs" "f" "Rede observada entre organizações com blocos de nós estruturalmente equivalentes" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("ergm:organizacoes" "t" "ERGM - rede entre organizações" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    8.3 Testes de hipóteses" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "8.3" "\\section{Testes de hipóteses}" 337485)
+
+("varsMAN" "t" "Estatísticas descritivas das variáveis do \\textit{Network Autocorrelate Model}" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("res:NAM" "t" "Network Autocorrelation Models - Resultados - Dependente: Qualidade percebida da orquestra" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "  9 Discussão e Considerações Finais" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "9" "\\chapter{Discussão e Considerações Finais}" 346199)
+
+(toc "toc" "    9.1 Redes intermúsicos" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.1" "\\section{Redes intermúsicos}" 347485)
+
+(toc "toc" "    9.2 Redes interorganizacionais" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.2" "\\section{Redes interorganizacionais}" 348981)
+
+(toc "toc" "    9.3 A qualidade" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.3" "\\section{A qualidade}" 350230)
+
+(toc "toc" "    9.4 Retomando a síntese teórica" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.4" "\\section{Retomando a síntese teórica}" 353435)
+
+(toc "toc" "    9.5 Perspectivas para o futuro" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.5" "\\section{Perspectivas para o futuro}" 359091)
+
+(toc "toc" "    9.6 Dados e métodos" "/Users/neylson/tese/Tese_Neylson.tex" nil 2 "9.6" "\\section{Dados e métodos}" 360579)
+
+("sim-geral" "s" "\\begin{algorithmic}[1] \\Function{Simulação}{Prob\\_ler\\_crítica, Prob\\_adotar\\_crítica, Prob\\_concord" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(toc "toc" "    * Anexo 1 - Trabalhos consultados" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "  *" "\\chapter*[Anexo 1]{Anexo 1 - Trabalhos consultados}" 366787)
+
+(toc "toc" "    * Anexo 2 - Questionário online" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "  *" "\\chapter*[Anexo 2]{Anexo 2 - Questionário online}" 371832)
+
+(toc "toc" "    * Anexo 3 -- Questionário sociométrico - organizações" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "  *" "\\chapter*[Anexo 3]{Anexo 3 -- Questionário sociométrico - organizações}" 378006)
+
+(toc "toc" "    * Anexo 4 - Medidas de centralidade e constraint para as redes observadas" "/Users/neylson/tese/Tese_Neylson.tex" nil 1 "  *" "\\chapter*[Anexo 4]{Anexo 4 - Medidas de centralidade e constraint para as redes observadas}" 381859)
+
+("centralidades:conselho" "t" "Medidas de centralidade e constraint da rede de aconselhamento" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("centralidades:amizade" "t" "Medidas de centralidade e constraint da rede de amizade" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("centralidades:indicacao" "t" "Medidas de centralidade e constraint da rede de indicação" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("centralidades:convite" "t" "Medidas de centralidade e constraint da rede de convites" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+("centralidades:multiplexo" "t" "Medidas de centralidade e constraint da rede multiplexo de prestígio" "/Users/neylson/tese/Tese_Neylson.tex" nil)
+
+(bib "/Users/neylson/tese/BIBDOUTORADO.bib")
+
+(eof "/Users/neylson/tese/Tese_Neylson.tex")
+))
+

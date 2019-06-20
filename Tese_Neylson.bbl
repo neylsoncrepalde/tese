@@ -5,6 +5,14 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.6 }
 
+\bibitem[APPA 2017]{sinfonica2017gerencial}
+\abntrefinfo{APPA}{APPA}{2017}
+{APPA. \emph{2º Relatório Gerencial de Resultados}: período avaliativo: 1 de
+  setembro de 2017 a 31 de dezembro de 2017. Minas Gerais, 2017.
+  Dispon{\'\i}vel em:
+  \url{http://fcs.mg.gov.br/institucional/termos-de-parceria/}. Acesso em: 03
+  jan. 2019.}
+
 \bibitem[Barbetta 2012]{barbetta2012estatistica}
 \abntrefinfo{Barbetta}{BARBETTA}{2012}
 {BARBETTA, Pedro~Alberto. \emph{Estat{\'\i}stica aplicada {\`a}s ci{\^e}ncias
@@ -31,6 +39,24 @@
 {BENHAMOU, Fran{\c{c}}oise. \emph{A economia da cultura}. Cotia, SP: Atelie
   Editorial, 2007.}
 
+\bibitem[Besag 1974]{besag1974spatial}
+\abntrefinfo{Besag}{BESAG}{1974}
+{BESAG, Julian. Spatial interaction and the statistical analysis of lattice
+  systems.
+\emph{Journal of the Royal Statistical Society. Series B (Methodological)},
+  JSTOR, p. 192--236, 1974.}
+
+\bibitem[Biencourt e Urrutiaguer 2002]{biencourt2002market}
+\abntrefinfo{Biencourt e Urrutiaguer}{BIENCOURT; URRUTIAGUER}{2002}
+{BIENCOURT, Olivier; URRUTIAGUER, Daniel. Market profiles: a tool suited to
+  quality orders? an empirical analysis of road haulage and the theatre.
+\emph{Favereau/Lazega (2002)}, p. 253--281, 2002.}
+
+\bibitem[Borgatti, Everett e Johnson 2018]{borgatti2018analyzing}
+\abntrefinfo{Borgatti, Everett e Johnson}{BORGATTI; EVERETT; JOHNSON}{2018}
+{BORGATTI, Stephen~P; EVERETT, Martin~G; JOHNSON, Jeffrey~C. \emph{Analyzing
+  social networks}. [S.l.]: Sage, 2018.}
+
 \bibitem[Bourdieu 2007]{bourdieu2007distincao}
 \abntrefinfo{Bourdieu}{BOURDIEU}{2007}
 {BOURDIEU, Pierre. \emph{A distin{\c{c}}{\~a}o}: crítica social do julgamento.
@@ -55,15 +81,88 @@
 
 \bibitem[Brailly et al. 2016]{brailly2016market}
 \abntrefinfo{Brailly et al.}{BRAILLY et al.}{2016}
-{BRAILLY, Julien et al. Market as a multilevel system. In:  \emph{Multilevel
-  Network Analysis for the Social Sciences}. [S.l.]: Springer, 2016. p.
-  245--271.}
+{BRAILLY, Julien et al. Market as a multilevel system. In:  LAZEGA, Emmanuel;
+  SNIJDERS, Tom~A.B. (Ed.). \emph{Multilevel Network Analysis for the Social
+  Sciences}. [S.l.]: Springer, 2016. p. 245--271.}
+
+\bibitem[Breiger 1974]{breiger1974duality}
+\abntrefinfo{Breiger}{BREIGER}{1974}
+{BREIGER, Ronald~L. The duality of persons and groups.
+\emph{Social forces}, The University of North Carolina Press, v.~53, n.~2, p.
+  181--190, 1974.}
+
+\bibitem[Burt 1976]{burt1976positions}
+\abntrefinfo{Burt}{BURT}{1976}
+{BURT, Ronald~S. Positions in networks.
+\emph{Social forces}, The University of North Carolina Press, v.~55, n.~1, p.
+  93--122, 1976.}
+
+\bibitem[Burt 1982]{burt1982toward}
+\abntrefinfo{Burt}{BURT}{1982}
+{BURT, Ronald~S. \emph{Toward a structural theory of action: network models of
+  social Structure, Perception, and Action.} [S.l.]: Academic Press, 1982.}
+
+\bibitem[Burt 1992]{burt1992structural}
+\abntrefinfo{Burt}{BURT}{1992}
+{BURT, Ronald~S. \emph{Structural holes}: The social structure of competition.
+  [S.l.]: Harvard University Press, 1992.}
+
+\bibitem[Burt 2005]{burt2005brokerage}
+\abntrefinfo{Burt}{BURT}{2005}
+{BURT, Ronald~S. \emph{Brokerage and Closure}. [S.l.]: Oxford University Press,
+  2005.}
+
+\bibitem[Butts 2016]{snapackage}
+\abntrefinfo{Butts}{BUTTS}{2016}
+{BUTTS, Carter~T. \emph{sna: Tools for Social Network Analysis}.
+[S.l.], 2016. R package version 2.4. Dispon{\'\i}vel em:
+  \url{https://CRAN.R-project.org/package=sna}.}
+
+\bibitem[Crepalde 2019]{multinets}
+\abntrefinfo{Crepalde}{CREPALDE}{2019}
+{CREPALDE, Neylson. \emph{multinets: Multilevel Networks Analysis}.
+[S.l.], 2019. R package version 0.2.1.9000. Dispon{\'\i}vel em:
+  \url{https://github.com/neylsoncrepalde/multinets}.}
+
+\bibitem[Crepalde 2017]{crepalde2017social}
+\abntrefinfo{Crepalde}{CREPALDE}{2017}
+{CREPALDE, Neylson~JBF. Social capital inequalities among postgraduate students
+  and social selection processes. In:  \emph{Congresso da Sociedade Brasileira
+  de Computa{\c{c}}{\~a}o-CSBC}. [S.l.: s.n.], 2017.}
+
+\bibitem[Csardi e Nepusz 2006]{igraph}
+\abntrefinfo{Csardi e Nepusz}{CSARDI; NEPUSZ}{2006}
+{CSARDI, Gabor; NEPUSZ, Tamas. The igraph software package for complex network
+  research.
+\emph{InterJournal}, Complex Systems, p.~1695, 2006.
+Dispon{\'\i}vel em: \url{http://igraph.org}.}
+
+\bibitem[Daraganova e Pattison 2013]{daraganova_pattison_2013}
+\abntrefinfo{Daraganova e Pattison}{DARAGANOVA; PATTISON}{2013}
+{DARAGANOVA, Galina; PATTISON, Pip. Autologistic actor attribute model analysis
+  of unemployment: Dual importance of who you know and where you live.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Exponential random graph models for
+  social networks}: Theory, methods, and applications. Cambridge: Cambridge
+  University Press, 2013.  (Structural Analysis in the Social Sciences), p.
+  237–247.}
+
+\bibitem[Daraganova e Robins 2013]{daraganova2013autologistic}
+\abntrefinfo{Daraganova e Robins}{DARAGANOVA; ROBINS}{2013}
+{DARAGANOVA, Galina; ROBINS, Garry. Autologistic actor attribute models.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{Exponential random graph models for
+  social networks}: Theory, methods, and applications. Cambridge: Cambridge
+  University Press New York, NY, 2013. p. 102--114.}
 
 \bibitem[Daudin, Picard e Robin 2008]{daudin2008mixture}
 \abntrefinfo{Daudin, Picard e Robin}{DAUDIN; PICARD; ROBIN}{2008}
 {DAUDIN, J-J; PICARD, Franck; ROBIN, St{\'e}phane. A mixture model for random
   graphs.
 \emph{Statistics and computing}, Springer, v.~18, n.~2, p. 173--183, 2008.}
+
+\bibitem[De Nooy, Mrvar e Batagelj 2011]{denooy2011exploratory}
+\abntrefinfo{De Nooy, Mrvar e Batagelj}{DE NOOY; MRVAR; BATAGELJ}{2011}
+{DE NOOY, Wouter; MRVAR, Andrej; BATAGELJ, Vladimir. \emph{Exploratory social
+  network analysis with Pajek}. Cambridge: Cambridge University Press, 2011.}
 
 \bibitem[Dias 2011]{dias2011artes}
 \abntrefinfo{Dias}{DIAS}{2011}
@@ -78,11 +177,40 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   rationality and institutional isomorphism in organizational fields.
 \emph{American Sociological Review}, v.~48, n.~2, p. 147--160, 1983.}
 
+\bibitem[Doreian, Teuter e Wang 1984]{doreian1984network}
+\abntrefinfo{Doreian, Teuter e Wang}{DOREIAN; TEUTER; WANG}{1984}
+{DOREIAN, Patrick; TEUTER, Klaus; WANG, Chi-Hsein. Network autocorrelation
+  models: some monte carlo results.
+\emph{Sociological Methods \& Research}, Sage Publications, v.~13, n.~2, p.
+  155--200, 1984.}
+
+\bibitem[{\'E}loire 2009]{eloire2009reseaux}
+\abntrefinfo{{\'E}loire}{{\'E}LOIRE}{2009}
+{{\'E}LOIRE, Fabien.
+\emph{Les r{\'e}seaux interorganisationnels dans la restauration lilloise: une
+  approche n{\'e}o-structurale du march{\'e} et des processus sociaux}.
+Tese (Doutorado) --- Lille 1, 2009.}
+
+\bibitem[Favereau, Biencourt e Eymard-Duvernay 2002]{favereau2002markets}
+\abntrefinfo{Favereau, Biencourt e Eymard-Duvernay}{FAVEREAU; BIENCOURT;
+  EYMARD-DUVERNAY}{2002}
+{FAVEREAU, Olivier; BIENCOURT, Olivier; EYMARD-DUVERNAY, Fran{\c{c}}ois. Where
+  do markets come from? from (quality) conventions! In:  FAVEREAU, Olivier;
+  LAZEGA, Emmanuel (Ed.). \emph{Conventions and structures in economic
+  organization: Markets, networks and hierarchies}. Cheltenham, UK: Edward
+  Elgar, 2002. p. 213--252.}
+
 \bibitem[Fligstein 2002]{fligstein2002architecture}
 \abntrefinfo{Fligstein}{FLIGSTEIN}{2002}
 {FLIGSTEIN, Neil. \emph{The architecture of markets: An economic sociology of
   twenty-first-century capitalist societies}. Princeton: Princeton University
   Press, 2002.}
+
+\bibitem[Frank e Strauss 1986]{frank1986markov}
+\abntrefinfo{Frank e Strauss}{FRANK; STRAUSS}{1986}
+{FRANK, Ove; STRAUSS, David. Markov graphs.
+\emph{Journal of the american Statistical association}, Taylor \& Francis,
+  v.~81, n.~395, p. 832--842, 1986.}
 
 \bibitem[Granovetter 2007]{granovetter2007acao}
 \abntrefinfo{Granovetter}{GRANOVETTER}{2007}
@@ -90,19 +218,66 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   da imers{\~a}o.
 \emph{RAE eletrônica}, v.~6, n.~1, 2007.}
 
+\bibitem[Granovetter 1973]{granovetter1973strength}
+\abntrefinfo{Granovetter}{GRANOVETTER}{1973}
+{GRANOVETTER, Mark~S. The strength of weak ties.
+\emph{American Journal of Sociology}, v.~78, n.~6, p. 1360--1380, May 1973.}
+
+\bibitem[Gujarati e Porter 2011]{gujarati2011econometria}
+\abntrefinfo{Gujarati e Porter}{GUJARATI; PORTER}{2011}
+{GUJARATI, Damodar~N; PORTER, Dawn~C. \emph{Econometria B{\'a}sica-5}. 5 ed.
+  [S.l.]: Amgh Editora, 2011.}
+
+\bibitem[Handcock et al. 2018]{ergm}
+\abntrefinfo{Handcock et al.}{HANDCOCK et al.}{2018}
+{HANDCOCK, Mark~S. et al. \emph{ergm: Fit, Simulate and Diagnose
+  Exponential-Family Models for Networks}.
+[S.l.], 2018. R package version 3.9.4. Dispon{\'\i}vel em:
+  \url{https://CRAN.R-project.org/package=ergm}.}
+
 \bibitem[Heilbrun e Gray 2001]{heilbrun2001economics}
 \abntrefinfo{Heilbrun e Gray}{HEILBRUN; GRAY}{2001}
 {HEILBRUN, James; GRAY, Charles~M. \emph{The economics of art and culture}.
   Cambridge, MA: Cambridge University Press, 2001.}
 
-\bibitem[Instituto Cultural Filarmônica 2015]{filarmonica2015gerencial}
+\bibitem[Higgins e Ribeiro 2018]{higgins2018analise}
+\abntrefinfo{Higgins e Ribeiro}{HIGGINS; RIBEIRO}{2018}
+{HIGGINS, Silvio~Salej; RIBEIRO, Antonio Carlos~Andrade. \emph{An{\'a}lise de
+  redes em Ci{\^e}ncias Sociais}. [S.l.]: Escola Nacional de
+  Administra{\c{c}}{\~a}o P{\'u}blica (Enap), 2018.}
+
+\bibitem[Holland e Leinhardt 1981]{holland1981exponential}
+\abntrefinfo{Holland e Leinhardt}{HOLLAND; LEINHARDT}{1981}
+{HOLLAND, Paul~W; LEINHARDT, Samuel. An exponential family of probability
+  distributions for directed graphs.
+\emph{Journal of the american Statistical association}, Taylor \& Francis
+  Group, v.~76, n.~373, p. 33--50, 1981.}
+
+\bibitem[Hunter et al. 2008]{hunter2008ergm}
+\abntrefinfo{Hunter et al.}{HUNTER et al.}{2008}
+{HUNTER, David~R. et al. ergm: A package to fit, simulate and diagnose
+  exponential-family models for networks.
+\emph{Journal of Statistical Software}, v.~24, n.~3, p. 1--29, 2008.}
+
+\bibitem[Instituto Cultural Filarmônica 2017]{filarmonica2017gerencial}
 \abntrefinfo{Instituto Cultural Filarmônica}{INSTITUTO CULTURAL
-  FILARMôNICA}{2015}
-{INSTITUTO CULTURAL FILARMôNICA. \emph{26º Relatório Gerencial}: período
-  avaliativo: 1 de fevereiro de 2015 a 30 de junho de 2015. Minas Gerais, 2015.
+  FILARMôNICA}{2017}
+{INSTITUTO CULTURAL FILARMôNICA. \emph{35º Relatório Gerencial}: período
+  avaliativo: 1 de julho de 2017 a 30 de setembro de 2017. Minas Gerais, 2017.
   Dispon{\'\i}vel em:
-  \url{http://www.filarmonica.art.br/wp-content/uploads/2014/10/26o\_relatorio\_gerencial\_2015.pdf}.
-  Acesso em: 15 out. 2015.}
+  \url{http://www.filarmonica.art.br/instituto/transparencia/}. Acesso em: 03
+  jan. 2018.}
+
+\bibitem[Karpik 2007]{karpik2007economie}
+\abntrefinfo{Karpik}{KARPIK}{2007}
+{KARPIK, Lucien. \emph{L'{\'e}conomie des singularit{\'e}s}. Paris: Gallimard,
+  2007.}
+
+\bibitem[Karpik 2009]{karpik2009elements}
+\abntrefinfo{Karpik}{KARPIK}{2009}
+{KARPIK, Lucien. Élements de l'économie des singularités. In:  STEINER,
+  Philippe; VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie
+  {\'e}conomique}. Paris: PUF, 2009. p. 163--206.}
 
 \bibitem[Kasaras, Klimis e Michailidou 2012]{kasaras2012musical}
 \abntrefinfo{Kasaras, Klimis e Michailidou}{KASARAS; KLIMIS; MICHAILIDOU}{2012}
@@ -110,10 +285,21 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   in the web 2.0: the importance of network dynamics.
 \emph{Contemporary Social Science}, Routledge, v.~7, n.~3, p. 335--349, 2012.}
 
+\bibitem[Kashima et al. 2013]{kashima2013acquisition}
+\abntrefinfo{Kashima et al.}{KASHIMA et al.}{2013}
+{KASHIMA, Yoshihisa et al. The acquisition of perceived descriptive norms as
+  social category learning in social networks.
+\emph{Social Networks}, Elsevier, v.~35, n.~4, p. 711--719, 2013.}
+
 \bibitem[Kay 1997]{kay1997pattern}
 \abntrefinfo{Kay}{KAY}{1997}
 {KAY, Neil~M. \emph{Pattern in corporate evolution}. Oxford: Oxford University
   Press, 1997.}
+
+\bibitem[Lander 2014]{lander2014r}
+\abntrefinfo{Lander}{LANDER}{2014}
+{LANDER, Jared~P. \emph{R for everyone}: Advanced analytics and graphics.
+  Ebook. Upper Saddle River, NJ: Addison-Wesley, Pearson Education, 2014.}
 
 \bibitem[Latouche, Birmele e Ambroise 2012]{latouche2012variational}
 \abntrefinfo{Latouche, Birmele e Ambroise}{LATOUCHE; BIRMELE; AMBROISE}{2012}
@@ -129,10 +315,37 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   VATIN, Fran{\c{c}}ois (Ed.). \emph{Trait{\'e} de sociologie {\'e}conomique}.
   Paris: PUF, 2009. p. 561--599.}
 
+\bibitem[Lazega 2016]{lazega2016synchronization}
+\abntrefinfo{Lazega}{LAZEGA}{2016}
+{LAZEGA, Emmanuel. Synchronization costs in the organizational society:
+  Intermediary relational infrastructures in the dynamics of multilevel
+  networks. In:  LAZEGA, Emmanuel; SNIJDERS, Tom~A.B. (Ed.). \emph{Multilevel
+  Network Analysis for the Social Sciences}. [S.l.]: Springer, 2016. p.
+  47--77.}
+
 \bibitem[Lazega e Higgins 2014]{lazega2014redes}
 \abntrefinfo{Lazega e Higgins}{LAZEGA; HIGGINS}{2014}
 {LAZEGA, Emmanuel; HIGGINS, Silvio~Salej. \emph{Redes sociais e estruturas
   relacionais}. Belo Horizonte: Fino Traço, 2014.}
+
+\bibitem[Lazega et al. 2008]{lazega2008catching}
+\abntrefinfo{Lazega et al.}{LAZEGA et al.}{2008}
+{LAZEGA, Emmanuel et al. Catching up with big fish in the big pond? multi-level
+  network analysis through linked design.
+\emph{Social Networks}, Elsevier, v.~30, n.~2, p. 159--176, 2008.}
+
+\bibitem[Leenders 2002]{leenders2002modeling}
+\abntrefinfo{Leenders}{LEENDERS}{2002}
+{LEENDERS, Roger Th~AJ. Modeling social influence through network
+  autocorrelation: constructing the weight matrix.
+\emph{Social networks}, Elsevier, v.~24, n.~1, p. 21--47, 2002.}
+
+\bibitem[Leifeld, Cranmer e Desmarais 2017]{tnam}
+\abntrefinfo{Leifeld, Cranmer e Desmarais}{LEIFELD; CRANMER; DESMARAIS}{2017}
+{LEIFELD, Philip; CRANMER, Skyler~J.; DESMARAIS, Bruce~A. \emph{tnam: Temporal
+  Network Autocorrelation Models}.
+[S.l.], 2017. R package version 1.6.5. Dispon{\'\i}vel em:
+  \url{https://cran.r-project.org/package=tnam}.}
 
 \bibitem[Leroy 1980]{leroy1980economie}
 \abntrefinfo{Leroy}{LEROY}{1980}
@@ -150,24 +363,32 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   graph models for social networks}: Theory, methods, and applications.
   Cambridge: Cambridge University Press, 2013.}
 
-\bibitem[MINAS GERAIS 2015]{minas2015}
-\abntrefinfo{MINAS GERAIS}{MINAS GERAIS}{2015}
-{MINAS GERAIS. \emph{IX termo aditivo ao termo de parceria nº 19/2008}: Ix
-  termo aditivo que entre si celebram a secretaria de estado de cultura (sec) e
-  o insituto cultural filarmônica. Minas Gerais, 2015. Dispon{\'\i}vel em:
-  \url{http://www.filarmonica.art.br/wp-content/uploads/2014/10/ix-aditivo-baixa.pdf}.
-  Acesso em: 15 out. 2015.}
+\bibitem[MINAS GERAIS 2017]{appa2017parceria}
+\abntrefinfo{MINAS GERAIS}{MINAS GERAIS}{2017a}
+{MINAS GERAIS. \emph{Termo de parceria nº 041/2017}: Termo de parceria que
+  entre si celebram o estado de minas gerais representado pela (fundação
+  clóvis salgado - fcs) e o(a) (associação pró-cultura e promoção de
+  artes - appa). Minas Gerais, 2017. Dispon{\'\i}vel em:
+  \url{https://drive.google.com/file/d/1wdWsJCSHWySuezGRsoI01-mXB\_cWhhcl/view}.
+  Acesso em: 03 jan. 2019.}
 
-\bibitem[Mingoti 2005]{mingoti2005analise}
-\abntrefinfo{Mingoti}{MINGOTI}{2005}
-{MINGOTI, Sueli~Aparecida. \emph{An{\'a}lise de dados atrav{\'e}s de
-  m{\'e}todos de estat{\'\i}stica multivariada: uma abordagem aplicada}. Belo
-  Horizonte: Editora UFMG, 2005.}
+\bibitem[MINAS GERAIS 2017]{minas2017aditivo}
+\abntrefinfo{MINAS GERAIS}{MINAS GERAIS}{2017b}
+{MINAS GERAIS. \emph{XI termo aditivo ao termo de parceria nº 19/2008}: Xi
+  termo aditivo que entre si celebram a secretaria de estado de cultura (sec) e
+  o insituto cultural filarmônica. Minas Gerais, 2017. Dispon{\'\i}vel em:
+  \url{http://www.filarmonica.art.br/wp-content/uploads/2014/10/11o-termo-aditivo.pdf}.
+  Acesso em: 03 jan. 2018.}
 
 \bibitem[Peacock, Shoesmith e Millner 1983]{peacock1983inflation}
 \abntrefinfo{Peacock, Shoesmith e Millner}{PEACOCK; SHOESMITH; MILLNER}{1983}
 {PEACOCK, Alan~T; SHOESMITH, Eddie; MILLNER, Geoffrey. \emph{Inflation and the
   Performing Arts}. London: Arts Council of Great Britain, 1983.}
+
+\bibitem[Perrow 1991]{perrow1991society}
+\abntrefinfo{Perrow}{PERROW}{1991}
+{PERROW, Charles. A society of organizations.
+\emph{Theory and society}, Springer, v.~20, n.~6, p. 725--762, 1991.}
 
 \bibitem[Ploeg 2006]{van2006making}
 \abntrefinfo{Ploeg}{PLOEG}{2006}
@@ -175,6 +396,11 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
   perspective.
 \emph{Handbook of the Economics of Art and Culture}, Elsevier, v.~1, p.
   1183--1221, 2006.}
+
+\bibitem[{R Core Team} 2018]{rlanguage}
+\abntrefinfo{{R Core Team}}{{R Core Team}}{2018}
+{{R Core Team}. \emph{R: A Language and Environment for Statistical Computing}.
+Vienna, Austria, 2018. Dispon{\'\i}vel em: \url{https://www.R-project.org/}.}
 
 \bibitem[Robins, Elliott e Pattison 2001]{robins2001network}
 \abntrefinfo{Robins, Elliott e Pattison}{ROBINS; ELLIOTT; PATTISON}{2001}
@@ -200,10 +426,25 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {SARKOVAS, Yacoff. O incentivo fiscal à cultura no brasil.
 \emph{Revista D'art}, São Paulo, p. 22--28, 2005.}
 
+\bibitem[Scott 2017]{scott2017social}
+\abntrefinfo{Scott}{SCOTT}{2017}
+{SCOTT, John. \emph{Social network analysis}. [S.l.]: Sage, 2017.}
+
+\bibitem[Snijders 2016]{snijders2016multiple}
+\abntrefinfo{Snijders}{SNIJDERS}{2016}
+{SNIJDERS, Tom~AB. The multiple flavours of multilevel issues for networks. In:
+   LAZEGA, Emmanuel; SNIJDERS, Tom~A.B. (Ed.). \emph{Multilevel network
+  analysis for the social sciences}. [S.l.]: Springer, 2016. p. 15--46.}
+
 \bibitem[Throsby e Withers 1979]{throsby1979economics}
 \abntrefinfo{Throsby e Withers}{THROSBY; WITHERS}{1979}
 {THROSBY, Charles~David; WITHERS, Glenn~Alexander. \emph{The economics of
   performing arts}. London: Edward Arnold publish., 1979.}
+
+\bibitem[Throsby e Withers 1993]{throsby1993economics}
+\abntrefinfo{Throsby e Withers}{THROSBY; WITHERS}{1993}
+{THROSBY, C~David; WITHERS, Glenn~A. \emph{The economics of the performing
+  arts.} [S.l.]: Gregg Revivals, 1993.}
 
 \bibitem[Throsby 1994]{throsby1994production}
 \abntrefinfo{Throsby}{THROSBY}{1994}
@@ -227,6 +468,11 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 {WANG, Peng et al. Social selection models for multilevel networks.
 \emph{Social Networks}, Elsevier, v.~44, p. 346--362, 2016.}
 
+\bibitem[Wasserman e Faust 1994]{wasserman1994social}
+\abntrefinfo{Wasserman e Faust}{WASSERMAN; FAUST}{1994}
+{WASSERMAN, Stanley; FAUST, Katherine. \emph{Social network analysis: Methods
+  and applications}. Cambridge: Cambridge university press, 1994. v.~8.}
+
 \bibitem[Weiss e Kaufmann 2009]{weiss2009estatais}
 \abntrefinfo{Weiss e Kaufmann}{WEISS; KAUFMANN}{2009}
 {WEISS, Ana; KAUFMANN, Renato. O papel das estatais.
@@ -242,5 +488,24 @@ Disserta\c{c}\~{a}o (mestrado) --- Instituto Superior de Economia e Gest{\~a}o,
 \abntrefinfo{White}{WHITE}{2008}
 {WHITE, Harrison~C. \emph{Identity and control}: how social formations emerge.
   Princeton, NJ: Princeton University Press, 2008.}
+
+\bibitem[White, Boorman e Breiger 1976]{white1976social}
+\abntrefinfo{White, Boorman e Breiger}{WHITE; BOORMAN; BREIGER}{1976}
+{WHITE, Harrison~C; BOORMAN, Scott~A; BREIGER, Ronald~L. Social structure from
+  multiple networks. i. blockmodels of roles and positions.
+\emph{American journal of sociology}, University of Chicago Press, v.~81, n.~4,
+  p. 730--780, 1976.}
+
+\bibitem[Wickham 2016]{ggplot2}
+\abntrefinfo{Wickham}{WICKHAM}{2016}
+{WICKHAM, Hadley. \emph{ggplot2: Elegant Graphics for Data Analysis}.
+  Springer-Verlag New York, 2016.
+ISBN 978-3-319-24277-4. Dispon{\'\i}vel em: \url{http://ggplot2.org}.}
+
+\bibitem[Wickham et al. 2018]{dplyr}
+\abntrefinfo{Wickham et al.}{WICKHAM et al.}{2018}
+{WICKHAM, Hadley et al. \emph{dplyr: A Grammar of Data Manipulation}.
+[S.l.], 2018. R package version 0.7.7. Dispon{\'\i}vel em:
+  \url{https://CRAN.R-project.org/package=dplyr}.}
 
 \end{thebibliography}

@@ -1,35 +1,34 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Arch Linux) (preloaded format=pdflatex 2017.8.19)  12 OCT 2017 06:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018) (preloaded format=pdflatex 2018.7.31)  26 MAY 2019 18:55
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
-**Tese_Neylson.tex
+**\input Tese_Neylson.tex
 (./Tese_Neylson.tex
-LaTeX2e <2017-04-15>
-Babel <3.12> and hyphenation patterns for 84 language(s) loaded.
-(/usr/share/texmf-dist/tex/latex/abntex2/abntex2.cls
+(/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2.cls
 Document Class: abntex2 2016/02/26 v-1.9.6 abnTeX2
-(/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2016/05/16 v3.7f configurable book, report, article docu
+(/usr/local/texlive/2018/texmf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2018/04/04 v3.7g configurable book, report, article docu
 ment class
 \onelineskip=\skip41
 \lxvchars=\skip42
 \xlvchars=\skip43
-\@memcnta=\count79
-\c@@memmarkcntra=\count80
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+\@memcnta=\count80
+\c@@memmarkcntra=\count81
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-(/usr/share/texmf-dist/tex/latex/ifetex/ifetex.sty
-Package: ifetex 2011/12/15 v1.2 ifetex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/ifetex/ifetex.sty
+Package: ifetex 2018/03/31 v1.2a ifetex
 
-(/usr/share/texmf-dist/tex/plain/ifetex/ifetex.tex))
-(/usr/share/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/plain/ifetex/ifetex.tex))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
@@ -38,7 +37,7 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(/usr/share/texmf-dist/tex/latex/memoir/mem12.clo
+(/usr/local/texlive/2018/texmf-dist/tex/latex/memoir/mem12.clo
 File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 )
 \binding=\skip48
@@ -51,20 +50,20 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \mem@maxheadheight=\skip55
 \mem@maxfootheight=\skip56
 \headwidth=\skip57
-\c@storedpagenumber=\count81
+\c@storedpagenumber=\count82
 \memPD=\dimen102
 \m@mabparskip=\skip58
 \thanksmarkwidth=\skip59
 \thanksmarksep=\skip60
 \droptitle=\skip61
-\c@book=\count82
-\c@part=\count83
-\c@chapter=\count84
-\c@section=\count85
-\c@subsection=\count86
-\c@subsubsection=\count87
-\c@paragraph=\count88
-\c@subparagraph=\count89
+\c@book=\count83
+\c@part=\count84
+\c@chapter=\count85
+\c@section=\count86
+\c@subsection=\count87
+\c@subsubsection=\count88
+\c@paragraph=\count89
+\c@subparagraph=\count90
 \beforechapskip=\skip62
 \midchapskip=\skip63
 \afterchapskip=\skip64
@@ -86,8 +85,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \beforesubparaskip=\skip80
 \aftersubparaskip=\skip81
 \pfbreakskip=\skip82
-\c@@ppsavesec=\count90
-\c@@ppsaveapp=\count91
+\c@@ppsavesec=\count91
+\c@@ppsaveapp=\count92
 \ragrparindent=\dimen103
 \everylistparindent=\dimen104
 \parsepi=\skip83
@@ -109,10 +108,10 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \absrightindent=\skip97
 \absparindent=\skip98
 \absparsep=\skip99
-\c@vslineno=\count92
-\c@poemline=\count93
-\c@modulo@vs=\count94
-\c@memfvsline=\count95
+\c@vslineno=\count93
+\c@poemline=\count94
+\c@modulo@vs=\count95
+\c@memfvsline=\count96
 \vleftskip=\skip100
 \vrightskip=\skip101
 \stanzaskip=\skip102
@@ -120,11 +119,11 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \vgap=\skip104
 \vindent=\skip105
 \vleftmargin=\dimen106
-\c@verse=\count96
-\c@chrsinstr=\count97
+\c@verse=\count97
+\c@chrsinstr=\count98
 \beforepoemtitleskip=\skip106
 \afterpoemtitleskip=\skip107
-\c@poem=\count98
+\c@poem=\count99
 \beforePoemTitleskip=\skip108
 \midPoemTitleskip=\skip109
 \afterPoemTitleskip=\skip110
@@ -138,7 +137,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \TX@old@col=\dimen111
 \TX@target=\dimen112
 \TX@delta=\dimen113
-\TX@cols=\count99
+\TX@cols=\count100
 \TX@ftn=\toks16
 \heavyrulewidth=\dimen114
 \lightrulewidth=\dimen115
@@ -150,22 +149,22 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \cmidrulesep=\dimen121
 \cmidrulekern=\dimen122
 \defaultaddspace=\dimen123
-\@cmidla=\count100
-\@cmidlb=\count101
+\@cmidla=\count101
+\@cmidlb=\count102
 \@aboverulesep=\dimen124
 \@belowrulesep=\dimen125
-\@thisruleclass=\count102
-\@lastruleclass=\count103
+\@thisruleclass=\count103
+\@lastruleclass=\count104
 \@thisrulewidth=\dimen126
 \ctableftskip=\skip113
 \ctabrightskip=\skip114
-\abovecolumnspenalty=\count104
-\@linestogo=\count105
-\@cellstogo=\count106
-\@cellsincolumn=\count107
+\abovecolumnspenalty=\count105
+\@linestogo=\count106
+\@cellstogo=\count107
+\@cellsincolumn=\count108
 \crtok=\toks17
 \@mincolumnwidth=\dimen127
-\c@newflo@tctr=\count108
+\c@newflo@tctr=\count109
 \mem@margin@floatbox=\box26
 \@contcwidth=\skip115
 \@contindw=\skip116
@@ -177,7 +176,7 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \subfloatbottomskip=\skip122
 \subfloatlabelskip=\skip123
 \subfloatcapmargin=\dimen128
-\c@@contsubnum=\count109
+\c@@contsubnum=\count110
 \m@mscap@capbox=\box27
 \m@mscap@fbox=\box28
 \sidecapsep=\dimen129
@@ -191,8 +190,8 @@ File: mem12.clo 2010/10/19 v0.4b memoir class 12pt size option
 \afterepigraphskip=\skip125
 \epigraphwidth=\skip126
 \epigraphrule=\skip127
-LaTeX Info: Redefining \em on input line 7551.
-LaTeX Info: Redefining \emph on input line 7559.
+LaTeX Info: Redefining \em on input line 7578.
+LaTeX Info: Redefining \emph on input line 7586.
 \tocentryskip=\skip128
 \tocbaseline=\skip129
 \cftparskip=\skip130
@@ -221,7 +220,7 @@ LaTeX Info: Redefining \emph on input line 7559.
 \cftsubparagraphindent=\skip151
 \cftsubparagraphnumwidth=\skip152
 \prechapterprecisshift=\dimen138
-\c@maxsecnumdepth=\count110
+\c@maxsecnumdepth=\count111
 \bibindent=\dimen139
 \bibitemsep=\skip153
 \indexcolsep=\skip154
@@ -242,7 +241,7 @@ LaTeX Info: Redefining \emph on input line 7559.
 \footinsdim=\skip164
 \footinsv@r=\insert197
 \@mpfootinsv@r=\insert196
-\m@m@k=\count111
+\m@m@k=\count112
 \m@m@h=\dimen142
 \m@mipn@skip=\skip165
 \sidefootins=\insert195
@@ -252,58 +251,58 @@ LaTeX Info: Redefining \emph on input line 7559.
 \sidefootvsep=\skip169
 \sidefootwidth=\skip170
 \m@mdownsf=\skip171
-\c@sidefootnote=\count112
+\c@sidefootnote=\count113
 \sidefootmarkwidth=\skip172
 \sidefootmarksep=\skip173
 \sidefootparindent=\skip174
-\c@pagenote=\count113
-\c@pagenoteshadow=\count114
+\c@pagenote=\count114
+\c@pagenoteshadow=\count115
 \mem@pn@lastkern=\skip175
 \every@verbatim=\toks19
 \afterevery@verbatim=\toks20
 \verbatim@line=\toks21
-\tab@position=\count115
+\tab@position=\count116
 \verbatim@in@stream=\read1
 \verbatimindent=\skip176
 \verbatim@out=\write3
 \bvboxsep=\skip177
-\c@memfbvline=\count116
-\c@bvlinectr=\count117
+\c@memfbvline=\count117
+\c@bvlinectr=\count118
 \bvnumlength=\skip178
 \fb@frw=\dimen143
 \fb@frh=\dimen144
 \FrameRule=\dimen145
 \FrameSep=\dimen146
-\c@cp@cntr=\count118
-LaTeX Info: Redefining \: on input line 12068.
-LaTeX Info: Redefining \! on input line 12070.
-\c@ism@mctr=\count119
-\c@xsm@mctr=\count120
-\c@csm@mctr=\count121
-\c@ksm@mctr=\count122
-\c@xksm@mctr=\count123
-\c@cksm@mctr=\count124
-\c@msm@mctr=\count125
-\c@xmsm@mctr=\count126
-\c@cmsm@mctr=\count127
-\c@bsm@mctr=\count128
-\c@workm@mctr=\count129
-\c@sheetsequence=\count130
-\c@lastsheet=\count131
-\c@lastpage=\count132
-\c@figure=\count133
-\c@lofdepth=\count134
+\c@cp@cntr=\count119
+LaTeX Info: Redefining \: on input line 12100.
+LaTeX Info: Redefining \! on input line 12102.
+\c@ism@mctr=\count120
+\c@xsm@mctr=\count121
+\c@csm@mctr=\count122
+\c@ksm@mctr=\count123
+\c@xksm@mctr=\count124
+\c@cksm@mctr=\count125
+\c@msm@mctr=\count126
+\c@xmsm@mctr=\count127
+\c@cmsm@mctr=\count128
+\c@bsm@mctr=\count129
+\c@workm@mctr=\count130
+\c@sheetsequence=\count131
+\c@lastsheet=\count132
+\c@lastpage=\count133
+\c@figure=\count134
+\c@lofdepth=\count135
 \cftbeforefigureskip=\skip179
 \cftfigureindent=\skip180
 \cftfigurenumwidth=\skip181
-\c@table=\count135
-\c@lotdepth=\count136
+\c@table=\count136
+\c@lotdepth=\count137
 \cftbeforetableskip=\skip182
 \cfttableindent=\skip183
 \cfttablenumwidth=\skip184
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
-Package array [2008/09/09] emulated by memoir.
+Package array [2016/10/06] emulated by memoir.
 Package booktabs [2016/05/16] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
@@ -311,7 +310,7 @@ Package chngcntr [2008/07/23] emulated by memoir.
 Package chngpage [2008/07/23] emulated by memoir.
 Package crop emulated by memoir.
 Package dcolumn [2008/07/23] emulated by memoir.
-Package delarray [2008/07/23] emulated by memoir.
+Package delarray [2014/10/28] emulated by memoir.
 Package enumerate [2008/07/23] emulated by memoir.
 Package epigraph [2008/07/23] emulated by memoir.
 Package ifmtarg [2008/07/23] emulated by memoir.
@@ -328,7 +327,7 @@ Package patchcmd [2008/07/23] emulated by memoir.
 Package setspace [2008/07/23] emulated by memoir.
 Package shortvrb [2008/07/23] emulated by memoir.
 Package showidx [2008/07/23] emulated by memoir.
-Package tabularx [2008/07/23] emulated by memoir.
+Package tabularx [2016/02/03] emulated by memoir.
 Package titleref [2008/07/23] emulated by memoir.
 Package titling [2008/07/23] emulated by memoir.
 Package tocbibind [2008/07/23] emulated by memoir.
@@ -336,23 +335,20 @@ Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-
-(/usr/share/texmf-dist/tex/latex/memoir/mempatch.sty
-Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
-))
-(/usr/share/texmf-dist/tex/latex/textcase/textcase.sty
+)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 LaTeX Info: Redefining \MakeTextUppercase on input line 47.
 LaTeX Info: Redefining \MakeTextLowercase on input line 50.
 )
-(/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2017/03/14 v6.85a Hypertext links for LaTeX
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
 Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
@@ -369,7 +365,7 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
 Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -391,170 +387,166 @@ Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen147
-\Hy@linkcounter=\count137
-\Hy@pagecounter=\count138
+\Hy@linkcounter=\count138
+\Hy@pagecounter=\count139
 
-(/usr/share/texmf-dist/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2017/03/14 v6.85a Hyperref: PDFDocEncoding definition (HO)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
 )
-\Hy@SavedSpaceFactor=\count139
+\Hy@SavedSpaceFactor=\count140
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Hyper figures OFF on input line 4498.
-Package hyperref Info: Link nesting OFF on input line 4503.
-Package hyperref Info: Hyper index ON on input line 4506.
-Package hyperref Info: Plain pages OFF on input line 4513.
-Package hyperref Info: Backreferencing OFF on input line 4518.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing OFF on input line 4529.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4751.
-\c@Hy@tempcnt=\count140
+Package hyperref Info: Bookmarks ON on input line 4762.
+\c@Hy@tempcnt=\count141
 
-(/usr/share/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 5104.
+LaTeX Info: Redefining \url on input line 5115.
 \XeTeXLinkMargin=\dimen148
-\Fld@menulength=\count141
+\Fld@menulength=\count142
 \Field@Width=\dimen149
 \Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6358.
-Package hyperref Info: Link nesting OFF on input line 6363.
-Package hyperref Info: Hyper index ON on input line 6366.
-Package hyperref Info: backreferencing OFF on input line 6373.
-Package hyperref Info: Link coloring OFF on input line 6378.
-Package hyperref Info: Link coloring with OCG OFF on input line 6383.
-Package hyperref Info: PDF/A mode OFF on input line 6388.
-LaTeX Info: Redefining \ref on input line 6428.
-LaTeX Info: Redefining \pageref on input line 6432.
-\Hy@abspage=\count142
-\c@Item=\count143
-\c@Hfootnote=\count144
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing OFF on input line 6384.
+Package hyperref Info: Link coloring OFF on input line 6389.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count143
+\c@Item=\count144
+\c@Hfootnote=\count145
 )
-(/usr/share/texmf-dist/tex/latex/memoir/memhfixc.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/memoir/memhfixc.sty
 Package: memhfixc 2013/05/30 v1.17 nameref/hyperref package fixes for memoir cl
 ass
-\c@memhycontfloat=\count145
-\c@Hpagenote=\count146
+\c@memhycontfloat=\count146
+\c@Hpagenote=\count147
 )
+Package hyperref Info: Driver (autodetected): hpdftex.
 
-Package hyperref Message: Driver (autodetected): hpdftex.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count148
+\c@bookmark@seq@number=\count149
 
-(/usr/share/texmf-dist/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2017/03/14 v6.85a Hyperref driver for pdfTeX
-\Fld@listcount=\count147
-\c@bookmark@seq@number=\count148
-
-(/usr/share/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip185
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/bookmark.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/bookmark.sty
 Package: bookmark 2016/05/17 v1.26 PDF bookmarks (HO)
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/bkm-pdftex.def
 File: bkm-pdftex.def 2016/05/17 v1.26 bookmark driver for pdfTeX (HO)
-\BKM@id=\count149
+\BKM@id=\count150
 ))
-(/usr/share/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2017/06/29 3.12 The Babel package
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2018/02/14 3.18 The Babel package
 
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2018/02/14 3.18 Babel switching mechanism
 )
-(/usr/share/texmf-dist/tex/generic/babel-german/german.ldf
-Language: german 2016/11/02 v2.9 German support for babel (traditional orthogra
-phy)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/german.ldf
+Language: german 2018/03/29 v2.10 German support for babel (pre-1996 orthograph
+y)
 
-(/usr/share/texmf-dist/tex/generic/babel-german/germanb.ldf
-Language: germanb 2016/11/02 v2.9 German support for babel (traditional orthogr
-aphy)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-german/germanb.ldf
+Language: germanb 2018/03/29 v2.10 German support for babel (pre-1996 orthograp
+hy)
 
-(/usr/share/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2017/06/29 3.12 Babel common definitions
-
-(/usr/share/texmf-dist/tex/generic/babel/switch.def
-File: switch.def 2017/06/29 3.12 Babel switching mechanism
-)
-\babel@savecnt=\count150
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2018/02/14 3.18 Babel common definitions
+\babel@savecnt=\count151
 \U@D=\dimen151
-)
-Package babel Info: Making " an active character on input line 139.
-))
-(/usr/share/texmf-dist/tex/generic/babel-french/frenchb.ldf
-Language: frenchb 2017/07/08 v3.3b French support from the babel system
 
-(/usr/share/texmf-dist/tex/generic/babel-french/french.ldf
-Language: french 2017/07/08 v3.3b French support from the babel system
-\FB@nonchar=\count151
-\FBcolonsp=\toks23
-\FBthinsp=\toks24
-Package babel Info: Making : an active character on input line 321.
-Package babel Info: Making ; an active character on input line 322.
-Package babel Info: Making ! an active character on input line 323.
-Package babel Info: Making ? an active character on input line 324.
-\FBguillsp=\toks25
-\FBguill@level=\count152
-\FB@everypar=\toks26
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count152
+)
+Package babel Info: Making " an active character on input line 135.
+))
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2018/03/25 v3.4c French support from the babel system
+\l@acadian = a dialect from \language\l@french 
+\FB@nonchar=\count153
+Package babel Info: Making : an active character on input line 415.
+Package babel Info: Making ; an active character on input line 416.
+Package babel Info: Making ! an active character on input line 417.
+Package babel Info: Making ? an active character on input line 418.
+\FBguill@level=\count154
+\FB@everypar=\toks23
 \FB@Mht=\dimen152
-\mc@charclass=\count153
-\mc@charfam=\count154
-\mc@charslot=\count155
-\std@mcc=\count156
-\dec@mcc=\count157
+\mc@charclass=\count155
+\mc@charfam=\count156
+\mc@charslot=\count157
+\std@mcc=\count158
+\dec@mcc=\count159
+\c@FBcaption@count=\count160
 \listindentFB=\skip186
 \descindentFB=\skip187
 \labelwidthFB=\skip188
 \leftmarginFB=\skip189
 \parindentFFN=\dimen153
 \FBfnindent=\skip190
-))
-(/usr/share/texmf-dist/tex/generic/babel-english/english.ldf
+)
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 )
-(/usr/share/texmf-dist/tex/generic/babel-portuges/portuges.ldf
+(/usr/local/texlive/2018/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 \l@brazil = a dialect from \language\l@portuges 
 ))
-(/usr/share/texmf-dist/tex/latex/carlisle/scalefnt.sty)
-(/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/carlisle/scalefnt.sty)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip191
 \enit@outerparindent=\dimen154
-\enit@toks=\toks27
+\enit@toks=\toks24
 \enit@inbox=\box29
-\enitdp@description=\count158
+\enitdp@description=\count161
 )
-(/usr/share/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count159
-\calc@Bcount=\count160
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count162
+\calc@Bcount=\count163
 \calc@Adimen=\dimen155
 \calc@Bdimen=\dimen156
 \calc@Askip=\skip192
 \calc@Bskip=\skip193
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count161
+\calc@Ccount=\count164
 \calc@Cskip=\skip194
 )
 
@@ -577,386 +569,71 @@ Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count162
+\c@abntex@bookmarkcounter=\count165
 \cftlastnumwidth=\skip256
 \chapternamenumlength=\skip257
 \ABNTEXcitacaorecuo=\skip258
-\c@alineasi=\count163
-\c@alineasii=\count164
-\enitdp@alineas=\count165
-\c@subalineasi=\count166
-\enitdp@subalineas=\count167
-\c@incisosi=\count168
-\enitdp@incisos=\count169
+\c@alineasi=\count166
+\c@alineasii=\count167
+\enitdp@alineas=\count168
+\c@subalineasi=\count169
+\enitdp@subalineas=\count170
+\c@incisosi=\count171
+\enitdp@incisos=\count172
 \ABNTEXsignwidth=\skip259
 \ABNTEXsignthickness=\skip260
 \ABNTEXsignskip=\skip261
-) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2017/06/24 v1.0g Graphics/color driver for pdftex
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen157
 \Gin@req@width=\dimen158
 )
-(/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2015/03/17 v1.2c Input encoding file
-\inpenc@prehook=\toks28
-\inpenc@posthook=\toks29
-
-(/usr/share/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2017/01/28 v1.1t UTF-8 support for inputenc
-Now handling font encoding OML ...
-... no UTF-8 mapping file for font encoding OML
-Now handling font encoding T1 ...
-... processing UTF-8 mapping file for font encoding T1
-
-(/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AB (decimal 171)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00BB (decimal 187)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C0 (decimal 192)
-   defining Unicode char U+00C1 (decimal 193)
-   defining Unicode char U+00C2 (decimal 194)
-   defining Unicode char U+00C3 (decimal 195)
-   defining Unicode char U+00C4 (decimal 196)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00C7 (decimal 199)
-   defining Unicode char U+00C8 (decimal 200)
-   defining Unicode char U+00C9 (decimal 201)
-   defining Unicode char U+00CA (decimal 202)
-   defining Unicode char U+00CB (decimal 203)
-   defining Unicode char U+00CC (decimal 204)
-   defining Unicode char U+00CD (decimal 205)
-   defining Unicode char U+00CE (decimal 206)
-   defining Unicode char U+00CF (decimal 207)
-   defining Unicode char U+00D0 (decimal 208)
-   defining Unicode char U+00D1 (decimal 209)
-   defining Unicode char U+00D2 (decimal 210)
-   defining Unicode char U+00D3 (decimal 211)
-   defining Unicode char U+00D4 (decimal 212)
-   defining Unicode char U+00D5 (decimal 213)
-   defining Unicode char U+00D6 (decimal 214)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00D9 (decimal 217)
-   defining Unicode char U+00DA (decimal 218)
-   defining Unicode char U+00DB (decimal 219)
-   defining Unicode char U+00DC (decimal 220)
-   defining Unicode char U+00DD (decimal 221)
-   defining Unicode char U+00DE (decimal 222)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E0 (decimal 224)
-   defining Unicode char U+00E1 (decimal 225)
-   defining Unicode char U+00E2 (decimal 226)
-   defining Unicode char U+00E3 (decimal 227)
-   defining Unicode char U+00E4 (decimal 228)
-   defining Unicode char U+00E5 (decimal 229)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00E7 (decimal 231)
-   defining Unicode char U+00E8 (decimal 232)
-   defining Unicode char U+00E9 (decimal 233)
-   defining Unicode char U+00EA (decimal 234)
-   defining Unicode char U+00EB (decimal 235)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F0 (decimal 240)
-   defining Unicode char U+00F1 (decimal 241)
-   defining Unicode char U+00F2 (decimal 242)
-   defining Unicode char U+00F3 (decimal 243)
-   defining Unicode char U+00F4 (decimal 244)
-   defining Unicode char U+00F5 (decimal 245)
-   defining Unicode char U+00F6 (decimal 246)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+00F9 (decimal 249)
-   defining Unicode char U+00FA (decimal 250)
-   defining Unicode char U+00FB (decimal 251)
-   defining Unicode char U+00FC (decimal 252)
-   defining Unicode char U+00FD (decimal 253)
-   defining Unicode char U+00FE (decimal 254)
-   defining Unicode char U+00FF (decimal 255)
-   defining Unicode char U+0100 (decimal 256)
-   defining Unicode char U+0101 (decimal 257)
-   defining Unicode char U+0102 (decimal 258)
-   defining Unicode char U+0103 (decimal 259)
-   defining Unicode char U+0104 (decimal 260)
-   defining Unicode char U+0105 (decimal 261)
-   defining Unicode char U+0106 (decimal 262)
-   defining Unicode char U+0107 (decimal 263)
-   defining Unicode char U+0108 (decimal 264)
-   defining Unicode char U+0109 (decimal 265)
-   defining Unicode char U+010A (decimal 266)
-   defining Unicode char U+010B (decimal 267)
-   defining Unicode char U+010C (decimal 268)
-   defining Unicode char U+010D (decimal 269)
-   defining Unicode char U+010E (decimal 270)
-   defining Unicode char U+010F (decimal 271)
-   defining Unicode char U+0110 (decimal 272)
-   defining Unicode char U+0111 (decimal 273)
-   defining Unicode char U+0112 (decimal 274)
-   defining Unicode char U+0113 (decimal 275)
-   defining Unicode char U+0114 (decimal 276)
-   defining Unicode char U+0115 (decimal 277)
-   defining Unicode char U+0116 (decimal 278)
-   defining Unicode char U+0117 (decimal 279)
-   defining Unicode char U+0118 (decimal 280)
-   defining Unicode char U+0119 (decimal 281)
-   defining Unicode char U+011A (decimal 282)
-   defining Unicode char U+011B (decimal 283)
-   defining Unicode char U+011C (decimal 284)
-   defining Unicode char U+011D (decimal 285)
-   defining Unicode char U+011E (decimal 286)
-   defining Unicode char U+011F (decimal 287)
-   defining Unicode char U+0120 (decimal 288)
-   defining Unicode char U+0121 (decimal 289)
-   defining Unicode char U+0122 (decimal 290)
-   defining Unicode char U+0123 (decimal 291)
-   defining Unicode char U+0124 (decimal 292)
-   defining Unicode char U+0125 (decimal 293)
-   defining Unicode char U+0128 (decimal 296)
-   defining Unicode char U+0129 (decimal 297)
-   defining Unicode char U+012A (decimal 298)
-   defining Unicode char U+012B (decimal 299)
-   defining Unicode char U+012C (decimal 300)
-   defining Unicode char U+012D (decimal 301)
-   defining Unicode char U+012E (decimal 302)
-   defining Unicode char U+012F (decimal 303)
-   defining Unicode char U+0130 (decimal 304)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0132 (decimal 306)
-   defining Unicode char U+0133 (decimal 307)
-   defining Unicode char U+0134 (decimal 308)
-   defining Unicode char U+0135 (decimal 309)
-   defining Unicode char U+0136 (decimal 310)
-   defining Unicode char U+0137 (decimal 311)
-   defining Unicode char U+0139 (decimal 313)
-   defining Unicode char U+013A (decimal 314)
-   defining Unicode char U+013B (decimal 315)
-   defining Unicode char U+013C (decimal 316)
-   defining Unicode char U+013D (decimal 317)
-   defining Unicode char U+013E (decimal 318)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0143 (decimal 323)
-   defining Unicode char U+0144 (decimal 324)
-   defining Unicode char U+0145 (decimal 325)
-   defining Unicode char U+0146 (decimal 326)
-   defining Unicode char U+0147 (decimal 327)
-   defining Unicode char U+0148 (decimal 328)
-   defining Unicode char U+014A (decimal 330)
-   defining Unicode char U+014B (decimal 331)
-   defining Unicode char U+014C (decimal 332)
-   defining Unicode char U+014D (decimal 333)
-   defining Unicode char U+014E (decimal 334)
-   defining Unicode char U+014F (decimal 335)
-   defining Unicode char U+0150 (decimal 336)
-   defining Unicode char U+0151 (decimal 337)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0154 (decimal 340)
-   defining Unicode char U+0155 (decimal 341)
-   defining Unicode char U+0156 (decimal 342)
-   defining Unicode char U+0157 (decimal 343)
-   defining Unicode char U+0158 (decimal 344)
-   defining Unicode char U+0159 (decimal 345)
-   defining Unicode char U+015A (decimal 346)
-   defining Unicode char U+015B (decimal 347)
-   defining Unicode char U+015C (decimal 348)
-   defining Unicode char U+015D (decimal 349)
-   defining Unicode char U+015E (decimal 350)
-   defining Unicode char U+015F (decimal 351)
-   defining Unicode char U+0160 (decimal 352)
-   defining Unicode char U+0161 (decimal 353)
-   defining Unicode char U+0162 (decimal 354)
-   defining Unicode char U+0163 (decimal 355)
-   defining Unicode char U+0164 (decimal 356)
-   defining Unicode char U+0165 (decimal 357)
-   defining Unicode char U+0168 (decimal 360)
-   defining Unicode char U+0169 (decimal 361)
-   defining Unicode char U+016A (decimal 362)
-   defining Unicode char U+016B (decimal 363)
-   defining Unicode char U+016C (decimal 364)
-   defining Unicode char U+016D (decimal 365)
-   defining Unicode char U+016E (decimal 366)
-   defining Unicode char U+016F (decimal 367)
-   defining Unicode char U+0170 (decimal 368)
-   defining Unicode char U+0171 (decimal 369)
-   defining Unicode char U+0172 (decimal 370)
-   defining Unicode char U+0173 (decimal 371)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0178 (decimal 376)
-   defining Unicode char U+0179 (decimal 377)
-   defining Unicode char U+017A (decimal 378)
-   defining Unicode char U+017B (decimal 379)
-   defining Unicode char U+017C (decimal 380)
-   defining Unicode char U+017D (decimal 381)
-   defining Unicode char U+017E (decimal 382)
-   defining Unicode char U+01CD (decimal 461)
-   defining Unicode char U+01CE (decimal 462)
-   defining Unicode char U+01CF (decimal 463)
-   defining Unicode char U+01D0 (decimal 464)
-   defining Unicode char U+01D1 (decimal 465)
-   defining Unicode char U+01D2 (decimal 466)
-   defining Unicode char U+01D3 (decimal 467)
-   defining Unicode char U+01D4 (decimal 468)
-   defining Unicode char U+01E2 (decimal 482)
-   defining Unicode char U+01E3 (decimal 483)
-   defining Unicode char U+01E6 (decimal 486)
-   defining Unicode char U+01E7 (decimal 487)
-   defining Unicode char U+01E8 (decimal 488)
-   defining Unicode char U+01E9 (decimal 489)
-   defining Unicode char U+01EA (decimal 490)
-   defining Unicode char U+01EB (decimal 491)
-   defining Unicode char U+01F0 (decimal 496)
-   defining Unicode char U+01F4 (decimal 500)
-   defining Unicode char U+01F5 (decimal 501)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+0232 (decimal 562)
-   defining Unicode char U+0233 (decimal 563)
-   defining Unicode char U+1E02 (decimal 7682)
-   defining Unicode char U+1E03 (decimal 7683)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2010 (decimal 8208)
-   defining Unicode char U+2011 (decimal 8209)
-   defining Unicode char U+2012 (decimal 8210)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2015 (decimal 8213)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201A (decimal 8218)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-   defining Unicode char U+201E (decimal 8222)
-   defining Unicode char U+2030 (decimal 8240)
-   defining Unicode char U+2031 (decimal 8241)
-   defining Unicode char U+2039 (decimal 8249)
-   defining Unicode char U+203A (decimal 8250)
-   defining Unicode char U+2423 (decimal 9251)
-   defining Unicode char U+1E20 (decimal 7712)
-   defining Unicode char U+1E21 (decimal 7713)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks25
+\inpenc@posthook=\toks26
 )
-Now handling font encoding OT1 ...
-... processing UTF-8 mapping file for font encoding OT1
-
-(/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A0 (decimal 160)
-   defining Unicode char U+00A1 (decimal 161)
-   defining Unicode char U+00A3 (decimal 163)
-   defining Unicode char U+00AD (decimal 173)
-   defining Unicode char U+00B8 (decimal 184)
-   defining Unicode char U+00BF (decimal 191)
-   defining Unicode char U+00C5 (decimal 197)
-   defining Unicode char U+00C6 (decimal 198)
-   defining Unicode char U+00D8 (decimal 216)
-   defining Unicode char U+00DF (decimal 223)
-   defining Unicode char U+00E6 (decimal 230)
-   defining Unicode char U+00EC (decimal 236)
-   defining Unicode char U+00ED (decimal 237)
-   defining Unicode char U+00EE (decimal 238)
-   defining Unicode char U+00EF (decimal 239)
-   defining Unicode char U+00F8 (decimal 248)
-   defining Unicode char U+0131 (decimal 305)
-   defining Unicode char U+0141 (decimal 321)
-   defining Unicode char U+0142 (decimal 322)
-   defining Unicode char U+0152 (decimal 338)
-   defining Unicode char U+0153 (decimal 339)
-   defining Unicode char U+0174 (decimal 372)
-   defining Unicode char U+0175 (decimal 373)
-   defining Unicode char U+0176 (decimal 374)
-   defining Unicode char U+0177 (decimal 375)
-   defining Unicode char U+0218 (decimal 536)
-   defining Unicode char U+0219 (decimal 537)
-   defining Unicode char U+021A (decimal 538)
-   defining Unicode char U+021B (decimal 539)
-   defining Unicode char U+2013 (decimal 8211)
-   defining Unicode char U+2014 (decimal 8212)
-   defining Unicode char U+2018 (decimal 8216)
-   defining Unicode char U+2019 (decimal 8217)
-   defining Unicode char U+201C (decimal 8220)
-   defining Unicode char U+201D (decimal 8221)
-)
-Now handling font encoding OMS ...
-... processing UTF-8 mapping file for font encoding OMS
-
-(/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2017/01/28 v1.1t UTF-8 support for inputenc
-   defining Unicode char U+00A7 (decimal 167)
-   defining Unicode char U+00B6 (decimal 182)
-   defining Unicode char U+00B7 (decimal 183)
-   defining Unicode char U+2020 (decimal 8224)
-   defining Unicode char U+2021 (decimal 8225)
-   defining Unicode char U+2022 (decimal 8226)
-)
-Now handling font encoding OMX ...
-... no UTF-8 mapping file for font encoding OMX
-Now handling font encoding U ...
-... no UTF-8 mapping file for font encoding U
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-   defining Unicode char U+00A9 (decimal 169)
-   defining Unicode char U+00AA (decimal 170)
-   defining Unicode char U+00AE (decimal 174)
-   defining Unicode char U+00BA (decimal 186)
-   defining Unicode char U+02C6 (decimal 710)
-   defining Unicode char U+02DC (decimal 732)
-   defining Unicode char U+200C (decimal 8204)
-   defining Unicode char U+2026 (decimal 8230)
-   defining Unicode char U+2122 (decimal 8482)
-   defining Unicode char U+2423 (decimal 9251)
-))
-(/usr/share/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/wrapfig/wrapfig.sty
 \wrapoverhang=\dimen159
 \WF@size=\dimen160
-\c@WF@wrappedlines=\count170
+\c@WF@wrappedlines=\count173
 \WF@box=\box30
-\WF@everypar=\toks30
+\WF@everypar=\toks27
 Package: wrapfig 2003/01/31  v 3.6
 )
-(/usr/share/texmf-dist/tex/latex/graphics/lscape.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/graphics/rotating.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count171
+\c@r@tfl@t=\count174
 \rotFPtop=\skip262
 \rotFPbot=\skip263
 \rot@float@box=\box31
-\rot@mess@toks=\toks31
+\rot@mess@toks=\toks28
 )
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2016/05/15 v2.6 Conversion with epstopdf on the fly (HO)
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-(/usr/share/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
 )
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -966,32 +643,32 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 )))
-(/usr/share/texmf-dist/tex/latex/abntex2/abntex2cite.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2cite.sty
 Package: abntex2cite 2016/02/26 v-1.9.6 abnTeX2
 
-(/usr/share/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
+(/usr/local/texlive/2018/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip264
 \ABCIauxlen=\skip265
-\c@ABCIaux=\count172
-\c@ABCImax=\count173
+\c@ABCIaux=\count175
+\c@ABCImax=\count176
 
-(/usr/share/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \biblabelsep=\skip266
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks32
+\ABCItoken=\toks29
 )
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2010/09/12 v5.6 Page Geometry
-\Gm@cnth=\count174
-\Gm@cntv=\count175
-\c@Gm@tempcnt=\count176
+(/usr/local/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+\Gm@cnth=\count177
+\Gm@cntv=\count178
+\c@Gm@tempcnt=\count179
 \Gm@bindingoffset=\dimen161
 \Gm@wd@mp=\dimen162
 \Gm@odd@mp=\dimen163
@@ -1000,56 +677,56 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutheight=\dimen166
 \Gm@layouthoffset=\dimen167
 \Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks33
+\Gm@dimlist=\toks30
 )
-(/usr/share/texmf-dist/tex/latex/tools/indentfirst.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
 )
-(/usr/share/texmf-dist/tex/latex/tools/longtable.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip267
 \LTright=\skip268
 \LTpre=\skip269
 \LTpost=\skip270
-\LTchunksize=\count177
+\LTchunksize=\count180
 \LTcapwidth=\dimen169
 \LT@head=\box32
 \LT@firsthead=\box33
 \LT@foot=\box34
 \LT@lastfoot=\box35
-\LT@cols=\count178
-\LT@rows=\count179
-\c@LT@tables=\count180
-\c@LT@chunks=\count181
-\LT@p@ftn=\toks34
+\LT@cols=\count181
+\LT@rows=\count182
+\c@LT@tables=\count183
+\c@LT@chunks=\count184
+\LT@p@ftn=\toks31
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2016/11/05 v2.16a AMS math features
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip271
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01 AMS text
 
-(/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
-\@emptytoks=\toks35
+\@emptytoks=\toks32
 \ex@=\dimen170
 ))
-(/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen171
 )
-(/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count182
+\inf@bad=\count185
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count183
-\leftroot@=\count184
+\uproot@=\count186
+\leftroot@=\count187
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count185
-\DOTSCASE@=\count186
+\classnum@=\count188
+\DOTSCASE@=\count189
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -1058,144 +735,145 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen172
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count187
-\c@MaxMatrixCols=\count188
+\macc@depth=\count190
+\c@MaxMatrixCols=\count191
 \dotsspace@=\muskip11
-\c@parentequation=\count189
-\dspbrk@lvl=\count190
-\tag@help=\toks36
-\row@=\count191
-\column@=\count192
-\maxfields@=\count193
-\andhelp@=\toks37
+\c@parentequation=\count192
+\dspbrk@lvl=\count193
+\tag@help=\toks33
+\row@=\count194
+\column@=\count266
+\maxfields@=\count267
+\andhelp@=\toks34
 \eqnshift@=\dimen173
 \alignsep@=\dimen174
 \tagshift@=\dimen175
 \tagwidth@=\dimen176
 \totwidth@=\dimen177
 \lineht@=\dimen178
-\@envbody=\toks38
+\@envbody=\toks35
 \multlinegap=\skip272
 \multlinetaggap=\skip273
-\mathdisplay@stack=\toks39
+\mathdisplay@stack=\toks36
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-(/usr/share/texmf-dist/tex/latex/algorithms/algorithm.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithms/algorithm.sty
 Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating enviro
 nment
 
-(/usr/share/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count194
-\float@exts=\toks40
+\c@float@type=\count268
+\float@exts=\toks37
 \float@box=\box38
-\@float@everytoks=\toks41
+\@float@everytoks=\toks38
 \@floatcapt=\box39
 )
-\@float@every@algorithm=\toks42
-\c@algorithm=\count266
+\@float@every@algorithm=\toks39
+\c@algorithm=\count269
 )
-(/usr/share/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algpseudocode.sty
 Package: algpseudocode 
 
-(/usr/share/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/algorithmicx/algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
-\c@ALG@line=\count267
-\c@ALG@rem=\count268
-\c@ALG@nested=\count269
+\c@ALG@line=\count270
+\c@ALG@rem=\count271
+\c@ALG@nested=\count272
 \ALG@tlm=\skip274
 \ALG@thistlm=\skip275
-\c@ALG@Lnr=\count270
-\c@ALG@blocknr=\count271
-\c@ALG@storecount=\count272
-\c@ALG@tmpcounter=\count273
+\c@ALG@Lnr=\count273
+\c@ALG@blocknr=\count274
+\c@ALG@storecount=\count275
+\c@ALG@tmpcounter=\count276
 \ALG@tmplength=\skip276
 )
 Document Style - pseudocode environments for use with the `algorithmicx' style
-) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count274
+) (/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count277
 \lst@gtempboxa=\box40
-\lst@token=\toks43
-\lst@length=\count275
+\lst@token=\toks40
+\lst@length=\count278
 \lst@currlwidth=\dimen179
-\lst@column=\count276
-\lst@pos=\count277
+\lst@column=\count279
+\lst@pos=\count280
 \lst@lostspace=\dimen180
 \lst@width=\dimen181
-\lst@newlines=\count278
-\lst@lineno=\count279
+\lst@newlines=\count281
+\lst@lineno=\count282
 \lst@maxwidth=\dimen182
 
-(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count280
-\lst@skipnumbers=\count281
+\c@lstnumber=\count283
+\lst@skipnumbers=\count284
 \lst@framebox=\box41
 )
-(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+(/usr/local/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (./Tese_Neylson.aux)
+
+(./Tese_Neylson.aux)
 \openout1 = `Tese_Neylson.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
 \AtBeginShipoutBox=\box42
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 46.
 
-(/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
-(/usr/share/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count282
+\c@section@level=\count285
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 44.
-LaTeX Info: Redefining \ref on input line 44.
-LaTeX Info: Redefining \pageref on input line 44.
-LaTeX Info: Redefining \nameref on input line 44.
-LaTeX Info: Redefining \degres on input line 44.
-LaTeX Info: Redefining \dots on input line 44.
-LaTeX Info: Redefining \up on input line 44.
+LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \ref on input line 46.
+LaTeX Info: Redefining \pageref on input line 46.
+LaTeX Info: Redefining \nameref on input line 46.
+LaTeX Info: Redefining \degres on input line 46.
+LaTeX Info: Redefining \dots on input line 46.
+LaTeX Info: Redefining \up on input line 46.
 
 Package french.ldf Warning: OT1 encoding should not be used for French.
 (french.ldf)                Add \usepackage[T1]{fontenc} to the preamble
-(french.ldf)                of your document; reported on input line 44.
+(french.ldf)                of your document; reported on input line 46.
 
 \myptabbox=\box43
 \myptabboxwidth=\skip277
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count283
+\scratchcounter=\count286
 \scratchdimen=\dimen183
 \scratchbox=\box44
-\nofMPsegments=\count284
-\nofMParguments=\count285
-\everyMPshowfont=\toks44
-\MPscratchCnt=\count286
+\nofMPsegments=\count287
+\nofMParguments=\count288
+\everyMPshowfont=\toks41
+\MPscratchCnt=\count289
 \MPscratchDim=\dimen184
-\MPnumerator=\count287
-\makeMPintoPDFobject=\count288
-\everyMPtoPDFconversion=\toks45
+\MPnumerator=\count290
+\makeMPintoPDFobject=\count291
+\everyMPtoPDFconversion=\toks42
 )
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1231,329 +909,1026 @@ Package french.ldf Warning: OT1 encoding should not be used for French.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count289
+\c@lstlisting=\count292
 [1
 
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./Tese_Neylson.lof)
-(./Tese_Neylson.lot) [2
-
-] (./Tese_Neylson.toc [3]) [4]
-Overfull \hbox (0.55116pt too wide) in paragraph at lines 121--122
-[]\OT1/cmr/m/n/12 Desse modo, ini-ci-a-re-mos o tra-ba-lho apre-sen-tado bre-ve
--mente uma pes-quisa bi-bli-ogr^^Safica
+{/usr/local/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 3148) in paragraph at lines 50--50
+[]\OT1/cmr/m/n/12 Tese apre-sen-tada ao pro-grama de p^^Sos-
  []
 
-[5
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.50 
+      [1
 
-] [6]
+
+
+] [2
+
+] [3
+
+
+] [4
+
+] [5
+
+] [6
+
+] [7
+
+] (./Tese_Neylson.lof
+Overfull \hbox (6.65256pt too wide) in paragraph at lines 26--26
+ [][] [][]\OT1/cmr/m/n/12 Rede in-te-ror-ga-ni-za-ci-o-nal a par-tir da co-fi-l
+ia^^Xc~ao de m^^Susicos (trans-forma^^Xc~ao 
+ []
+
+
+Overfull \hbox (6.65256pt too wide) in paragraph at lines 29--29
+ [][] [][]\OT1/cmr/m/n/12 Rede in-te-ror-ga-ni-za-ci-o-nal a par-tir da co-fi-l
+ia^^Xc~ao de m^^Susicos (trans-forma^^Xc~ao 
+ []
+
+) (./Tese_Neylson.lot [8
+
+]) [9] (./Tese_Neylson.toc [10]
+Overfull \hbox (1.58777pt too wide) detected at line 79
+ \OT1/cmss/bx/n/12 101
+ []
+
+[11]
+Overfull \hbox (1.58777pt too wide) detected at line 83
+ \OT1/cmss/bx/n/12 110
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 85
+ \OT1/cmss/bx/n/12 113
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 86
+ \OT1/cmss/bx/n/12 113
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 87
+ \OT1/cmss/bx/n/12 114
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 88
+ \OT1/cmss/bx/n/12 114
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 89
+ \OT1/cmss/bx/n/12 115
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 90
+ \OT1/cmss/bx/n/12 117
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 93
+ \OT1/cmss/bx/n/12 118
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 95
+ \OT1/cmss/bx/n/12 124
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 97
+ \OT1/cmss/bx/n/12 126
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 99
+ \OT1/cmss/bx/n/12 130
+ []
+
+
+Overfull \hbox (1.58777pt too wide) detected at line 101
+ \OT1/cmss/bx/n/12 132
+ []
+
+) [12] [13
+
+] [14] [15
+
+]
+<example-graph.png, id=423, 293.095pt x 290.08376pt>
+File: example-graph.png Graphic file (type png)
+<use example-graph.png>
+Package pdftex.def Info: example-graph.png  used on input line 322.
+(pdftex.def)             Requested size: 117.23592pt x 116.03143pt.
+ [16pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.327 	
+        <./example-graph.png>]
+<weighted-graph.png, id=441, 287.0725pt x 287.0725pt>
+File: weighted-graph.png Graphic file (type png)
+<use weighted-graph.png>
+Package pdftex.def Info: weighted-graph.png  used on input line 346.
+(pdftex.def)             Requested size: 114.82695pt x 114.82695pt.
+ [17pdfTeX warning (ext4): destination with the same identifier (name{figure.1.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.354 	
+        <./weighted-graph.png>] [18] [19] [20]
+<example_sociomatrix.png, id=509, 339.2675pt x 283.0575pt>
+File: example_sociomatrix.png Graphic file (type png)
+<use example_sociomatrix.png>
+Package pdftex.def Info: example_sociomatrix.png  used on input line 428.
+(pdftex.def)             Requested size: 203.56206pt x 169.8358pt.
+<example_blockedmatrix.png, id=510, 342.27875pt x 286.06876pt>
+File: example_blockedmatrix.png Graphic file (type png)
+<use example_blockedmatrix.png>
+Package pdftex.def Info: example_blockedmatrix.png  used on input line 429.
+(pdftex.def)             Requested size: 205.36882pt x 171.64258pt.
+ [21] [22pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.1.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.478 	
+       pdfTeX warning (ext4): destination with the same identifier (name{table.
+1.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.478 	
+        <./example_sociomatrix.png> <./example_blockedmatrix.png>]
+<triades.png, id=568, 439.6425pt x 680.5425pt>
+File: triades.png Graphic file (type png)
+<use triades.png>
+Package pdftex.def Info: triades.png  used on input line 500.
+(pdftex.def)             Requested size: 263.78752pt x 408.32864pt.
+ [23]
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.515 	\end{equation}
+                      <./triades.png>] [25]
 Package epstopdf Info: Source file: <chave.eps>
-(epstopdf)                    date: 2017-10-04 02:52:45
+(epstopdf)                    date: 2018-03-26 23:48:12
 (epstopdf)                    size: 11790 bytes
 (epstopdf)             Output file: <chave-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-04 02:52:45
+(epstopdf)                    date: 2018-03-26 23:48:12
 (epstopdf)                    size: 10671 bytes
 (epstopdf)             Command: <repstopdf --outfile=chave-eps-converted-to.pdf
  chave.eps>
-(epstopdf)             \includegraphics on input line 257.
+(epstopdf)             \includegraphics on input line 542.
 Package epstopdf Info: Output file is already uptodate.
-<chave-eps-converted-to.pdf, id=143, pagebox=cropbox, 458.71375pt x 268.00125pt
->
+<chave-eps-converted-to.pdf, id=605, 458.71375pt x 268.00125pt>
 File: chave-eps-converted-to.pdf Graphic file (type pdf)
 <use chave-eps-converted-to.pdf>
-Package pdftex.def Info: chave-eps-converted-to.pdf  used on input line 257. on
- input line 257.
-Package pdftex.def Info: Requested size: 366.9715pt x 214.40128pt on input line
- 257.
- [7
+Package pdftex.def Info: chave-eps-converted-to.pdf  used on input line 542.
+(pdftex.def)             Requested size: 366.9715pt x 214.40128pt.
+ [26
 
-pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) 
 has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.265 ...icas. O $V$ de Cramér é definido por $$
+l.550 ...icas. O $V$ de Cramér é definido por $$
                                                    V = \sqrt{\frac{\chi^2}{n...
- <./chave-eps-converted-to.pdf>] [8pdfTeX warning (ext4): destination with the 
-same identifier (name{table.1.1}) has been already used, duplicate ignored
+ <./chave-eps-converted-to.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
+[][][]\OT1/cmr/m/n/12 Tipos
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 576--576
+\OT1/cmr/m/n/12 de Pu-
+ []
+
+Package epstopdf Info: Source file: <anodensidade.eps>
+(epstopdf)                    date: 2018-03-26 23:48:12
+(epstopdf)                    size: 20583 bytes
+(epstopdf)             Output file: <anodensidade-eps-converted-to.pdf>
+(epstopdf)                    date: 2018-03-26 23:48:12
+(epstopdf)                    size: 13059 bytes
+(epstopdf)             Command: <repstopdf --outfile=anodensidade-eps-converted
+-to.pdf anodensidade.eps>
+(epstopdf)             \includegraphics on input line 704.
+Package epstopdf Info: Output file is already uptodate.
+<anodensidade-eps-converted-to.pdf, id=631, 458.71375pt x 268.00125pt>
+File: anodensidade-eps-converted-to.pdf Graphic file (type pdf)
+<use anodensidade-eps-converted-to.pdf>
+Package pdftex.def Info: anodensidade-eps-converted-to.pdf  used on input line 
+704.
+(pdftex.def)             Requested size: 275.23038pt x 160.80197pt.
+[27pdfTeX warning (ext4): destination with the same identifier (name{table.2.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.447 
-      pdfTeX warning (ext4): destination with the same identifier (name{table.1
-.2}) has been already used, duplicate ignored
+l.713 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.2
+.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.447 
-      ] [9] [10
+l.713 
+      ] [28pdfTeX warning (ext4): destination with the same identifier (name{ta
+ble.2.4}) has been already used, duplicate ignored
 
-] [11]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.715 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.715 
+       <./anodensidade-eps-converted-to.pdf>] [29] [30
+
+]
+Overfull \hbox (52.93394pt too wide) in paragraph at lines 746--747
+[]\OT1/cmr/m/n/12 Karpik ([]2009[], []2007[]) aborda o pro-blema do es-ta-be-le
+-ci-mento de um mer-cado da ``boa''interpreta^^Xc~ao
+ []
+
+[31]
+Overfull \hbox (1.04282pt too wide) in paragraph at lines 757--758
+\OT1/cmr/m/n/12 forma pa-ra-doxa de uma com-peti^^Xc~ao en-tre ins-ti-tui^^Xc~o
+es que ofe-re-cem bens ^^Sunicos e ef^emeros''
+ []
+
+[32]
 Package epstopdf Info: Source file: <doenca_dos_custos.eps>
-(epstopdf)                    date: 2017-10-04 02:52:45
+(epstopdf)                    date: 2018-03-26 23:48:12
 (epstopdf)                    size: 9016 bytes
 (epstopdf)             Output file: <doenca_dos_custos-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-05 02:57:43
-(epstopdf)                    size: 10559 bytes
+(epstopdf)                    date: 2018-11-02 19:35:31
+(epstopdf)                    size: 10506 bytes
 (epstopdf)             Command: <repstopdf --outfile=doenca_dos_custos-eps-conv
 erted-to.pdf doenca_dos_custos.eps>
-(epstopdf)             \includegraphics on input line 502.
+(epstopdf)             \includegraphics on input line 786.
 Package epstopdf Info: Output file is already uptodate.
-<doenca_dos_custos-eps-converted-to.pdf, id=230, pagebox=cropbox, 451.6875pt x 
-301.125pt>
+<doenca_dos_custos-eps-converted-to.pdf, id=721, 451.6875pt x 301.125pt>
 File: doenca_dos_custos-eps-converted-to.pdf Graphic file (type pdf)
 <use doenca_dos_custos-eps-converted-to.pdf>
 Package pdftex.def Info: doenca_dos_custos-eps-converted-to.pdf  used on input 
-line 502. on input line 502.
-Package pdftex.def Info: Requested size: 451.68639pt x 301.12425pt on input lin
-e 502.
+line 786.
+(pdftex.def)             Requested size: 361.35048pt x 240.90031pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[12] [13pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.2.2}) has been already used, duplicate ignored
+[33] [34pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.3.7}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.518 ...= y_i(L^{s}_{j}, K^{s}_{j}, m_j, q_j) $$ 
-                                                  onde <./doenca_dos_custos-eps
--converted-to.pdf>] [14] [15] [16] [17] [18] [19
+l.805 	S
+        egundo \citeonline[p. 59]{benhamou2007economia} ``a conclusão do mo...
+ <./doenca_dos_custos-eps-converted-to.pdf>] [35] [36] [37] [38] [39] [40
 
-] [20] [21]
-<white_1_2.png, id=447, 376.40625pt x 242.40562pt>
+]
+[41] [42]
+<white_1_2.png, id=937, 376.40625pt x 242.40562pt>
 File: white_1_2.png Graphic file (type png)
 <use white_1_2.png>
-Package pdftex.def Info: white_1_2.png  used on input line 639. on input line 6
-39.
-Package pdftex.def Info: Requested size: 376.40532pt x 242.40501pt on input lin
-e 639.
- [22] [23pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.3.3}) has been already used, duplicate ignored
+Package pdftex.def Info: white_1_2.png  used on input line 927.
+(pdftex.def)             Requested size: 376.40532pt x 242.40501pt.
+ [43] [44pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.8}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.654 
-       <./white_1_2.png (PNG copy)>] [24] [25] [26] [27] [28] [29] [30]
-[31] [32
+l.969 	\end{citacao}
+                     <./white_1_2.png (PNG copy)>] [45]
+<market_plane_favereau.png, id=1002, 277.035pt x 345.54094pt>
+File: market_plane_favereau.png Graphic file (type png)
+<use market_plane_favereau.png>
+Package pdftex.def Info: market_plane_favereau.png  used on input line 1019.
+(pdftex.def)             Requested size: 277.03432pt x 345.54008pt.
+ [46pdfTeX warning (ext4): destination with the same identifier (name{table.4.5
+}) has been already used, duplicate ignored
 
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1049 		O
+          rganizações teatrais baseiam a construção de seus nichos nas c...
 ]
-\c@hip=\count290
- [33] [34]
-Package epstopdf Info: Source file: <modelo_analise_tese.eps>
-(epstopdf)                    date: 2017-10-04 02:52:45
-(epstopdf)                    size: 35568 bytes
-(epstopdf)             Output file: <modelo_analise_tese-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-10-10 12:47:14
-(epstopdf)                    size: 14683 bytes
-(epstopdf)             Command: <repstopdf --outfile=modelo_analise_tese-eps-co
-nverted-to.pdf modelo_analise_tese.eps>
-(epstopdf)             \includegraphics on input line 880.
-Package epstopdf Info: Output file is already uptodate.
-<modelo_analise_tese-eps-converted-to.pdf, id=638, pagebox=cropbox, 550.055pt x
- 363.3575pt>
-File: modelo_analise_tese-eps-converted-to.pdf Graphic file (type pdf)
-<use modelo_analise_tese-eps-converted-to.pdf>
-Package pdftex.def Info: modelo_analise_tese-eps-converted-to.pdf  used on inpu
-t line 880. on input line 880.
-Package pdftex.def Info: Requested size: 440.04459pt x 290.68639pt on input lin
-e 880.
+Overfull \hbox (6.9699pt too wide) in paragraph at lines 1049--1050
+ \OT1/cmr/m/n/10 pet^encias de seus ti-mes ad-mi-nis-tra-tivo, t^^Secnico e art
+^^S^^Pstico, nas ex-peri^encias
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 1058
+.
+(/usr/local/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1058.
+
+ [47pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1059 	\end{itemize}
+                      <./market_plane_favereau.png (PNG copy)>] [48] [49]
+[50] [51pdfTeX warning (ext4): destination with the same identifier (name{table
+.4.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1224 	A
+          qualidade da nota apontada pelo autor na tabela \ref{eloire-abcd} ...
+]
+
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 1304.
+
+[52] [53] [54] [55] [56] [57] [58] [59]
+Overfull \hbox (0.58588pt too wide) in paragraph at lines 1431--1432
+[]\OT1/cmr/m/n/12 Considerar transa^^Xc~oes mer-can-tis como fen^omenos mul-tin
+^^S^^Pvel im-plica em duas hip^^Soteses:
+ []
+
+[60] [61] [62] [63]
+\c@hip=\count293
+ [64pdfTeX warning (ext4): destination with the same identifier (name{table.4.7
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1624 	\begin{hip}\label
+                         {hip:musprest}] [65] [66
+
+] [67]
+<qualidade_wordcloud.png, id=1355, 325.215pt x 292.09125pt>
+File: qualidade_wordcloud.png Graphic file (type png)
+<use qualidade_wordcloud.png>
+Package pdftex.def Info: qualidade_wordcloud.png  used on input line 1892.
+(pdftex.def)             Requested size: 260.17235pt x 233.6733pt.
+ [68
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.10})
+ has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1897 	
+         <./qualidade_wordcloud.png>]
+<qualidade_cluster.png, id=1362, 439.6425pt x 276.03125pt>
+File: qualidade_cluster.png Graphic file (type png)
+<use qualidade_cluster.png>
+Package pdftex.def Info: qualidade_cluster.png  used on input line 1902.
+(pdftex.def)             Requested size: 351.71446pt x 220.82529pt.
+ [69pdfTeX warning (ext4): destination with the same identifier (name{figure.6.
+11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1911 	
+         <./qualidade_cluster.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 1913--1913
+[][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . gov
+ . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller 
+= page &
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1913--1913
+[][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com 
+. br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
+ []
+
+[70] [71
+
+] [72]
+Underfull \hbox (badness 1178) in paragraph at lines 2005--2005
+[]|\OT1/cmr/m/n/10 N^^Sumero cu-mu-la-tivo de con-cer-tos da s^^Serie
+ []
+
+
+Underfull \hbox (badness 1226) in paragraph at lines 2008--2008
+[]|\OT1/cmr/m/n/10 Democratiza^^Xc~ao do acesso ^^Ra m^^Susica
+ []
+
+[73] [74] [75]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[76] [77pdfTeX warning (ext4): destination with the same identifier (name{table
+.7.9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2159 		
+         ]
+<periodo_peryear.pdf, id=1472, 433.62pt x 289.08pt>
+File: periodo_peryear.pdf Graphic file (type pdf)
+<use periodo_peryear.pdf>
+Package pdftex.def Info: periodo_peryear.pdf  used on input line 2170.
+(pdftex.def)             Requested size: 303.53192pt x 202.35461pt.
+<periodo_perserie_year.pdf, id=1482, 505.89pt x 361.35pt>
+File: periodo_perserie_year.pdf Graphic file (type pdf)
+<use periodo_perserie_year.pdf>
+Package pdftex.def Info: periodo_perserie_year.pdf  used on input line 2183.
+(pdftex.def)             Requested size: 354.12057pt x 252.94327pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[35] [36pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.4.4}) has been already used, duplicate ignored
+<taxa_ocup_dia_serie.png, id=1492, 602.25pt x 401.5pt>
+File: taxa_ocup_dia_serie.png Graphic file (type png)
+<use taxa_ocup_dia_serie.png>
+Package pdftex.def Info: taxa_ocup_dia_serie.png  used on input line 2196.
+(pdftex.def)             Requested size: 361.35278pt x 240.90184pt.
+[78pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
+2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.890 	P
-        ara capturar as interações no nível individual, construiremos red...
- <./modelo_analise_tese-eps-converted-to.pdf>] [37] [38pdfTeX warning (ext4): d
-estination with the same identifier (name{table.4.3}) has been already used, du
-plicate ignored
+l.2197         \end{figure}
+                            <./periodo_peryear.pdf>] [79pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.7.13}) has been already used,
+ duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.966 
-      ] [39] [40]
-Underfull \hbox (badness 10000) in paragraph at lines 1423--1423
- [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www . fcs . mg . go
-v . br / index . php ? option = com[]gmg & view = page & id = 2631 & controller
- = page &
+l.2200 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.7.14}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2200 
+        <./periodo_perserie_year.pdf> <./taxa_ocup_dia_serie.png>]
+Underfull \hbox (badness 2547) in paragraph at lines 2249--2249
+[]|\OT1/cmr/m/n/10 Concertos para
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1423--1423
- [][] [][][][]$\OMS/cmsy/m/n/10 h\OT1/cmr/m/n/10 http : / / www7 . ^^Lemg . com
- . br / sesi / centro-[]de-[]cultura / belo-[]horizonte / produtos / detalhe /
+Underfull \hbox (badness 2547) in paragraph at lines 2249--2249
+[]|\OT1/cmr/m/n/10 Concertos para
  []
 
-[41
 
-] [42] [43pdfTeX warning (ext4): destination with the same identifier (name{tab
-le.5.4}) has been already used, duplicate ignored
+LaTeX Warning: Characters dropped after `\end{comment}' on input line 2291.
+
+[80pdfTeX warning (ext4): destination with the same identifier (name{table.7.10
+}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.1880 	\chapter
-                {Considerações Finais}] (./Tese_Neylson.bbl [44
+l.2337 	
+        pdfTeX warning (ext4): destination with the same identifier (name{table
+.7.11}) has been already used, duplicate ignored
 
-]
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2337 	
+        pdfTeX warning (ext4): destination with the same identifier (name{table
+.7.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2337 	
+        ] [81]
+<rede_filarmonica.png, id=1529, 517.935pt x 431.6125pt>
+File: rede_filarmonica.png Graphic file (type png)
+<use rede_filarmonica.png>
+Package pdftex.def Info: rede_filarmonica.png  used on input line 2361.
+(pdftex.def)             Requested size: 362.55202pt x 302.12668pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[82pdfTeX warning (ext4): destination with the same identifier (name{figure.7.1
+5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2395 	
+         <./rede_filarmonica.png>] [83pdfTeX warning (ext4): destination with t
+he same identifier (name{table.7.13}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2407 	
+        ]
+Underfull \hbox (badness 2600) in paragraph at lines 2446--2446
+[]|\OT1/cmr/m/n/10 N$[]$ de apre-senta^^Xc~oes con-jun-tas OSMG e
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 2446--2446
+[]|\OT1/cmr/m/n/10 Percentual de con-for-mi-dade dos pro-ces-sos
+ []
+
+
+Underfull \hbox (badness 2600) in paragraph at lines 2446--2446
+[]|\OT1/cmr/m/n/10 N$[]$ de apre-senta^^Xc~oes con-jun-tas OSMG e
+ []
+
+
+Underfull \hbox (badness 1365) in paragraph at lines 2446--2446
+[]|\OT1/cmr/m/n/10 Percentual de con-for-mi-dade dos pro-ces-sos
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[84]
+Overfull \hbox (1.5956pt too wide) in paragraph at lines 2452--2453
+[]\OT1/cmr/m/n/12 Para al^^Sem da re-a-liza^^Xc~ao das s^^Series de con-cer-tos
+ e apre-senta^^Xc~oes dos tr^es cor-pos art^^S^^Psticos
+ []
+
+
+Overfull \hbox (13.83168pt too wide) in paragraph at lines 2455--2456
+[]\OT1/cmr/m/n/12 O or^^Xcamento da Or-ques-tra Sinf^onica acor-dado no Termo d
+e Par-ce-ria foi de R$7.830.346,05
+ []
+
+[85pdfTeX warning (ext4): destination with the same identifier (name{table.7.14
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2461 	A
+          série Sinfônica em Concerto consiste da principal série de conc...
+] [86]
+<rede_sinfonica.png, id=1593, 475.7775pt x 424.58624pt>
+File: rede_sinfonica.png Graphic file (type png)
+<use rede_sinfonica.png>
+Package pdftex.def Info: rede_sinfonica.png  used on input line 2473.
+(pdftex.def)             Requested size: 333.04196pt x 297.20834pt.
+ [87pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2483 	
+         <./rede_sinfonica.png>] [88] [89] [90] [91]
+<rede_opus.png, id=1631, 469.755pt x 426.59375pt>
+File: rede_opus.png Graphic file (type png)
+<use rede_opus.png>
+Package pdftex.def Info: rede_opus.png  used on input line 2542.
+(pdftex.def)             Requested size: 328.82626pt x 298.61357pt.
+ [92pdfTeX warning (ext4): destination with the same identifier (name{figure.7.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2554 	
+         <./rede_opus.png>] [93]
+<rede_ouropreto.png, id=1655, 467.7475pt x 426.59375pt>
+File: rede_ouropreto.png Graphic file (type png)
+<use rede_ouropreto.png>
+Package pdftex.def Info: rede_ouropreto.png  used on input line 2577.
+(pdftex.def)             Requested size: 327.421pt x 298.61357pt.
+ [94] [95pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.7.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2598 	\end{citacao}
+                      <./rede_ouropreto.png>] [96] [97]
+<rede_conselho.png, id=1687, 602.25pt x 602.25pt>
+File: rede_conselho.png Graphic file (type png)
+<use rede_conselho.png>
+Package pdftex.def Info: rede_conselho.png  used on input line 2624.
+(pdftex.def)             Requested size: 210.79065pt x 210.79065pt.
+<rede_amizade.png, id=1688, 602.25pt x 602.25pt>
+File: rede_amizade.png Graphic file (type png)
+<use rede_amizade.png>
+Package pdftex.def Info: rede_amizade.png  used on input line 2625.
+(pdftex.def)             Requested size: 210.79065pt x 210.79065pt.
+<rede_indicacao.png, id=1689, 602.25pt x 602.25pt>
+File: rede_indicacao.png Graphic file (type png)
+<use rede_indicacao.png>
+Package pdftex.def Info: rede_indicacao.png  used on input line 2626.
+(pdftex.def)             Requested size: 210.79065pt x 210.79065pt.
+<rede_convite.png, id=1690, 602.25pt x 602.25pt>
+File: rede_convite.png Graphic file (type png)
+<use rede_convite.png>
+Package pdftex.def Info: rede_convite.png  used on input line 2627.
+(pdftex.def)             Requested size: 210.79065pt x 210.79065pt.
+<rede_multiplexo.png, id=1699, 485.815pt x 464.73625pt>
+File: rede_multiplexo.png Graphic file (type png)
+<use rede_multiplexo.png>
+Package pdftex.def Info: rede_multiplexo.png  used on input line 2636.
+(pdftex.def)             Requested size: 340.06818pt x 325.31316pt.
+
+Overfull \hbox (4.21779pt too wide) in paragraph at lines 2664--2664
+[]|\OT1/cmr/bx/n/10 Dist^ancia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
+[]|\OT1/cmr/bx/n/10 Grau
+ []
+
+
+Overfull \hbox (4.21779pt too wide) in paragraph at lines 2664--2664
+[]|\OT1/cmr/bx/n/10 Dist^ancia
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2664--2664
+[]|\OT1/cmr/bx/n/10 Grau
+ []
+
+[98
+
+pdfTeX warning (ext4): destination with the same identifier (name{table.8.15}) 
+has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2671 	
+        ] [99pdfTeX warning (ext4): destination with the same identifier (name{
+figure.8.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2676 	
+         <./rede_conselho.png> <./rede_amizade.png> <./rede_indicacao.png> <./r
+ede_convite.png>] [100pdfTeX warning (ext4): destination with the same identifi
+er (name{figure.8.20}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2703 	
+        pdfTeX warning (ext4): destination with the same identifier (name{table
+.8.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2703 	
+         <./rede_multiplexo.png>]
+<rede_multinivel.png, id=1741, 602.25pt x 602.25pt>
+File: rede_multinivel.png Graphic file (type png)
+<use rede_multinivel.png>
+Package pdftex.def Info: rede_multinivel.png  used on input line 2709.
+(pdftex.def)             Requested size: 421.57211pt x 421.57211pt.
+ [101pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.21}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2714 	
+         <./rede_multinivel.png>]
+<arc.png, id=1759, 71.26625pt x 15.05624pt>
+File: arc.png Graphic file (type png)
+<use arc.png>
+Package pdftex.def Info: arc.png  used on input line 2750.
+(pdftex.def)             Requested size: 35.63303pt x 7.52809pt.
+<gwesp.png, id=1760, 156.585pt x 61.22874pt>
+File: gwesp.png Graphic file (type png)
+<use gwesp.png>
+Package pdftex.def Info: gwesp.png  used on input line 2750.
+(pdftex.def)             Requested size: 78.2923pt x 30.61429pt.
+<gwidegree.png, id=1761, 129.48375pt x 50.1875pt>
+File: gwidegree.png Graphic file (type png)
+<use gwidegree.png>
+Package pdftex.def Info: gwidegree.png  used on input line 2750.
+(pdftex.def)             Requested size: 64.7417pt x 25.09367pt.
+<2paths.png, id=1762, 74.2775pt x 42.1575pt>
+File: 2paths.png Graphic file (type png)
+<use 2paths.png>
+Package pdftex.def Info: 2paths.png  used on input line 2750.
+(pdftex.def)             Requested size: 37.13866pt x 21.07869pt.
+<homophily.png, id=1763, 69.25874pt x 14.0525pt>
+File: homophily.png Graphic file (type png)
+<use homophily.png>
+Package pdftex.def Info: homophily.png  used on input line 2750.
+(pdftex.def)             Requested size: 34.62927pt x 7.02623pt.
+<attribute_sum.png, id=1764, 83.31125pt x 31.11626pt>
+File: attribute_sum.png Graphic file (type png)
+<use attribute_sum.png>
+Package pdftex.def Info: attribute_sum.png  used on input line 2750.
+(pdftex.def)             Requested size: 41.65552pt x 15.55807pt.
+<covariate.png, id=1765, 92.345pt x 28.105pt>
+File: covariate.png Graphic file (type png)
+<use covariate.png>
+Package pdftex.def Info: covariate.png  used on input line 2750.
+(pdftex.def)             Requested size: 46.17238pt x 14.05246pt.
+File: arc.png Graphic file (type png)
+<use arc.png>
+Package pdftex.def Info: arc.png  used on input line 2750.
+(pdftex.def)             Requested size: 35.63303pt x 7.52809pt.
+File: gwesp.png Graphic file (type png)
+<use gwesp.png>
+Package pdftex.def Info: gwesp.png  used on input line 2750.
+(pdftex.def)             Requested size: 78.2923pt x 30.61429pt.
+File: gwidegree.png Graphic file (type png)
+<use gwidegree.png>
+Package pdftex.def Info: gwidegree.png  used on input line 2750.
+(pdftex.def)             Requested size: 64.7417pt x 25.09367pt.
+File: 2paths.png Graphic file (type png)
+<use 2paths.png>
+Package pdftex.def Info: 2paths.png  used on input line 2750.
+(pdftex.def)             Requested size: 37.13866pt x 21.07869pt.
+File: homophily.png Graphic file (type png)
+<use homophily.png>
+Package pdftex.def Info: homophily.png  used on input line 2750.
+(pdftex.def)             Requested size: 34.62927pt x 7.02623pt.
+File: attribute_sum.png Graphic file (type png)
+<use attribute_sum.png>
+Package pdftex.def Info: attribute_sum.png  used on input line 2750.
+(pdftex.def)             Requested size: 41.65552pt x 15.55807pt.
+File: covariate.png Graphic file (type png)
+<use covariate.png>
+Package pdftex.def Info: covariate.png  used on input line 2750.
+(pdftex.def)             Requested size: 46.17238pt x 14.05246pt.
+ [102pdfTeX warning (ext4): destination with the same identifier (name{table.8.
+17}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2755 	
+         <./arc.png> <./gwesp.png> <./gwidegree.png> <./2paths.png> <./homophil
+y.png> <./attribute_sum.png> <./covariate.png>] [103]
+<gof_individuos.png, id=1804, 501.875pt x 401.5pt>
+File: gof_individuos.png Graphic file (type png)
+<use gof_individuos.png>
+Package pdftex.def Info: gof_individuos.png  used on input line 2765.
+(pdftex.def)             Requested size: 401.50053pt x 321.20042pt.
+ [104pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.22}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2770 	
+         <./gof_individuos.png>]
+<mesonivel1.png, id=1824, 380.42125pt x 387.4475pt>
+File: mesonivel1.png Graphic file (type png)
+<use mesonivel1.png>
+Package pdftex.def Info: mesonivel1.png  used on input line 2776.
+(pdftex.def)             Requested size: 266.29305pt x 271.2114pt.
+<nivel2.png, id=1826, 402.50375pt x 399.4925pt>
+File: nivel2.png Graphic file (type png)
+<use nivel2.png>
+Package pdftex.def Info: nivel2.png  used on input line 2811.
+(pdftex.def)             Requested size: 281.7507pt x 279.64284pt.
+<mesonivel2.png, id=1831, 431.6125pt x 431.6125pt>
+File: mesonivel2.png Graphic file (type png)
+<use mesonivel2.png>
+Package pdftex.def Info: mesonivel2.png  used on input line 2821.
+(pdftex.def)             Requested size: 302.12668pt x 302.12668pt.
+ [105pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.23}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2823 	\end{figure}
+                     <./mesonivel1.png>]
+<blockmesonivel2.png, id=1841, 447.6725pt x 197.73875pt>
+File: blockmesonivel2.png Graphic file (type png)
+<use blockmesonivel2.png>
+Package pdftex.def Info: blockmesonivel2.png  used on input line 2836.
+(pdftex.def)             Requested size: 358.13847pt x 158.19121pt.
+<blockoutorgs.png, id=1850, 447.6725pt x 199.74625pt>
+File: blockoutorgs.png Graphic file (type png)
+<use blockoutorgs.png>
+Package pdftex.def Info: blockoutorgs.png  used on input line 2844.
+(pdftex.def)             Requested size: 358.13847pt x 159.79721pt.
+<block_rede_mesonivel2.png, id=1859, 432.61626pt x 432.61626pt>
+File: block_rede_mesonivel2.png Graphic file (type png)
+<use block_rede_mesonivel2.png>
+Package pdftex.def Info: block_rede_mesonivel2.png  used on input line 2852.
+(pdftex.def)             Requested size: 302.82932pt x 302.82932pt.
+ [106pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.24}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2858 	
+         <./nivel2.png>]
+<block_nivel2_observado.png, id=1865, 483.8075pt x 462.72874pt>
+File: block_nivel2_observado.png Graphic file (type png)
+<use block_nivel2_observado.png>
+Package pdftex.def Info: block_nivel2_observado.png  used on input line 2864.
+(pdftex.def)             Requested size: 338.66293pt x 323.90791pt.
+ [107pdfTeX warning (ext4): destination with the same identifier (name{figure.8
+.25}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.8.26}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 
+        <./mesonivel2.png> <./blockmesonivel2.png>] [108pdfTeX warning (ext4): 
+destination with the same identifier (name{figure.8.27}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.8.28}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2869 
+        <./blockoutorgs.png> <./block_rede_mesonivel2.png>] [109pdfTeX warning 
+(ext4): destination with the same identifier (name{figure.8.29}) has been alrea
+dy used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2908 	
+         <./block_nivel2_observado.png>] [110pdfTeX warning (ext4): destination
+ with the same identifier (name{table.8.18}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2985 	
+        ] [111pdfTeX warning (ext4): destination with the same identifier (name
+{table.8.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.2993 
+       ] [112] [113
+
+] [114] [115] [116] (./Tese_Neylson.bbl [117]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\uppercase' on input line 3.
 
 bibitemlist
-[45
+[118
 
-] [46]) [47]
-Underfull \hbox (badness 2564) in paragraph at lines 2204--2204
+] [119] [120] [121] [122]) [123]
+Underfull \hbox (badness 2564) in paragraph at lines 3351--3351
 []|\OT1/cmr/m/n/10 Contributions to In-dian
  []
 
 
-Underfull \hbox (badness 1242) in paragraph at lines 2210--2211
+Underfull \hbox (badness 1242) in paragraph at lines 3357--3358
 []|\OT1/cmr/m/n/10 Factors af-fec-ting mar-ket
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2216--2216
+Underfull \hbox (badness 10000) in paragraph at lines 3363--3363
 []|\OT1/cmr/m/n/10 Journal of Socio-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2218--2219
+Underfull \hbox (badness 10000) in paragraph at lines 3365--3366
 []|\OT1/cmr/m/n/10 Gendered-habitus, and
  []
 
 
-Underfull \hbox (badness 7613) in paragraph at lines 2218--2219
+Underfull \hbox (badness 7613) in paragraph at lines 3365--3366
 \OT1/cmr/m/n/10 the se-xual di-vi-sion of
  []
 
 
-Underfull \hbox (badness 2269) in paragraph at lines 2222--2222
+Underfull \hbox (badness 2269) in paragraph at lines 3369--3369
 []|\OT1/cmr/m/n/10 International Jour-nal of
  []
 
 
-Underfull \hbox (badness 2142) in paragraph at lines 2226--2226
+Underfull \hbox (badness 2142) in paragraph at lines 3373--3373
 []|\OT1/cmr/m/n/10 Segnini, Li-li-ana Rolf-sen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2236--2236
+Underfull \hbox (badness 10000) in paragraph at lines 3383--3383
 []|\OT1/cmr/m/n/10 Borowiecki, Ka-rol J;
  []
 
 
-Underfull \hbox (badness 1163) in paragraph at lines 2240--2240
+Underfull \hbox (badness 1163) in paragraph at lines 3387--3387
 []|\OT1/cmr/m/n/10 Dowd, Ti-mothy J; Lid-
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 2244--2245
+Underfull \hbox (badness 1577) in paragraph at lines 3391--3392
 []|\OT1/cmr/m/n/10 Collective Bar-gai-ning in
  []
 
 
-Underfull \hbox (badness 3386) in paragraph at lines 2246--2246
+Underfull \hbox (badness 3386) in paragraph at lines 3393--3393
 []|\OT1/cmr/m/n/10 Hughes, Pa-tri-cia; Luk-
  []
 
 
-Underfull \hbox (badness 6047) in paragraph at lines 2248--2249
+Underfull \hbox (badness 6047) in paragraph at lines 3395--3396
 []|\OT1/cmr/m/n/10 Organizational Cri-sis /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3398
 []|\OT1/cmr/m/n/10 Conductor le-a-dership
  []
 
 
-Underfull \hbox (badness 3078) in paragraph at lines 2250--2251
+Underfull \hbox (badness 3078) in paragraph at lines 3397--3398
 \OT1/cmr/m/n/10 style, mu-si-cian em-ploy-
  []
 
 
-Underfull \hbox (badness 8000) in paragraph at lines 2250--2251
+Underfull \hbox (badness 8000) in paragraph at lines 3397--3398
 \OT1/cmr/m/n/10 ment sta-tus, or-ga-ni-za-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3398
 \OT1/cmr/m/n/10 ti-o-nal par-ti-ci-pa-tion to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2250--2251
+Underfull \hbox (badness 10000) in paragraph at lines 3397--3398
 \OT1/cmr/m/n/10 or-ches-tra mu-si-cian job
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2252--2252
+Underfull \hbox (badness 10000) in paragraph at lines 3399--3399
 []|\OT1/cmr/m/n/10 Bijsterveld, Ka-rin;
  []
 
 
-Underfull \hbox (badness 1436) in paragraph at lines 2254--2255
+Underfull \hbox (badness 1436) in paragraph at lines 3401--3402
 []|\OT1/cmr/m/n/10 Classical Mu-sic in Ger-
  []
 
 
-Underfull \hbox (badness 2951) in paragraph at lines 2254--2255
+Underfull \hbox (badness 2951) in paragraph at lines 3401--3402
 \OT1/cmr/m/n/10 man Com-mer-cial Ra-dio
  []
 
 
-Underfull \hbox (badness 5696) in paragraph at lines 2258--2259
+Underfull \hbox (badness 5696) in paragraph at lines 3405--3406
 []|\OT1/cmr/m/n/10 Musical stra-ti-fi-ca-tion /
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 2272--2273
+Underfull \hbox (badness 6477) in paragraph at lines 3419--3420
 []|\OT1/cmr/m/n/10 Territorial dy-na-mics of
  []
 
 
-Underfull \hbox (badness 6016) in paragraph at lines 2274--2274
+Underfull \hbox (badness 6016) in paragraph at lines 3421--3421
 []|\OT1/cmr/m/n/10 Shin, Eui Hang; Oh,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2274--2275
+Underfull \hbox (badness 10000) in paragraph at lines 3421--3422
 []|\OT1/cmr/m/n/10 Relationships between
  []
 
 
-Underfull \hbox (badness 1968) in paragraph at lines 2274--2275
+Underfull \hbox (badness 1968) in paragraph at lines 3421--3422
 \OT1/cmr/m/n/10 - song-wri-ters & sin-gers
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2276
+Underfull \hbox (badness 10000) in paragraph at lines 3423--3423
 []|\OT1/cmr/m/n/10 Salganik, Matthew J;
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2276--2277
+Underfull \hbox (badness 10000) in paragraph at lines 3423--3424
 []|\OT1/cmr/m/n/10 Self-fulfilling Prophe-cies
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2280--2281
+Underfull \hbox (badness 10000) in paragraph at lines 3427--3428
 []|\OT1/cmr/m/n/10 Markets and socio-
  []
 
-[48
+[124
 
-] [49] [50
+] [125] [126
 
-] [51
+] [127] [128] [129] [130
 
-] [52] [53]
+] [131] [132
+
+] [133] [134] [135]
+[136] [137] [138] [139] [140] [141]
 \tf@lof=\write4
 \openout4 = `Tese_Neylson.lof'.
 
@@ -1563,44 +1938,54 @@ Underfull \hbox (badness 10000) in paragraph at lines 2280--2281
 \tf@toc=\write6
 \openout6 = `Tese_Neylson.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2582.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 2582.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 4273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 4273.
  (./Tese_Neylson.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2582.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 2582.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 4273.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 4273.
 
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2582.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 4273.
  ) 
 Here is how much of TeX's memory you used:
- 15032 strings out of 492990
- 214893 string characters out of 6138688
- 378374 words of memory out of 5000000
- 18141 multiletter control sequences out of 15000+600000
- 12197 words of font info for 43 fonts, out of 8000000 for 9000
+ 15514 strings out of 492649
+ 226991 string characters out of 6129622
+ 402692 words of memory out of 5000000
+ 18616 multiletter control sequences out of 15000+600000
+ 14227 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,13n,36p,2538b,648s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
-sr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/share/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/
-share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb>
-Output written on Tese_Neylson.pdf (53 pages, 432496 bytes).
+ 39i,16n,37p,2273b,630s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
+></usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
+/usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
+usr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
+sr/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr
+/local/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local
+/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/tex
+live/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2018
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/texlive/2018/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/local/texlive/2018/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2018/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2018/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2018/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti8.pfb>
+Output written on Tese_Neylson.pdf (142 pages, 1619555 bytes).
 PDF statistics:
- 1069 PDF objects out of 1200 (max. 8388607)
- 968 compressed objects within 10 object streams
- 247 named destinations out of 1000 (max. 500000)
- 293 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2562 PDF objects out of 2984 (max. 8388607)
+ 2217 compressed objects within 23 object streams
+ 551 named destinations out of 1000 (max. 500000)
+ 889 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,50 +1,101 @@
 \changetocdepth {4}
-\select@language {brazil}
+\babel@toc {brazil}{}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{2}{section*.2}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Lista de tabelas}{2}{section*.3}
+\contentsline {chapter}{Lista de ilustra\c {c}\~{o}es}{8}{section*.9}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Sum\'ario}{3}{section*.4}
+\contentsline {chapter}{Lista de tabelas}{9}{section*.10}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{5}{chapter*.5}
+\contentsline {chapter}{Sum\'ario}{10}{section*.11}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{INTRODU\IeC {\c C}\IeC {\~A}O}{13}{chapter*.12}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Investiga\IeC {\c c}\IeC {\~a}o Bibliogr\IeC {\'a}fica Preliminar}}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}Perspectivas te\IeC {\'o}ricas e abordagens}{9}{section.1.1}
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {A sociologia neoestrutural}}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Representa\IeC {\c c}\IeC {\~a}o}{16}{section.1.1}
+\contentsline {section}{\numberline {1.2}An\IeC {\'a}lise topol\IeC {\'o}gica da estrutra}{17}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}As medidas de centralidade}{18}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}Os buracos estruturais}{19}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Equival\IeC {\^e}ncia estrutural}{20}{subsection.1.2.3}
+\contentsline {section}{\numberline {1.3}Modelos probabil\IeC {\'\i }sticos com dados relacionais}{22}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}No\IeC {\c c}\IeC {\~o}es b\IeC {\'a}sicas do ERGM}{23}{subsection.1.3.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Os produtos culturais}}{10}{chapter.2}
-\contentsline {section}{\numberline {2.1}O modelo de Baumol e Bowen -- a ``doen\IeC {\c c}a dos custos''}{11}{section.2.1}
-\contentsline {section}{\numberline {2.2}Pol\IeC {\'\i }ticas Culturais no Brasil}{16}{section.2.2}
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Investiga\IeC {\c c}\IeC {\~a}o Bibliogr\IeC {\'a}fica Preliminar}}{26}{chapter.2}
+\contentsline {section}{\numberline {2.1}Perspectivas te\IeC {\'o}ricas e abordagens}{28}{section.2.1}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {A Constru\IeC {\c c}\IeC {\~a}o Social dos Mercados}}{19}{chapter.3}
-\contentsline {section}{\numberline {3.1}O modelo de White}{19}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Estabilizando a ``incerteza knightiana''}{21}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}O mecanismo por tr\IeC {\'a}s da produ\IeC {\c c}\IeC {\~a}o}{22}{subsection.3.1.2}
-\contentsline {subsection}{\numberline {3.1.3}A racionalidade do modelo}{22}{subsection.3.1.3}
-\contentsline {section}{\numberline {3.2}O modelo de Fligstein}{24}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Articula\IeC {\c c}\IeC {\~a}o te\IeC {\'o}rica inicial}{28}{subsection.3.2.1}
-\contentsline {section}{\numberline {3.3}A busca pela estabilidade do mercado}{29}{section.3.3}
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Os produtos culturais}}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}A economia das singularidades}{31}{section.3.1}
+\contentsline {section}{\numberline {3.2}O modelo de Baumol e Bowen -- a ``doen\IeC {\c c}a dos custos''}{32}{section.3.2}
+\contentsline {section}{\numberline {3.3}Pol\IeC {\'\i }ticas Culturais no Brasil}{37}{section.3.3}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Modelo de An\IeC {\'a}lise}}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}S\IeC {\'\i }ntese te\IeC {\'o}rica}{32}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}A abordagem multin\IeC {\'\i }vel}{35}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Proposta de indicadores}{36}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Dados e M\IeC {\'e}todos}{37}{section.4.2}
-\contentsline {section}{\numberline {4.3}Modelos anal\IeC {\'\i }ticos relacionais}{39}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Blockmodeling}{39}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}ERGM}{40}{subsection.4.3.2}
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {A Constru\IeC {\c c}\IeC {\~a}o Social dos Mercados}}{40}{chapter.4}
+\contentsline {section}{\numberline {4.1}O modelo de White}{40}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Estabilizando a ``incerteza knightiana''}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}O mecanismo por tr\IeC {\'a}s da produ\IeC {\c c}\IeC {\~a}o}{42}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}O modelo de produ\IeC {\c c}\IeC {\~a}o de White}{43}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}A topologia dos mercados -- os par\IeC {\^a}metros de elasticidade}{45}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Mensura\IeC {\c c}\IeC {\~o}es}{46}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}A arquitetura dos mercados}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}A busca de nichos como processo social regulat\IeC {\'o}rio}{56}{section.4.3}
+\contentsline {section}{\numberline {4.4}Isomorfismos normativos}{58}{section.4.4}
+\contentsline {section}{\numberline {4.5}A abordagem multin\IeC {\'\i }vel}{59}{section.4.5}
+\contentsline {section}{\numberline {4.6}S\IeC {\'\i }ntese te\IeC {\'o}rica}{61}{section.4.6}
+\contentsline {section}{\numberline {4.7}Indicadores}{63}{section.4.7}
+\contentsline {section}{\numberline {4.8}Hip\IeC {\'o}teses}{64}{section.4.8}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {As orquestras - an\IeC {\'a}lises preliminares}}{41}{chapter.5}
-\contentsline {section}{\numberline {5.1}A Orquestra Filarm\IeC {\^o}nica de MG}{41}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Recursos Financeiros}{42}{subsection.5.1.1}
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Dados e M\IeC {\'e}todos}}{66}{chapter.5}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Considera\IeC {\c c}\IeC {\~o}es Finais}}{44}{chapter.6}
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {A qualidade para os m\IeC {\'u}sicos}}{68}{chapter.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {As orquestras}}{71}{chapter.7}
+\contentsline {section}{\numberline {7.1}Orquestra Filarm\IeC {\^o}nica de Minas Gerais}{71}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Avalia\IeC {\c c}\IeC {\~a}o dos objetivos da orquestra}{74}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Principais concertos}{76}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Financiamento e depend\IeC {\^e}ncia do Estado}{76}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Repert\IeC {\'o}rio e consumo}{77}{subsection.7.1.4}
+\contentsline {subsection}{\numberline {7.1.5}Custos}{80}{subsection.7.1.5}
+\contentsline {subsection}{\numberline {7.1.6}Motiva\IeC {\c c}\IeC {\~a}o}{81}{subsection.7.1.6}
+\contentsline {subsection}{\numberline {7.1.7}A rede da orquestra}{81}{subsection.7.1.7}
+\contentsline {section}{\numberline {7.2}Orquestra Sinf\IeC {\^o}nica de Minas Gerais}{83}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Avalia\IeC {\c c}\IeC {\~a}o dos objetivos da orquestra}{84}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}S\IeC {\'e}ries de concertos}{86}{subsection.7.2.2}
+\contentsline {subsection}{\numberline {7.2.3}A rede da orquestra}{87}{subsection.7.2.3}
+\contentsline {subsection}{\numberline {7.2.4}Motiva\IeC {\c c}\IeC {\~a}o}{87}{subsection.7.2.4}
+\contentsline {section}{\numberline {7.3}Orquestra SESIMINAS}{88}{section.7.3}
+\contentsline {subsection}{\numberline {7.3.1}S\IeC {\'e}ries e locais de apresenta\IeC {\c c}\IeC {\~a}o}{90}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.2}Motiva\IeC {\c c}\IeC {\~a}o}{90}{subsection.7.3.2}
+\contentsline {section}{\numberline {7.4}Orquestra OPUS}{90}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Estrutura e Financiamento}{91}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}A rede da orquestra}{91}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Diferencia\IeC {\c c}\IeC {\~a}o}{92}{subsection.7.4.3}
+\contentsline {section}{\numberline {7.5}Orquestra Ouro Preto}{92}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Estrutura e Financiamento}{93}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Locais e ingressos}{94}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}A rede da orquestra}{94}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.4}Motiva\IeC {\c c}\IeC {\~a}o}{94}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {7.5.5}Repert\IeC {\'o}rio e Branding}{94}{subsection.7.5.5}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {An\IeC {\'a}lise das Redes}}{98}{chapter.8}
+\contentsline {section}{\numberline {8.1}As redes entre m\IeC {\'u}sicos observadas}{98}{section.8.1}
+\contentsline {section}{\numberline {8.2}A rede multin\IeC {\'\i }vel}{101}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}O n\IeC {\'\i }vel dos m\IeC {\'u}sicos}{102}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}O n\IeC {\'\i }vel organizacional}{105}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Blockmodels}{106}{subsubsection.8.2.2.1}
+\contentsline {section}{\numberline {8.3}Testes de hip\IeC {\'o}teses}{110}{section.8.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Discuss\IeC {\~a}o e Considera\IeC {\c c}\IeC {\~o}es Finais}}{113}{chapter.9}
+\contentsline {section}{\numberline {9.1}Redes interm\IeC {\'u}sicos}{113}{section.9.1}
+\contentsline {section}{\numberline {9.2}Redes interorganizacionais}{114}{section.9.2}
+\contentsline {section}{\numberline {9.3}A qualidade}{114}{section.9.3}
+\contentsline {section}{\numberline {9.4}Retomando a s\IeC {\'\i }ntese te\IeC {\'o}rica}{115}{section.9.4}
+\contentsline {section}{\numberline {9.5}Perspectivas para o futuro}{117}{section.9.5}
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\uppercase {Refer\^encias}}{45}{section*.8}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{118}{section*.15}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 1 - Trabalhos consultados}{48}{chapter*.9}
+\contentsline {chapter}{Anexo 1 - Trabalhos consultados}{124}{chapter*.16}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 2 - Roteiro de Entrevistas Semiestruturadas}{50}{chapter*.10}
+\contentsline {chapter}{Anexo 2 - Question\IeC {\'a}rio online}{126}{chapter*.17}
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{Anexo 3 - Question\IeC {\'a}rio online}{51}{chapter*.11}
+\contentsline {chapter}{Anexo 3 - Question\IeC {\'a}rio sociom\IeC {\'e}trico - organiza\IeC {\c c}\IeC {\~o}es}{130}{chapter*.18}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Anexo 4 - Medidas de centralidade e constraint para as redes observadas}{132}{chapter*.19}
