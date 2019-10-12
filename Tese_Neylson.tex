@@ -1306,25 +1306,21 @@
 
         % Não podemos ignorar a enorme importância que os recursos financeiros tem na qualidade de uma orquestra. É trivial afirmar que uma orquestra que paga um melhor salário e que possui maior orçamento anual será percebida como tendo melhor qualidade. Contudo, podemos argumentar que, como no caso brasileiro o grande financiador da cultura é o Estado, maior proximidade com o Estado significa necessariamente maior disponibilidade de recursos, mesmo que vindos de outras fontes. 
 
-        De acordo com o conceito de \textit{coopetition} podemos afirmar que as orquestras se engajam constantemente em processos de colaboração visando minimizar incertezas. Essa colaboração pode ser consciente (como empréstimos de partituras e outros recursos artísticos) ou inconsciente (como quando as orquestras compartilham músicos, regentes e solistas convidados).
-        Poderíamos argumentar, portanto, que
+        %De acordo com o conceito de \textit{coopetition} podemos afirmar que as orquestras se engajam constantemente em processos de colaboração visando minimizar incertezas. Essa colaboração pode ser consciente (como empréstimos de partituras e outros recursos artísticos) ou inconsciente (como quando as orquestras compartilham músicos, regentes e solistas convidados).
+        %Poderíamos argumentar, portanto, que
 
-        \begin{hip}\label{hip:colarimagem}
-          As organizações tendem a observar as orquestras que são vistas como melhores e buscam agregar sua imagem a elas no intuito de melhorarem seu posicionamento no ranking de qualidade.
-        \end{hip}
+        %\begin{hip}\label{hip:colarimagem}
+        %As organizações tendem a observar as orquestras que são vistas como melhores e buscam agregar sua imagem a elas no intuito de melhorarem seu posicionamento no ranking de qualidade.
+        %\end{hip}
 
-        PAREI AQUI!!!!!
-
-        PAREI AQUI!!!!!
-
-        PAREI AQUI!!!!!
+        %PAREI AQUI!!!!!
         
 	\begin{hip}\label{hip:estruturacomplexa}
 		%The more complex the organizational structure of an orchestra or of its maintainer, the better it will be positioned in quality ranking.
 		Quanto mais complexa for a estrutura organizacional de uma orquestra ou de sua mantenedora, melhor será sua qualidade percebida.
               \end{hip}
 
-              Nesse caso, estamos considerando complexidade de estrutura organizacional como a quantidade de setores ou diretorias da orquestra (ou de sua mantenedora) bem como a distância - em departamentos - entre o músico e a presidência.
+              Nesse caso, estamos considerando complexidade de estrutura organizacional como a quantidade de setores ou diretorias da orquestra (ou de sua mantenedora) bem como a distância - em departamentos - entre o músico e a presidência, o salário médio pago aos músicos e o orçamento anual.
 
 
 
@@ -1354,7 +1350,7 @@
 	
 	%Our study object presents itself as a multilevel structure: the meso/organizational level represented by social groupings, in this case, orchestras and organizations and their relations with the State, the micro, individual level and the affiliations between the two levels \cite{brailly2016market,eloire2009reseaux,lazega2008catching,favre2016inter,lazega2016synchronization}.
 	
-	Nosso objeto de estudo se apresenta como uma estrutura em rede multinível: o nível organizacional representado pelos grupos sociais, neste caso, as orquestras e demais organizações com quais elas mantém relação e o Estado, o nível individual composto aqui pelos músicos da cidade de Belo Horizonte e as afiliações entre os dois níveis.
+	Nosso objeto de estudo se apresenta como uma estrutura em rede multinível: o nível organizacional é representado pelos grupos sociais, neste caso, as orquestras e demais organizações com quais elas mantém relação incluindo o Estado; o nível individual é composto aqui pelos músicos da cidade de Belo Horizonte e as afiliações entre os dois níveis.
 	
 
 	%The structure in the individual level, musicians, will be tracked from advisement networks\footnote{Cf. Appendix 2 - Sociometric online questionnaire - individuals.} (aiming to capture artistic prestige), friendship networks and job indication networks. We will adopt degree centrality, betweeness centrality and constraint as indicators for finding \textit{hubs}. We will also investigate some of the individuals' \textbf{attributes} such as country of origin, the city of origin, training institution and teacher along with demographic information. This indicators show us a little of the musicians' \textbf{context} and how he can be situated \textit{a priori} in a prestige scale within the field. The name generators will be as follows:
@@ -2772,9 +2768,9 @@
       \end{comment}
       
 	
-	\section{Testes de hipóteses}
+	\section{Testes das conjecturas}
 	
-	Para testar as hipóteses traçadas no capítulo \ref{hipoteses}, utilizaremos o \textit{Network Autocorrelation Model} conforme especificado na Equação \ref{NAM}. Visando um bom ajuste aos dados, estimamo um modelo linear generalizado com distribuição \textit{gamma} e link ``log''. Nosso modelo estimou a qualidade percebida de cada orquestra como função da rede observada entre organizações levando em consideração tanto as relações de um passo quanto de dois passos, da soma da centralidade dos músicos a ela afiliados (um parâmetro, neste caso, essencialmente multinível), do salário médio pago pela orquestra (em milhares de reais), do orçamento anual (em centenas de milhares de reais), da complexidade
+	Para testar as conjecturas traçadas no capítulo \ref{hipoteses}, utilizaremos o \textit{Network Autocorrelation Model} conforme especificado na Equação \ref{NAM}. Visando um bom ajuste aos dados, estimamos um modelo linear generalizado com distribuição \textit{gamma} e link ``log''. Nosso modelo estimou a qualidade percebida de cada orquestra como função da rede observada entre organizações levando em consideração tanto as relações de um passo quanto de dois passos, da soma da centralidade dos músicos a ela afiliados (um parâmetro, neste caso, essencialmente multinível), do salário médio pago pela orquestra (em milhares de reais), do orçamento anual (em centenas de milhares de reais), da complexidade
 	%, da proximidade com o estado 
 	e da centralidade de grau.	
 	Estatísticas descritivas das variáveis estão apresentadas na Tabela \ref{varsMAN}.
@@ -2854,13 +2850,11 @@
 	\end{table}
 
 	
-	A partir do modelo 1, faremos as análises referentes às variáveis estruturais. A rede vizinha não obteve resultado estatisticamente significativo. Ao levar em conta os nós a dois passos de distância, entretanto, encontramos um efeito positivo e significativo. Esse efeito controla a atividade dos nós com os quais o ego não possui relação direta. A centralidade de grau obteve também um resultado positivo e significativo. Esses dois resultados em conjunto podem ser vistos como excelentes indicadores da complexidade da rede egocentrada de cada nó. Podemos, com eles, testar \textit{H\ref{hip:redecomplexa}}: eles nos dizem que quanto maior a complexidade da estrutura ao redor de uma organização, maior tende a ser a sua qualidade percebida.
+	A partir do modelo 1, faremos as análises referentes às variáveis estruturais. A rede vizinha não obteve resultado estatisticamente significativo. Ao levar em conta os nós a dois passos de distância, entretanto, encontramos um efeito positivo e significativo. Esse efeito controla a atividade dos nós com os quais o ego não possui relação direta. A centralidade de grau obteve também um resultado positivo e significativo. Esses dois resultados em conjunto podem ser vistos como excelentes indicadores da complexidade da rede egocentrada de cada nó. Podemos, com eles, testar \textit{Conjectura \ref{hip:redecomplexa}}: eles nos dizem que quanto maior a complexidade da estrutura ao redor de uma organização, maior tende a ser a sua qualidade percebida.
 	
-	A partir do segundo modelo observamos os resultados para a soma da centralidade de grau dos músicos de cada instituição. O resultado foi positivo e significante. Com ele podemos testar \textit{H\ref{hip:musprest}}; o modelo mostra que quanto mais um orquestra possui colaboradores que sejam prestigiosos na rede interindividual, maior será a sua qualidade percebida. 
+	A partir do segundo modelo observamos os resultados para a soma da centralidade de grau dos músicos de cada instituição. O resultado foi positivo e significante. Com ele podemos testar a \textit{Conjectura \ref{hip:musprest}}; o modelo mostra que quanto mais um orquestra possui colaboradores que sejam prestigiosos na rede interindividual, maior será a sua qualidade percebida. 
 	
-	Do terceiro e quarto modelos observaremos os resultados para as covariáveis exógenas salário e orçamento. Ambas as variáveis obtiveram resultados positivos e estatisticamente significativos. Esses resultados nos ajudam a testar \textit{H\ref{hip:incentivos}} e \textit{H\ref{hip:orcamento}}; ambas confirmadas. É curioso notar que a variável salário médio pago possui, dentre as variáveis investigadas, o maior efeito. 
-			
-	Do quarto e quinto modelos analisaremos os resultados para a complexidade organizacional da orquestra e para sua proximidade com o Estado. Ambas as variáveis obtiveram resultados positivos e significantes. A partir deles podemos corroborar \textit{H\ref{hip:estruturacomplexa}} e \textit{H\ref{hip:proxestado}}.
+	Do terceiro e quarto modelos observaremos os resultados para as covariáveis exógenas salário e orçamento. Ambas as variáveis obtiveram resultados positivos e estatisticamente significativos. É curioso notar que a variável salário médio pago possui, dentre as variáveis investigadas, o maior efeito. Do quarto e quinto modelos analisaremos os resultados para a complexidade organizacional da orquestra e para sua proximidade com o Estado. Ambas as variáveis obtiveram resultados positivos e significantes. A partir deles podemos corroborar as \textit{Conjecturas \ref{hip:proxestado}} e \textit{\ref{hip:estruturacomplexa}}.
 
         Por fim, apresentamos o pseudo $R^2$ de Effron para cada modelo estimado. Esta métrica funciona de modo análogo ao $R^2$ da regressão linear indicando o percentual da variância explicada pelo modelo. É curioso notar que o modelo que possui o melhor ajuste aos dados é aquele que leva em conta a proximidade com o estado e, em segundo lugar, o modelo que leva em conta o salário pago.
 
@@ -2889,7 +2883,7 @@
         \section{A qualidade}
 	%DE QUE FORMA MEUS DADOS CONFIRMAM OU MODIFICAM A TEORIA?...........
 	
-	Todas as hipóteses que traçamos a respeito da qualidade percebida de uma orquestra foram corroboradas Foi possível verificar que a percepção da qualidade da orquestra pelos músicos é fortemente afetada pela complexidade da estrutura relacional das organizações, pelo prestígio dos músicos que a compõem, pelo seu orçamento, pelo salário ou cachê pago aos músicos, pela complexidade organizacional e pela proximidade com o Estado.
+	Todas as conjecturas que traçamos a respeito da qualidade percebida de uma orquestra foram corroboradas Foi possível verificar que a percepção da qualidade da orquestra pelos músicos é fortemente afetada pela complexidade da estrutura relacional das organizações, pelo prestígio dos músicos que a compõem, pela complexidade organizacional e pela proximidade com o Estado.
 
         Muito embora o maior efeito identificado seja justamente relacionado ao salário dos músicos (como era de se esperar), o modelo que obteve o melhor ajuste aos dados é o que leva em conta a variável ``Proximidade com o Estado'' mensurada a partir do número de contratos de parceria firmados e volume de investimento direto do Estado na orquestra. No caso brasileiro, isso faz muito sentido tendo em vista que o Estado é o principal mantenedor/fomentador de ações culturais no país. As artes em geral possuem um grau altíssimo de depência do Estado, seja por investimento direto, seja por investimento indireto através do montante investido pelas empresas mediante isenção fiscal.
 
@@ -2901,12 +2895,14 @@
 
         
 
-        \section{Retomando a síntese teórica}
+        \section{Retomando a teoria}
         
-        Construímos uma síntese a partir de quatro linhas teóricas, a saber, o modelo $W(y)$ de Harrison White, a arquitetura dos mercados de Fligstein, os isomorfismos do tipo normativos de \citeauthoronline{dimaggio1983iron} e o conceito de \textit{coopetition} conforme desenvolvido por Lazega. Essas perspectivas se alinham na abordagem do fenômeno mercantil da música orquestral à medida que se complementam em aspectos importantes para a compreensão do objeto de estudo em questão.
+        Fizemos aqui um esforço de enxertar elementos auxiliares na teoria central na qual se baseia este trabalho, a saber, o modelo $W(y)$ de Harrison White, e modo a torná-lo mais adequado à realidade do mercado brasileiro de música orquestral. Essas perspectivas se alinham na abordagem do fenômeno mercantil da música orquestral à medida que se complementam em aspectos importantes para a compreensão do objeto de estudo em questão.
 
         A perspectiva de White para os mercados de produção coloca as relações entre organizações em primeiro plano. Para esse autor, a qualidade, que está altamente relacionada com a identidade, é construída nas relações entre organizações. Para além do que o autor postulou, este trabalho nos permite acrescentar\footnote{Os ``acréscimos'' aqui apresentados são postulados apenas no nível teórico. As formalizações fogem ao escopo do trabalho.} que a qualidade também é fortemente moldada pela estrutura de primeiro nível relacionada aos músicos. Em outras palavras, a qualidade percebida de uma orquestra é tanto produto de suas relações com outras organizações quanto produto das relações de seus músicos com outros músicos. Isso só foi possível perceber através das técnicas de análise de redes multinível.
-	
+
+        PAREI AQUI!!! PAREI AQUI!!!
+        
 	À teoria de White é possível acrescentar também a importância do Estado como principal financiador e regulador da produção de concertos. Através da imposição de metas, o Estado molda os esforços da organização em direções específicas. Os termos de avaliação da Orquestra Filarmônica de MG e da Orquestra Sinfônica de MG diferem bastante mas ambos associam as metas principalmente com o volume de concertos realizados e, no caso da Filarmônica, com a eficiência da gestão financeira e capacidade de captação de recursos de outras fontes. A eficiência de gestão (administrativa de um modo geral, não exclusivamente financeira) foi um argumento bastante mobilizado pelos músicos entrevistados sobre a qualidade.
 	
 	Os isomorfismos normativos são um ponto que merece especial atenção. Por um lado, os \textit{blockmodels} encontraram padrões onde as orquestras possuem um mesmo perfil relacional com exceção da Orquestra Filarmônica. No \textit{blockmodel} gerado a partir das afiliações de músicos a orquestras, encontramos um padrão diferente, embora as orquestras também tenham sido separadas em dois blocos. É curioso notar que este último modelo não foi capaz de captar as linhas de estilo das orquestras as quais, consideramos, não se expressam pelo compartilhamento de colaboradores. Ao contrário, foi possível encontrar orquestras cujas definições de qualidade são diametralmente opostas e que compartilham dos mesmos músicos. Muito embora haja de fato um consenso entre os músicos sobre a qualidade técnica individual e coletiva nas orquestras, a definição mesmo de qualidade da orquestra é objeto de disputa. As orquestras não necessariamente estão preocupadas em encontrar o seu nicho de mercado ou seu público específico, mas parecem mais preocupadas com a definição da legitimidade do trabalho que realizam, das escolhas de repertório e estilo. É possível afirmar, parafraseando Merleau Ponty, que a orquestra, assim como a obra de arte, cria seu próprio público. Nesse sentido, o movimento das organizações estudadas não parece tender ao isomorfismo mas um movimento contrário direcionado a uma diferenciação específica de cada orquestra. Isso fica claro nas entrevistas com os dirigentes à medida que cada orquestra investigada parece ser reconhecida por seus pares como tendo um perfil específico. A teoria dos isomorfismos não apresenta contribuição significativa para o entendimento do mercado das orquestras em Belo Horizonte. Em nosso estudo podemos, portanto, desconsiderá-la\footnote{Falsear a teoria dos isomorfismos organizacionais parece um salto demasiadamente ambicioso para um estudo modesto como o que é apresentado ao leitor. Nos limitamos, portanto, apenas a dizer que a referida teoria pouco ou nada tem a contribuir para o entendimento do mercado sob investigação.}.
