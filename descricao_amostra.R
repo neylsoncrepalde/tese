@@ -1,6 +1,7 @@
 ## Analise da amostra de musicos
 
 library(googlesheets)
+library(forcats)
 library(reshape2)
 library(tidyverse)
 library(igraph)
@@ -19,11 +20,13 @@ bd %>%
              y=n)) +
   geom_col() +
   coord_flip() +
-  theme_bw() +
   labs(y='')
+ggsave('escolaridade_musicos.png', height=3, width=4, dpi=100)
 
 
 freq(bd$`Quanto à cor da pele, o(a) senhor(a) se considera...`)
+
+
 summary(bd$`Qual é a sua idade?`)
 
 freq(bd$`O(a) senhor(a) toca em alguma orquestra? Qual ou quais?`)
@@ -41,8 +44,16 @@ redeaff = redeaff %>% gather(var, receiver, -sender) %>% select(-var) %>%
   mutate(sender = as.character(sender))
 orquestras = redeaff$receiver
 
-freq(orquestras)
-
+freq(orquestras) %>% 
+  as.data.frame() %>% 
+  mutate(names = as_factor(rownames(.))) %>% 
+  filter(names != "Total") %>% 
+  ggplot(aes(x=fct_reorder(names, Frequency), 
+             y=Frequency)) +
+  geom_col() +
+  coord_flip() +
+  labs(x='Orquestras que participa (participou)', y='')
+ggsave('orquestras_que_tocam.png', height=3, width=6, dpi=100)
 
 
 

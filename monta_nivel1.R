@@ -286,6 +286,9 @@ V(gcompletao)$type
 
 ## Prepara a multinível
 is_multilevel(gcompletao) #OK
+###
+#orch_music_multilevel = gcompletao
+#save(orch_music_multilevel, file='../tese_files/orch_musicians.rda')
 
 gcompletao = set_color_multilevel(gcompletao, E.alpha = .3)
 gcompletao = set_shape_multilevel(gcompletao)
